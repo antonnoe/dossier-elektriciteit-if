@@ -1,0 +1,154 @@
+1.   
+De Franse elektrische installatie
+
+2.   
+De elektriciteitstoevoer en de elektriciteitsmeter
+
+3.   
+De hoofdschakelaar
+
+4.   
+De groepenkast
+
+5.   De aarding
+
+6.   
+De leidingaanleg
+
+7.   
+Speciale schakelingen
+
+8.   
+Losse elektra tips
+
+9.   
+Aanbevolen boeken
+.
+
+10. 
+Aanbevolen websites en de veranderende NF C 15-100 normen
+
+De derde kleur draad die we in de groepenkast tegenkomen is de geel/groene, de aardedraad. Een goede aarde-aansluiting is net zoals het gebruik van aardlekschakelaars van groot belang voor de veiligheid. Wanneer er ergens iets goed fout gaat, moet de hoofdschakelaar, de 
+disjoncteur de branchement
+ (indien uitgerust met een aardlekschakelaar) in staat zijn de elektrische stroom helemaal uit te schakelen. En dat lukt alleen maar wanneer er een deugdelijke aarde aansluiting is. En die wordt niet vanuit het stroomnet aangeleverd, daar bent u zelf voor verantwoordelijk. Er zijn in principe drie oplossingen: een rond het huis (
+prise de terre par boucle
+) ingegraven koperen kabel (25 mm² of dikker), een in een lange en diepe geul ingegraven kabel (
+prise de terre par conducteur enfoui dans une tranchée
+) en ten slotte de 
+aardpen (
+piquet)
+ die een paar meter of meer de grond wordt ingeslagen.
+
+Het is ook mogelijk een aantal 
+piquets 
+parallel aan te sluiten, wanneer je met één niet diep genoeg komt om de vereiste lage weerstandswaarde te krijgen. Die 
+piquets 
+zijn in de grotere 
+brico
+-zaken gewoon in het assortiment, vaak van gegalvaniseerd ijzer. Stevig tikken met een zware hamer of naar beneden hameren met een kango breekhamer. En hopen dat je onderweg geen grote stenen tegenkomt. Om de bovenkant van zo’n 
+piquet 
+moet volgens de regels der kunst dan een putje gemetseld worden, met een deksel daarop. Dat geheel heet dan een 
+regard de visite. 
+Op die 
+piquet 
+is een stevige klem bevestigd, en daarop is de aardedraad vastgeschroefd, en dat moet je naderhand nog kunnen controleren. Zit alles nog goed vast, is het niet geoxideerd. Anders heb je geen goede aardleiding meer.
+
+4.2.
+ Welke methode de beste is hangt voor een deel af van de bodemgesteldheid, maar ook van de eisen die de EDF in de regio stelt. Dat wil nog wel eens verschillen. Voor een 
+disjoncteur de branchement 
+die moet afslaan bij een foutstroom van 500 milli-ampère mag de maximale weerstand naar aarde 100 Ohm zijn. En liever lager, al was het alleen maar omdat de weerstand van de grond 
+fluctuaties vertoont
+ met de seizoenen. Als het tegenzit is uw aardingsweerstand die bij gunstige weersomstandigheden (vochtige bodem) iets lager was dan 100 Ohm  een paar maanden later bij de Consuel inspectie tien, twintig procent hoger. En mocht u overwegen iets aan bliksembeveiliging te gaan doen, een 
+parafoudre
+ module in de groepenkast, dan kan de aardingsweerstand niet laag genoeg genoeg zijn. 
+Zie deze tekening
+ voor de manier van aarden in het Franse stroomnet. Om die aardingsweerstand te kunnen meten heb je speciale meetapparatuur nodig en de nodige ervaring. Met een gewone multimeter zijn geen zinnige metingen te verrichten. Die gebruikt de gelijkstroom van zijn 9 volt batterijtje.  Een echte aardingsmeter heeft een aparte signaalgenerator aan boord die een wisselspanning van 128 Hertz of hoger produceert. Via een driepuntsmeting meet je dan de aardingsweerstand. Op die manier heb je veel minder last van elektrische strooivelden, onverschillig of ze nu door de mens worden veroorzaakt of door moeder aarde zelf. Kosten van dat soort professioneel speelgoed: vanaf duizend euro. Werk voor de specialist. Hoewel: bij een groot postorderbedrijf wordt er nu een aangeboden voor 159 euro, inclusief meetpennen en meetkabels, dus de 
+bricoleur 
+heeft na een paar keer meten de kosten er al weer uit. Ook een Chinees merk als UNI-T heeft in deze prijsklasse wat te bieden.
+
+Testeur de terre simple
+
+4.3.
+ De aardleiding (
+conducteur de terre
+) komt als een dikke koperen kabel (25 mm² ongeïsoleerd, 16 mm² geïsoleerd) van de aardpen of aardlus het huis binnen, en wordt daar bevestigd op een speciaal aansluit- en meetpunt, de 
+barette de terre (mesure). 
+Aan de andere kant vervolgt de aardleiding als 
+conducteur principal de protection 
+zijn weg naar het aarde aansluitpunt (
+répartiteur de terre
+) in de groepenkast. 
+Diameter van deze draad
+: minimaal even dik als de dikte van de toevoerdraden (
+alimentation
+) van de installatie (meestal 10 à 16 mm²). Tevens gaat er van deze 
+barette de mésure –
+ inderdaad, bedoeld om de aarding van de installatie te kunnen meten – een draad van 6 mm² verder het huis in die dient voor de potentiaal vereffening (
+liaison équipotentielle principale
+). Kort gezegd komt het er op neer dat alle metalen voorwerpen, om te beginnen in de natte ruimtes, via aardedraden verbonden moeten zijn met de aarde aansluiting. De badkamer wordt soms rechtstreeks vanuit de groepenkast bediend met een aardedraad van 2,5 of 4 mm² voor deze potentiaal vereffening. Op één tekening samengevat 
+ziet er dan zo uit
+. Met een 
+barrette de mesure
+ voor buitengebruik. Zie ook 
+deze toelichting
+ door Promotelec. Er zijn overigens een paar variaties op dit schema, zie de volgende paragraaf.
+
+4.4. 
+ De Liaison équipotentielle supplémentaire (LES).
+
+In de 
+diagnostic électrique
+, één van de vele wettelijk verplichte keuringsrapporten bij de verkoop van onroerend goed, zie je regelmatig staan dat  er problemen zijn met de aarding  en vaker nog met een niet aanwezige 
+liaison équipotentielle
+ in de badkamer. In de Franse elektra normen worden daar vele pagina’s aan besteed. Om de hoofdpunten daaruit aan te stippen een paar opmerkingen. In de badkamer moet alles wat van metaal is onderling zijn doorverbonden. Niet alleen de waterleidingen, een cv buis, een  metalen afvoer, een metalen badkuip, maar ook de wapening van een betonnen vloertje en metalen kozijnen. Uitzonderingen: onder andere metalen roostertjes van een ventialtie opening en bijv. een metalen 
+porte serviette
+.
+
+Die potentiaal vereffeningsdraden  moeten uiteindelijk allemaal zijn aangesloten op het centrale aardpunt in, of vlak bij de groepenkast. Dat mag daar in de badkamer met gewoon 2,5 mm²  aardedraad worden aangelegd mits in 
+gaine
+ (elektra pijp) of met 4 mm² aardedraad die rechtstreeks op de muur of plint mag worden bevestigd. Ze mogen ook in een holle wand aan het zicht worden onttrokken zolang de 
+boîtes de connexion
+ maar toegankelijk blijven. Veel Franse elektriciens gebruiken gewone ringklemmen om de aardedraad op bijv. een waterleiding vast te klemmen, terwijl er toch veel betere speciale klemmen voor in de handel zijn, zie afb.8.
+
+Om het de installateurs niet al te moeilijk te maken staan er twee voorbeeldtekeningen in de Franse regels opgenomen. Model één is die waar de diverse metalen elementen in de badkamer in serie met elkaar zijn doorverbonden en in model twee gaan er vanaf ieder metalen element aparte draden naar een “verzamel doos”, gereserveerd voor alle aarde draden die hier op één grote  aansluitstrip bij elkaar komen. Alles wat vanuit de groepenkast aan aardedraden komt, en alles dat vanuit deze
+ boîte de connexion 
+richting badkamer gaat: verlichting, stopcontacten, metalen voorwerpen. Die 
+boîte
+ hoeft niet in de badkamer zelf te worden gemonteerd, het mag ook de buitenkant van één van de badkamer muren.
+
+Voor alle duidelijkheid:
+
+​Er hoeft dus geen aparte vereffeningsdraad vanuit de badkamer naar de groepenkast te gaan zoals dat decennia lang in de Nederlandse normen was voorgeschreven. De methode waarbij alle aarde- en vereffeningsdraden in of vlakbij de badkamer met elkaar worden doorverbonden is zelfs veiliger. Mocht u ooit een iets oudere Franse elektricien ervan moeten overtuigen dat de normen zijn veranderd, dan zou u hem of haar deze tekst kunnen laten lezen:
+
+Il n’est pas nécessaire d’envoyer depuis cette boîte de dérivation un conducteur de protection supplémentaire vers le tableau électrique, la liaison équipotentielle étant assurée par les conducteurs de protection des circuits électriques.
+
+Liaison équipotentielle avec boîte de connexion.
+
+Liaison équipotentielle en serie.
+
+ Aardecollier
+
+4.5.
+ Verder nog wat aan aarde? Ja, alles. Na de laatste aanpassingen van de NF C 15-100 norm moeten alle stopcontacten (
+prises de courant
+) geaard zijn. Deze 
+prises 
+moeten sinds 1 juni 2004 met geïntegreerde 
+obturateurs 
+beveiligd zijn om te voorkomen dat kinderen bij de aansluitingen zouden kunnen komen. Sinds diezelfde datum is het Franse systeem waarbij het stopcontact met spreidklemmetjes in de inbouwdoos wordt vastgezet (gelukkig) verboden. Na verloop van tijd trek je namelijk geheid een keer stekker plus stopcontact uit de muur. Bevestiging is nu met de ons bekende twee kleine boutjes waarmee het metalen frame vastgeschroefd wordt op de inbouwdoos. Een geaard stopcontact heet voluit 
+une prise de courant à deux broches plus terre (2P+T).
+ Het oude type zonder veiligheidsaarde, 
+une prise traditionnelle à deux broches (2P),
+ mag alleen nog worden toegepast ter vervanging van een kapot exemplaar in een bestaande installatie. Zoals men inmiddels ervaren zal hebben ziet het Franse geaarde stopcontact er iets anders uit dan het Nederlandse type: de aarde-aansluiting is hier één uitstekend pennetje, geen klemmetjes aan de zijkant. Omdat overal in Europa andere types gebruikt worden is hier geen Europese norm voor. In Frankrijk mag je dus alleen dit soort NF gekeurde stopcontacten gebruiken. En ook hier krijgen we weer te maken met weerstand: van willekeurig welk stopcontact mag de weerstand naar de centrale aardingsstrip in de groepenkast niet meer dan twee Ohm bedragen. De controleurs van de Consuel hebben daar een handig apparaatje voor dat tevreden piept wanneer alles in orde is. Wanneer je zorgvuldig monteert, een goede kwaliteit stopcontacten en lasklemmen gebruikt kan het niet misgaan. Zelf meten van dit soort lage weerstandswaarden is lastig, dat lukt met de doorsnee multimeter niet. Je hebt er een speciale meter voor nodig die met een stroom  een paar honderd milliampère  werkt. Ook moet naar alle lichtpunten een aardedraad worden meegetrokken. En die lichtpunten mogen in de nieuwbouw niet meer uitgerust zijn met kroonsteentjes (
+dominos
+) die bevestigd worden aan de aansluitdraden die ‘ergens’ uit het plafond komen. Daar is nu een speciale aansluiting voor ontwikkeld, een klein stopcontactje in de afsluitdeksel van een inbouwdoos in het plafond, bedoeld voor een speciaal stekkertje om de verlichting mee aan te sluiten. De afkorting voor deze nieuwe ster aan het elektra firmanent is DCL. En dat staat voor: 
+Dispositif de Connexion pour Luminaire
+. Deze nieuwe norm veronderstelt dus bij nieuwbouw: een verlaagd plafond (
+faux plafond
+), of inbouwdozen (
+boîtes de connexion
+) die al zijn aangebracht bij het storten van een betonnen vloer. Deze regels werden aanvankelijk nogal rigide geïnterpreteerd, maar (eindelijk) is er met het laatste Amendement 5 water in de wijn gedaan. Er wordt nu  rekening gehouden met renovaties en wat daar bouwtechnisch mogelijk is.
+
+Door Promotelec is eind juni 2017 nog eens op een rijtje gezet aan 
+welke voorwaarden een goede aarding
+ aan moet voldoen.

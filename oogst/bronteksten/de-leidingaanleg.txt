@@ -1,0 +1,447 @@
+1.   
+De Franse elektrische installatie
+
+2.   
+De elektriciteitstoevoer en de elektriciteitsmeter
+
+3.   
+De hoofdschakelaar
+
+4.   
+De groepenkast
+
+5.   
+De aarding
+
+6.   De leidingaanleg
+
+7.   
+Speciale schakelingen
+
+8.   
+Losse elektra tips
+
+9.   
+Aanbevolen boeken
+
+10. 
+Aanbevolen websites en de veranderende NF C 15-100 normen
+
+5.1
+. Verschilt het veel van Nederland? Eigenlijk niet. Met zevenmijlslaarzen aan zou je twee Nederlandse methodes kunnen onderscheiden. Het ouderwetse systeem van lasdozen, waar komend vanuit de groepenkast alles wat bij één bepaalde groep hoort meestal slingerend zijn weg volgt, in lelijke elektrapijpen over de muur of weggewerkt onder een houten vloer. Waar diverse generaties elektra verbeteraars volgens hun inzichten en noden van dat moment weer een aftakking aan hebben vastgeknoopt, zodat uiteindelijk niemand meer zicht heeft op hoe alles nu precies loopt. Werk die vloer dan nog eens af met fraai parket en bij de volgende ondergrondse elektrastoring is er een probleem.
+
+                                Boite d’encastrement
+
+Dat kost vele uren zoekwerk en wanneer het tegenzit moet de vloer open. Hierna heeft het zogenaamde centraaldozensysteem zijn entree gemaakt in Nederland. Vanuit de groepenkast gaan leidingen naar de meestal blauwe centraaldozen die op strategische plekken in het plafond zijn aangebracht en van daaruit gaan afzonderlijke leidingen naar stopcontacten, schakelaars en lichtpunten. Als een spin in het web. Leidingen die tegenwoordig keurig zijn weggewerkt in de muur. Dekseltje open van de centraaldoos, en je kunt er nu tenminste bij en zelfs zonder installatietekening heb je snel door hoe alles loopt.  De opbouwsystemen (
+la pose en applique
+) zijn inmiddels met een come-back bezig: allerlei plastic kabelgoten en plintsystemen (
+plinthes électriques
+) doen het in esthetisch opzicht lang niet slecht. Die zijn compleet met schakelaars en stopcontacten te krijgen in de diverse huisstijlen die de fabrikanten op de markt brengen.
+
+5.2.
+ Wat Frankrijk betreft, speciaal in de wat oudere huizen, komt ook daar het kruipdoor/sluipdoor-systeem van bekabeling die via lasdozen wordt doorverbonden, veel voor. Die vierkante lasdozen zijn vaak behoorlijk wat groter dan de bekende lichtgele types uit de polder. Ze luisteren naar de naam: 
+boîte de dérivation 
+en zijn uiteraard verkrijgbaar als opbouw- of inbouwmodel (
+encastrée
+). Er bestaan modellen van 70×70 mm tot 175×175 mm, meestal 40 mm diep.
+
+Boîtes de dérivation
+, opbouw
+
+Er zijn ook kleinere inbouwmodellen, qua vorm te vergelijken met de reguliere inbouwdozen, en voor de afwerking voorzien van een vierkant afdekplaatje. Bij een vernieuwing van de elektrische installatie is het altijd de vraag: wat laat je zitten van het oude leidingen systeem en wat breek je af? En wanneer je gaat afbreken en er is de mogelijkheid om loze of niet gebruikte ruimtes op zolder te gebruiken (
+comble non aménageable
+), dan is er een keurige Franse variant op de centraaldoos, een wat grotere uitvoering: de 
+boîte de combles
+. Ook wel verkocht onder de naam: 
+boîtier pavillionnair
+. Daarvandaan kun je dan de daar onder gelegen vertrekken voorzien van stopcontacten, lichtpunten en schakelaars.
+
+Boîte de dérivation,
+ inbouw
+
+Zorg er wel voor dat je de aparte groepen voor de 
+prises de courant
+ en de 
+éclairage
+ bij de montage met lasklemmen in deze 
+boîte
+ goed uit elkaar blijft houden. Want in tegenstelling tot de Nederlandse praktijk mogen verschillende groepen dezelfde leidingen of inbouwdozen delen.
+
+Beide manieren van aanpak – lasdozen/centraaldozen – kunnen dan in opbouw (
+la pose apparente ou en saillie
+) of inbouw worden gerealiseerd en alles wat daar tussen in zit, afhankelijk van smaak en de bouwkundige mogelijkheden. De inbouwdozen, waar uw schakelaars, stopcontacten, tv- en telefoonaansluitingen in worden ondergebracht, heten: 
+boîtes d’encastrement
+. Ook de telefoonaansluitingen? Ja, want de Franse T-stekker is exit als norm, want opgevolgd door de RJ-45 aansluiting als 
+prise téléphonique
+. Het soort stekkertjes dat u waarschijnlijk al kent van de netwerkkabeltjes van een computer.
+
+5.3.
+ Voordat er leidingen getrokken worden, is het verstandig te weten welke diameter draad moet worden gebruikt, en wat de daarbij horende zekeringen of 
+disjoncteurs
+ zijn die in de groepenkast geplaatst moeten worden.
+
+In de laatste versie van de Franse elektra normen, het zg. “Amendement 5” van juni 2015, worden zekeringen (
+fusibles
+) vaarwel gezegd voor gebruik in de huisinstallatie. Van nu af aan alleen 
+disjoncteurs
+. In oudere installaties kunnen zekeringen uiteraard gehandhaafd blijven. Maar voor nieuwe installaties die door de Consuel moeten worden gekeurd zult u, afgezien van een overgangsperiode voor bouwvergunningen van eerdere datum, voortaan gehouden zijn aan deze nieuwe regels.
+
+Wat de de tabel hieronder betreft nog een opmerking: er staan de 
+maximaal toegestane waardes
+ in voor zekeringen en automaten voor de diverse draaddiameters. Zo staan ze al decennia lang in de Franse normen. 
+In de praktijk
+ wordt voor verlichting echter een 
+disjoncteur
+ van 10 ampère gebruikt (1,5 mm²) en een 
+disjoncteur
+ van 16 ampère voor stopcontacten (2,5 mm²). In verband met de nieuwe “forfaitaire” rekenregels die sinds Amendement 5 gelden voor het aantal 
+disjoncteurs
+/groepen dat op één aardlekschakelaar mag worden aangesloten van harte aan te bevelen. Anders moet je al snel naar het zwaardere type aardlekschakelaar toe, niet de standaard 40 A/30 mA, maar de veel duurdere 63 A/30 mA.
+
+—————————————————————————————————————————————-
+
+Draaddiameters en beveiliging voor de meest voorkomende aansluitingen
+ (Amendement 4)
+
+Opmerkingen:
+
+(1)   Max. 5 aansluitingen (over meervoudige aansluitingen  zie punt 5.6 van dit hoofdstuk)
+
+(2)   Max. 8 aansluitingen (over meervoudige aansluitingen zie punt 5.6. van dit hoofdstuk)
+
+(3)   Max. 8 lichtpunten
+
+(4)   In uitzonderingsgevallen een hoger ampérage
+
+(5)   Max. 1 schakelaar voor twee aansluitpunten in dezelfde kamer, of:
+
+Max. 1 
+télérupteur
+ of 
+contacteur 
+voor meer dan 2​
+
+(6)   Sinds de publicatie van het Amendement 5 in 2015 is het gebruik van zekeringen niet meer toegestaan in nieuwe         installaties en zijn de rekenregels voor het maximum aantal stopcontacten veranderd.
+
+5.4. 
+Ook voor de aanvoer draden van de hoofdschakelaar – 
+disjoncteur de branchement –
+ naar de groepenkast geldt een aantal minimale diktes. Eén van de uitgangspunten bij de aanleg volgens de Franse normen is dat vanaf de plek waar de stroom door de 
+fournisseur d’énergie 
+wordt aangeleverd, het 
+point de livraison (PDL) 
+waar ook de
+ disjoncteur de branchement 
+zich bevindt
+ 
+er een maximale spanningsval van drie procent mag zijn tussen dit punt en het verst verwijderde verlichtingspunt in de elektrische installatie. Om die reden mag de maximale spanningsval in dat aanvoer traject maximaal twee procent zijn. Een en ander heeft ook gevolgen voor de dimensionering van de bedrading naar een tweede groepenkastje toe. Wanneer je bij een type 1 
+branchement
+ binnenshuis in de praktijk nog die volle 3 drie procent tot je beschikking hebt, is bij de type 2 aansluiting als het tegenzit al twee procent opgesoupeerd door aanvoer verliezen vanaf het 
+point de livraison
+ meer dan dertig meter verderop. Hou je in huis nog één procent over voor spanningsverliezen, niet al te veel.
+
+Een tweede uitgangspunt is dat de maximale stroomsterkte waarop een 
+disjoncteur de branchement (DB) 
+kan worden ingesteld maatgevend is voor de dimensionering van de aanvoer bedrading. Laten we eens aannemen dat u zuinig bent en besluit voor een 
+puissance souscrite
+ van 6 kVA te gaan en u bent in het bezit van een DB die op 30/45/60 ampère kan worden ingesteld. Altijd nog goed voor 30 ampère, en decennia lang was dat voldoende om een Nederlands woonhuis mee van stroom te voorzien. Moet dus ook lukken voor m’n optrekje hier in Frankrijk, en kan ik volstaan met wat dunnere (dure) koperen aanvoer bedrading. Nee dus, want indien u in het bezit van een DB die op 30/45/60 ampère kan worden ingesteld, moet die bedrading op 60 ampère worden gedimensioneerd. U zult de eerste niet zijn die al gelegde bekabeling mag opgraven om te vervangen door iets dikkers.
+
+Tot medio 2008 waren ook draaddiameters van minder  dan 10 mm² toegestaan. De regels zijn strenger geworden. De draaddiktes hieronder gelden voor koper, lengte in meters en een spanningsval van maximaal twee procent. Wat de geheimtaal betreft: de maximale stroomsterkte waarop een DB kan worden ingesteld wordt aangeduid als de 
+courant assigné
+.
+
+Maximale draadlengtes tussen de hoofdschakelaar en groepenkast
+
+voor een spanningsval van maximaal 2 %.
+
+      
+                                       
+
+Tijd voor de tweede groepenkast, 
+un tableau supplémentaire / secondaire / divisionnaire.
+ 
+In Frankrijk een standaard oplossing bij de uitbreiding van een elektrische installatie, in andere landen veel minder bekend. Voor de bedrading vanuit de hoofdgroepenkast, 
+tableau de répartition
+, gelden ook een aantal standaard draaddiameters. In de tabel hieronder is uitgegaan van de meest voorkomende situatie, nl. een aansluiting op het lichtnet van het type 1, waarbij de meter en de hoofdschakelaar zich binnenshuis bevinden, met een maximaal toelaatbare spanningsval (
+chûte de tension
+) van twee procent. Wanneer de 
+compteur 
+en de 
+DB
+ niet naast de groepenkast zijn bevestigd (
+non-accolé
+), dan moet je die maximale lengtes door twee delen, je houdt dan rekening met een maximale spanningsval van één procent. Het kan meevallen, maar dat hangt af van wat er verder aan lengtes en diameters bedrading is gebruikt, dat vergt maatwerk met de rekenmachine ter plekke.
+
+3) Sinds de publicatie van het Amendement 5 in 2015 is het gebruik van zekeringen niet meer toegestaan in nieuwe  installaties.
+​
+
+Om het precies te kunnen berekenen staan er op veel websites handige rekenmachientjes, zogenaamde 
+calculettes. 
+Wat die maximaal toelaatbare spanningsval betreft nog even een uitstapje naar de tekst in Amendement 5 en de consequenties voor de leidingaanleg. Citaat: 
+Il est rappelé que dans le cas d’une installation alimentée à partir d’un branchement à puissance limitée, la chute de tension maximale entre l’origine de cette installation et tout point d’utilisation ne doit pas dépasser les valeurs suivantes: 
+
+–  3 % pour de l’éclairage;
+
+–  5 % pour les autres recepteurs.
+
+Wat betekent dit in de praktijk? Waar begint de levering van uit het stroomnet aan de huisinstallatie? Dit zg.
+ point de livraison (PDL
+) is de plaats waar meter en hoofdschakelaar zich bevinden. Staat die tientallen meters verder bij de openbare weg, dan treedt er vanaf daar al een spanningsverlies op en hou je binnenshuis dus minder ruimte over. Wordt er ook nog eens een tweede groepenkast gemonteerd, dan wordt het passen en meten. Hoeveel 
+chute de tension
+, voor de Engelsen voltage drop, er precies optreedt blijft een kwestie van nauwkeurig rekenen. In onderstaande tekening zijn vier gangbare praktijksituaties schematisch weergegeven voorzien van algemene vuistregels voor het in kaart brengen van het spanningsverlies dat (bij maximale belasting) op kan treden in diverse leiding trajecten.  
+
+Om de zaak nog wat ingewikkelder te maken iets over de maximale draadlengte als functie van het type beveiliging. Iedere zekering of 
+disjoncteur 
+heeft zo zijn eigen manier van reageren op overbelasting of kortsluiting. Sommige reageren heel fel op een kortstondige overbelasting, andere zijn wat toleranter van aard en raken niet meteen in paniek wanneer bij het inschakelen van een zware elektromotor plotseling een piekstroom optreedt van wel 15 maal het nominale verbruik. Bedoeling is in ieder geval te voorkomen dat bedrading oververhit raakt, brandgevaar. Afhankelijk van de eigenschappen van zo’n zekering of disjoncteur kun je er kortere of langere stukken draad of bekabeling aan hangen. 
+Een kort overzicht
+ met tabellen voor disjoncteurs die sinds het Amendement 5 van juni 2015 verplicht zijn voor de nieuwbouw. Voor de kleine zekeringen van het type gG die we in oudere installaties tegenkomen in een 
+coupe-circuit
+ gelden de 
+volgende maximale draadlengtes
+. Let wel: het gaat hier om maximale lengtes vanuit veiligheidsoverwegingen om er voor te zorgen dat de zekering of disjoncteur ingrijpt voordat er ergens in het systeem gevaarlijk hoge spanningen op een apparaat komen te staan of dat  bedrading vlam vat. Wanneer je de standaard rekenregels voor de maximale spanningsval hanteert, 3 % voor verlichting of 5 % voor andere toepassingen gemeten vanaf het Point de Livraison (PDL), dan kom je minder ver met je bedrading.
+
+Conduit annelé
+
+5.5.
+ Elektrapijp, 
+gaine 
+of 
+conduit.
+ Men zal een keuze moeten maken voor opbouw (
+fixation directe sur paroi
+), inbouw (eventueel dus freeswerk) of wegwerken in holle muurtjes (sandwich van gipsplaten op houten of metalen frame) of achter voorzetwanden van gipsplaat (
+pose en vide de construction
+). Ieder gebouw heeft zo zijn mogelijkheden en bouwtechnische onmogelijkheden. In een nummer van het blad 
+“Fil Pilote” uit 2007
+ worden de bouwtechnische regels op een rij gezet in het artikeltje over 
+canalisations, modes de pose
+. De in Nederland gebruikte standaard plastic elektrapijp, lichtgeel en glad, en met een buigveer in allerlei hoeken te buigen, ben ik tot nu toe bij mij in de buurt (Bourgogne) nog niet tegengekomen. Het enige dat erop lijkt zijn de lichtgrijze pijpen zoals die vooral in schuren of bedrijfsruimtes gebruikt worden, wel glad (
+lisse
+), maar niet buigbaar, 
+cintrable
+ (type IRL 3321). Er is in deze kleurstelling een buigbare variant (type ICTL 3421), maar die is lang niet overal verkrijgbaar. Voor gebruik binnenshuis en inbouw wordt in Frankrijk overwegend de flexibele, geribbelde buis gebruikt (
+conduit annelé
+). Daar zijn twee types in verkrijgbaar: ICA 3321 voor het reguliere werk (
+encastré dans une saignée
+), en de ICTA 3422 mag ook in beton verwerkt worden (
+noyé dans le béton
+). De kleinere diameters zijn verkrijgbaar in rollen tot maximaal 100 meter, de heel grote maximaal 50 meter. En meestal zwart of grijs van kleur.
+
+Omdat het trekken van draden behoorlijk wat meer weerstand oplevert in dit soort ribbelbuis, vooral wanneer er nog wat bochtjes genomen moeten worden, is het verstandig van te voren de draden erin aan te brengen, en dan pas in de uitgehakte gleuf te bevestigen. Of in een dubbelwandig muurtje. Niets is frustrerender dan wanneer je iets wat je zo mooi had dichtgemetseld of afgewerkt, weer moet openbreken omdat je de draden er met geen mogelijkheid meer doorheen gesjord krijgt. Omdat al meer mensen met dit probleem geworsteld hebben is daar een oplossing voor verzonnen. De geribbelde buis is ook kant en klaar met draad te krijgen. Maar wanneer je meer dan de standaard drie draden in een buis nodig hebt – bijvoorbeeld bij een aantal extra schakeldraden (
+fils de navette
+) – dan zit er meestal niets anders op dan het zelf te doen.  Op de website van de uitgeverij Eyrolles staat nog steeds 
+een aardig overzicht
+ uit één van hun vele boeken over de elektra aanleg. De diverse types 
+conduit
+ en wat tips voor de praktijk.
+
+Van de goedkopere elektradraad – ik ben ook wel een keer voor zo’n speciale aanbieding gevallen – is de plastic isolatie vaak een stuk stroever dan van de A-merken: ook dat heeft invloed op de totale lengte van de draad die je met een trekveer (
+tire-fils
+) nog de baas kunt. Wat ook helpt, is gewoon een iets grotere buis nemen: neem de 20 mm variant waar je volgens de normen ook nog net met de 16 mm diameter uit de voeten had gekund.
+
+Ook in Frankrijk gelden regels voor hoeveel draden van welke diameter je maximaal in een elektrabuis mag aanleggen. Zie onderstaande tabel.
+
+Dit alles is gebaseerd op het principe dat alleen een derde van de buis met draden gevuld mag zijn, want anders is het trekken moeilijk. Een paar jaar geleden zijn de regels wat versoepeld, er mogen in twee situaties meer draden in dan volgens de reguliere 1/3 regel. Bij korte rechte stukken zoals bij muurdoorvoeringen en wanneer de buizen voorafgaand aan het plaatsen al van draden worden voorzien. De 1/3 regel geldt dan alleen voor het trekken van draad in al aangebrachte buizen.
+
+Zoals bekend moet er volgens de Franse elektra normen bij nieuwbouw ook een communicatienetwerk in huis worden aangelegd. Die verplichting is tot verbazing van velen in het laatste Amendment 5 gehandhaafd, heeft daar zelfs een apart hoofdstuk in gekregen. Voor telefoon, TV en computer. Die bedrading – ethernetkabel of, tv kabel – mag niet met kabelbeugeltjes bijv. langs plinten worden vastgezet maar moet ook in 
+gaines
+ of 
+plinthes électriques
+ worden ondergebracht. Voor de 
+gaines
+ geldt een minimum binnendiameter van 20 mm. In de praktijk wordt hier meestal 25 mm of groter voor  gebruikt volgens onderstaande tabel.
+
+5.6  Het maximum aantal stopcontacten per groep.
+
+Tot en met Amendement 4 golden de zg. 
+décompte
+ regels,  e
+quivalence des socles à prises multiples.
+ Bij 2,5 mm² draad mocht je daar maximaal maximaal 8 aansluitpunten aan hangen, bij 1,5 mm²  5 stuks. Maar door gebruik te maken van onderstaand plaatje kon je daarmee het aantal stopcontacten verdubbelen., resp. naar 16 en 10 stuks.
+
+afb.  25 Toepassing van de oude décompte regels
+
+Helaas heeft het 
+Amendement 5
+ een eind gemaakt aan deze 
+décompte
+ regels. ​Voortaan geldt: 
+één stopcontact = één stopcontact
+. Op een groep die is aangelegd met 1,5 mm² bedrading mogen maximaal 8 stopcontacten worden aangesloten. Voor een groep met 2,5 mm² bedrading geldt nu een maximum van 12 stopcontacten. Of het nu enkele zijn of opgenomen in een 
+socle multiple
+: 
+1 = 1
+. De regels zijn vereenvoudigd roepen de uitvinders daarvan trots, u mag  nu meer stopcontacten aansluiten! Hetgeen bezijden de waarheid is en de klant  geld gaat kosten. Alweer een extra groep.
+
+afb.  26 De nieuwe regels volgens Amendement 5: 1 = 1
+
+5.7.
+  Voor het bevestigen van opbouwleidingen (buizen of kabels) – let op de voorgeschreven maximum bevestigingsafstanden voor een ‘beugeltje’ zijn er in Frankrijk handige bevestigingsmethodes bedacht. Er is een variant op de muurplug, met of een stukje schroefdraad op het uiteinde (
+cheville à visser
+), of een opening, waardoor je een ‘strap’ kunt steken (
+collier réglable
+). Een klem waar je een leiding indrukt zul je in de schappen terugvinden onder de naam 
+lyre. 
+Voor de diverse installatieplintsystemen die in omloop zijn, gelden ook regels voor het maximum aantal draden, en hoe je in de luxere modellen de sterkstroom en zwakstroom (telefoon, netwerk, tv) van elkaar moet scheiden. Dat kan de desbetreffende fabrikant haarfijn uitleggen.
+
+5.8.
+ Omdat dat trekken van draden arbeidsintensief is wordt soms gekozen voor het gebruiken van grijze vmvk kabels, wanneer die tenminste uit zicht ergens achterlangs, tussen in (
+en vide de construction
+), en bovenlangs weggewerkt kunnen worden. De tijdwinst gaat later weer deels verloren wanneer je de boel passend moet maken voor aansluiting in doorvoer/lasdozen, of bij de aansluiting op schakelmateriaal. Ook met speciale draadstrippers kost het toch wat meer tijd om het allemaal netjes en precies passend te maken.
+
+5.9. 
+ Voor het doorverbinden van draden in de las- of doorvoerdozen werd en wordt in Frankrijk kwistig gebruik gemaakt van kroonsteentjes (
+dominos
+) en daarmee vergelijkbare 
+borniers 
+en 
+bornes. 
+Valt historisch wel te verklaren, want soms werd ook flexibel draad gebruikt. En die kun je in tegenstelling tot de 
+rigide 
+soortgenoten niet in een lasklem steken. In Nederland zou een elektricien deze werkwijze bijna ontslag op staande voet opleveren, het enige wat een Franse elektricien daar in het verleden voor hoefde te doen, was het gebruikmaken van onze oude lasdoppen, waarbij je de twee of drie draden in elkaar draait met die lasdop er bovenop. Onaanvaardbaar brandrisico naar de mening van de Franse regelgevers. Tegenwoordig heeft (eindelijk) ook de moderne lasklem (
+connecteur sans vis
+) zijn entree gemaakt in Frankrijk. Wat die 
+dominos
+ betreft nog dit: bij gebruik in een las- of doorvoerdoos de te verbinden blanke draadeinden samen over de hele lengte van het kroonsteentje doorsteken, zodat de verbindingen met twee schroefjes worden vastgedraaid. Dus niet op de manier zoals we dat gewend zijn te doen bij het aansluiten van een verlichtingspunt (van beide kanten een draad, elk met één schroefje vast).  Resteert nog de Franse elektriciens ervan te overtuigen dat ze eindelijk eens afstand moeten doen van dit stukje
+ patrimoine
+ en iets van de oosterburen moeten kopen, allerlei soorten connectors van de firma WAGO. Gelukkig is er voor de jongste generatie klemmen al een Franse naam: 
+mini borne à levier universelle
+. Dat helpt ze misschien over de streep te trekken.
+
+afb. 12 De WAGO familie: de bekende lasklem (1), de opvolger (2) en de nieuwe mini uitvoering (3).
+
+Vanaf nu heeft men dus meer bewegingsruimte in de lasdozen. En te gebruiken voor zowel massieve als flexibele draden. Voor reeds te volle 
+boîtes de dérivation 
+is dit een uitstekende oplossing, zie afb.13 en 14. Inmiddels ook verkrijgbaar in een zwaardere uitvoering voor 6 mm² draad. En in aangepaste vorm voor verbindingen in de groepenkast, de nieuwe 
+TOPJOB serie.
+
+afb 13 Lasdoos met Wago 221 klemmen
+
+Bij de nieuwe serie 2273,  tegenwoordig doorzichtig en met kleuraanduidingen, zie je meteen of de draden er wel diep genoeg in zijn gestoken. Een compactere uitvoering van de voor Nederlanders bekende oude grijze 273 serie lasklemmen, die al in 1974 door WAGO uitgebracht.
+
+Ongeveer twintig jaar later werd de 
+222
+ serie op de markt gebracht, ook te gebruiken voor flexibel draad.
+
+​
+
+​Hier nog het nieuwe 
+Wago-model 294
+:
+
+​Eén klem voor de drie draden van een aansluiting van bijv. een lamp. Echt ruimtebesparend!
+
+N
+ul – aarde – fase (
+L
+ive)
+
+5.10.
+  Al die buizen en draden gaan ergens naar toe: schakelaars, stopcontacten en lichtpunten. Voor alle inbouwleidingen geldt dat die moeten uitkomen op een inbouwdoos: 
+une boîte d’encastrement, 
+ook wel: 
+une boîte de raccordement
+. Er zijn in principe een drietal standaard uitvoeringen. Dat zijn dan de enkele, ronde uitvoering met een diameter van 60 mm en de vierkante uitvoeringen van 70 x 70 mm die je aan elkaar kunt koppelen, 
+carré associable. 
+En voor het aansluiten van zware stopcontacten of apparatuur is dan nog als derde variant de 
+carré simple
+ van 85 x 85 mm of 65 x 65 mm voor het lichtere werk. Het maakt ook uit in wat voor soort muur of steensoort je deze inbouwdozen wilt bevestigen. Gaat het om een draagmuur (
+mur porteur
+) die uit stenen, bakstenen, of uit holle bouwstenen is opgebouwd, of om scheidingswandjes (
+cloisons non porteuses
+) van bakstenen, gipsblokken of holle bouwstenen (
+briques creuses 
+of 
+parpaing creux
+). Voor die holle bouwstenen zijn aparte modellen inbouwdozen. En in dit soort “
+creuse” 
+muurtjes beslist geen sleuvenfrees of breekhamer loslaten: dat loopt verkeerd af. Hier is een iets subtielere werkwijze nodig. Neem verder niet als vanzelfsprekend aan dat de maatvoering van dit soort inbouwdozen volledig gestandaardiseerd is. Diverse fabrikanten hanteren soms net wat afwijkende maatvoeringen voor de met enige regelmaat wisselende eigen ‘families’ schakel- en aansluitmateriaal die ze in hun programma hebben. En hanteren soms binnen één lijn al een verschillende maatvoering: voor een dubbele inbouwdoos gelden soms twee verschillende ‘hart-op-hart’ afstanden: voor de verticale montage een andere dan voor de horizontale montage. En daar horen dan weer net iets verschillende afdekplaatjes bij. Wanneer je beslist van merk x, y of z het schakelmateriaal wilt installeren, informeer dan ook even of daar nog speciale eigen merkgebonden inbouwdozen voor nodig zijn. Dat voorkomt verrassingen achteraf.
+
+Antieke lichtschakelaar
+
+5.11.
+  In de  normen wordt  voorgeschreven hoeveel lichtpunten en stopcontacten er zoal aanwezig moeten zijn in de diverse vertrekken.
+
+In de 
+gang 
+ (
+couloir
+):
+
+1 verlichtingspunt, 1 stopcontact.
+
+In de 
+keuken 
+(
+cuisine
+): 1 verlichtings-punt, 6 stopcontacten (3 wanneer de keuken kleiner is dan 4 m²). Van die stopcontacten moeten er vier boven het werkvlak zijn aangebracht (niet boven de spoelbak). De verplichting van een 
+prise téléphonique
+ is komen te vervallen.  Amendement 5 heeft iets toegevoegd: deze 6 stopcontacten moeten voortaan op één 
+disjoncteur
+ worden aangesloten en zijn daarmee in feite een 
+circuit specialisé
+. De stroom voor andere stopcontacten in de keuken mag betrokken worden vanuit andere stopcontact groepen die ook buiten de keuken al aansluitpunten hebben. En verder andere 
+circuits specialisés
+: voor de 
+cuisinière
+ (32 A, 6 mm²) en de vaatwasser (20 A,  2,5 mm²).
+
+De zware stroomverbruikers zoals 
+cuisinières
+ en 
+plaques
+ 
+de
+ 
+cuisson
+ kunnen met  forse stekkers (rechthoekige aardpen, 20 en 32 ampère modellen) en stopcontacten worden aangesloten, niet te verwarren met de typisch Nederlandse perilex aansluiting.  Veel gebruikelijker: op een wat grotere inbouwdoos (85 mm diameter) voorzien van een zogenaamde 
+sortie de câble
+. Deze laatste methode wordt het meest toegepast. Voordeel:  aanzienlijk goedkoper en bovendien plaatsbesparend. Ook vaste elektrische radiatoren moeten via zo’n 
+sortie de câble 
+worden aangesloten, maar dat kan met een iets kleiner type, passend op de reguliere inbouwdoos met een diameter van 67 mm.
+
+In de 
+slaapkamer(s)
+: minimaal 3 stopcontacten en 1 verlichtingspunt.
+
+In de 
+woonkamer 
+(
+séjour
+, 
+salon
+):
+
+1 verlichtingspunt, 1 stopcontact per 4 m². In Amendement 4 enige souplesse  voor de zeer grote oppervlaktes: tien is genoeg, meer mag. Verder 1 telefoonaansluiting en 1 tv- aansluiting. Amendement 5
+ 
+komt voor de grotere woonkamers met een nieuwe regel. Is de oppervlakte minder dan 28 m², dan moeten er minimaal 5 stopcontacten zijn met nog steeds  als algemene vuistregel één stopcontact voor elke 4 m². Voor woonkamers die groter zijn dan 28 m ² gelden geen specifieke regels. Het vertrekpunt is uiteraard het zevental stopcontacten dat voor een 
+séjour
+ van 28 m² verplicht is. Promotelec zegt hierover: “
+le nombre des socles est défini en accord avec le maître d’ouvrage, avec un minimum de 7
+“. U mag het dus zelf weten of u er meer zou willen hebben.
+
+Voor de
+ badkamer
+ gelden aparte voorschriften over wat wel en niet is toegestaan aan elektrische bedrading of apparatuur (verwarming, stopcontacten, elektrische boiler). 
+Voorheen golden
+ er ook in het zg. Volume 3 nog beperkingen. Met het vervallen van Volume 3 in Amendement 5 heeft u daar wat meer mogelijkheden. Dichterbij bad of douche (Volume 2) en in/boven bad- of doucheruimte (Volume 1) zijn de eisen strenger. Dit zijn 
+de nieuwe regels
+.
+
+Voor het zware werk
+
+Ook het totaal aantal tv-aansluitingen is genormeerd: woning ≤ 35 m²: 1 stuks; ≤ 100 m²: 2 stuks en ≥ 100 m²: 3 stuks.
+
+Over de regel dat je op één verlichtingsgroep maximaal acht lichtpunten mag aansluiten ontstaan ook wel eens misverstanden: ook dat zijn aansluitpunten, en daar mag u gerust meer dan één lamp mee van stroom voorzien. In de praktijk wordt een maximum belasting van 300 watt per lichtaansluitpunt aangehouden, dus er is geen enkele reden om uw fraaie kroonluchter  in Nederland achter te laten. En met die energiezuinige lampen van tegenwoordig wordt het overigens wel heel moeilijk om maar in de buurt te komen van dat soort vermogens.
+
+5.12. Brandveiligheid
+
+Elektrische bedrading kan gaan smeulen en vlam vatten. Bij de aanleg van flatgebouwen, openbare ruimtes en ziekenhuizen moeten de architecten daar steeds meer rekening mee houden. Hager heeft 
+dat hier samengevat
+. Je wilt voorkomen dat de schachten en leidingstraten waardoor elektrische kabels lopen onverhoopt een soort schoorsteeneffect hebben en daardoor de verspreiding van (giftige) rook en vuur versnellen. Sinds 2017 zijn er Europese normen voor de brandveiligheidsklasse van elektrische kabels. Zie dit 
+dossier technique
+ van Promotelec. Dit past allemaal in een toenemende belangstelling voor brandveiligheid. Voor de architecten en bouwkundigen onder de lezers dit verslag van een 
+ronde tafel sessie
+ in Nederland. Wat betekent dit voor de kleine aannemer en bricoleur? Koop niet de goedkoopste elektradraad, het liefst van een goed merk. En leidingdoorvoeringen blijven een zwakke plek bij het pogen 
+branddoorslag
+ te voorkomen, dus kijk hoe je dat risico kunt verminderen.

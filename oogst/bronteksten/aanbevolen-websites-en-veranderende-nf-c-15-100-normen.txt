@@ -1,0 +1,193 @@
+1.   
+De Franse elektrische installatie
+
+2.   
+De elektriciteitstoevoer en de elektriciteitsmeter
+
+3.   
+De hoofdschakelaar
+
+4.   
+De groepenkast
+
+5.   
+De aarding
+
+6.   
+De leidingaanleg
+
+7.   
+Speciale schakelingen
+
+8.   
+Losse elektra tips
+
+9.   
+Aanbevolen boeken
+
+10. Aanbevolen websites en de veranderende NF C 15-100 normen
+
+Voor nieuwbouw en totale renovaties gelden tegenwoordig de voorschriften zoals die medio 2015 werden gepubliceerd in het zogenaamde 
+Amendement 5
+. Vanaf 2002 zijn de huidige NFC C 15-100 elektra normen regelmatig voorzien van 
+fiches d’interpretation
+ die dan weer bouwstenen waren voor de in de loop  der tijd gepubliceerde amendementen. Bestaande installaties hoeven niet aan de meest recente wijzigingen te voldoen, daarvoor gelden de regels die tijdens de oplevering van toepassing waren. Voor verbouwers met een al langer bestaande elektrische installatie blijft de oude versie van de Franse elektra normen uit 2002, inclusief de amendementen A1 t/m A4, dus nog steeds interessant. De normen zijn niet retroactief zoals dat in het jargon van juristen heet. Met één kanttekening: wanneer u een woning voor reguliere verhuur gaat gebruiken – iets anders dan verhuur voor vakantie doeleinden – dan is een 
+diagnostic électrique
+ verplicht.
+
+Op diverse websites zijn de oude regels nog steeds terug te vinden. Fabrikanten als Hager, Legrand en Schneider hebben die meestal niet meer op hun eigen website staan. De laatste volledig bijgewerkte versie – van belang voor nieuwbouw en totale renovatie –  van Hager is nu als doorblader document beschikbaar. Voor wie dat onhandig vindt is er gelukkig ook een gewone pdf versie op aanvraag beschikbaar. 
+Ga naar de on-line versie
+, dan naar de bovenste menu balk, klik aan “
+Centre de téléchargement
+“. Volg verder de instructies, email adres opgeven en je hebt de download een paar minuten later binnen. Met zijn 60 pagina’s meer dan een samenvatting: een compleet naslagwerk. En inmiddels ook 
+rechtstreeks als pdf document
+ te downloaden.
+
+Op de website van 
+Schneider
+ 
+staat een inleiding uit 2012: 
+L’essentiel de la norme NFC 15-100
+. Daarin worden de eisen inzichtelijk gemaakt aan de hand van tekeningen van de 
+séjour, cuisine, chambre, salle de bain, autre locaux et extérieur
+. Ook die inleiding (tot en met Amendement 4) is sinds medio 2015 voor de nieuwbouwers achterhaald. Inmiddels heeft Schneider de 
+Amendement 5 versie
+ op de website gezet. Er is ook een 
+seminar op het internet
+ te vinden, trek er wel een uurtje voor uit.
+
+Legrand heeft een aardige 
+samenvatting
+ van Amendement 5 met verhelderende tekeningen op papier gezet. Voor wie het lezen niet schuwt is er ook een uitvoerige versie waarin alle relevante NF C 15-100 regels voor de huisinstallatie worden samengevat (149 pagina’s) met uiteraard een dosis marketing voor de eigen producten onder de titel: “
+Le Guide de l’électricité
+“.
+
+Een inleiding door 
+ABB
+, van een aantal jaren geleden met aandacht voor de specifieke regels die gelden voor aanpassingen voor gehandicapten, keurig in twee kolommen naast elkaar gezet. Van toepassing wanneer een woning voor de verhuur of verkoop wordt gebouwd en niet door de eigenaar voor eigen bewoning wordt gebruikt. Ook ABB  heeft nu 
+een nieuwe gids
+ uitgebracht waarin de laatste wijzigingen van het Amendement 5 uit 27 november 2015 zijn verwerkt.
+
+De firma REXEL heeft een aantal problemen rond de “
+gestion d’énergie
+” samengevat. Daarin komt de GTL aan bod en tevens aandacht voor de 
+parafoudre
+ (bliksembeveiliging) en het laden van elektrische auto’s.
+
+De voorlichtingsorganisatie 
+Promotelec
+ is al sinds het eind van de zestiger jaren actief. Veel informatie is tegenwoordig verkrijgbaar – tegen betaling – in boekvorm.  Gelukkig is er ook online nog voorlichtingsmateriaal beschikbaar. U kunt daar het beste de 
+Espace professonnels
+ voor raadplegen, de onderdelen  “
+Réglementations
+” en “
+Dossiers techniques
+“. De informatie daar is tot mijn verbazing op  diverse punten nog steeds niet in lijn gebracht met de nieuwste regels. Het lezen van hun korte toelichting op het laatste 
+Amendement 5
+ valt aan te bevelen. Een jaar later kwam een 
+tweede versie
+ ter beschikking met wat meer details.
+
+De regels voor de badkamer waren gebaseerd op ondermeer het 
+Amendement 2 uit 2008
+. Voor de inrichting van de badkamer is er met de introductie van het Amendement 5 in 2015 het nodige veranderd voor nieuwbouw en totale renovatie, zie deze gedetailleerde 
+beschrijving
+. Als extra service biedt Promotelec vanaf maart 2019 de mogelijkheid om (tegen betaling)  specifieke hoofdstukken uit hun publicaties te downloaden, hier de verwijzing (
+Zoom sur
+….) naar de 
+salle de bains
+.
+
+En niet te vergeten: de 
+AFNOR
+. Uit de pen van deze organisatie komt een enorme hoeveelheid regels.  Dit zijn 
+alle regels
+ m.b.t. elektriciteit, laag- en hoogspanning. Bij die organisatie kunt u tegen betaling de volledige teksten aanschaffen. De prijzen zijn stevig te noemen: de 
+complete Amendement 5 tekst
+ kost € 165,55 (HT). En eigenlijk heb je daar ook nog de niet gewijzigde hoofdstukken uit de 2002 editie en de latere amendementen 1 t/m 4 bij nodig om het beeld compleet te krijgen. En dan zit je al snel boven de duizend euro. Voor een professional nog op te brengen maar niet voor de incidentele gebruiker.
+
+Alle AFNOR teksten waar een minister of staatssecretaris zijn of haar  handtekening onder heeft gezet zijn openbaar en via internet gratis te raadplegen. Maar daar moet u wel wat voor doen. In de eerste plaats het programma “File open” voor Adobe Reader installeren op uw pc. Daarna inschrijven op de website van AFNOR. Vervolgens de regelgeving opzoeken die u wilt raadplegen en dan in feite een complete aankoop procedure doorlopen. Met dit verschil dat u eerst op de optie “Consulter” heeft geklikt. Wat er dan op het scherm komt is de integrale tekst die niet kan worden geprint of gedownload.
+
+Voor wie dat nog niet wist: de recente aanpassingen van de elektra wetgeving gingen op 15 mei 2012 van start onder het gesternte “
+Le choc de simplification
+” 
+als aangekondigd
+ door president Hollande. Het eindresultaat is dat de teksten van de NF C 15-100 regels hier en daar wat eenvoudiger zijn geformuleerd en dat onderdelen wat logischer zijn gegroepeerd. Het aantal regels daarentegen is niet echt omlaag gegaan. De financiële footprint voor de aanleg van een nieuwe installatie is eerder groter dan kleiner geworden terwijl het juist de bedoeling was de kosten voor nieuwbouw terug te dringen. Met kritiek op politieke bedoelingen en de vertaalslag naar de praktijk kom je natuurlijk niet ver wanneer je de Consuel vraagt je installatie te keuren, 
+il faut vivre avec les normes en vigueur. 
+Wie geïnteresseerd is in de details zou op een regenachtige zondagmiddag 
+deze discussie 
+nog eens kunnen doorlezen.
+
+Tot slot nog dit: wanneer u er tegenop zou zien om de hele elektrische installatie (meteen) te vernieuwen, het minste wat u zou kunnen doen is zorgen dat de boel voldoet aan een minimum aantal veiligheidseisen. Bij de aankoop van een huis krijgt u bij de notaris een hele serie documenten, ook de zg. 
+diagnostic électrique
+. Samen met dit verhaal van Schneider – 
+Mise en sécurité
+ –  de elektrische installatie kritisch bekijken en (laten) aanpassen.
+
+Overige websites die de moeite waard zijn:
+
+Promotelec
+: nationale voorlichtingsorganisatie.
+
+Meer dan honderd 
+vragen en antwoorden (Promotelec).
+
+www.ideesmaison.com
+
+www.systemed.fr
+
+www.volta-electricite.info
+
+Le-blog-en-électricité
+
+Schéma-électrique
+
+Repère Elec
+
+NewFrenchForum
+
+www.Frenchentree.com
+
+www.maisonbrico.com
+
+Forum-électricité
+
+La-Toile-Électrique
+
+Uitgeverij Eyrolles
+
+ENEDIS informatie
+ over de aansluiting op het stroomnet: 
+panneau de contrôle.
+
+De Consuel inspectie
+ toegelicht door ENEDIS.
+
+Inmiddels nieuwsgierig geworden naar de 
+Nederlandse NEN 1010 normen
+?
+
+Service for the English speaking community in France:
+
+A concise summary
+ of links and books covering the French electrical code.
+
+Winkels / shopping sites:
+
+Castorama
+
+Leroymerlin
+
+Weldom
+
+Bricomarché
+
+Bricodepôt
+
+Materiel-électrique
+
+123-électrique
+
+Bis-électric
+
+Domomat

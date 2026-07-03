@@ -1,0 +1,269 @@
+1.   
+De Franse elektrische installatie
+
+2.   
+De elektriciteitstoevoer en de elektriciteitsmeter
+
+3.   
+De hoofdschakelaar
+
+4.   
+De groepenkast
+
+5.   
+De aarding
+
+6.   
+De leidingaanleg
+
+7.   Speciale schakelingen
+
+8.   
+Losse elektra tips
+
+9.   
+Aanbevolen boeken
+
+10. 
+Aanbevolen websites en de veranderende NF C 15-100 normen
+
+6.1
+. De hotelschakeling (officieel wisselschakeling), hetzelfde lichtpunt met twee schakelaars bedienen, heet in Frankrijk toepasselijk een 
+va et vient circuit. 
+Daar is een aardige variant op, waarmee je met drukknoppen (
+boutons poussoir) 
+een relais bedient. Deze 
+télérupteur –
+ in de groepenkast of in een doorvoerdoos ondergebracht – schakelt dan de lamp in of uit. Kenmerkend voor de mechanische (dus relais) uitvoeringen is de stevige klik die uit de groepenkast klinkt of ergens uit de muur waar hij is ingebouwd. Handig als je eens in kaart wilt brengen waar wat zit van de elektrische installatie, auditief spoorzoeken.
+
+Er is ook een geruisloze elektronische variant te koop, de 
+télérupteur silencieux
+. Iets duurder, gaat langer mee en vooral veel stiller. En met zo’n 
+télérupteur
+ schakeling kun je net zoveel 
+boutons 
+aanbrengen als je zou willen. Wanneer je uit drie of meer punten een lamp wil bedienen, is dit de oplossing. Eenvoudiger aan te leggen, makkelijker uit te breiden  en je bespaart er een hoop draad mee.
+
+Een dubbelpolig en een enkelpolig schakelende télérupteur
+.
+
+6.2. 
+ De elektrische boiler wordt meestal aangesloten via een abonnement met een dag/nachttarief. De 
+heures pleines 
+en de 
+heures creuses
+. Een tariefsoort die sinds stevige prijsverhogingen in augustus 2010 overigens in steeds meer gevallen, zeker voor een tweede huis, duurder kan uitpakken dan de gewone 
+option base
+. Dat vergt wat rekenwerk om te bepalen in welke verbruikssituaties het de moeite loont.  Het in- en uitschakelen van uw 
+chauffe-eau électrique
+ gaat automatisch. Mits daar drie afzonderlijke modules voor zijn aangebracht in de groepenkast. De automatische schakelaar zelf (
+contacteur jour/nuit), 
+een 
+disjoncteur
+ van 2 Ampère die in de schakeldraad (
+fil pilote
+) is opgenomen, en ten slotte een 
+coupe circuit
+ of 
+disjoncteur 
+vanwaar de bekabeling richting de boiler gaat. Op deze 
+contacteur jour/nuit 
+zit meestal een klein schuifknopje, een 
+commande manuelle. 
+Er zijn drie posities: 0 (= uit), auto (= wordt via het EDF dag/nacht signaal in- en uitgeschakeld) en 1 (= hiermee zet u de boiler permanent aan, ook tijdens de dure uren). Punt van aandacht nog: deze dag/nacht schakelaars zijn er in twee types. De ene soort schakelt in bij het ontvangen van het EDF signaal (
+contacteur à fermeture, 
+meestal met een 
+F
+ aangeduid) de andere soort schakelt uit (
+contacteur à ouverture
+, met een 
+O
+ in de aanduiding)! En dat laatste is niet de bedoeling wanneer u van uw goedkope nachttarief wilt profiteren. Let vooral bij bestellingen via internet dus op, welke 
+contacteur jour/nuit 
+u aankruist. Er is zelfs een derde variant, met 1 ‘maak’ contact, en 1 ‘verbreek’ contact. Ze zien er identiek uit, maar hebben gelukkig wel afwijkende type aanduidingen. Slechts één letter of cijfer verschil.
+
+Samenvattend: wat men voor de 
+chauffe-eau 
+nodig heeft, moet zijn uitgerust met twee ‘maak’ contacten, tweemaal 
+fermeture (F/F).
+
+Naast de extra modules die nodig zijn wegens de splitsing tussen licht- en stopcontact groepen nemen ook dit soort modules weer plek in beslag. Het raakt langzamerhand steeds voller in de groepenkast.
+
+Drie modules voor de 
+chauffe-eau
+
+6.3. 
+Een andere ons onbekende bewoner van de Franse groepenkast die niet onvermeld mag blijven is de 
+délesteur
+. Interessant, want daar kan geld mee verdiend worden. Wanneer je voor de verwarming van je huis veel elektrische convectoren, of 
+accumulateurs 
+gebruikt, ga je wanneer alles aanstaat, al snel over de limiet van je aansluiting (
+puissance souscrite
+) heen. En slaat de 
+interrupteur de branchement 
+af. En zit iedereen in het donker, in de kou en raakt de moderne mens vertwijfeld omdat hij of zij het internet niet meer op kan. Dan zit er niets anders op dan bij de EDF een nog zwaardere aansluiting te vragen, waarmee de vaste lasten op jaarbasis wederom verder omhoog gaan. De techniek van de 
+délestage 
+biedt hier uitkomst. Het komt er op neer dat dit apparaat continu in de gaten houdt hoeveel stroom er door de dikke toevoerdraden vanaf de hoofdschakelaar loopt. Komt die te dicht in de buurt van het maximum, dan schakelt de 
+délesteur
+ automatisch 1, 2 of 3 van die grote niet prioritaire stroomverbruikers uit. En even later gaan die dan weer automatisch aan, indien het totale stroomverbruik tenminste wat gedaald is. Ze zijn niet goedkoop: al snel € 200 of meer. Maar over een aantal jaren gerekend spaar je er een hoop vast recht mee uit. En op een gegeven moment heb je deze investering terugverdiend.
+
+De eenvoudige mechanische 
+délesteurs
+ behoren langzamerhand tot het verleden. Daarvoor in de plaats zijn elektronische versies gekomen die werken met een spoeltje (
+capteur
+) dat om de fasedraad bij de hoofdschakelaar wordt bevestigd en het continu gemeten signaal doorgeeft aan de 
+délesteur
+ . En zijn daardoor veel makkelijker in een al bestaande groepenkast onder te brengen. Een voorbeeld van zo’n aanpak met nog wat meer uitleg is 
+op deze website
+ te vinden. Nog een afsluitende opmerking: veel van deze moderne délesteurs hebben schakelcontacten die hooguit 1 ampère aan kunnen. Wil je grotere stroomverbruikers aansluiten dan zit er vaak niets anders op dan een aantal 
+contacteurs
+ (relais)  toe te voegen.
+
+A summary
+ for the English speaking community here in France.
+
+Een 
+délesteur
+, stroomsterkte instelbaar van 15 tot 90, afhankelijk  van de  
+puissance souscrite
+ van  het abonnement.
+
+6.4.
+ Over het onweer en de bliksem hadden we het nog niet gehad. Bliksemafleiders op gebouwen zie je niet zoveel in Frankrijk, maar de noodzaak om met al die bovengrondse elektriciteits- en telefoonleidingen te voorkomen dat dure elektrische- en elektronische apparaten ‘geflasht’ worden, is wel degelijk aanwezig. De oudere generatie op het platteland trekt uit voorzorg nog wel eens de stekkers van de tv uit het stopcontact, maar de jongere generatie zou met hun kudde elektronica daar een halve dagtaak aan hebben, dus dat moet anders. Voor het sterkstroom-gedeelte kunnen er speciale overspanningsbeveiligers in de groepenkast gemonteerd worden, aangeduid als een 
+parafoudre
+. Die worden zo dicht mogelijk bij de stroominvoer gemonteerd, en gaan met een zo kort mogelijke draad naar het centrale aardpunt. Er zijn verschillende types verkrijgbaar. In sommige regio’s van Frankrijk kan de EDF een 
+parafoudre 
+verplicht stellen, afhankelijk van lokale omstandigheden. Wanneer er ergens een bliksemafleider op het dak staat, een 
+paratonnerre
+, is het sowieso verplicht de elektrische installatie op die manier te beveiligen. Er zijn ook andere spullen te koop. Van contactdozen die claimen dat ze hoogspanningspieken de baas kunnen, mag je echter niet al te veel verwachten. Er zijn er blijkens testen door consumenten-organisaties maar een paar die redelijk zijn, de rest helpt beslist niet wanneer het serieus wordt. En dat is een onweer op het Franse platteland zeker. Omdat ook de telefoonleidingen het huis binnenkomen, en via de modem op de pc zijn aangesloten, kan de kersverse pc of laptop ook langs die weg onheus bejegend worden met extreme spanningspieken. Betrokkene delft daarbij meestal het onderspit. Een enkele keer valt de schade nog mee: alleen de modem of de netwerkkaart (of netwerkchip op het moederbord) kapot. Dat valt bij desktop pc’s – hoe lang zijn die nog verkrijgbaar? – tenminste nog te repareren: nieuw netwerkkaartje er in. Maar op zo’n toevalstreffer zou ik maar niet hopen. Ook hier zijn beveiligingen voor, 
+parafoudres téléphonique, 
+maar beter is het ’t zekere voor ’t onzekere te nemen en de telefoonkabel, netwerkkabel of USB-kabel er gewoon maar uit te trekken. En misschien voortaan ook maar back-ups maken. Altijd een goed voornemen.
+
+Parafoudre
+ systeem
+
+6.5.
+  Voor de elektrische verwarming zijn geavanceerde besturingssystemen beschikbaar. Een 
+gestionnaire d’énergie 
+met diverse binnen- en buiten temperatuurmeters (
+sondes) 
+kunnen in samenwerking met een soort afstandsbesturing vanuit het stroomnet (bij het 
+Tempo 
+abonnement) zo zuinig mogelijk omgaan met de elektriciteit. Vaak zijn deze systemen afgestemd op verhoging van het comfort voor de gebruiker, en is het soms lastig om delen van het verwarmingsyteem helemaal uit te schakelen. En gaat de beloofde energiewinst helaas in CO2 emissie rook op. Iets eenvoudiger zijn de systemen waarbij met behulp van een programmeerbare tijdklok (
+horloge de programmation
+) diverse verwarmingszones op bepaalde tijden van stroom kunnen worden voorzien. De bediening van de diverse drukknopjes is vaak niet intuïtief te noemen, en de schriftelijke instructies (indien nog aanwezig) vergen een langdurige bestudering.
+
+Over het aansluiten van de in Frankrijk zo alom tegenwoordige elektrische radiatoren nog het volgende. In december 2002 mocht de Franse installatiebranche in een persbericht van Schneider vernemen dat Sinterklaas dit land niet had overgeslagen in zijn cyclische drang tot vrijgevigheid. De op 5 december gepubliceerde nieuwe versie van de NFC 15-100 normen “
+voit disparaître la limitation du nombre de convecteurs sur un même départ”. 
+Toen kwam een einde aan de regel: iedere 
+convecteur
+ zijn eigen 
+circuit
+ en 
+fusible/disjoncteur
+. Inhoud van de surprise: 
+nombre d’appareils limité par la somme des puissances
+.
+
+Het aansluitmodel is dus:  één 
+circuit specialisé
+/
+disjoncteur
+ —-> één of meer 
+convecteurs
+, aan te sluiten via een 
+sortie de câble
+.  Want de aanvoerbedrading mag niet rechtstreeks uit de muur of vanachter het gipsplaat te voorschijn komen.
+
+Elektrische radiator met 
+sortie de câble
+.
+
+6.6.
+ Nog iets over die nieuwe aansluiting voor het verlichtingspunt midden in de kamer, de 
+DCL
+.: 
+Dispositif de Connexion Luminaire
+.  Als vervanger van de bekende kroonsteentjes. De Franse elektriciens waren  er aanvankelijk niet onverdeeld enthousiast over. Vallen inbouwspotjes nu buiten de normen en zijn dus niet meer toegestaan? En hoe moet je in oudere huizen bij een renovatie waar je nog een beetje eerbied voor het 
+patrimoine 
+wilt hebben in hemelsnaam voldoen aan deze norm? En hoe trek je er een aardedraad bij in al eerder gerenoveerde huizen waar alles is weggewerkt achter gipsplaat?  Kortom: alles wat de wet voorschrijft is in de praktijk niet altijd realiseerbaar.
+
+Geleidelijk aan ook steeds meer 
+positieve geluiden. Een verademing. Eindelijk 
+luminaires
+ makkelijk ophangen. En voor wandarmaturen zijn er speciale 
+DCLs murales
+: geen gepruts meer met draden die je nooit goed in de voet van het armatuur weggestopt krijgt. Voor verbouwingswerkzaamheden bestaan er aangepaste 
+douilles de chantier
+: meteen licht op je verbouwingswerkzaamheden of bij een verhuizing.
+
+Om aan de bouwtechnische hindernissen die vanuit de elektra installatiebranche werden gesignaleerd tegemoet te komen zijn (eindelijk) in het recente Amendement 5 de regels versoepeld. De meest kernachtige samenvatting van die nieuwe uitzonderingsregels kwam ik bij Legrand tegen, in de 
+version originale
+ aldus op een rijtje gezet:
+
+* s’il n’est pas possible d’intégrer ou de rajouter une boîte de connexion 
+pour luminaire dans le support.
+
+Exemples: dalle béton, plancher acier…
+
+• si l’alimentation terminale à connecter au luminaire est apparente.
+
+   Exemple: applique salle de bain alimentée sous moulure.
+
+• si le luminaire dispose de son propre boîtier de raccordement.
+
+   Exemple: spot encastré disposant de sa propre boîte de connexion.
+
+• si la surface d’appui et/ou le dispositif de fixation d’un luminaire installé 
+en applique a un diamètre inférieur à    celui d’une boîte luminaire.
+
+DCL: 
+une boîte luminaire pour point de centre.
+
+6.7.
+ Om deze inleiding af te sluiten nog een paar speciale Franse termen. Een tijdklok: een 
+minuterie
+. Dit is een 
+eenvoudig type
+ voor verlichting in een trapportaal die na een paar minuten wordt uitgeschakeld. Meer
+ 
+mogelijkheden met de 
+interrupteur horaire
+. En alles wat met uw voordeurbel te maken heeft: 
+sonnerie. 
+Omdat de voordeurbel alleen maar met een veilige lage spanning ( 8 à 12 Volt) mag werken, hebt u dan een 
+transformateur de sonnerie
+ nodig, de drukbel zelf 
+bouton-poussoir 
+en de bel: een 
+sonnette, 
+of een 
+carillon 
+of een 
+ronfleur 
+(zoemer). De algemene term voor een aansluiting: 
+raccordement. 
+Een dimmer: 
+variateur 
+of 
+gradateur. 
+De op afstand bedienbare bedienbare dimmer: 
+télévariateur. 
+
+Prise de courant modulair
+
+Wat nog makkelijk kan zijn als extra stroomaansluiting zijn een paar extra stopcontacten in de groepenkast zelf: 
+prises de courant modulaire. 
+Voor nieuwe installaties een verplicht onderdeel van de GTL
+. 
+Dan kan daar bijvoorbeeld een modem worden aangesloten. Netjes uit zicht. Taalverwarring: de Franse elektricien, hij volgt gezagsgetrouw het stroomschema van boven naar beneden, heeft het over groepen of apparaten die ergens onder (
+sous) 
+geplaatst worden, hetgeen soms tot misverstanden aanleiding geeft. Maar ik heb helemaal geen ruimte om dat apparaat hieronder de groepenkast neer te zetten!
+
+En helemaal als uitsmijter, waar een renovatieproject of nieuwbouw mee begint: een voorlopige aansluiting heet een 
+branchement provisoire
+, en daar heb je een bouwaansluiting voor nodig, een 
+coffret de chantier
+. De elektra-installateur heeft hem, en anders zijn ze te koop, te huur, en ook zelf te vervaardigen. Op internet zijn diverse bouwbeschrijvingen en aansluitschema’s te vinden. Maar vraag dan wel even bij het eigen regionale ENEDIS-kantoor welke eisen ze er precies aan stellen. En reken er niet op dat je vele jaren ongestoord van je bouwaansluiting kunt blijven genieten. In principe is het een tijdelijke aansluiting voor een half jaar, kan verlengd worden, en misschien wel vaker dan één keer. Maar zo lang als dat tot voor kort nog gerekt kon worden, dat is verleden tijd. Lokale autoriteiten hebben te veel last gekregen van half illegale bouwactiviteiten die langzamerhand de status van officiële woning kregen, dus er is sinds begin 2012 veel scherper toezicht.
+
+Terug naar de hoofdpagina

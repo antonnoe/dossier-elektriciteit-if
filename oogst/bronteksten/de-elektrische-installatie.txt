@@ -1,0 +1,78 @@
+1.   De Franse elektrische installatie
+
+2.   
+De elektriciteitstoevoer en de elektriciteitsmeter
+
+3.   
+De hoofdschakelaar
+
+4.   
+De groepenkast
+
+5.   
+De aarding
+
+6.   
+De leidingaanleg
+
+7.   
+Speciale schakelingen
+
+8.   
+Losse elektra tips
+
+9.   
+Aanbevolen boeken
+
+10. 
+Aanbevolen websites en de veranderende NF C 15-100 normen
+
+De Franse elektrische installatie is iets waar je als Nederlander even aan moet wennen. De moderne groepenkasten zien er soms wat intimiderend uit: veel meer groepen dan we gewend zijn, en modules waarvan je het bestaan nooit vermoed zou hebben, met Franse benamingen die je niet meteen terugvindt in het woordenboek. Of je staat oog in oog met een groepenkast uit de jaren vijftig: een houten plank met daarop kleine zekeringhoudertjes, waarvan je even denkt dat het een achtergebleven stuk kinderspeelgoed is, totdat je ziet dat er echte stroomdraden aan vast zitten. En je een vaag vermoeden krijgt hoe de rest van de leidingen daar in de loop der jaren – onnavolgbaar voor de nieuwkomer – aan is vastgeknoopt.  En je daarna duidelijk wordt waar vroeger die bordjes 
+sèche-cheveux interdit
+ in eenvoudige hotels voor dienden. Niet om de global warming tegen te gaan, maar om local warming te voorkomen.
+
+Nog steeds voldoen veel Franse huizen niet aan standaard veiligheidseisen voor de elektrische installatie, en heel wat branden zijn daar helaas het gevolg van. Op een totaal van 250.000 branden in particuliere woningen is bij 80.000 ervan de oorzaak gelegen in problemen in de elektrische installatie. Op jaarbasis tikt dat toch behoorlijk aan, dus alle reden om niet al te nostalgisch tegen o zo authentieke Franse  bedrading of antieke schakelaars aan te blijven kijken. Zo snel mogelijk vervangen door iets nieuws, voor uw eigen veiligheid.
+
+Dat het er allemaal wat anders uitziet, komt ook door de Franse normen. De Franse elektrische installatie – bij nieuwbouw en totale renovatie – dient te voldoen aan de zogenaamde 
+NFC 15-100
+ normen. In Nederland kennen we de NEN 1010 normen, in Duitsland de DIN-VDE 0100 normenreeks, in het VK de BS 7671 “Requirements for electrical installations”, en aan de overkant van de Atlantische Oceaan doen ze het in de VS weer anders met de National Electrical Code (NEC). Veel verschillen met in ieder geval één gemeenschappelijk punt: ieder land stelt het op prijs wanneer elektrische installaties volgens de eigen nationale normen worden ingericht. Die Franse normen gelden voor de manier waarop de installatie moet worden aangelegd, en deels ook voor de gebruikte materialen. Die moeten in bepaalde gevallen dan naast het CE keurmerk ook het NF-merk hebben. Wanneer je tenminste wil dat een nieuwe installatie wordt goedgekeurd door de streng controlerende 
+Consuel
+. Want zonder goedkeurende 
+attestation
+ van deze organisatie krijgt u geen aansluiting op het stroomnet. Een bestaande installatie hoeft niet te worden herkeurd wanneer er een andere eigenaar intrekt. De zogenaamde 
+diagnostic électrique 
+die weliswaar verplicht is bij de verkoop van onroerend goed heeft alleen een voorlichtende functie ten behoeve van de aspirant koper. Geen verplichting voor de verkoper om het vóór de datum van overdracht allemaal op orde te hebben gebracht. En ook geen verplichting voor de koper om als nieuwe eigenaar voor een bepaalde datum alles “op norm” te brengen. De elektra wetgeving is niet retroactief. Hoewel, er begint een beetje verandering in te komen: wanneer een woning voor 
+permanente verhuur
+ (geen vakantieverhuur) gebruikt gaat worden dan is de diagnostic électrique minder vrijblijvend. Maar wettelijke verplichting of niet, wanneer er duidelijke veiligheidsproblemen zijn, ondeugdelijke of ontbrekende aarding, bedrading met katoenen isolatie (soms nog in ijzeren elektrabuis), geen enkele aardlekschakelaar, zekeringhouders uit grootvaders tijd, ondeugdelijke schakelaars en stopcontacten, dan is het toch de hoogste tijd om actie te ondernemen.
+
+Deze inleiding is in de eerste plaats bedoeld om de huizenbezitter wegwijs te maken in de manier waarop de elektrische installatie in Frankrijk wordt aangelegd, en wat de Franse benamingen zijn voor alles wat je daarbij tegen kan komen. Voor het verhelpen van eenvoudige storingen is dat nooit weg. En mocht iemand overwegen om een installateur langs te laten komen voor een reparatie of uitbreiding, dan praat het toch wat makkelijker en kun je een offerte beter beoordelen.
+
+In de tweede plaats is het bedoeld om de 
+bricoleurs 
+met wat elektra-ervaring te laten zien wat de voornaamste verschillen zijn met de Nederlandse aanpak (de Belgische ken ik niet), en wat de hoofdprincipes zijn om bij uitbreiding of renovatie te volgen. Het accent ligt op de enkelfasige aansluiting (
+monophasé
+). De driefasen aansluiting (
+triphasé
+)  is meer iets voor de gevorderden. Tussen de drie fasedraden onderling staat een spanning van maar liefst 400 Volt en dan moet je wel heel goed weten wat je doet. Ook al bedraagt de spanning tussen elke fase en de  nul ‘slechts’ de gewone 230 volt.
+
+Een veelgestelde vraag: mag dat allemaal zomaar, zelf bezig gaan met je elektrische installatie? Het antwoord is kort en bondig: ja. In heel wat Europese landen, het VK, Zwitserland, Zweden, mag dat alleen door een “registered electrician” gebeuren. Frankrijk is op dit punt gelukkig eens wat liberaler. Ook de niet professional mag dat doen. Kijk voor de aardigheid maar eens in de jaarverslagen van de CONSUEL, de organisatie die in Frankrijk belast is met de inspecties van nieuw aangelegde elektrische installaties.  Er zijn twee afzonderlijke rapporten: voor de “
+Installations de Consommation
+” en voor de “
+Installations de Production
+” (inclusief zonnepanelen).  Ze  geven een aardig inzicht per regio in de ontwikkeling van de bedrijvigheid aan de hand van het aantal aangevraagde keuringen. Soms staan er ook gegevens in over de meest gemaakte fouten die geconstateerd werden. In de sector van de 
+logements individuels
+ werd in 2014 door ruim 39.000 particulieren en ruim 130.000 professionals een zg. 
+attestation 
+aangevraagd voor een huisinstallatie, 
+zie deze tabel.
+ De erkende elektra installateurs worden steekproefsgewijs gecontroleerd, de overige aanvragers (particulieren en professionals uit andere bedrijfstakken) krijgen altijd een controle bezoek. Wanneer een bestaande installatie wordt uitgebreid is niet per se een CONSUEL keuring nodig tenzij het een totale renovatie betreft. Maar ook bij kleinere aanpassingen is het toch wel verstandig om dat volgens de laatste normen te doen
+
+Tot slot, niet onbelangrijk wanneer je met nieuwbouw of een totale renovatie bezig gaat. De elektra normen worden voortdurend aangepast. Voor bestaande installaties geldt dat ze minimaal moeten voldoen aan de regels die van kracht waren bij de oplevering. Verbeteren mag, maar is niet wettelijk verplicht.  Inmiddels zijn we sinds medio 2015 bij Amendement 5 aangekomen. Daarin heel wat wijzigingen. Zo zijn zekeringen niet meer toegestaan, zijn de regels voor de badkamer aangepast, zijn de oude “
+décompte
+” regels voor het minimum aantal stopcontacten vervallen en zijn de oude oppervlakte regels om te bepalen hoeveel aardlekschakelaars je nodig hebt verdwenen. Daarvoor in de plaats nu een maximum van acht groepen per aardlekschakelaar, rekening houdend met het aangesloten vermogen. In de praktijk betekent dit al snel dat je een dure 
+interrupteur différentiel
+ nodig hebt die maximaal 63 ampère kan verwerken, en niet de tot nu toe gebruikelijke 40 ampère types.  Gebleven is de verplichting tot de aanleg van een bedraad netwerk voor telefoon en internet toepassingen met een eigen 
+boîte de communication 
+in de GTL, de moderne groepenkast.
+
+Deze inleiding besteedt zowel aandacht aan de “oude” normen die nog steeds bruikbaar zijn voor verbeteringen aan bestaande installaties, als aan de veranderingen die zijn geïntroduceerd met de laatste wijzigingen in 2015 (Amendement 5). Waar nodig zijn die in de diverse hoofdstukken verwerkt. In een apart hoofdstuk wordt het onderwerp van de veranderende normen behandeld met verwijzingen naar meer gedetailleerde informatie op internet en in boekvorm.

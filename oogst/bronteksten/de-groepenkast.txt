@@ -1,0 +1,471 @@
+Deze kennis werd gedeeld door Rob van de Meulen.
+
+1.   
+De Franse elektrische installatie
+
+2.   
+De elektriciteitstoevoer en de elektriciteitsmeter
+
+3.   
+De hoofdschakelaar
+
+4.   De groepenkast
+
+5.   
+De aarding
+
+6.   
+De leidingaanleg
+
+7.   
+Speciale schakelingen
+
+8.   
+Losse elektra tips
+
+9.   
+Aanbevolen boeken
+.
+
+10. 
+Aanbevolen websites en de veranderende NF C 15-100 normen
+.
+
+3.1
+. In de oudste groepenkasten die je tegen zou kunnen komen – een houten plank met ‘kinderspeelgoed’ erop – zitten zekeringen die bestaan uit een miniatuur porseleinen houder waar aan de onderkant een stukje weerstandsdraad is vastgeschroefd (
+coupe circuit à tabatière
+). Om nog even door te gaan met deze historische toelichting: een 
+tabatière
+ is, of beter gezegd was, een snuifdoos. Een klein wit porseleinen doosje met een dekseltje. De modellen die daarna hun entree maakten, zijn de 
+porte-fusibles à broches 
+en de 
+porte-fusibles à 
+cartouche. 
+Met kleine smeltzekeringen van het type zoals dat in elektronische apparaten wel wordt gebruikt. Hier past slechts één advies: onmiddellijk slopen en (laten) vervangen door een moderne groepenkast. Soms worden ze op een 
+vide-greniers 
+nog wel eens aangeboden, dit soort oude groepenkasten. Maar dan moet de potentiële koper wel erg romantisch of nostalgisch zijn, om dit soort antiek te kopen. Maar wie weet levert het nog een paar euro op, je weet maar nooit.
+
+3.2.
+ In sommige delen van Frankrijk (vooral in de Elzas) zijn ook de ons bekende ronde stoppen (schroefzekeringen en in officieel taalgebruik smeltveiligheden geheten) een aantal jaren toegepast. Al behoorlijk wat veiliger, zeker in combinatie met aardlekschakelaars, maar inmiddels ook niet meer van deze tijd.
+
+Unipolaire 
+coupe-circuits
+
+3.3.
+ Meer van deze tijd zijn de modulaire 
+coupe-circuits
+, die in de modernere groepenkast eenvoudig op de daarin gemonteerde draagrail (DIN-rail) kunnen worden vastgeklikt. Ze dienen voorzien te zijn van het NF-USE keurmerk, en zijn verkrijgbaar in vijf verschillende stroomsterktes: 10, 16, 20, 25 en 32 A. De inwendige afmetingen van deze modules zijn verschillend. Zo voorkom je dat je een te zware zekering gebruikt, maar het is altijd weer even zoeken voor je de juiste zekering te pakken hebt als er wat misgaat.
+
+Moderne 
+bipolaire coupe-circuits
+
+En aan de buitenkant van deze 
+coupe-circuits 
+zie je niet onmiddellijk welke zekering het begeven heeft, tenzij u het bedradingsschema in de groepenkast heeft liggen of uit uw hoofd kent, wat slechts sporadisch voorkomt. De eerste generatie van deze 
+coupe-circuits 
+schakelde bij het openklappen van de zekeringhouder alleen de rode fasedraad (
+phase
+) uit. Dat heet een 
+protection unipolaire. 
+In zo’n groepenkast zitten dan ook alle blauwe draden (
+neutre
+) op één koperen klemmenblok vastgeschroefd. Dat mag niet meer. Het moet nu een 
+coupe-circuit phase et neutre 
+zijn, die beide draden onderbreekt. Een 
+protection bipolaire.
+
+Van links naar rechts: een unipolaire zekeringhouder, een unipolaire disjoncteur, een bipolaire zekeringhouder, een standaard bipolaire disjoncteur en tenslotte een bipolaire disjoncteur met een dubbele stroombeveiliging. Niet alleen in de 
+phase
+, maar ook in de 
+neutre
+.
+
+Ooit was het de goedkoopste manier om een groepenkast in te richten, met zekeringen. Voor een nog oudere generatie al te duur, die was gewend met 
+weerstanddraad
+  
+un plomb sauté
+ zelf te repareren. Maar ook hier werden de normen aangescherpt: sommige apparaten mochten niet meer  met een zekering worden beveiligd, alleen nog maar met een automaat (een 
+disjoncteur 
+van 2 Ampère voor een 
+VMC 
+ventilatie systeem).
+
+Het tijdperk van de zekeringen loopt langzamerhand ten einde. Na de laatste aanpassingen van de Franse elektra wetgeving (Amendement 5) zijn die niet meer toegestaan voor nieuwbouw.
+
+Franse 
+disjoncteur
+
+3.4.
+ Geheel eigentijds, en met de invoering van het Amendement 5 verplicht voor nieuwbouw, zijn de automaten (
+disjoncteurs
+). Montage in een groepenkast die voorzien is van een metalen of kunststof DIN-rail. Ook hier hetzelfde verhaal als bij de 
+coupe-circuits
+ hierboven: de eerste lichtingen schakelden enkelpolig (alleen de fase), de huidige modellen schakelen dubbelpolig (
+phase + neutre
+). En alleen die mogen volgens de NF C 15-100 normen gebruikt worden, mits ze het NF-USE-merk hebben. Gangbare stroomsterktes: 2, 10, 16, 20, 25 of 32 Ampère. Behalve dat ze wat duurder zijn, zijn ze ook betrouwbaarder dan hun soortgenoten die met zekeringen zijn uitgerust. De in Frankrijk standaard toegepaste 
+disjoncteurs
+ hebben een zogenaamde C-karakteristiek, de Nederlandse automaten voor huisinstallaties schakelen bij overbelasting vanwege hun B-karakteristiek iets sneller uit. Voor apparaten die bij inschakelen heftige piekstromen trekken zoals zware elektromotoren kun je beter een automaat met een D-karakteristiek gebruiken (
+courbe D
+).
+
+En nog een voordeel: wanneer een groep door overbelasting of een kortsluiting uitgeschakeld wordt, zie je in de groepenkast meteen welke het is. Het schakelaartje (
+manette
+) van de 
+disjoncteur
+ is dan naar beneden geklapt. En je hoeft geen nieuwe zekering te zoeken of te kopen. Bij deze 
+disjoncteurs
+ worden zowel de stroomtoevoerdraden (al dan niet met een aansluitstrip) als de de 
+départ 
+draden vastgeschroefd. Maar met gevoel. Draai je ze te vast, dan loop je het risico dat je de schroefgang van de aansluiting beschadigt. Dat merk je vanzelf: opeens draait het soepel door. En zit de aan te sluiten draad niet vast, en de module is meteen onbruikbaar. En te los is ook niet goed. Ergens er tussen in dus. Sommige merken hebben mijn voorkeur: die kun je genadeloos aandraaien, en geven geen krimp. Andere doen al moeilijk wanneer je ze maar even iets te vast aandraait. Voor de perfectionisten de volgende elektriciens tip: haal met de striptang twee keer zoveel isolatie van het draadeinde af, en buig die ruim twee centimeter koper vervolgens in een kleine U vorm met combinatie- of puntbektang. De aandrukkracht in de aansluiting wordt nu gelijkmatiger verdeeld, en de overgangsweerstand gehalveerd. De enkele koperen draadeindjes willen als ze net niet vast genoeg zitten wel eens verschuiven of los gaan zitten wanneer je er bij vervolgwerkzaamheden in de groepenkast tegenaan komt. Maar dit is dus ook merkafhankelijk: niet de allergoedkoopste merken aanschaffen zou ik zeggen.
+
+De automaten met ‘snel-verbindingen’ (simpelweg insteken) maken langzamerhand hun entree in de Franse bouwmarkten. Zo’n model wordt dan aangeduid met termen als: 
+départ clip sans vis
+. Of met begeleidende teksten als: 
+rapidité de mise en oeuvre par insertion directe et sans serrage des conducteurs.
+ Werkt wat sneller, maar voor de 
+bricoleur
+ telt dat minder zwaar, het is geen aangenomen werk, je doet het immers voor je plezier en om van Frankrijk te genieten. Nog meer efficiency voor de nieuwbouw: automaten voor zg. 
+Busboard systemen
+ zoals die van ABB (Nederland) zul je hier niet snel tegenkomen.
+
+Het inwendige van een groepenkast
+
+Gelukkig is de grootte van de modules wel gestandaardiseerd: de breedte is ongeveer 18 mm voor een enkele module. Maar waar in de standaard Nederlandse groepenkast 12 modules op één rij kunnen worden bevestigd, biedt de Franse groepenkast plaats aan 13 modules. Er zijn ook uitvoeringen waar u er 18 stuks per DIN-rail kwijt kunt. En dat is maar goed ook, want zelfs een groepenkast met twee rijen van dertien is binnen de kortste keren vol. En voor nieuwbouw geldt dat je rekening moet houden met toekomstige uitbreidingen: er moet bij oplevering en keuring van de installatie minimaal 20 procent extra lege ruimte te zijn.
+
+Interrupteur différentiel
+
+3.5.
+ En dan nu de aardlekschakelaar, de 
+interrupteur différentiel
+. Ook wel aangeduid als DDR (
+Détection Différentielle à courant Résiduel
+). Deze aardlekschakelaars zijn volgens de normen van NF C 15-100 verplicht in nieuwbouw en bij renovatie. En voor de eigen veiligheid ook beter maar aan te brengen in bestaande installaties, zeker voor badkamers en keukens. Wanneer er zich een lekstroom van 30 milli-ampère of meer voordoet – een defect snoer van de haardroger, en tegelijkertijd raak je de kraan aan – dan schakelt de aardlekschakelaar razendsnel de stroom uit naar alle groepen die daarop zijn  aangesloten. Dat spaart mensenlevens. Let wel: volgens de nieuwe normen moet alles wat in huis is aangesloten via een aantal van zulke 30 milli-ampère aardlekschakelaars lopen., minimal twee stuks.
+
+Tot verbazing van sommigen heeft de huidige aardlekschakelaar helemaal geen aarde aansluiting nodig om te kunnen functioneren, ook niet wanneer je de test knop indrukt. Het enige dat hij doet is met behulp van een aantal spoeltjes een mogelijk stroomverschil meten tussen binnenkomende en uitgaande stroom (de fase en de neutrale draad). Die moet gelijk zijn. Wanneer u met een defecte haardroger in de hand op de natte badkamervloer een poging doet dat evenwicht te verstoren door via uw lichaam elektronen vrij baan naar aarde te bieden, dan grijpt de aardlekschakelaar in. Met een gevoelig elektro-mechanisch schakelmechanisme. Om te zorgen dat dit niet vast gaat zitten moet u eenmaal per maand op de testknop drukken. Weinigen doen dat, maar die minuut tijd die daar mee is gemoeid zou wel eens een goede investering in uw eigen veiligheid kunnen zijn.
+
+Testknop van aardlekschakelaar in werking: met het ingebouwde weerstandje van  3300 Ohm kan  een foutstroom worden opgewekt van ongeveer 70 mA, ruim  boven de 30 mA grens.
+
+Vanuit de hoofdschakelaar gezien zijn de ID’s de eerste modules die van stroom worden voorzien. In de groepenkast zijn daar twee grote aansluitstrippen (
+borniers) 
+voor gemonteerd. Een rode voor de 
+phase
+, en een blauwe voor de 
+neutre
+. Daarop komen de dikke stroomdraden vanaf de hoofdschakelaar binnen, en daarvandaan gaan tevens de toevoerdraden naar de verschillende aardlekschakelaars (
+interrupteurs différentiels 
+of 
+dispositifs differentiéls).
+ En op deze aardlekschakelaars worden dan vervolgens de diverse 
+disjoncteurs 
+aangesloten, die als groepsschakelaar en beveiliging dienen voor alles wat daarop volgt aan bedrading en apparatuur. Daarom worden het ook wel 
+disjoncteurs divisionnaires 
+genoemd.
+
+Franse groepenkast voor “
+un petit studio
+“.
+
+3.6.
+ Er zijn grofweg twee types 
+interrupteur différentiel (ID)
+: het standaard type AC, en het stabielere type A voor wat moeilijke belastingen, zoals de wasmachine (
+lave linge
+) en de kookplaten op het fornuis (
+plaques de cuisson
+). En die moeten 40 Ampère aankunnen. Een jaar of vijftien geleden kon je nog volstaan met één 25 Ampère-type voor de badkamer, maar de veiligheidsnormen zijn behoorlijk aangescherpt. De hele installatie moet nu door aardlekschakelaars worden beveiligd. En soms, voor wat grotere vloerverwarmingssytemen bijvoorbeeld, heb je er een nodig van 63 Ampère. En die zijn helaas nogal prijzig. Met de nieuwe rekenregels voor het  maximaal  aan te sluiten vermogen op aardlekschakelaars  wordt het 40 Ampère type langzamerhand verdrongen door de 63 Ampère variant.
+
+Deze wat zwaardere ID van 63 ampère wordt ook wel toegepast om in zijn eentje een hele installatie te beveiligen, als een snelle oplossing of wanneer het geld ontbreekt om de hele installatie te vernieuwen. Want bij het op de schop nemen van een oude elektrische installatie loop je al snel op tegen het gegeven dat de neutrale draden overal met elkaar verbonden zijn. Te beginnen in de groepenkast en daarna verderop in de bedrading. En voor een goede werking van aardlekschakelaars is het essentieel dat zij geen ‘zicht’ hebben op bedrading en groepen die achter een andere ID zijn aangesloten. Vaak uren zoek- en ontvlechtwerk.
+
+Wat de mechanische uitvoering betreft kom je ze in drie verschillende behuizingen tegen, met elk hun eigen manier van aansluiten in de groepenkast.
+
+Model 1:
+  hier komt de stroomtoevoer aan de bovenkant binnen, en vanaf de onderkant gaat het dan weer terug omhoog naar de eerste zekeringhouder of automaat. In het Frans: 
+alimentation par le haut, départ par le bas
+.
+
+Model 2
+: stroomtoevoer aan de onderkant, voeding van de zekeringhouders of automaten via de bovenkant. In dit geval met de tijdbesparende 
+peignes de raccordement
+. 
+Alimentation par le bas, départ par le haut
+.
+
+Model 3:
+ stroomtoevoer naar de aardlekschakelaar en voeding van de modules beide aan de bovenkant.
+ Alimentation par le haut, départ par le haut
+. In de  nieuwste serie van Legrand zijn dit speciale verticale aansluitstrips voor de voeding van modules op de diverse DIN-rails, in de iets oudere series gebeurde dat nog met draad.
+
+Waar je in Nederland al redelijk uit de voeten kunt met twee aardlekschakelaars (maximaal 4 groepen per aardlekschakelaar) om een middelgroot huis volgens de Nederlandse NEN 1010 normen te voorzien van elektriciteit, in Frankrijk is dat het startpunt voor de eisen. Bij een bewoonbare oppervlakte (
+surface habitable
+) van minder dan 35 m² zijn twee aardlekschakelaars verplicht (één van het type A, de ander AC), tussen de 35 en 100 m² zijn dat er drie (1 x A, 2 x AC) en bij meer dan 100 m² minimaal vier stuks (1 x A, 3 x AC). Deze oppervlaktenormen zijn in het Amendement 5 komen te vervallen. Het aantal in nu alleen afhankelijk van de omvang van de elektrische installatie, met een minimum van twee.
+
+Overigens mogen die van het type AC rustig worden vervangen door die van het type A. Die AC is dus geen dwingend voorschrift, was in het verleden  goedkoper. En mag in Nederland volgens de NEN1010 normen al sinds april 2000 niet meer worden toegepast in nieuwe installaties.  Nu het type AC in diverse EU landen langzaam maar zeker verdwijnt, want niet opgewassen tegen alle elektronica, is het eigenlijk verstandiger om voor die paar euro meer maar meteen overal het type A te monteren.
+
+Achter zo’n aardlekschakelaars mogen volgens de Franse normen meer dan vier 
+disjoncteurs 
+(maximum in Nederland) worden aangesloten. Zes of zeven is heel gebruikelijk, en ik ben ook al installatietekeningen tegengekomen van een grote Franse fabrikant waar er in totaal acht waren ingetekend. En daarop is het maximum aantal nu gemaximeerd in Amendement 5. Niet verwonderlijk wanneer je de licht- en stopcontactgroepen moet scheiden. Vandaar dat de groepenkasten in Frankrijk behoorlijk wat groter uitvallen dan we in Nederland gewend zijn.
+
+Nog even iets over de foto hierboven van een kleine Franse groepenkast. Wat hangt daar allemaal aan? Het is 
+seulement un petit studio
+ zouden de Fransen zeggen, minder dan 35 m² oppervlakte, een gastenverblijf. Een redelijk ruime zit/slaapkamer met mini-inbouwkeukentje, een elektrische verwarming, een douche, de gang, een kleine werkkamer (
+atelier
+) en een elektrische boiler voor het warme water. Niet overdreven veel, maar in de groepenkast tikt dat toch aardig aan. En dat is dan nog 
+la solution minimale
+ wordt mij vrolijk meegedeeld in de gids van een Franse fabrikant. Maar van hem kan ik natuurlijk nooit genoeg kopen, er valt altijd wel iets te verbeteren of uit te breiden. Nog een extra 
+disjoncteur différentiel
+ voor bijvoorbeeld een wasmachine. Zou daar wat mis mee gaan, dan blijft de rest van de verlichting en de stopcontacten het gewoon nog doen. En dat zorgt dan voor een 
+meilleur confort d’exploitation
+.
+
+3.7.
+ Om het nog wat ingewikkelder te maken bestaat er ook een mengvorm van aardlekschakelaar en automaat: de 
+disjoncteur différentiel.
+ In Nederland ook wel alamat genoemd, aardlek automaat. Die staat in het stroomschema gezien op hetzelfde niveau als een aardlekschakelaar. Maar dan zonder 
+disjoncteur 
+er achter, want die functie neemt hij ook voor zijn rekening. Dit type wordt toegepast om bijvoorbeeld alleen een vrieskist aan te sluiten, een alarmsysteem of een computer. Op die manier komt zo’n apparaat niet zonder stroom te staan wanneer er ergens anders een aardlekschakelaar uitklapt. Want in de standaardsituatie deel je met een stel andere groepen dezelfde aardlekschakelaar: gaat er in één van die groepen wat mis, dan schakelt die aardlekschakelaar alle groepen uit. Voor de perfectionisten of degenen die bang zijn de inhoud van vrieskist of harde schijf kwijt te raken, er zijn ook zeer storingsbestendige uitvoeringen te krijgen. Dat soort 
+disjoncteurs
+, en ook de storing-bestendige 
+interrupteurs différentiels
+, krijgen dan toevoegingen mee als Hpi, Hi of Si. Waarbij Hi dan bijvoorbeeld de afkorting is voor 
+haute immunité.
+
+Franse aansluiting: 
+alimentation
+ boven, 
+départ 
+onder
+
+3.8.
+  Behalve taalverschillen zijn er ook behoorlijk wat materiële verschillen tussen de Nederlandse en Franse groepenkast, de inhoud daarvan, en de manier van aansluiten. Om met het simpelste te beginnen: de Franse groepenkast is iets breder: er passen in totaal dertien modules in, dat is één meer dan in Nederland. En ook al wonen we met z’n allen in de Europese Unie, de standaardisatie houdt vaak op bij onze landsgrenzen. Neem nu de 
+disjoncteur. 
+Op het eerste gezicht zou je zeggen: identiek aan wat ik in de Nederlandse doe-het-zelf zaak in de schappen zie liggen. Toch niet. Bij de Nederlandse uitvoering vindt de stroomtoevoer aan de onderkant van de modules plaats, en ga je van de bovenkant verder naar de diverse groepen. In Frankrijk is dat net andersom: de 
+alimentation 
+aan de bovenkant (tegenwoordig met aansluitstrips, 
+peignes de raccordement 
+of 
+barres de pontage
+)
+, 
+en aan de onderkant de 
+départ des lignes 
+naar de groepen. En daar blijft het niet bij in het kader van de Europese gedachte, er is nog een essentieel verschil.
+
+Close-up van een Nederlandse aansluiting:
+
+alles precies andersom
+
+Op de Franse 
+disjoncteurs 
+wordt de 
+phase
+ (rood) op het rechter aansluitpunt bevestigd, en de 
+neutre 
+(blauw) aan de linkerkant, waar dan ook keurig een N staat. In Nederland is dat precies omgekeerd. En waar we in Nederland vrolijk op één 
+disjoncteur 
+zowel lichtpunten als stopcontacten aansluiten, is dit in Frankrijk nadrukkelijk verboden. Licht gaat over aparte groepen (
+circuits éclairage
+), stopcontacten (
+circuits prises) 
+gaan over aparte groepen. Samen met andere specifieke bewoners van de Franse groepenkast (waarover later meer) wordt het dus behoorlijk vol. Vandaar dat je aanvankelijk wel eens met je ogen staat te knipperen: waar dient dit toch allemaal voor?
+
+Maar met al deze specifiek Franse inhoud valt het van harte af te raden groepenkast materiaal te gebruiken dat niet conform de NF C 15-100 normen is. Omdat het in Nederland of België zo lekker goedkoop was bij bouwmarkt x, y of z. Bij nieuwbouw of renovatie wordt het niet door 
+CONSUEL 
+als keurende instantie goedgekeurd. Jammer dus van al die gewerkte uren en al die Nederlandse kassabonnetjes. Bovendien: per 1 januari 2009 is een (veiligheids)keuring van de elektrische installatie verplicht bij de verkoop van een huis, aldus de Franse Staatscourant (
+Journal Officiel de la République Française
+) van 24 april 2008, 
+Décret n° 2008-384
+. Een met Nederlands materiaal verbouwde installatie komt daar niet zonder kleerscheuren doorheen ben ik bang en krijgt een rode kaart. Nu is deze 
+diagnostic électrique
+ weliswaar verplicht, maar het is alleen een momentopname van de staat waarin de elektrische installatie zich bevindt. Het brengt geen verplichting met zich mee, niet voor de verkoper, en niet voor de koper, om alles conform de laatste elektranormen op te leveren of naderhand op orde te brengen. Hetgeen niet wegneemt dat een potentiële koper een negatief rapportje van harte zal toejuichen: heeft hij of zij een sterk punt om op de vraagprijs af te dingen. Verkeerde zuinigheid dus.
+
+En voordat ik het vergeet: het materiaal voor de groepenkast is in Frankrijk stukken goedkoper dan in Nederland. En dan vergelijk ik niet de adviesprijzen, maar de werkelijke prijzen, een vergelijking tussen de bekende bouwmarkten. De 
+disjoncteurs 
+van de A merken (o.a. Hager, Merlin Gerin, Legrand, ABB) gaan in Frankrijk voor de helft van de Nederlandse prijs. Conclusie: dubbel verkeerde zuinigheid dus.
+
+3.9.
+ De groepenkast kan een inbouwtype zijn (
+tableau
+ 
+encastré), 
+een opbouwtype (
+en saillie), 
+of daartussenin (
+semi-encastré
+). Om het verhaal compleet te maken: je kunt een opbouwgroepenkast ook nog op een verhoging monteren om wat meer ruimte te hebben voor je bedrading (
+tableau sur rehausse). 
+Een losse groepenkast, zonder onderdelen er in, wordt ook wel aangeduid als een 
+armoire 
+of 
+coffret. 
+Zoals gezegd, in de standaard Franse groepenkast gaan 13 modules op een rij. De kleinste met één rij is een 
+tableau de 1 rangée de 13 modules, 
+en zo gaat het door naar 2, 3 en 4 rijen boven elkaar (gemiddelde hoogte van de behuizingen resp.: 23,5 cm, 36 cm, 48,5 cm en 61 cm). Via combineren kun je diverse configuraties maken. Terwijl in de Nederlandse praktijk de standaardbreedte al sinds jaar en dag 22 centimeter is voor dit soort aansluitkastjes in woonhuizen, is dat in Frankrijk 25 centimeter. De diepte is 10 centimeter. Behoefte aan meer ruimte? Er zijn ook bredere groepenkasten waar 18 modules op één DIN-rail passen. Overigens kunt je voor uitbreidingen in de installatie er ook voor kiezen ergens anders in huis een tweede ‘hulp’ groepenkast te plaatsen.
+
+En wanneer men de groepenkast zou willen inbouwen, met een deurtje er voor, maak die kast dan niet te ondiep. De schakelknoppen van de 
+disjoncteurs 
+hebben ruimte nodig om hun draai te kunnen maken. En een paar modulaire stopcontacten in de groepenkast is handig voor bijvoorbeeld een modem. Je bent nu immers toch bezig alles goed te doen. Maar dan moet je daar wel stekkers op kunnen aansluiten. Dus ga dan maar uit van een minimale inbouwdiepte van respectievelijk 12 of 15 centimeter. En verder moeten de te bedienen schakelaars zich tussen de 1 meter en 1,80 meter hoogte bevinden. En ten slotte, waar monteer je zo’n groepenkast? Er is een aantal verboden: niet buiten, niet in de badkamer, niet boven het aanrecht, niet in het toilet, niet boven een verwarming, niet boven of onder een kraan, niet boven het fornuis en niet aan de zijkant van een trap. En liever ook niet in een grote inbouwkast (
+placard
+), want binnen de kortste keren staat er van alles voor of tegen aan, en kun je er niet bij als het nodig is. Wat blijft er over? Ergens bij de ingang, op een makkelijk toegankelijke plaats. In Nederland denk je dan al snel aan een ouderwetse vestibule, maar die heb ik op het Franse platteland nog zelden gezien. Dan ergens bij de entree, of in de gang als daar ruimte is. Of in ieder ander vertrek, mits je er maar zonder problemen bij kan komen. En dan loop je natuurlijk tegen de vraag op, hoe onttrek ik dat allemaal een beetje aan het zicht, zeker als het om de woonkamer gaat. Vandaar dat ik over die deurtjes begon. Vaak zal de plek waar de 
+EDF 
+aansluiting het huis binnenkomt als uitgangspunt gebruikt worden. Bij een ingrijpender verbouwing zal het misschien nodig zijn die aansluiting te laten verleggen om alles conform de normen te kunnen doen.
+
+Panneau de contrôle
+
+3.10.
+ Voor de 
+GTL (Gaine Technique de Logement), 
+de grote meterkast, met alles erop en eraan, gelden weer andere afmetingen. De grote merken bieden daarvoor complete systemen aan. Zo’n GTL is verplicht bij nieuwbouw of een totale renovatie. Ook hier de inmiddels bekende in- of opbouwvarianten: 
+encastrée, semi-encastrée, en saillie. 
+Wil je naast het 
+tableau de répartition
+ en het 
+tableau de communication 
+nog iets in dezelfde stijl installeren voor inbraakalarm (
+protection anti-intrusion
+), de satellietontvanger of zomaar een 
+autre application? 
+Het staat allemaal in de catalogus. Die complete prefab-systemen zien er mooi uit, en daarbij behoort een vanuit het perspectief van de handel gezien eveneens een fraaie verkoopprijs. Hieronder één van de vele 
+mogelijke configuraties
+. Pas ná de 
+disjoncteur de branchement
+ valt de elektrische installatie onder de NF C 15-100 normen, voor verantwoordelijkheid en rekening van de eigenaar. 
+Le panneau de contrôle
+, de meter en de aanvoer vanuit het stroomnet  vallen onder de NF C 14-100 normen. Verantwoordelijkheidheid bij ENEDIS, daarmee verboden terrein voor de abonnee. Vandaar dat de 
+ENEDIS hier eigen eisen
+ stelt aan hoe zo’n 
+panneau de contrôle
+ moet worden bevestigd. Ook de brandveiligheid speelt daarbij een rol: “
+Lorsque le panneau de contrôle est placé dans une gaine technique logement (GTL), cette dernière doit assurer la tenue mécanique et les contraintes de tenue au feu des parois sur laquelle elle est posée.
+” De tijd van de houten montage panelen is voorbij. Sinds 2011 neemt de ENEDIS alleen maar genoegen met de 
+nieuwste variant
+ versie van zo’n 
+panneau
+. Afhankelijk van hoe bij u de toevoer uit het stroomnet plaatsvindt, model 1 of model 2, zit zo’n meterpaneel bij u in huis of is ondergebracht in een 
+coffret
+ verderop aan de openbare weg. Wat de afmetingen van de GTL betreft nog dit: de verplichting `van vloer tot plafond` is in Amendement 5 komen te vervallen indien zowel de 
+alimentation
+ (ENEDIS) als de 
+départs 
+of via de bovenkant, of beide via de onderkant lopen.
+
+Voor een wat groter huis wordt zo’n GTL al snel stukken groter dan een Nederlandse groepenkast, en neemt vergelijkenderwijze evenveel ruimte in beslag als een meterkast. 
+Een voorbeeld
+.
+
+Dat volgens de normen verplichte 
+tableau de communication
+ betekent overigens wel dat u verplicht bent een bedraad communicatienetwerk aan te leggen, naar alle kamers in huis. Met de bekende acht-aderige ethernetkabel. Niet losjes over de grond of aan de muur met zadeltjes vastgespijkerd, maar in elektrapijp of een 
+goulotte
+. Aansluiting van apparatuur – telefoon, internet, tv signaal – gaat via op het eerste gezicht heel vertrouwd uitziende RJ-45 aansluitingen. Alleen heeft de Franse wetgever gemeend daar een eigen “pintoewijzing” voor te moeten bedenken. Daar valt mee te leven, totdat je de in snel tempo bijna standaard geworden 1 Gigabit apparatuur er op wilt aansluiten. Dat communicatieprotocol maakt gebruik van alle vier de aderparen die een ethernetkabel rijk is. En zou er op zo’n naar Franse regels aangelegde 
+prise RJ-45
+ ook nog een ouderwets analoog telefoonsignaal worden aangeboden, dan zou een daarop aangesloten laptop wel eens de geest kunnen geven wanneer de telefoonbel rinkelt. Want op dat moment staat er ongeveer honderd volt op de twee telefoondraadjes.  Een gewaarschuwd mens telt voor twee, dus het verstandigste is om dan meteen maar een 
+gaine
+ met een iets grotere diameter (25 mm) aan te leggen, dan kunt u er twee ethernetkabels in kwijt. Ander voordeel: het trekken van ethernetkabel gaat toch wel wat stroever dan met glad elektradraad, hoe meer ruimte, hoe beter. Eén kabel voor het gewone werk inclusief een 100 Mbit netwerkaansluiting, en de andere gereserveerd voor een Gigabit aansluiting. Het tv signaal mag trouwens ook via gewone coaxkabel naar de plaats van bestemming worden getransporteerd. Voor een overzicht, hoe aan de minimum eisen te voldoen met een eenvoudige opstelling tot en met de echte multimedia toepassingen zijn de 
+tekeningen op de website
+ van bis-electric zeer inzichtelijk. Legrand laat zien hoe dat er dan 
+in de groepenkast
+ (GTL) uit kan komen te zien. De leidingaanleg – gewone telefoon bedrading, ethernet en coax – 
+wordt hier beschreven.
+
+Tableau de communication van Hager.
+
+Van dit uitstapje naar de wondere wereld van de normen in ict land naar ouderwets ambachtelijk werk. Het staat de handige 
+bricoleur
+ vrij om zelf uit bijvoorbeeld hout zelf zo’n 
+GTL 
+behuizing te maken. De breedte (
+largeur
+) moet minimaal 60 centimeter zijn, de diepte (
+profondeur
+) minimaal 20 centimeter. De hoogte: van vloer tot plafond. Alleen bij de kleinste type woningen van minder 35 m² mogen de breedte en diepte wat geringer zijn: resp. 45 centimeter en 15 centimeter. Andere ontwerpeisen: het moet in de buurt van de hoofdingang zijn, of daar in de buurt en makkelijk toegankelijk. In verband met de vele leidingen of kabelgoten die omhoog (of omlaag) gaan, mag er geen draagbalk boven zijn. En de 
+GTL 
+dient alleen voor alles wat met elektriciteit te maken heeft: er mogen geen water of gasleidingen doorheen lopen. De minimale afstand tussen de diverse onderdelen wordt ook nader omschreven. Dit allemaal is de nieuwe NFC 15-100 norm voor nieuwbouw en renovatie. In het laatste geval moet er trouwens wel sprake zijn van een bijna volledige kaalslag binnenshuis: alleen wanneer voorhamer en breekijzer onzacht in beroering komen met niet-dragende binnenmuren (
+cloisons non porteuses
+), dan zal men echt aan de 
+GTL 
+moeten geloven. Anders zou half Frankrijk, inclusief de draagmuren (
+murs porteurs
+) moeten worden afgebroken om aan de nieuwe NF regels te voldoen. Voor de kleinere renovaties kan men dus de weg van de standaard moderne groepenkast kiezen.
+
+Wat die GTL afmetingen betreft, zijn dat nu spijkerharde voorschriften of heb je zelf ook nog wat te kiezen? Ja, want dat hele in 1996 geïntroduceerde GTL concept beoogde in wezen een exclusief voor elektra toepassingen gereserveerde ‘virtuele’ ruimte aan te geven. met daaromheen nog een aantal ‘veiligheidszones’. In het nieuwe Amendement 5 is  die virtuele gereserveerde ruimte ondergebracht onder de nieuwe naam ETEL: 
+Espace Technique Électrique du Logement
+. Met een breedte van 600 mm en een diepte van 250 mm. Daarbinnen komt dan de materiële neerslag in de vorm van een fraaie kast met leidingen, en die noemen we dan de GTL. En die hoeft niet meer in alle gevallen van vloer tot plafond te lopen, 
+zie deze tekening
+ van Legrand. Zijn  de 
+alimentation
+ en de 
+départs
+ beide aan de onderzijde gesitueerd, dan hoeft er niet nog eens een volstrekt overbodige, lege 
+goulotte
+ richting plafond te gaan. Of komt in de omgekeerde situatie de voet van de GTL constructie te vervallen.  Maar de vrijblijvende ruimte blijft wel onderdeel uitmaken van de ETEL filosofie, dus veel kun je met die eventueel vrijkomende ruimte niet doen. Boven misschien een schilderijtje hangen, beneden een plek voor poezen- of hondenmand, maar dat is het dan wel. En er valt dus te schuiven met de maatvoering getuige deze bepaling in Amendement 5 (art. 10.1.4.1.2.): “
+Ces dimensions pourront être augmentées en fonction de l’importance de l’installation, de la taille du logement ou du nombre d’équipements électriques à alimenter
+.”
+
+3.11.
+  Handig, maar ook verplicht tegenwoordig, is een schema in de groepenkast waar per groep op staat welke gebruikers daar allemaal op zijn aangesloten, en waar die zich bevinden. Voor de groepenkast zelf zijn er ook systemen: papiertjes achter een plastic stripje op de deksel van de groepenkast, of een plastic venstertje op de module zelf waarachter je de tekst kwijt kan. Of symbolen: de meeste fabrikanten hebben velletjes A4 in hun assortiment, waar bijna alle aanduidingen op staan voor wat je zo al kunt tegenkomen aan elektrische apparaten en aansluitingen. Voor mensen met een onduidelijk handschrift, en tegen verblekende, nauwelijks meer leesbare krabbels een nette oplossing. Want deze 
+repérage 
+moet leesbaar (
+lisible
+) zijn.
+
+Hier een PDF van
+
+3.12. 
+ Wanneer je een bestaande installatie wilt uitbreiden, of een bijgebouw van stroom wilt gaan voorzien, dan is het Franse antwoord daarop: een tweede groepenkastje. 
+Un tableau supplémentaire, secondaire of divisionnaire
+.
+
+Je zou een onderscheid kunnen maken in drie modellen.
+
+Model 1
+: dit is de standaard, recht toe, recht aan oplossing. In de hoofdgroepenkast of de GTL zit een 
+disjoncteur
+die voor de beveiliging zorgt van de bedrading die naar de hulpgroepenkast toegaat. Die wordt voor wat zijn voeding, 
+alimentation
+, betreft rechtstreeks aangesloten op de aansluitpunten die van de hoofdschakelaar komen, de 
+disjoncteur de branchement
+ (DB)
+. Dus niet via een aardlekschakelaar. Die wordt in het tweede groepenkastje gemonteerd, en vervult tegelijkertijd een tweede functie: die van 
+coupure d’urgence
+.
+
+Model 2
+: wanneer de tweede groepenkast wat groter van omvang zou worden, en er twee aardlekschakelaars worden gemonteerd, dan is het verstandig om tevens een 
+interrupteur d’urgence
+, ook wel 
+interrupteur sectionneur
+te monteren. Met één beweging alles stroomloos in noodgevallen. Wanneer die tweede groepenkast zich niet in het 
+maison principale
+bevindt, maar in een gebouw elders op het terrein, dan is zo’n 
+sectionneur
+verplicht bij meer dan één aardlekschakelaar.
+
+Model 3
+: een geval apart. Want inmiddels verboden, in de praktijk kom je deze manier van aanleggen in oudere installaties nog steeds tegen. Vanaf de 
+disjoncteur de branchement 
+worden twee of drie min of meer gelijkwaardige groepenkasten van stroom voorzien. Omdat je onder de 
+d
+épart 
+klemmen van de DB niet een duo’tje of trio’tje draden mag aansluiten, moet je daarvoor een 
+répartiteur
+ gebruiken, onder te brengen in een 
+coffret de répartition
+. Iedere groepenkast uiteraard met een eigen 
+coupure d’urgence
+. Punt van aandacht: alle draden of kabels die vanaf de DB richting die groepenkastjes gaan moeten zijn gedimensioneerd op de maximale stroomsterkte waarop de gemonteerde DB kan worden ingesteld.
+
+Met de introductie van Amendement 3 in 2010 behoort dit model tot het verleden, mag niet meer. Sinds die tijd wordt een tweede groepenkast beschouwd als een 
+circuit specialisé
+ en dient vanuit de 
+tableau de répartition
+ te worden gevoed via een afzonderlijke  
+disjoncteur 
+met in de 
+tableau divisionnaire
+ een eigen aardlekschakelaar. Twee of meer aardlekschakelaars in zo’n tweede groepenkast: dan vooraf gegaan door een eigen hoofdschakelaar, een 
+interrupteur sectionneur
+. Om alles met één beweging uit te kunnen zetten. In 2015 werd met het Amendement 5 het aantal 
+circuits specialisés
+ 
+nog verder uitgebreid
+. In een aantal andere landen zien we de tegenovergestelde tendens: juist een versoepeling van de regels.

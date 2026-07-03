@@ -1,0 +1,187 @@
+Dit  bericht werd geschreven door Rob van der Meulen
+
+1.   
+De Franse elektrische installatie
+.
+
+2.   De elektriciteitstoevoer en de elektriciteitsmeter
+
+3.   
+De hoofdschakelaar
+
+4.   
+De groepenkast
+
+5.   
+De aarding
+
+6.   
+De leidingaanleg
+
+7.   
+Speciale schakelingen
+
+8.   
+Losse elektra tips
+
+9.   
+Aanbevolen boeken
+.
+
+10. 
+Aanbevolen websites en de veranderende NF C 15-100 normen
+.
+
+De energieproducent, meestal dus de EDF, en de energietransporteur, de ERDF (in mei 2016 omgedoopt tot ENEDIS), leveren tegenwoordig voor de kleinere vermogens bij particulieren het liefst een enkelfasige 230 Volt (
+monophasé
+) aansluiting. Dat zijn twee draden: 
+une phase et un neutre. 
+In het verleden werd op het platteland gezien de grote afstanden vaak een driefase (
+triphasé) 
+aansluiting geleverd. Drie fasedraden en één neutrale draad. Op elk van die fasedraden staat 230 Volt ten opzichte van de neutrale draad en tussen die fasedraden staat een levensgevaarlijke spanning van 400 Volt. Het ontwerpen van zo’n driefase-installatie vergt een zorgvuldige berekening van de belasting die je op elk van die fasedraden aansluit. Wordt slechts één daarvan te zwaar belast, dan treedt de stroombeveiliging van de hoofdschakelaar (
+disjoncteur de branchement
+) in werking en zit het hele huis zonder stroom. Dat is niet handig en leverde de 
+EDF 
+te veel storingsmeldingen op. Daarom worden woonhuizen bij voorkeur enkelfasig aangesloten. Driefasig voor zeer grote installaties of wanneer er apparaten (elektromotoren, warmtepomp) staan opgesteld die beslist 
+triphasé
+ moeten worden gevoed. En die kom je wel tegen in een werkplaats, in een fabriek of op een boerderij, maar slechts sporadisch in een Franse woning. 
+Monophasé
+ tot maximaal 18 kVA (90 ampère) is voor de nieuwbouw en renovatie inmiddels verleden tijd. Vanaf april 2011 geldt er een maximum van 12 kVA (60 ampère) voor een enkelfasige aansluiting.
+ 
+
+Dat neemt niet weg dat je op het Franse platteland nog heel wat oudere driefase-installaties tegenkomt met een vrij klein vermogen. Uit een vorige eeuw, toen er aanvankelijk maar hier en daar een lampje hing, en misschien nog ergens een oude buizenradio, 
+une poste TSF.
+ Voor de ruimschoots van elektrische apparaten voorziene 21e eeuwse mens wat lastig. Want bij bijvoorbeeld 30 ampère in totaal (6 kVA) heb je per fase slechts 10 ampère tot je beschikking. Zet je een waterkoker aan op het moment dat de wasmachine aan het opwarmen is, dan ga je al snel over dat maximum van 10 ampère heen en schakelt de 
+disjoncteur de branchement
+ (DB) alles uit. Daarom valt het aan te raden zo’n 
+triphasé
+ aansluiting om te laten zetten naar 
+monophasé
+. Dan grijpt de DB pas in wanneer het totale stroomverbruik boven de 30 ampère komt.
+
+Het is niet gezegd dat de ENEDIS zo’n verzoek altijd kan honoreren. Dat hangt af van belasting die het stroomnet aankan, omdat je voor een enkelfase stroomtoevoer dikkere bekabeling nodig hebt. Wanneer er nog wat verouderde en vrij dunne bedrading door het landschap kronkelt, in combinatie met steeds meer abonnees, dan zou de spanningsval te groot kunnen worden. De energieleveranciers zijn wettelijk verplicht een spanning af te leveren binnen bepaalde minimum en maximumgrenzen: tussen de 207 en 253 volt voor 
+monophasé
+ en tussen de 360 en 440 volt voor 
+triphasé
+. Is het voorspelbaar dat de spanning beneden die ondergrens zou kunnen gaan zakken, dan zegt de ENEDIS  nee tegen zo’n verzoek. En is het hopen op 
+un renforcement du réseau
+: een wat zwaardere hoogspanningstransformator en nieuwe bekabeling. Mede gezien de torenhoge koperprijzen worden dit soort verbeteringen van de infrastructuur op het dun bevolkte platteland slechts mondjesmaat ter hand genomen. En zelfs wanneer lokale bestuurders zeggen dat het zo echt niet langer kan, blijft het afwachten wat de machtige ENEDIS beschikt.
+
+Moderne digitale meter met hoofdschakelaar
+    
+
+Op de elektrameter (
+compteur
+) en de hoofdschakelaar (
+disjoncteur de branchement
+) wordt aangegeven wat voor aansluiting het is: in een rechthoekje staat ‘230 V’ of ‘3 x 230’. Of misschien ook nog ‘220 V’ bij de oudere generatie meters. Andere vindplaats: de achterkant van de EDF 
+facture 
+vermeldt onderaan alle gegevens van uw aansluiting. Nu we het dan toch hebben over de EDF rekening: het is een fabeltje dat een driefasen aansluiting duurder is dan een enkelfasige. Het enige dat telt voor uw vaste lasten, uw 
+abonnement-annuel
+, is het totale vermogen in kVA, de 
+puissance souscrite
+.
+
+1.2.
+ Afhankelijk van de ouderdom van de installatie bevinden de stroombeveiliging, een elektro-mechanische meter en de hoofdschakelaar (
+coupe circuit, compteur, disjoncteur de branchement
+) zich binnenshuis, of (deels) buitenshuis. Zeker bij oudere aansluitingen op de 
+campagne 
+is het soms even puzzelen hoe het allemaal is aangesloten. Tegenwoordig zijn de regels wat strakker. Wanneer er vanaf het huis tot aan de erfafscheiding een afstand van meer dan 30 meter moet worden overbrugd, komen de meter en hoofdschakelaar buiten aan de weg te staan. Dit is een 
+branchement
+ van het type 2
+. En gaat de toevoerbedrading naar het huis in principe ondergronds die kant uit. Wanneer de afstand minder dan 30 meter bedraagt komt de EDF rechtstreeks uw huis binnen (
+type 1
+), en ziet het er uit als op de foto hierboven, een klassieke opstelling. Een meterbord met daarop een kastje met daarin wat ooit in Nederland de gemeente zekering werd genoemd (
+coupe circuit, 
+fusibles EDF
+), een moderne elektronische meter (lichtgrijs/crème van kleur, met digitale uitlezing) en de hoofdschakelaar.
+
+Tot en met deze 
+disjoncteur de branchement
+ (DB) is het 
+côté fournisseur 
+of 
+domaine publique.
+  Dus handen af voor de 
+bricoleur
+ of de door hem ingehuurde 
+electricien
+. Daar mag alleen de EDF of de ERDF wat doen, en dus de bekende loodjes (nu van plastic) om dat duidelijk te maken. Maar vanaf de uitgang van de hoofdschakelaar is alles 
+côté client, domaine privé d’utilisateur. 
+Daar begint de verantwoordelijkheid van de eigenaar en zijn de NFC 15-100 regels van toepassing. Vandaar gaat de stroom dus richting groepenkast. Drie namen daarvoor:  
+tableau électrique, tableau de répartition
+ of 
+tableau de distribution
+. Volgens de nieuwe regels is er in beide situaties buiten aan de weg een plastic kast, een 
+coffret coupe-circuit individuel
+.  Bij het type 2 aansluiting in gezelschap van een tweede kastje met daarin de meter en de hoofdschakelaar. In de praktijk kom je ook een tussenvorm tegen uit het verleden, tot eind van de tachtiger jaren zo aangelegd: 
+fusibles EDF
+ en 
+compteur
+ 
+buiten bij het hek
+ en de 
+disjoncteur de branchement
+ een meter of twintig verderop binnenshuis  
+bij de groepenkast
+.
+
+1.3.
+ De meter en de hoofdschakelaar zijn bevestigd op een houten montagebord (
+le panneau de contrôle
+) of zijn vanaf 1996 in de modernere installaties geïntegreerd in een grote kunststof kast, 
+la gaine technique de logement (GTL) 
+geheten. Daarin zijn alle elektrische aansluitingen ondergebracht: stroom, telefoon, netwerk, televisie. Op het houten montagebord – de meest voorkomende situatie denk ik – zit òf een klassieke elektro-mechanische draaischijf meter (zwart, blauw, doorzichtig plastic) voorzien van één of twee tellers, òf de moderne elektronische meter. Wanneer er een aansluiting voor dag/nachtstroom is zijn er op de ouderwetse meter twee uitleesvensters voor het verbruik, met 
+hc 
+en 
+hp 
+aangeduid. De afkorting 
+hc 
+staat voor 
+heures creuses 
+(nachttarief) en 
+hp
+ voor 
+heures pleines 
+(dagtarief). De uitlezing van de elektronische meter springt bij de overgang naar één van beide tarieven automatisch over naar de daarbij behorende uitlezing. Met behulp van de twee zwarte of blauwe drukknopjes op de meter kunnen de verbruiksgegevens en andere instellingen op dit LCD-paneeltje worden uitgelezen. 
+Een korte handleiding
+ meterstanden opnemen. Deze laatste generatie elektronische meters kan ook overweg met het zogenaamde 
+option tempo 
+abonnement.
+
+1.4.
+ De opvolger van de huidige generatie digitale meters  is er ook al. Een “smart meter”,  Linky geheten. De Europese Commissie heeft besloten dat in 2020 tachtig procent van de huishoudens in de EU lidstaten via een slimme meter zijn elektriciteit binnen moet krijgen. De invoering in Frankrijk heeft veel aanloopproblemen gekend maar begint nu langzamerhand op gang te komen. De Franse consumenten organisatie Que Choisir heeft nog een poging gedaan de algemene invoering in Frankrijk via gerechtelijke procedures tegen te houden maar heeft uiteindelijk bot gevangen bij het hoogste rechtsprekende college in Frankrijk, de Conseil d’État. Met 
+die uitspraak
+ van 4 januari 2012 kreeg de ERDF (nu: ENEDIS) het groene licht om door te gaan met het plaatsen van deze nieuwe generatie elektriciteitsmeters. Maar niet iedereen accepteert dat 
+zonder slag of stoot
+, ook al is de elektriciteitsmeter het eigendom van ENEDIS. De consumenten organisatie Que Choisir geeft de weigeraars niet al te veel kans op succes in het overzicht “
+Le vrai du faux
+“. In ieder geval geen meteropnemer meer aan de deur wanneer u er niet bent. Tenminste: wanneer ENEDIS er in slaagt overal de benodigde 
+communicatie infrastructuur
+ op orde te krijgen. Want anders blijft het een “dumb meter”: meterstanden zelf doorgeven of toch nog werkgelegenheid voor meteropnemers. En goed nieuws voor zonnepaneel bezitters: via de slimme meter kan ook de productie gemeten worden wanneer u teruglevert aan het stroomnet. Daarmee kan een tweede aparte meter voor dat doel achterwege blijven, dat scheelt weer iets in de installatiekosten.
+
+Het minder goede nieuws is dat deze  slimme meter ook de bewaking van het maximaal volgens uw abonnement toegestane stroomverbruik (
+puissance souscrite
+) voor z’n rekening neemt. En doet dat met overgave: u hoeft maar iets te veel te gebruiken en hij slaat af. Eerst een grote stroomverbruiker uitschakelen en vervolgens resetten. Iets lastiger dan voorheen: mededelingen op het display lezen, instructies volgen en wat gegoochel met de drukknoppen. Wanneer de meter buiten aan de weg staat wordt het vervelend en kan een zaklantaarn handig zijn. Ook voor de zekerheid een paraplu bij de hand houden. Een gebruiksaanwijzing in de buurt van uw meterkast is natuurlijk geen slecht idee. ENEDIS heeft die in het Frans en Engels klaar staan voor de 
+monophasé
+ uitvoering
+ en ook voor de 
+triphasé
+ variant
+. Wanneer de stroom te vaak wordt uitgeschakeld zit er niks anders op dan een wat zwaarder abonnement te nemen: van 6 kVA naar 9 kVA of van 9 kVA naar 12 kVA in 
+monophasé
+. En mocht u een 3 fase aansluiting hebben die er nu al regelmatig de brui aan geeft omdat één fase wat overbelast raakt, dan gaat dat nog veel vaker gebeuren na de plaatsing van Linky. Misschien een gelegenheid om de overstap naar een enkelfasige aansluiting te overwegen die aanzienlijk makkelijker in de omgang is. En dan nog wat: mocht u na de vervanging van uw oude meter er achter komen dat deze smart meter u te vaak zonder stroom zet na slechts een geringe incidentele overbelasting, geen man over boord. Tot een jaar nadat de ENEDIS monteurs zijn langs geweest kunt u zonder kosten overstappen naar een hogere 
+puissance souscrite
+. Aan de hogere abonnementskosten valt niet te ontkomen. Na een jaar wordt het standaard tarief in rekening gebracht voor zo’n eenmalige 
+intervention
+, een kleine veertig euro.
+
+De oude hoofdschakelaar blijft overigens gehandhaafd. Dus u heeft nog steeds de beschikking over een handmatig te bedienen schakelaar om alle stroom met één beweging uit te kunnen schakelen. Ook de aardlekfunctie, afslaan bij een lekstroom naar aarde van 500 milliampère of meer, blijft gehandhaafd. Plezierige eigenschap van de stroombegrenzing oude stijl was de  thermo magnetische constructie.  Een overbelasting van enkele tientallen procenten werd zonder morren verdragen, soms wel een uur lang. En dan werd hij te warm, sloeg af en moest je even wachten totdat hij was afgekoeld.  Bovendien reageerde hij uiterst onverschillig op kortstondige stroompieken (wasmachine, waterkoker, stofzuiger). Helaas wordt deze functie van de  
+disjoncteur de branchement
+  door een behulpzame monteur van ENEDIS tot zwijgen gebracht. De elektronica van LINKY reageert helaas veel sneller.
+
+Fin de vie, le fameux compteur bleu,
+ in 1963 geïntroduceerd, nagenoeg onverwoestbaar, nu in 2017 op een 
+vide-greniers
+  na misschien wel 54 jaar trouwe dienst.

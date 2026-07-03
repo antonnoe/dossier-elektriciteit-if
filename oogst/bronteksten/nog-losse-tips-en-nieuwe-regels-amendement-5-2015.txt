@@ -1,0 +1,411 @@
+1.   
+De Franse elektrische installatie
+
+2.   
+De elektriciteitstoevoer en de elektriciteitsmeter
+
+3.   
+De hoofdschakelaar
+
+4.   
+De groepenkast
+
+5.   
+De aarding
+
+6.   
+De leidingaanleg
+
+7.   
+Speciale schakelingen
+
+8.
+   
+Losse elektra tips
+
+9.   
+Aanbevolen boeken
+
+10. 
+Aanbevolen websites en de veranderende NF C 15-100 normen
+.
+
+Tips en adviezen elektra
+
+Lastig blijven de stopcontacten met ingebouwde kinderbeveiliging wanneer je iets wilt meten, daar helpt de 
+testeur de prises
+ 
+CA 751
+ van Chauvin Arnoux uitstekend tegen. Ook handig is deze tester 
+VT35 van Multimetrix
+: stopcontacten controleren op fase en nul positie en de aanwezigheid van aarding. Tevens de mogelijkheid om aardlekschakelaars te testen met verschillende lekstromen om te zien of, en zo ja bij welke foutstroom hij z’n werk doet. Complicerende factor in de praktijk: de aanwezigheid van kleine lekstromen naar aarde van aangesloten apparatuur, dat telt bij elkaar op. 
+Je weet ook niet binnen hoeveel milliseconden de aardlekschakelaar reageert. Maar ja, dit instrument kost nog geen dertig euro. Bij de professionele meetapparatuur zit je al snel rond de vijftienhonderd euro voor zeer complete 
+installatietesters
+ van Fluke en anderen zoals de Franse fabrikant 
+Chauvin-Arnoux
+. Of ongeveer de helft van dat prijsniveau voor een speciale 
+“RCD” tester
+ die dan tevens in staat is om razendsnel de aardingsweerstand te meten via een “
+loop test
+” (
+boucle locale
+): meetstekker in het stopcontact en binnen een minuut zie je het resultaat. 
+Hoe snel
+ is de aardlekschakelaar, bij welke teststroom schakelt hij uit en wat is de 
+aardingsweerstand
+. In dit geval heel laag, een meting aan een Nederlandse huisinstallatie. In Frankrijk moet die lager dan 100 Ohm zijn, 
+zoals hier gemeten
+, om de aardlekschakelaar (500 mA) van de daar aanwezige 
+disjoncteur de branchement
+ (DB) tijdig uit te laten schakelen bij een foutstroom naar aarde. Die lage waardes van rond de 1 Ohm of lager kom je daar alleen maar tegen bij de aarding van hoogspanningstransformatoren in het 
+ENEDIS stroomnet
+.
+
+Makkelijk zijn de rekenmachientjes (
+calculettes
+) die op veel websites te vinden zijn. De spanningsval over elektrische bedrading moet binnen de perken blijven. Voor het berekenen van de maximale kabellengte en diameter valt 
+deze 
+calculette 
+goed te gebruiken. Zowel voor monophasé als triphasé. Hier kun je uitrekenen 
+hoeveel draden
+ van welke diameter er in een 
+gaine 
+mogen.
+
+De berekening van de draaddikte – voor koperen kabels – tussen hoofdschakelaar en groepenkast lukt met een paar 
+muisklikken
+ en anders met deze 
+overzichtstabel.
+Voor aluminium kabels – alleen toegestaan voor de 
+branchement long
+ buitenshuis – 
+deze tabel
+. In het voorjaar van 2018 heeft  Promotelec de tabellen –  koper en aluminium – voor een breder publiek toegankelijk gemaakt 
+met deze informatie
+ over de  “
+Raccordement entre le disjoncteur de branchement et le tableau de répartition
+“. Nog meer over bedrading 
+op dit Britse forum.
+
+Over de 
+branchement
+, de aansluiting op het stroomnet, heeft 
+Vialis
+  
+een uitstekende samenvatting van de regels opgesteld. Op de website van ENEDIS, voorheen ERDF geheten, valt 
+via deze link
+ het nodige te weten te komen, ook over de aanvraagprocedure.  
+Een adreslijstje
+ voor de particuliere aanvragers.
+
+Leidingaanleg: de uitgeverij Eyrolles heeft nog steeds 
+een paar handige pagina’s
+ op de website staan uit een eerdere versie van “Le grand livre de l’électricité”. Eveneeens terug in de tijd met een uitgave van “Fil Pilote” van december 2007 waarin de veranderende inzichten in “
+Canalisations, modes de pose
+” worden behandeld, regels die nog steeds gelden. Een 
+nog kortere uitleg
+ uit 2013. Een terugkerende vraag: mag ik oude ijzeren elektrapijp gebruiken bij het vernieuwen van de bedrading?  Niet doen: het risico dat je de isolatie beschadigt bij het trekken van nieuwe draden is te groot. Belangrijker nog: ook in de Franse regels geldt het principe van de “dubbele isolatie”. In de regels staat als uitgangspunt vermeld: 
+Les canalisations doivent présenter une isolation satisfaisant aux règles de la protection par isolation double ou renforcée et ne comporter aucun revêtement métallique.
+
+Steeds meer 
+circuits specialisés
+, de Franse regelgevers krijgen er maar geen genoeg van. In het nieuwe Amendement 5  zijn de zes stopcontacten in de buurt van het keukenblok daar nu ook bij ingedeeld. In de Nederlandse NEN 1010 normen komt nu langzamerhand meer flexibiliteit. Daar geldt voortaan de globale regel dat er voldoende eindgroepen moeten zijn om apparatuur gelijktijdig te kunnen gebruiken en eventueel een aparte groep voor zware verbruikers. Voorheen was dat verplicht voor apparatuur met een (piek)vermogen van meer dan 2 kVA. Dit is het rijtje van de Franse 
+circuits specialisés
+.
+
+Leroy Merlin legt 
+in deze video
+ uit hoe je een deugdelijke aarding voor je elektrische installatie aanlegt. Op de website van Leroy Merlin eveneens wat meer uitleg in de vorm van 
+dit Promotelec document
+. Van recentere datum – juni 2017 – is dit verhaal met als titel: “
+Les conditions pour une mise à la terre réussie
+“.  In een discussie 
+op een Brits forum
+ kwamen bijna alle aspecten aan bod, schema’s, aanleg in de praktijk, hoe krijg je een  
+piquet de terre
+ de grond in en met welke instrumenten kun je de aardingsweerstand meten.
+
+In het amendement 5 zijn twee tabellen opgenomen voor de draaddiktes en maximum afstanden bij het aansluiten van de meter / hoofdschakelaar op de groepenkast. Dit is het plaatje voor het type “
+Accolé
+” en hier wordt de “
+Non-accolé
+” situatie beschreven, de meter op wat grotere afstand bij de openbare weg.
+
+De drie modellen voor het aansluiten van een tweede groepenkast werden al besproken. Dit zijn de schema’s die erbij horen voor een 
+monophasé
+ installatie: 
+model 1
+ en 
+model 2
+. Sinds 2010 wordt een tweede groepenkast beschouwd als een 
+circuit specialisé
+, moet dus vanuit de hoofdgroepenkast  worden gevoed. Daarom is 
+model 3
+ niet meer toegestaan.
+
+De drie manieren waarop een 
+interrupteur différentiel
+ in een groepenkast kan worden aangesloten zijn: 
+model
+ 1, 
+model
+ 2 en 
+model 3
+ met verticale aansluitstrips zoals dat door Legrand in de handel is gebracht. Een 
+vereenvoudigd schema
+ van het inwendige waar het testknopje met een extra stroompje er voor zorgt dat het evenwicht tussen aan- en afvoerstroom verbroken wordt en de aardlekschakelaar tot actie overgaat. Aansluiting van de 
+disjoncteurs
+ met 10 mm² draad, maar veel beter is het om daar de zg. 
+peignes
+ de raccordement
+ voor te gebruiken. Die overigens sinds het Amendement 5 van mei 2015 verplicht zijn.
+
+Bij het berekenen van benodigde draaddiktes voor bepaalde lengtes kabel of draad krijg je te maken met de maximale spanningsval die is toegestaan. Vanaf het Point de Livraison (PDL) tot aan het verst verwijderde lichtpunt in een elektrische installatie mag die 
+chute de tension
+ / spanningsval / voltage drop niet meer dan 3 % bedragen. Voor “
+autres applications
+” is dat 5 %. Wanneer er een tweede groepenkast wordt geïnstalleerd dan moet alles goed berekend worden om binnen die grenzen te blijven. In deze tekening een 
+viertal praktijksituaties
+. Hoe de spanningsval precies uitpakt hangt natuurlijk af van de ter plekke gemeten afstanden. De vier gepresenteerde modellen geven dus de globale richting aan, niet meer dan dat. Met nog een paar extra opmerkingen ook na te lezen in de 
+version originale
+, 
+in het Frans
+.
+
+Een 
+instructie video
+ van Leroymerlin over het installeren van een moderne groepenkast. Met “
+bornes automatiques
+” wordt dat overigens steeds gemakkelijker laat Legrand ons in 
+deze video zien
+.
+
+Nog meer werk aan de winkel: hoe bouw je een 
+gevaarlijke groepenkast
+ om tot een moderne en veilige. En wat er zoal dan toch nog misgaat bij de inbedrijfstelling. Een case study.
+
+Het schema van een grote 
+triphasé groepenkast
+. Met de invoering van het amendement 5 mag een “gemengde” groepenkast, zowel 
+monophasé
+ als 
+triphasé
+ groepen, niet met slechts één drie fase aardlekschakelaar  worden beveiligd. De enkelfase groepen komen achter bipolaire aardlekschakelaars: 
+een voorbeeld
+. Aangeraden wordt om de 
+triphasé
+ onderdelen 
+en tête d’installation
+ te plaatsen.
+
+Over de EDF aansluiting binnenshuis of buiten de deur aan de weg: een 
+branchement
+ van het 
+type 1 
+en het 
+type 2
+ (meer dan 30 meter).
+
+Linky, de Franse smartmeter, 
+een korte samenvatting
+ van wat er zich de afgelopen zeven jaar allemaal heeft afgespeeld. Plaatsing van zo’n slimme meter weigeren? In Frankrijk een 
+juridisch mijnenveld
+, bezint eer ge begint. Het afgelopen jaar (2019) is de facto het juridische doek definitief gevallen voor de tegenstanders van LINKY. Eén jaar geleden zagen ze nog wel mogelijkheden om te weigeren, keurig op een rijtje en 
+in het zonnetje gezet
+: 
+votre guide anti-LINKY (
+ou Nathalie
+?). Et maintenant, il est cinq heures, Paris s’éveille.
+ De consumenten-organisatie 60-millions-de-consommateurs heeft de recente ontwikkelingen samengevat: 
+Compteur 
+électrique:
+ 
+peut-on refuser Linky
+? De harde conclusie: 
+S’opposer à son installation est impossible, sauf exceptions
+.
+
+Over de bliksembeveiliging stond op de website van Entraidelec een uitstekende samenvatting. Helaas is die website sinds maart 2016 langzaam maar zeker in duigen gevallen. Zo’n 
+parafoudre
+ module in de groepenkast, 
+en tête d’installation
+, reageert pijlsnel op spanningspieken die binnen komen en voert de schadelijke energie naar aarde af voordat die elders onheil aan kan richten. Nog een reden om uw 
+mise à la terre
+ op orde te hebben, hoe verder beneden de 100 Ohm (wettelijk maximum) hoe beter. Meer over de techniek van 
+surge protectors
+, inclusief links naar Franse fabrikanten. Om het heel kort samen te vatten: de twee meest voorkomende oplossingen zijn die van een zg. 
+ 
+parafoudre auto-protégé
+ 
+en een parafoudre die 
+de beschermende hulp
+ nodig heeft van een eigen 
+disjoncteur
+. Belangrijk: een zo kort mogelijke aardedraad naar het centrale aardpunt, 
+maximaal 50 centimeter
+. We hebben het hier dus over de beveiliging tegen spanningspieken op het stroomnet. De bliksemafleider op het dak – 
+paratonnerre
+ – is een ander verhaal. Een 
+vrij compleet overzicht
+ is te vinden op de website van Sitelec.
+
+Voor nog meer achtergrondinformatie 
+deze praktijkcase
+ van een storing in een elektrische installatie veroorzaakt door een defecte parafoudre module. Apart aandachtspunt: wanneer een 
+parafoudre 
+module een te grote spanningspiek en de daarbij behorende energie te verwerken krijgt kan hij het begeven. Vaak betekent dit een bijna kortsluiting in zo’n module: van de fase naar aarde en/of van de nul naar aarde. Omdat ze rechtstreeks staan aangesloten op de 
+borne d’arrivée, 
+niet beschermd door een aardlekschakelaar van 30 mA, ziet de hoofdschakelaar deze lek naar aarde en slaat af. Defecte module(s) verwijderen en u heeft weer stroom. Tot slot: ook via de telefoon bedrading van France Télécom / Orange komen bij onweer spanningspieken op uw telefoon en modem/router af die dat bij gebrek aan adequate verdediging meestal met een vroegtijdig einde moeten bekopen. Ook daar zijn 
+speciale 
+parafoudres 
+voor op de markt. Handig voor wanneer je een keer niet thuis bent wanneer er onverwacht een onweersbui losbarst. Voorkomen is beter dan genezen: beter van te voren je telefoonstekkers en ook de tv/satelliet pluggen er uit trekken.
+
+De twee 
+aansluitschema’s
+ voor een 
+télérupteur
+ schakeling. Voor iets 
+meer details
+ zou u dit kunnen lezen.
+
+Twee bijna gelijke bedradingsschema’s om de contacteur jour/nuit voor een 
+chauffe-eau électrique
+ aan te sluiten.  Voor een 
+moderne digitale meter
+ 
+en de iets oudere opstelling met draaischijf meter en een apart 
+relais de
+ découpla
+ge
+. Voor een triphasé chauffe-eau is dit het 
+aansluitschema
+. Tijdens de 
+heures pleines
+ is het relais contact aan de gebruikerskant geopend, eenvoudig zelf te meten door het beschermkapje aan de onderkant omhoog te klappen: dan staat er 
+de volle netspanning
+ over. Tijdens de 
+heures creuses
+ wordt het relais bekrachtigd en meet je uiteraard nul volt over deze twee aansluitpunten. Bij de digitale meter van het type SAGEM  hetzelfde verhaal. Daar gaat het om de contactpunten 
+C1 en C2 onder de beneden deksel
+. Wat er onder de deksel aan de bovenkant zit is verboden terrein voor de gebruiker. Een enkele keer komt het voor dat het spoeltje in de 
+contacteur jour/nuit kapot
+ is. Dat valt eenvoudig 
+door te meten
+: tussen de contactpunten A1 en A2 een weerstand van ongeveer 3200 Ohm. Maar eerst de hoofdschakelaar uitzetten.  Overigens valt er ook met de netspanning wel het een en ander te meten, zie hier voor 
+deze nadere uitleg
+. Dan kun je in elk geval constateren of het stuursignaal in de meter z’n werk doet. Doet de schakelaar in de meter achter de beide aansluitpunten C1 en C2 gewoon z’n werk  dan ligt een mogelijk probleem in de bedrading of de groepenkast van de huisinstallatie. Blijkt het stuursignaal geheel afwzig te zijn – of te blijven, soms gewoon een nachtje slapen  – dan wordt het tijd om contact op te nemen met de netwerkbeheerder ENEDIS.
+
+Het aansluiten van zo’n elektrische boiler (
+à accumulation
+) of een doorstroomapparaat (
+instantané
+) mag volgens de Franse regels niet via een stopcontact.
+
+De laadvoorzieningen voor de elektrische auto 
+uitgelegd door Legrand
+. Door Promotelec worden de per januari 2017 aangepaste regels 
+hier samengevat
+.
+
+Regelgeving en techniek m.b.t. zonnepanelen vindt u op de 
+website van Photovoltaique
+. Voor de zg. 
+autoconsommation
+ zijn de 
+regels in april 2016
+ vereenvoudigd (
+toelichting
+). Installaties van particulieren met een vermogen niet groter dan 3 kWc  zijn vrijgesteld van belastingen, daarboven wordt het als een commerciële activiteit beschouwd en komt de fiscus langs. En zomaar wat aan je dak veranderen gaat niet, daarvoor is ook hier een 
+déclaration préalable
+ nodig. De Franse overheid zegt er dit over: “……
+ l’installation de panneaux solaires sur un toit nécessite une 
+déclaration préalable
+, même hors secteur protégé, en raison du changement d’aspect réalisé
+.” Voor meer informatie over procedures en techniek 
+zie dit document
+.
+
+Voor het aanleggen van bekabeling ondergronds is dit een 
+vereenvoudigd schema
+ voor uw graafwerkzaamheden en hier meer 
+detail
+ en 
+uitleg
+. Kabel met een metalen wapening (
+câble rigide blindé: U1000 RVFV ) 
+mag overigens 
+volgens de normen
+ zonder 
+gaine
+ direct in de grond worden gelegd ook al gebeurt dit niet vaak.
+
+Over de controle door de CONSUEL valt veel te schrijven en nog langer te praten, laten we het dus maar kort houden. Laat het u uitleggen door een 
+Franse electricien
+. Een veelgestelde vraag: hoe ziet zo’n unifilaire  installatietekening er uit? 
+Een voorbeeld
+ en hier het 
+overzicht
+ van de symbolen. Over de veiligheidskeuring, de Diagnostic Électrique Obligatoire (DEO), is hier een 
+korte Nederlandse toelichting
+ te vinden. Met wat meer details en links naar de diverse voorlichtingsbrochures van Promotelec is 
+deze forumdisccussie
+ nog wel aardig.
+
+Iets over de nalatenschap van France Télécom in veel huizen: 
+de oude telefoonaansluiting
+. En hoe die te gebruiken voor een adsl internetverbinding.
+
+Het kost wat tijd om dit verslag te lezen over de aanleg van een elektrische installatie in een nieuwbouwproject, maar die paar uur leeswerk verdient u in tijd en geld dubbel en dwars terug bij de uitvoering van uw eigen renovatie. U kunt heel lang door blijven bladeren. Titel: 
+Pavillon de 250 m²
+.  Een aanrader, in feite 
+the missing manual
+ voor de aanleg conform de NFC 15-100 normen. Veel foto’s, het bouwproces op de voet gevolgd, met aan het slot installatietekeningen die nodig zijn bij de keuring door de Consuel.
+
+Vaste elektrische radiatoren moeten altijd via een 
+inbouwdoos
+ en een 
+sortie de câble
+ worden aangesloten. Dit is de 
+daarbij behorende tabel
+ voor draaddiktes en beveiliging.
+
+Buitenverlichting hoeft niet op een aparte verlichtingsgroep te worden aangesloten, zolang de verlichtingsarmaturen maar aan het huis zelf vastzitten. 
+Non-attenant
+ 
+à la maison
+: dan wordt het een aparte groep. Die buitenverlichting elders op het terrein hoeft niet via een eigen aardlekschakelaar te worden aangesloten.  Toch is dat verstandig: er gaat namelijk nog wel eens wat fout met buiten- of tuinverlichting. Na aanhoudende regenval, of knaagdieren die hun tanden in bekabeling hebben gezet. Wilt u niet dat een eventuele foutstroom naar aarde ook een deel van de verlichting binnenshuis uitschakelt, sluit de buitenverlichting dan aan op een eigen 
+interrupteur différentiel
+ van 30 mA, of gebruik een 
+disjoncteur différentiel. Pour un meilleur confort d’utilisation.
+
+Wat de EDF betreft: dit zijn de  technische details van de diverse abonnementsvormen, op welke stroomsterkte wordt uw hoofdschakelaar (
+réglage disjoncteur
+) afgeregeld bij de diverse abonnementsvormen, de  
+puissance souscrite
+. Een gecombineerde tabel voor 
+monophasé
+ en 
+triphasé
+ aansluitingen. De  bedrading vanuit het stroomnet wordt overigens altijd berekend voor het maximum waarop uw 
+disjoncteur de branchement
+ kan worden ingesteld, ook al heeft u een “kleiner” abonnement.
+
+Wat het voltage betreft: de nominale netspanning in 
+monophasé 
+is 230 volt met sinds februari  2014 als onder- en bovengrens: 207 V en 253 V. Voor 
+triphasé
+ is het nominaal 400 volt tussen de grenzen van 360 V en 440 V. Vóór die tijd waren dat min/max grenzen van resp. 207 V en 244 V voor 
+monophasé 
+en 358 V en 423 V voor 
+triphasé
+. Het liefst zien we die spanning natuurlijk zo dicht mogelijk rond die 230 volt voor onze huishoudelijke en computerapparatuur zoals op 
+deze 24-uurs grafiek
+ te zien is. Maar op het Franse platteland komen stevige afwijkingen voor. Vooral te hoge spanningen in combinatie met toevallige pieken (tijdens onweer) stellen sommige apparaten niet op prijs: ict apparatuur kan de geest geven en de ouderwetse gloeilampen gaan dan minder lang mee.
+
+Amendement 5, de laatste veranderingen in de Franse elektra normen, zijn door Legrand 
+kort en bondig samengevat
+. Promotelec (voorlichtings-organisatie) publiceerde onlangs een 
+tweede versie van hun toelichting
+.  Voor de inrichting van de badkamer is er ook het nodige veranderd, zie deze gedetailleerde 
+beschrijving
+.

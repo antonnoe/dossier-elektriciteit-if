@@ -1,0 +1,102 @@
+1.   
+De Franse elektrische installatie
+.
+
+2.   
+De elektriciteitstoevoer en de elektriciteitsmeter
+
+3.   De hoofdschakelaar
+
+4.   
+De groepenkast
+
+5.   
+De aarding
+
+6.   
+De leidingaanleg
+
+7.   
+Speciale schakelingen
+
+8.   
+Losse elektra tips
+
+9.   
+Aanbevolen boeken
+
+10. 
+Aanbevolen websites en de veranderende NF C 15-100 normen
+
+De Franse hoofdschakelaar verschilt van de Nederlandse: dat is alleen maar een mechanische schakelaar. De Franse 
+disjoncteur de branchement
+ vervult minimaal twee functies: aan/uitschakelen en tevens stroombegrenzing. Omdat het uitschakelen in noodgevallen snel moet kunnen gebeuren (
+coupure d’urgence
+) behoort een dergelijke 
+disjoncteur
+ dus altijd binnenshuis aanwezig te zijn.
+
+De stroombegrenzing is er voor om een 
+surconsommation
+ te voorkomen, of in geval van een ernstige kortsluiting (
+court-circuit
+) de hele stroomtoevoer uit te schakelen. Deze stroombegrenzing is afgestemd op de zwaarte van de aansluiting die u heeft (
+l’abonnement souscrit
+, ook wel: 
+puissance souscrite
+). Dat valt af te lezen op een klein venstertje, met daarin getallen als: 15, 30, 45, 60, 75 of 90. Die getallen staan voor de stroomsterkte in ampère waarop deze 
+disjoncteur de branchement
+ is afgeregeld door een monteur van de EDF. Deze
+ ampérages
+ corresponderen met de volgende 
+puissances souscrites
+ en kVA: 3, 6, 9, 12, 15 en 18 kVA. Er zijn in de loop der tijd verschillende types hoofdschakelaar geleverd, dus soms zie je alleen aanduidingen als 1, 2, 3 etc. in het uitleesvenstertje. Er zijn drie hoofdtypes: de bipolaire van 45 A (instellingen 15–30–45 A), die van 60 A (instellingen 30–45– 60 A) en die van 90 A (60–75–90 A). De schakelaars voor enkelfase (
+monophasé
+)  toepassing zijn te herkennen aan het opschrift: “
+Nb de pôles: 2, pôle protégé: 1″
+.
+
+Voor driefase (
+triphasé)
+ zijn er twee tétra polaire types van resp. maximaal 30 A (instellingen 10–15-20-25-30 A) en maximaal 60 A (instellingen 30-40-50-60 A). De types van vóór 1996 zijn voorzien van drie ronde uitleesvenstertjes. Het totaal aan ampères dat u binnenkrijgt is dan driemaal “patrijspoort” waarde. De nieuwere modellen van Baco en 
+General Electric
+ hebben slechts één uitleesvenstertje. Wanneer u het opschrift: “
+Pôles: 4 / Protégés: 3 / Ir: 30-60A
+” ziet staan dan weet u dat het om een driefase installatie gaat.
+
+2.2.
+ De derde functie die deze 
+disjoncteur
+ kan vervullen – model afhankelijk – is die van aardlekschakelaar (
+disjoncteur différentiel
+).
+
+        
+
+Veel voorkomende 
+disjoncteurs de branchement, monophasé.
+
+Tegenwoordig is dat meestal een hoofd/aardlekschakelaar die bij een foutstroom van 500 milliampère in werking treedt (I ∆n = 500mA). Dat is een extra elektrische veiligheid, maar voor de bescherming van personen volstrekt onvoldoende. De rest van de installatie moet daarom met aardlekschakelaars beveiligd zijn die bij 30 mA de stroom uitschakelen (IΔn = 0,03A). Dit soort hoofdschakelaars is bij de rechthoekige langwerpige kastjes (o.a. door Merlin Gerin geproduceerd) voorzien van rode en zwarte aan/uit-knoppen, en een witte knop (
+bouton de test
+) om de goede werking van de aardlekschakelaar te controleren. De kleinere lichtgrijze variant (o.a. door Baco geproduceerd) heeft een witte aan/uit draaischakelaar, en een lichtblauw testknopje.  Legrand heeft – voor de liefhebbers – 
+alle technische gegevens
+ samengevat, inclusief grafieken over het uitschakelgedrag (
+courbes de declenchement
+). Bij langdurige overbelasting, de DB wordt dan te warm,  grijpt een thermisch mechanisme na enige tijd in, bij kortsluiting gaat dat binnen één seconde. Het plezierige van de gebruikte techniek is dat dit soort hoofdschakelaars behoorlijk wat overbelasting kan hebben, dertig procent of meer. Wanneer er bij het inschakelen van grote stroomverbruikers even een piekstroom groter dan die van uw 
+puissance souscrite
+ optreedt doet de DB daar niet moeilijk over.  De stroombegrenzing zoals die in de nieuwe slimme meter LINKY is ingebouwd is aanzienlijk minder tolerant. Als het tegenzit moet u een zwaarder abonnement nemen. Om uw technisch Frans met nog een mooi wat abstracter woord uit te breiden: zo’n hoofdschakelaar wordt ook wel 
+Appareil Général de Commande et de Protection (AGCP)
+ genoemd. Promotelec heeft de veiligheidseisen voor deze hoofdschakelaar 
+hier op een rijtje gezet
+.
+
+Van de hoofdschakelaar naar de groepenkast: voor die bedrading gelden nauwkeurig omschreven regels. Hoe groter de afstand, hoe meer vermogen, des te dikker zal de bedrading moeten zijn om bij maximale belasting niet een te grote spanningsval te veroorzaken. Promotelec heeft onlangs de tabellen uit “L’Officiel de l’Électrictité” met een 
+korte toelichting
+ op de website gezet.
+
+Een wat oudere 
+triphasé
+ hoofdschakelaar
+. Duidelijk is te zien hoeveel ampère er per fase maximaal binnenkomt. En dat heeft van alles te maken met uw abonnement, uw 
+puissance souscrite
+ zoals hieronder valt af te lezen.

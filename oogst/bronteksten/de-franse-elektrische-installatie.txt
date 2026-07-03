@@ -1,0 +1,112 @@
+De Franse elektrische installatie in 6 hoofdstukken
+
+1. 
+De elektriciteitsaanvoer en de elektriciteitsmeter
+
+2. 
+De hoofdschakelaar
+
+3. 
+De groepenkast
+
+4. 
+De aarding
+
+5. 
+De leidingaanleg
+
+6. 
+Speciale schakelingen
+
+Laatste aanpassing 6 november 2016
+
+De Franse elektrische installatie is iets waar je als Nederlander even aan moet wennen. De moderne groepenkasten zien er soms wat intimiderend uit: veel meer groepen dan we gewend zijn, en modules waarvan je het bestaan nooit vermoed zou hebben, met Franse benamingen die je niet meteen terugvindt in het woordenboek. Of je staat oog in oog met een groepenkast uit de jaren vijftig: een houten plank met daarop kleine zekeringhoudertjes, waarvan je even denkt dat het een achtergebleven stuk kinderspeelgoed is, totdat je ziet dat er echte stroomdraden aan vast zitten. En je een vaag vermoeden krijgt hoe de rest van de leidingen daar in de loop der jaren – onnavolgbaar voor de nieuwkomer – aan is vastgeknoopt.  En je daarna duidelijk wordt waar vroeger die bordjes sèche-cheveux interdit in de wat eenvoudiger hotels voor dienden. Niet om de global warming tegen te gaan, maar om local warming te voorkomen.
+
+Nog steeds voldoen veel Franse huizen niet aan standaard veiligheidseisen voor de elektrische installatie, en heel wat branden zijn daar helaas het gevolg van. Op een totaal van 250.000 branden in particuliere woningen is bij 80.000 ervan de oorzaak gelegen in problemen in de elektrische installatie. Op jaarbasis tikt dat toch behoorlijk aan, dus alle reden om niet al te nostalgisch tegen o zo authentieke Franse  bedrading of antieke schakelaars aan te blijven kijken. Zo snel mogelijk vervangen door iets nieuws, voor uw eigen veiligheid.
+
+Dat het er allemaal wat anders uitziet, komt ook door de Franse normen. De elektrische installatie – bij nieuwbouw en totale renovatie – dient te voldoen aan de zogenaamde 
+NFC 15-100
+ normen. In Nederland kennen we de NEN 1010 normen, in Duitsland de DIN-VDE 0100 normenreeks, in het VK de BS 7671 “Requirements for electrical installations”, en aan de overkant van de Atlantische Oceaan doen ze het in de VS weer anders met de National Electrical Code (NEC). Veel verschillen, maar in ieder geval één gemeenschappelijk punt: ieder land stelt het op prijs wanneer elektrische installaties volgens de eigen nationale normen worden ingericht. Die Franse normen gelden voor de manier waarop de installatie moet worden aangelegd, en deels ook voor de gebruikte materialen. Die moeten in bepaalde gevallen dan naast het CE keurmerk ook het NF-merk hebben. Wanneer je tenminste wil dat een nieuwe installatie wordt goedgekeurd door de streng controlerende 
+Consuel
+. Want zonder goedkeurende 
+attestation
+ van deze organisatie krijgt u geen aansluiting op het stroomnet. Een bestaande installatie hoeft niet te worden herkeurd wanneer er een andere eigenaar intrekt. En de zogenaamde 
+diagnostic électrique 
+die weliswaar verplicht is bij de verkoop van onroerend goed heeft alleen een voorlichtende functie ten behoeve van de aspirant koper.
+
+Deze inleiding is in de eerste plaats bedoeld om de huizenbezitter wegwijs te maken in de manier waarop de elektrische installatie in Frankrijk wordt aangelegd, en wat de Franse benamingen zijn voor alles wat je daarbij tegen kan komen. Voor het verhelpen van eenvoudige storingen is dat nooit weg. En mocht iemand overwegen om een installateur langs te laten komen voor een reparatie of uitbreiding, dan praat het toch wat makkelijker en kun je een offerte beter beoordelen.
+
+In de tweede plaats is het bedoeld om de 
+bricoleurs 
+met wat elektra-ervaring te laten zien wat de voornaamste verschillen zijn met de Nederlandse aanpak (de Belgische ken ik niet), en wat de hoofdprincipes zijn om bij uitbreiding of renovatie te volgen. De beschrijving gaat uit van een 
+gewone aansluiting, enkelfasig
+ (
+monophasé
+). De zwaardere driefase (
+triphasé
+) aansluiting laat ik buiten beschouwing. Dan komen er drie stroomaanvoerkabels van 230 Volt het huis in. Die 230 Volt is de spanning ten opzichte van de gemeenschappelijke vierde, neutrale blauwe draad (fase tegen nul). Wat is hier zo bijzonder aan, hoor ik iemand denken. Dat er tussen die drie fasedraden onderling een spanning van maar liefst 400 Volt staat. Dat is toch meer werk voor de professional. De reguliere 230 Volt kan al dodelijk zijn, dus met zo’n driefase aansluiting moet je wel heel goed weten wat je doet.
+
+Tot slot, niet onbelangrijk wanneer je met nieuwbouw of een totale renovatie bezig gaat. De elektra normen worden voortdurend aangepast. Voor bestaande installaties geldt dat ze minimaal moeten voldoen aan de regels die van kracht waren bij de oplevering. Verbeteren mag, maar hoeft niet. En veiliger maken moet je natuurlijk altijd doen, een goede aarding, moderne bedrading, aardlekschakelaars etc.  
+Inmiddels zijn we sinds medio 2015 bij Amendement 5 aangekomen
+. Daarin heel wat wijzigingen. Zo zijn zekeringen niet meer toegestaan, zijn de regels voor de badkamer aangepast, zijn de oude “
+décompte
+” regels voor het minimum aantal stopcontacten vervallen en zijn de oude oppervlakte regels om te bepalen hoeveel aardlekschakelaars je nodig hebt verdwenen. Daarvoor in de plaats nu een maximum van acht groepen per aardlekschakelaar, rekening houdend met het aangesloten vermogen. In de praktijk betekent dit al snel dat je een dure 
+interrupteur différentiel
+ nodig hebt die maximaal 63 ampère kan verwerken, en niet de tot nu toe gebruikelijke 40 ampère types.  Gebleven is de verplichting tot de aanleg van een bedraad communicatienetwerk met een eigen 
+boîte
+ in de GTL, de moderne groepenkast.
+
+Deze inleiding is in 2012 bijgewerkt tot en met Amendement 3. Nog steeds bruikbaar voor verbeteringen aan bestaande installaties, maar niet meer up-to- date. Aan het slot is in de verwijzingen naar aanbevolen boeken en relevante websites de bewegwijzering uitgezet naar de nieuwste regels van het Amendement 5.
+
+1. 
+De elektriciteitsaanvoer en de elektriciteitsmeter
+
+2. 
+De hoofdschakelaar
+
+3. 
+De groepenkast
+
+4. 
+De aarding
+
+5. 
+De leidingaanleg
+
+6. 
+Speciale schakelingen
+
+Nog wat losse tips en de nieuwe regels van het Amendement 5 (2015)
+
+Aanbevolen boeken
+
+Aanbevolen websites en de veranderende NF C 15-100 normen
+
+Slotopmerkingen
+
+Het was een paar jaar geleden mijn bedoeling om in het kort wat te vertellen over 
+l’installation électrique à la française.
+ Dat werden toen meer pagina’s dan ik had gedacht. Het zou makkelijk uit breiden zijn. Hoe je leidingen buitenshuis of onder de grond moet aanleggen, wat de exacte voorschriften zijn voor de badkamer, vloerverwarming, hoe je een zwembad met de daarbij behorende elektrische installaties moet aansluiten, en ga zo maar door. En over de leidingaanleg valt ook veel meer te vertellen. Over het aansluiten van het schakelmateriaal en de vele soorten inbouwdozen – en dus soms onaangenaam verrassend veel verschillende inbouwmaten, men is gewaarschuwd – valt ook nog heel wat te vertellen. Over het zelf opwekken van energie, zonnepanelen, de technische en bureaucratische hordes daarbij. Ook de terugkerende vraag hoe het nu precies zit met de relatie tussen het Europese CE keurmerk en het eigen Franse NF–USE keurmerk heb ik hier maar buiten beschouwing gelaten: misschien kan iemand daar eens een proefschrift aan wijden.
+
+Allemaal onderwerpen voor nadere uitleg, diepgaande juridische verhandelingen, of inzichtelijke schema’s. Dat valt buiten het bestek van een korte inleiding, bedoeld om ook de leek iets duidelijk te maken over de Franse aanpak. De discussies de afgelopen vijf jaar op het forum van 
+Wonen en leven in Frankrijk
+, en ook elders, hebben wel een aantal  zaken naar voren gebracht die wat onderbelicht waren gebleven, of die door veranderingen in de regelgeving achterhaald waren. Ik heb gepoogd die in deze nieuwe inleiding te verwerken.
+
+En dan nog wat. Voor uw eigen veiligheid en die van anderen. Sluit bij alle werkzaamheden aan de elektrische installatie in ieder geval de stroom af van de groep waarmee je mee bezig gaat, of zet het hele huis stroomloos met de 
+disjoncteur de branchement
+. Zeker wanneer je in de groepenkast werkzaamheden gaat verrichten. En hang even een bordje of papier op bij de groepenkast, dat er iemand met de elektra bezig is. Zo voorkom je dat iemand denkt: hé, geen stroom op dit stopkontakt, even die groep inschakelen. En iemand anders in het huis onder spanning komt te staan. Schoenen met rubber zolen zijn ook aan te bevelen; het dragen van een polshorloge met een metalen schakelbandje daarentegen minder slim wanneer je gewapend met een meetinstrument ergens in huis de aanwezige spanning of stroom wilt gaan controleren. En laat in een bestaande installatie waar de elektriciteit al is aangesloten geen blanke stukken koperdraad los ergens uit de muur hangen, onder het motto: volgende week ga ik wel verder. Of je denkt: dit kan ook wel met de stroom er op, is alleen maar een kleinigheid. Deed ik ook een keer, iets jonger nog, lette even niet op, en mijn kniptang maakte kortsluiting. Flits, klap. Op één van de snijvlakken ontbrak toen een stukje metaal. Verdampt, weggesprongen. En het was zo’n mooie tang, toen nog ‘Made in Western-Germany’. Had ook in mijn oog terecht kunnen komen, ik had ook van de ladder af kunnen vallen. Niet doen dus. En omdat de meeste ongelukken gebeuren wanneer je vermoeid raakt (nog éven dit afmaken): stop op tijd. Morgen is er weer een dag.
+
+Voor hen die dieper willen ingaan op alles wat met 
+l’installation électrique 
+te maken heeft heb ik me altijd getroost met de gedachte dat de meeste Nederlandstaligen de Franse taal wel enigszins beheersen. En dus geen enkele moeite zullen hebben om na de aanloop via deze korte inleiding het diepe in te duiken, de Franstalige informatie. In boekvorm en op internet.  Er is enorm veel te koop aan boeken, en veel te lezen in de folders van de 
+brico
+-zaken. Gelukkig hebben we hier in Frankrijk geen NEN politie zoals in Nederland. Die angstvallig het grote copyright geheim van de NEN-1010 elektranormen bewaakt. Een beetje middeleeuws, indruisend tegen de demokratische basisregel dat iedere burger zonder kosten kennis moet kunnen nemen van wet- en regelgeving. De informatie ligt hier in Frankrijk gelukkig  voor het oprapen, is openbaar zoals het hoort. Wanneer je weet waar je moet zoeken, hoe je moet zoeken. Een handreiking daartoe hieronder in de vorm van een aantal boekverwijzingen en links. Doe er je voordeel mee. En succes.
+
+Tot slot: een woord van dank aan alle vragenstellers en meedenkers op het Forum van deze website 
+Wonen en leven in Frankrijk
+. In het bijzonder aan  Christian von Klösterlein, voor zijn altijd scherpzinnige commentaar, en vooral voor zijn unieke artikelenreeks in de rubriek Klussen. Zonder diens inspirerende voorbeeld zou ik niet de uitdaging hebben gevoeld te pogen iets toegankelijks te schrijven over 
+l’installation électrique à la française.
+
+Rob van der Meulen
+
+forum-alias Robert du Moulin/Robert Arthur
