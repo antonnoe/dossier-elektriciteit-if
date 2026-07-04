@@ -54,7 +54,7 @@ Opname: 03-07-2026 · Samensteller: Claude (claude.ai-sessie) · Toetsing: leese
 27. **Twee groepen in één buis / draadkleuren — de eeuwige forumvraag.** Victor-topic [NLFR]: vraag over 2 circuits in één PVC-buis + het foute antwoord ernaast. Gebruik: H5 opent met precies deze vraag (aangetoonde zoekintentie); goed antwoord uit de norm, draadkleurentabel NL/BE/FR prominent.
 28. **Combi-schakelaar-detail.** "Een combi-schakelaar met stopcontact bestaat uit twee dingen die elektrisch gescheiden moeten zijn. Dus 5 draden, 3×2,5 voor het stopcontact en minimaal 2×1,5 voor de schakelaar" + "een dubbel stopcontact telt voor 1" — Rob, [IF-FORUM]. Gebruik: kader.
 29. **Spanningsval-vuistregels** (PDL→verste lichtpunt max 3 %, autres applications 5 %; vier praktijkmodellen; non-accolé = maximale lengtes halveren) — [ART] leidingaanleg + losse tips. Gebruik: kern rekentool fase 3.
-30. **Telregels stopcontacten.** "Het drievoudige stopcontact telt voor twee aansluitpunten (…) je kunt beter twee dubbele monteren die elk voor één tellen — tel uit je winst." — Rob, [IF-FORUM]. Gebruik: kader (na normverificatie of telregels nog gelden).
+30. **Telregels stopcontacten — ⚠️ VEROUDERD (verificatie V5, 04-07-2026).** Robs "drievoudig telt voor twee"-regel is sinds Amendement 5 geschrapt: het tellen gaat nu socle par socle. NIET overnemen als advies; hooguit als historische voetnoot bij de normgeschiedenis.
 
 ## H6 — Schakelingen, circuits en eisen per kamer
 
