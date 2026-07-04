@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="t-h2">
+<!-- Verificatie: V2 (30 mA-plicht), V10 (DB-functies blijven naast Linky); functiebeschrijving DB naar Robs artikel De hoofdschakelaar. 04-07-2026.
+     Bijschrift: Naar het oorspronkelijke schema van Rob van der Meulen (2008–2017), geactualiseerd naar NF C 15-100 (2024). -->
+<title id="t-h2">De disjoncteur de branchement: drie functies in één kast</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .doos{fill:rgba(128,0,0,0.05);stroke:#800000;stroke-width:2}
+  .accent{fill:rgba(128,0,0,0.12);stroke:#800000;stroke-width:2}
+  .lijn{stroke:#800000;stroke-width:2.5;fill:none}
+</style>
+<text x="20" y="34" class="kop">Disjoncteur de branchement (AGCP)</text>
+<line x1="0" y1="210" x2="130" y2="210" class="lijn"/>
+<text x="15" y="198" class="sub">van meter/net</text>
+<rect x="130" y="80" width="300" height="260" class="accent"/>
+<rect x="160" y="110" width="240" height="56" class="doos"/>
+<text x="175" y="133">1 · Schakelaar</text>
+<text x="175" y="153" class="sub">noodstop van het huis (coupure d'urgence)</text>
+<rect x="160" y="182" width="240" height="56" class="doos"/>
+<text x="175" y="205">2 · Stroombegrenzer</text>
+<text x="175" y="225" class="sub">afgeregeld op de puissance souscrite</text>
+<rect x="160" y="254" width="240" height="56" class="doos"/>
+<text x="175" y="277">3 · Aardlek 500 mA</text>
+<text x="175" y="297" class="sub">brandbeveiliging — géén persoonsbescherming</text>
+<line x1="430" y1="210" x2="560" y2="210" class="lijn"/>
+<text x="448" y="198" class="sub">naar tableau</text>
+<rect x="560" y="150" width="320" height="120" class="doos"/>
+<text x="578" y="180" style="fill:#800000;font-weight:600">Persoonsbescherming = 30 mA</text>
+<text x="578" y="206">zit in de groepenkast (hoofdstuk 3):</text>
+<text x="578" y="228" class="sub">alle circuits achter interrupteurs</text>
+<text x="578" y="248" class="sub">différentiels van ≤ 30 mA</text>
+<text x="20" y="385" class="sub">Venstertje op de DB: 15 / 30 / 45 / 60 / 75 / 90 A ↔ 3 / 6 / 9 / 12 / 15 / 18 kVA (monophasé).</text>
+<text x="20" y="405" class="sub">Tot en met de DB: domaine public (verzegeld). Erná: uw verantwoordelijkheid, NF C 15-100.</text>
+</svg>

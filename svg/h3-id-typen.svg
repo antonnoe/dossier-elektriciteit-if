@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="t-h3b">
+<!-- Verificatie: V2.3/V2.6 (typen A/AC/F/B verplichtingen; AFDD aanbevolen) + V1.5, 04-07-2026.
+     Bijschrift: Nieuw schema op basis van NF C 15-100 (2024); geen voorganger in de oorspronkelijke serie. -->
+<title id="t-h3b">Welk type aardlekschakelaar voor welk circuit (2024-serie)</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .doos{fill:rgba(128,0,0,0.05);stroke:#800000;stroke-width:2}
+  .plicht{fill:rgba(128,0,0,0.16);stroke:#800000;stroke-width:2.5}
+  .lijn{stroke:#800000;stroke-width:2;fill:none}
+</style>
+<text x="20" y="34" class="kop">Kies het type op wat erachter hangt</text>
+<rect x="20" y="70" width="410" height="80" class="doos"/>
+<text x="36" y="98" style="font-weight:600">Type AC — basis</text>
+<text x="36" y="122" class="sub">gewone licht- en stopcontactcircuits</text>
+<text x="36" y="140" class="sub">(advies Rob 2016, nog actueel: neem meteen type A)</text>
+<rect x="470" y="70" width="410" height="80" class="plicht"/>
+<text x="486" y="98" style="font-weight:600">Type A — minimaal 1 verplicht</text>
+<text x="486" y="122" class="sub">kookplaat · wasmachine · EV-laadpunt (monophasé)</text>
+<rect x="20" y="180" width="410" height="96" class="plicht"/>
+<text x="36" y="208" style="font-weight:600">Type F — verplicht (nieuw 2024)</text>
+<text x="36" y="232" class="sub">circuits met éénfasige frequentieregelaar:</text>
+<text x="36" y="252" class="sub">warmtepomp · airco · zwembadpomp · (EV: A óf F)</text>
+<rect x="470" y="180" width="410" height="96" class="plicht"/>
+<text x="486" y="208" style="font-weight:600">Type B — verplicht bij driefase</text>
+<text x="486" y="232" class="sub">dezelfde toepassingen in triphasé,</text>
+<text x="486" y="252" class="sub">incl. driefase-EV-laadpunt</text>
+<rect x="20" y="310" width="860" height="70" class="doos"/>
+<text x="36" y="338" style="font-weight:600">AFDD / protecteur d'arc (vlamboogbeveiliging)</text>
+<text x="36" y="362" class="sub">in de 2024-serie AANBEVOLEN, niet verplicht — laat u in de bouwmarkt niet het omgekeerde vertellen</text>
+<text x="20" y="420" class="sub">Kaliber: ≥ kaliber DB (amont) óf ≥ 1× som verwarming/warmwater/EV + 0,5× overige (aval).</text>
+<text x="20" y="444" class="sub">In de praktijk verdringt 63 A het oude 40 A-type. Bij zonnepanelen/batterij: zie tabel 10-1G (restpunt).</text>
+</svg>

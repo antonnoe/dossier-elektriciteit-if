@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t-h6a">
+<!-- Verificatie: V4 (volumes 0/1/2 + hors volume ongewijzigd in 2024-serie; IP-ladder; stopcontacten alleen hors volume; volume caché), 04-07-2026.
+     Bijschrift: Naar het oorspronkelijke schema van Rob van der Meulen (2008–2017), geactualiseerd naar NF C 15-100 (2024). Maten indicatief. -->
+<title id="t-h6a">Badkamerzones: volume 0, 1, 2 en hors volume</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .v0{fill:rgba(128,0,0,0.30);stroke:#800000;stroke-width:2}
+  .v1{fill:rgba(128,0,0,0.18);stroke:#800000;stroke-width:2}
+  .v2{fill:rgba(128,0,0,0.08);stroke:#800000;stroke-width:2}
+  .hv{fill:none;stroke:#800000;stroke-width:2;stroke-dasharray:6 5}
+</style>
+<text x="20" y="34" class="kop">Doorsnede bij een badkuip</text>
+<rect x="40" y="70" width="820" height="330" class="hv"/>
+<text x="700" y="96" class="sub">hors volume — vrij;</text>
+<text x="700" y="116" class="sub">stopcontacten alléén hier</text>
+<rect x="60" y="140" width="420" height="260" class="v2"/>
+<text x="330" y="168">volume 2 · IPX4</text>
+<text x="330" y="190" class="sub">60 cm rondom volume 1;</text>
+<text x="330" y="210" class="sub">scheerstopcontact (TBTS) mag;</text>
+<text x="330" y="230" class="sub">verlichting: DCL met IPX4</text>
+<rect x="60" y="140" width="240" height="260" class="v1"/>
+<text x="80" y="168">volume 1 · IPX5</text>
+<text x="80" y="190" class="sub">boven bad/douche</text>
+<rect x="60" y="330" width="240" height="70" class="v0"/>
+<text x="80" y="358" style="fill:#fff;font-weight:600">volume 0 · IPX7</text>
+<text x="80" y="380" style="fill:#fff" class="sub">alleen TBTS-laagspanning</text>
+<text x="20" y="440" class="sub">Volume caché (onder bad/douchebak): geen apparatuur (IP44-uitzondering achter 30 mA).</text>
+<text x="20" y="464" class="sub">Volume 3 bestaat sinds Amendement 5 niet meer. Bedieningshoogtes: 0,90–1,30 m.</text>
+<text x="20" y="488" class="sub">Alle badkamercircuits: achter 30 mA-ID én aangesloten op de LES (hoofdstuk 4).</text>
+</svg>

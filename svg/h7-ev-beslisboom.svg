@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="t-h7">
+<!-- Verificatie: V7 (décret 2017-26: IRVE-plicht >3,7 kW; prise renforcée eigen circuit + 30 mA type A; TVA 5,5% alleen via IRVE; NF C 15-100-7-722: mono A/F, tri B), 04-07-2026.
+     Bijschrift: Nieuw schema op basis van NF C 15-100-7-722 (2024) en décret 2017-26; geen voorganger in de oorspronkelijke serie. -->
+<title id="t-h7">Thuis laden: wie mag wat installeren</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .vraag{fill:rgba(128,0,0,0.16);stroke:#800000;stroke-width:2.5}
+  .doos{fill:rgba(128,0,0,0.05);stroke:#800000;stroke-width:2}
+  .lijn{stroke:#800000;stroke-width:2.5;fill:none}
+</style>
+<text x="20" y="34" class="kop">Beslisboom laadpunt (woning, niet publiek toegankelijk)</text>
+<rect x="280" y="60" width="340" height="60" class="vraag"/>
+<text x="300" y="86">Laadvermogen &gt; 3,7 kW?</text>
+<text x="300" y="108" class="sub">(vrijwel elke wallbox: ja)</text>
+<line x1="450" y1="120" x2="200" y2="180" class="lijn"/>
+<text x="255" y="160" style="font-weight:600">nee (≤ 3,7 kW)</text>
+<line x1="450" y1="120" x2="700" y2="180" class="lijn"/>
+<text x="600" y="160" style="font-weight:600">ja</text>
+<rect x="40" y="180" width="360" height="150" class="doos"/>
+<text x="56" y="208" style="font-weight:600">Prise renforcée — zelf toegestaan</text>
+<text x="56" y="234" class="sub">• tóch eigen circuit + 30 mA type A</text>
+<text x="56" y="256" class="sub">• obturateurs blijven vereist</text>
+<text x="56" y="278" class="sub">• zonder IRVE-factuur: geen TVA 5,5%</text>
+<text x="56" y="300" class="sub">  en risico op verzekeringsweigering</text>
+<rect x="520" y="180" width="360" height="150" class="vraag"/>
+<text x="536" y="208" style="font-weight:600">IRVE-installateur verplicht</text>
+<text x="536" y="234" class="sub">• décret 2017-26 · Qualifelec/AFNOR niv. 1–3</text>
+<text x="536" y="256" class="sub">• geeft recht op TVA 5,5%</text>
+<text x="536" y="278" class="sub">• copropriété met parkeren: minimaal</text>
+<text x="536" y="300" class="sub">  één laadvoorziening verplicht</text>
+<rect x="180" y="380" width="540" height="90" class="doos"/>
+<text x="200" y="410" style="font-weight:600">Beveiliging volgens NF C 15-100-7-722</text>
+<text x="200" y="436">monophasé: differentieel type A of F · triphasé: type B</text>
+<text x="200" y="460" class="sub">altijd een circuit spécialisé; kabelsectie = installateursberekening (harmonischen)</text>
+<line x1="220" y1="330" x2="330" y2="380" class="lijn"/>
+<line x1="700" y1="330" x2="570" y2="380" class="lijn"/>
+<text x="20" y="510" class="sub">Subsidiestand 04-07-2026: crédit d'impôt (500 €) gestopt per 31-12-2025; resteren TVA 5,5%</text>
+<text x="20" y="532" class="sub">(alleen via IRVE) en prime Advenir (copropriétés). Zie het tijdgevoelige blok van hoofdstuk 7.</text>
+</svg>

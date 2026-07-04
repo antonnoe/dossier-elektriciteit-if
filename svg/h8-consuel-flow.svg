@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="t-h8">
+<!-- Verificatie: V8 (zelfaanleg voorzien; aanvraag ±20 dagen; formulier 12 mnd geldig; particulier vrijwel altijd bezoek; décret 2024-1122 automatische doorzending aan Enedis; zonder visa geen stroom; tarieven barème 02-09-2025), 04-07-2026.
+     Bijschrift: Nieuw schema op basis van consuel.com (2026); geen voorganger in de oorspronkelijke serie. -->
+<title id="t-h8">Van zelfaanleg tot stroom: de Consuel-route</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .stap{fill:rgba(128,0,0,0.08);stroke:#800000;stroke-width:2}
+  .accent{fill:rgba(128,0,0,0.18);stroke:#800000;stroke-width:2.5}
+  .lijn{stroke:#800000;stroke-width:2.5;fill:none;marker-end:url(#pijl)}
+</style>
+<defs><marker id="pijl" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#800000"/></marker></defs>
+<text x="20" y="34" class="kop">De route (attestation geel — woning)</text>
+<rect x="20" y="70" width="255" height="80" class="stap"/>
+<text x="36" y="98">1 · Aanleg — zelf mag</text>
+<text x="36" y="122" class="sub">u bent "auteur van de werken"</text>
+<line x1="275" y1="110" x2="320" y2="110" class="lijn"/>
+<rect x="322" y="70" width="255" height="80" class="stap"/>
+<text x="338" y="98">2 · Aanvraag attestation</text>
+<text x="338" y="122" class="sub">±20 dagen vooraf · Mon Espace</text>
+<text x="338" y="142" class="sub">Consuel · 12 mnd geldig</text>
+<line x1="577" y1="110" x2="622" y2="110" class="lijn"/>
+<rect x="624" y="70" width="255" height="80" class="stap"/>
+<text x="640" y="98">3 · Controlebezoek</text>
+<text x="640" y="122" class="sub">particulier: vrijwel altijd</text>
+<text x="640" y="142" class="sub">bekende pro: steekproef</text>
+<line x1="751" y1="150" x2="751" y2="200" class="lijn"/>
+<rect x="496" y="202" width="384" height="80" class="accent"/>
+<text x="512" y="230">4 · Visa — of contre-visite (232,13 €)</text>
+<text x="512" y="254" class="sub">gevisieerde attestatie gaat sinds décret 2024-1122</text>
+<text x="512" y="274" class="sub">automatisch naar Enedis</text>
+<line x1="496" y1="242" x2="430" y2="242" class="lijn"/>
+<rect x="150" y="202" width="278" height="80" class="stap"/>
+<text x="166" y="230">5 · Inbedrijfstelling</text>
+<text x="166" y="254" class="sub">zonder visa géén stroom —</text>
+<text x="166" y="274" class="sub">ook niet met een Linky</text>
+<text x="20" y="330" class="kop">De vier formulieren</text>
+<rect x="20" y="352" width="200" height="64" class="accent"/><text x="34" y="378">GEEL · 144,67 €</text><text x="34" y="400" class="sub">woning (incl. laadpunt)</text>
+<rect x="240" y="352" width="200" height="64" class="stap"/><text x="254" y="378">GROEN · 76,37 €</text><text x="254" y="400" class="sub">niet-domestiek</text>
+<rect x="460" y="352" width="200" height="64" class="stap"/><text x="474" y="378">BLAUW · 201,17 €</text><text x="474" y="400" class="sub">productie zonder opslag</text>
+<rect x="680" y="352" width="200" height="64" class="stap"/><text x="694" y="378">VIOLET · 230,32 €</text><text x="694" y="400" class="sub">productie met opslag</text>
+<text x="20" y="452" class="sub">Tarieven: particulier, metropool, elektronisch — barème per 02-09-2025; woning + zonnepanelen = twee formulieren.</text>
+<text x="20" y="476" class="sub">Vanaf april 2026 staat NF C 15-100:2024 standaard aangevinkt in Mon Espace Consuel.</text>
+</svg>

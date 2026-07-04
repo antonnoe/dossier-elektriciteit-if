@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="t-h6b">
+<!-- Verificatie: V5.4 (min. 4 circuits spécialisés; kookplaat 32 A/6 mm²; 3× 20 A/2,5 mm²; eigen circuit per aanwezige zware verbruiker; rolluiken nieuw 2024), 04-07-2026.
+     Bijschrift: Nieuw schema op basis van NF C 15-100 (2024), deel 10; geen voorganger in de oorspronkelijke serie. -->
+<title id="t-h6b">De circuits spécialisés: wat verplicht een eigen groep heeft</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .plicht{fill:rgba(128,0,0,0.16);stroke:#800000;stroke-width:2.5}
+  .indien{fill:rgba(128,0,0,0.06);stroke:#800000;stroke-width:2}
+</style>
+<text x="20" y="34" class="kop">Altijd verplicht — minimaal 4</text>
+<rect x="20" y="60" width="200" height="70" class="plicht"/>
+<text x="34" y="88">kookplaat</text><text x="34" y="112" class="sub">32 A · 6 mm²</text>
+<rect x="240" y="60" width="200" height="70" class="plicht"/>
+<text x="254" y="88">oven</text><text x="254" y="112" class="sub">20 A · 2,5 mm²</text>
+<rect x="460" y="60" width="200" height="70" class="plicht"/>
+<text x="474" y="88">vaatwasser</text><text x="474" y="112" class="sub">20 A · 2,5 mm²</text>
+<rect x="680" y="60" width="200" height="70" class="plicht"/>
+<text x="694" y="88">wasmachine</text><text x="694" y="112" class="sub">20 A · 2,5 mm² · type A</text>
+<text x="20" y="180" class="kop">Eigen circuit zodra aanwezig</text>
+<rect x="20" y="206" width="200" height="56" class="indien"/><text x="34" y="240">droger</text>
+<rect x="240" y="206" width="200" height="56" class="indien"/><text x="254" y="240">chauffe-eau (boiler)</text>
+<rect x="460" y="206" width="200" height="56" class="indien"/><text x="474" y="230">verwarming</text><text x="474" y="252" class="sub">per 4.500 W een circuit</text>
+<rect x="680" y="206" width="200" height="56" class="indien"/><text x="694" y="230">warmtepomp/airco</text><text x="694" y="252" class="sub">+ type F (H3/H7)</text>
+<rect x="20" y="282" width="200" height="56" class="indien"/><text x="34" y="316">VMC (ventilatie)</text>
+<rect x="240" y="282" width="200" height="56" class="indien"/><text x="254" y="306">rolluiken (motor)</text><text x="254" y="328" class="sub">nieuw in de 2024-serie</text>
+<rect x="460" y="282" width="200" height="56" class="indien"/><text x="474" y="306">EV-laadpunt</text><text x="474" y="328" class="sub">7-722 · IRVE (H7)</text>
+<rect x="680" y="282" width="200" height="56" class="indien"/><text x="694" y="306">koelkast/vriezer</text><text x="694" y="328" class="sub">aanbevolen</text>
+<text x="20" y="386" class="kop">En de keuken (≥ 4 m²)</text>
+<rect x="20" y="412" width="640" height="64" class="plicht"/>
+<text x="34" y="440">6 niet-gespecialiseerde stopcontacten op één eigen circuit 2,5 mm² · 20 A</text>
+<text x="34" y="464" class="sub">waarvan 4 boven het werkblad (8–25 cm); verboden boven spoelbak en kookplaat; hotte ≥ 1,80 m</text>
+<text x="20" y="516" class="sub">Tweede groepenkast (tableau divisionnaire) is óók een circuit spécialisé — zie hoofdstuk 3.</text>
+<text x="20" y="540" class="sub">Studio-uitzondering: 3 circuits spécialisés.</text>
+</svg>

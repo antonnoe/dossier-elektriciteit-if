@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="t-h5">
+<!-- Verificatie: V13 (kleurharmonisatie + oud-NL-valkuil; FR-historisch nog open) + 1/3-vulregel naar Robs artikel De leidingaanleg. 04-07-2026.
+     Bijschrift: Naar het oorspronkelijke schema van Rob van der Meulen (2008–2017), geactualiseerd naar NF C 15-100 (2024). Kleuren in dit schema zijn functioneel weergegeven. -->
+<title id="t-h5">Draadkleuren in drie landen en de vulregel van de buis</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .lijn{stroke:#800000;stroke-width:2;fill:none}
+  .waarschuw{fill:rgba(128,0,0,0.10);stroke:#800000;stroke-width:2.5}
+</style>
+<text x="20" y="34" class="kop">Modern (NL = BE = FR)</text>
+<line x1="30" y1="70" x2="280" y2="70" stroke="#7a4a1e" stroke-width="10"/><text x="300" y="76">fase — bruin</text>
+<line x1="30" y1="110" x2="280" y2="110" stroke="#1e4a7a" stroke-width="10"/><text x="300" y="116">nul — blauw</text>
+<line x1="30" y1="150" x2="280" y2="150" stroke="#3a7a1e" stroke-width="10" stroke-dasharray="18 10"/><text x="300" y="156">aarde — groen-geel (exclusief)</text>
+<text x="20" y="212" class="kop">Nederland oud (&lt; ±1970)</text>
+<line x1="30" y1="248" x2="280" y2="248" stroke="#3a7a1e" stroke-width="10"/><text x="300" y="254" style="font-weight:600">fase — GROEN ⚠</text>
+<line x1="30" y1="288" x2="280" y2="288" stroke="#a03030" stroke-width="10"/><text x="300" y="294">nul — rood</text>
+<line x1="30" y1="328" x2="280" y2="328" stroke="#888888" stroke-width="10"/><text x="300" y="334">aarde — grijs/blank · schakeldraad zwart</text>
+<rect x="530" y="220" width="350 " height="130" class="waarschuw"/>
+<text x="548" y="250" style="fill:#800000;font-weight:600">De dodelijke valkuil</text>
+<text x="548" y="278" class="sub">oud-NL groen = fase, terwijl groen(-geel)</text>
+<text x="548" y="298" class="sub">nu wereldwijd aarde betekent.</text>
+<text x="548" y="326" class="sub">Meet altijd — vertrouw nooit op kleur.</text>
+<text x="20" y="400" class="kop">De vulregel van de gaine</text>
+<circle cx="105" cy="470" r="52" class="lijn"/>
+<path d="M 105 470 L 105 418 A 52 52 0 0 1 150 496 Z" fill="rgba(128,0,0,0.25)" stroke="#800000" stroke-width="1.5"/>
+<text x="185" y="452">maximaal ⅓ gevuld met draad</text>
+<text x="185" y="476" class="sub">(soepeler bij korte doorvoeren en voorbedrade buis)</text>
+<text x="185" y="500" class="sub">Robs tip: neem één maat groter — 20 mm waar 16 mm net kon.</text>
+</svg>

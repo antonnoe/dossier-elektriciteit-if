@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="t-h4b">
+<!-- Verificatie: V3.4/V4 (LES verplicht, ≥2,5 mm², drie uitvoeringen, interconnectie bij tableau sinds A5, ≤2 Ω-continuïteit incl. vrijstellingsregel), 04-07-2026.
+     Bijschrift: Naar het oorspronkelijke schema van Rob van der Meulen (2008–2017), geactualiseerd naar NF C 15-100 (2024). -->
+<title id="t-h4b">De LES in de badkamer: serieschakeling of sterschakeling</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .doos{fill:rgba(128,0,0,0.05);stroke:#800000;stroke-width:2}
+  .el{fill:rgba(128,0,0,0.10);stroke:#800000;stroke-width:1.5}
+  .lijn{stroke:#800000;stroke-width:2.5;fill:none}
+</style>
+<text x="20" y="34" class="kop">Model 1 — in serie</text>
+<rect x="30" y="70" width="130" height="46" class="el"/><text x="44" y="98" class="sub">waterleiding</text>
+<rect x="30" y="140" width="130" height="46" class="el"/><text x="44" y="168" class="sub">metalen bad</text>
+<rect x="30" y="210" width="130" height="46" class="el"/><text x="44" y="238" class="sub">cv-leiding</text>
+<rect x="30" y="280" width="130" height="46" class="el"/><text x="44" y="308" class="sub">vloerwapening</text>
+<line x1="95" y1="116" x2="95" y2="140" class="lijn"/>
+<line x1="95" y1="186" x2="95" y2="210" class="lijn"/>
+<line x1="95" y1="256" x2="95" y2="280" class="lijn"/>
+<line x1="95" y1="326" x2="95" y2="370" class="lijn"/>
+<line x1="95" y1="370" x2="330" y2="370" class="lijn"/>
+
+<text x="480" y="34" class="kop">Model 2 — in ster (boîte de connexion)</text>
+<circle cx="650" cy="200" r="48" class="doos"/>
+<text x="618" y="196" class="sub">boîte de</text>
+<text x="612" y="216" class="sub">connexion</text>
+<rect x="480" y="70" width="120" height="42" class="el"/><text x="492" y="97" class="sub">waterleiding</text>
+<rect x="740" y="70" width="120" height="42" class="el"/><text x="752" y="97" class="sub">metalen bad</text>
+<rect x="480" y="290" width="120" height="42" class="el"/><text x="492" y="317" class="sub">cv-leiding</text>
+<rect x="740" y="290" width="120" height="42" class="el"/><text x="748" y="317" class="sub">vloerwapening</text>
+<line x1="600" y1="100" x2="622" y2="165" class="lijn"/>
+<line x1="740" y1="100" x2="682" y2="165" class="lijn"/>
+<line x1="600" y1="300" x2="622" y2="238" class="lijn"/>
+<line x1="740" y1="300" x2="682" y2="238" class="lijn"/>
+<line x1="650" y1="248" x2="650" y2="370" class="lijn"/>
+<line x1="650" y1="370" x2="480" y2="370" class="lijn"/>
+<text x="340" y="360" class="sub">≥ 2,5 mm² (in gaine)</text>
+<text x="340" y="380" class="sub">of 4 mm² opbouw</text>
+<rect x="330" y="395" width="240" height="56" class="doos"/>
+<text x="346" y="418">naar aardcircuit badkamer /</text>
+<text x="346" y="438">répartiteur de terre (H4)</text>
+<text x="20" y="480" class="sub">Géén aparte draad naar het tableau nodig — de vereffening loopt via de beschermingsleidingen.</text>
+<text x="20" y="498" class="sub">Vrijstelling: element met continuïteit ≤ 2 Ω (of isolatie ≥ 500 kΩ) hoeft niet apart aangesloten.</text>
+</svg>
