@@ -26,6 +26,14 @@ Gestart 04-07-2026. Protocol: elke harde claim krijgt status `[GEVERIFIEERD: bro
 
 ---
 
+**Aanvulling V1 (04-07-2026, bron aangedragen door Anton — vaste ankerbron):** AFNOR-nieuwspagina *"Installations électriques à basse tension : la série NF C15-100 est parue"* (gepubliceerd 13-09-2024, laatst bijgewerkt 04-06-2026) — dit wordt DE ankerbron voor de normstatus in H8:
+- Bevat de **volledige lijst van alle 21 normdelen met directe AFNOR-boutique-links** → overnemen in het bronnenregister van het dossier.
+- Citaat commissielid Bernard Gioan (FFIE, commissie U15): *"Le titre 10 de 2016, qui concerne les habitations, reste inchangé"* en NF C15-100-1 bundelt de oude titels 1–6. **Deel 10 (woningen) is dus niet "weinig gewijzigd" maar formeel ongewijzigd gebleven (2016/A5-tekst)** — sterkere legitimatie voor het conserveren van Robs woningmateriaal; de vernieuwing zit in deel 1, 7-722, 8-1 en 11.
+- 7-722 (EV): circuit spécialisé verplicht; **obturateurs blijven vereist bij normaal laden**; nieuwe rekenregels kabelsecties i.v.m. harmonischen (frequentieregelaars).
+- Brandveiligheid: euroclasses (CPR) voor geïsoleerde geleiders/kabels verankerd; gewijzigde parafoudre-risicomethode geldt *"à l'exception des bâtiments d'habitation"* — relevant voor V6: voor wóningen blijft dus de AQ-systematiek het kader.
+- Regelgevingsnuance letterlijk bevestigd (versie 2002 + amendementen blijft "norme d'application obligatoire" o.g.v. arrêté 03-08-2016 en gratis raadpleegbaar).
+- Boekentip voor H9: AFNOR Éditions, *"Installation électrique des logements : la NF C15-100 simplement"* (maart 2026) — de natuurlijke opvolger van de door Rob betreurde Promotelec-boekjes.
+
 ## V9 — Diagnostic électrique bij verkoop/verhuur · [GEVERIFIEERD: service-public.gouv.fr F18692 (primair) + Qualitel, Engie, Empruntis convergent — 04-07-2026]
 
 1. **Verplicht** bij verkoop én verhuur van een woning waarvan de elektrische installatie **ouder is dan 15 jaar** (incl. dependances met vaste installatie). Verkoop sinds 2009, verhuur sinds 2017/2018. Onderdeel van het Dossier de Diagnostic Technique (DDT), vóór compromis/bail.
