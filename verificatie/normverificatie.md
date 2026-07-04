@@ -83,6 +83,29 @@ Gestart 04-07-2026. Protocol: elke harde claim krijgt status `[GEVERIFIEERD: bro
 
 ---
 
+## V3 — Aarding · [GEVERIFIEERD: Legrand-pro, schema-electrique.net (2×, norm-editie aug 2024), materiels-electriques, egpp — convergent, 04-07-2026]
+1. **Aardingsweerstand: < 100 Ω wettelijk maximum**, zo laag mogelijk; advies < 50 Ω en **< 10 Ω bij parafoudre**. (Nuance t.o.v. Robs forumopmerking "50 Ohm is de norm voor parafoudre" — de convergente hedendaagse waarde is 10 Ω-advies; in H4 de actuele waarden aanhouden.)
+2. **Robs 2 Ω-regel bevestigd**: continuïteit van beschermingsleidingen en equipotentiaalverbindingen, gemeten met ohmmeter, ≤ 2 Ω. Ook de vrijstellingsregel (douchebak/badkuip/kozijnen niet aansluiten als continuïteit ≤ 2 Ω of isolatie ≥ 500 kΩ) staat in de norm.
+3. Boucle à fond de fouille verdient de voorkeur boven een enkele aardpen; waterleidingen/putten als aardelektrode verboden (wel aan de LEP koppelen). Beschermingsleiding altijd groen-geel; functionele aarde in een ándere kleur.
+4. LES/LEL: verplicht in bad-/doucheruimten; min. 2,5 mm² koper; sinds A5 mag de interconnectie in woningen bij het tableau; drie toegestane uitvoeringen (direct vanaf tableau van punt naar punt, via toegewijde lasdoos in/naast het lokaal, of gemengd); verbinding naar hoofdaardklem min. 6 mm².
+
+## V4 — Badkamerzones · [GEVERIFIEERD: Legrand (pro + particulier 2026), schema-electrique, Espace Aubade — 04-07-2026]
+1. **Volumes 0, 1, 2 + hors volume** (het oude volume 3 is sinds A5 vervallen) plus het **volume caché** onder bad/douchebak (geen apparatuur; alleen IP44 achter 30 mA toegestaan).
+2. IP-eisen: volume 0 alleen TBTS-verlichting IPX7; volume 1 IPX5; volume 2 IPX4; hors volume vrij. Verlichtingspunt volume 2: DCL met obturator IPX4 of afdekkend IPX4-armatuur. Bedieningshoogtes 0,90–1,30 m (toegankelijkheid).
+3. Alle badkamercircuits achter 30 mA-ID + LES (zie V3). De 7-701 is in de 2024-serie een eigen normdeel — bij het schrijven van H6 de Consuel/Promotelec-weergave van dat deel als eindcheck gebruiken (Socotec meldde "actualisatie natte ruimten" als 2024-wijziging; welke details precies wijzigden nog vaststellen).
+4. Robs doorstroomverwarmer-punt bevestigd in de systematiek: volume 0/1 kent zeer strikte apparaatbeperkingen; UK-stijl douche-doorstromers passen daar niet in (H6-kader).
+
+## V8 — Consuel: soorten, tarieven, zelfaanleg · [GEVERIFIEERD: consuel.com (tariefpagina, barème per arrêté 04-08-2015, +0,64% per 02-09-2025) + vijf convergente secundaire bronnen — 04-07-2026]
+1. **Vier attestations**: geel (woningen, CERFA 12506*03), groen (niet-domestiek/gemeenschappelijke delen, 12507*03), blauw (productie zonder opslag, 15523*01), violet (productie mét opslag, 15524*01). Woning + zonnepanelen = geel én blauw.
+2. **Particulierentarieven (elektronisch, metropool, sinds 02-09-2025)**: geel **144,67 €** (papier 146,15), groen 76,37, blauw 201,17, violet 230,32; **contre-visite bij afkeuring 232,13 €**. Tarieven bij arrêté vastgelegd, landelijk uniform. Verworpen als verouderd: EDF-pagina "~125 €".
+3. **Zelfaanleg is toegestaan en voorzien**: de auteur van de werken (particulier bij auto-construction) vraagt zelf aan en tekent voor conformiteit; particulieren krijgen vrijwel altijd een controlebezoek (pro's steekproefsgewijs — bevestigt Robs weergave én Antons 2013-ervaring). Aanvraag ±20 dagen vóór gewenste inschakeling; blanco formulier 12 maanden geldig; sinds decreet 2024-1122 gaat de gevisieerde attestation automatisch naar Enedis; zonder visa geen inbedrijfstelling van de meter.
+4. Blauw/violet: dossier met onduleur-certificaat NF EN 50549-1/-2, sinds 01-01-2026 ook -10:2023 voor ≤ 36 kVA — detail voor het zonnepanelen-raakvlak in H7/H8.
+
+## V6 (deelresultaat) — Parafoudre
+Legrand-pro (2024-serie): **verplicht** in woningen in risicodepartementen (**zone AQ2**, > 25 onweersdagen/jaar); **aanbevolen** bij woningen < 50 m van een gebouw met paratonnerre met gevoelige apparatuur. Eerdere One-Elec-melding "aanbevolen vanaf 10 m i.p.v. 30 m" spoort daar niet mee (50 m vs 10 m) → V6 blijft open tot Consuel/Promotelec-check; wel al zeker: aarde < 10 Ω-advies en korte aansluitleiding (Robs 50 cm-regel apart toetsen).
+
+---
+
 ## Openstaande verificatiepunten (volgorde van uitvoering)
 - V6-rest: parafoudre 10m-afstandsregel + Robs detailregels (aarddraad <=50 cm) bij Consuel/Promotelec
 - V10 Linky: uitrolstatus, functies, weigeraars-regeling
