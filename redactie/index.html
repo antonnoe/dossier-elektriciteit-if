@@ -1,0 +1,1649 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>De Franse elektrische installatie — redactie-exemplaar voor Rob</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Mulish:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bordeaux:#800000;
+  --b04:rgba(128,0,0,.04); --b08:rgba(128,0,0,.08); --b15:rgba(128,0,0,.15);
+  --b40:rgba(128,0,0,.40); --b80:rgba(128,0,0,.80);
+  --papier:#FDFCFA; --inkt:#2A2622; --grijs:#6B635C; --archief:#FBF6E9;
+  --basis:19px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--papier);color:var(--inkt);
+  font-family:Mulish,system-ui,sans-serif;font-size:var(--basis);line-height:1.8}
+h1,h2,h3{font-family:Poppins,sans-serif;color:var(--bordeaux);line-height:1.3}
+h1{font-size:1.9em;font-weight:700;margin:.2em 0 .8em}
+h2{font-size:1.35em;font-weight:600;margin-top:2.2em}
+h3{font-size:1.1em;font-weight:600;color:#4a3535;margin-top:1.8em}
+a{color:var(--bordeaux)}
+em{font-style:italic}
+
+/* ---- bovenbalk ---- */
+header{position:sticky;top:0;z-index:40;background:var(--papier);
+  border-bottom:2px solid var(--b15);padding:.5rem 1rem}
+.kop{max-width:1060px;margin:0 auto;display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
+.kop .titel{font-family:Poppins,sans-serif;font-weight:600;color:var(--bordeaux);font-size:.95rem;white-space:nowrap}
+nav{display:flex;gap:.15rem;overflow-x:auto;flex:1;scrollbar-width:thin}
+nav a{display:flex;align-items:center;gap:.4em;text-decoration:none;color:var(--grijs);
+  font-size:.72rem;padding:.3em .55em;border-radius:4px;white-space:nowrap}
+nav a span{font-family:Poppins,sans-serif;font-weight:700;color:var(--b80);
+  border:1.5px solid var(--b15);border-radius:4px;width:1.5em;height:1.5em;
+  display:grid;place-items:center;font-size:.95em}
+nav a:hover{background:var(--b04);color:var(--bordeaux)}
+.letters{display:flex;gap:.3rem}
+.letters button{font-family:Poppins,sans-serif;font-weight:700;border:1.5px solid var(--b15);
+  background:#fff;color:var(--bordeaux);border-radius:6px;cursor:pointer;
+  width:2.2em;height:2.2em;font-size:.8rem}
+.letters button:hover{background:var(--b08)}
+
+/* ---- inhoud ---- */
+main{max-width:720px;margin:0 auto;padding:2.5rem 1.25rem 9rem}
+.eyebrow{font-family:Poppins,sans-serif;font-size:.72rem;font-weight:600;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--b40);margin:3.5em 0 0}
+section:first-of-type .eyebrow{margin-top:0}
+table{border-collapse:collapse;width:100%;font-size:.92em;margin:1em 0}
+th,td{border:1px solid var(--b15);padding:.5em .7em;text-align:left;vertical-align:top}
+th{background:var(--b04);font-family:Poppins,sans-serif;font-weight:600;font-size:.9em}
+blockquote{margin:1.2em 0;padding:.1em 0 .1em 1.2em;border-left:3px solid var(--b15);color:#4a4440}
+ul,ol{padding-left:1.4em}
+img{max-width:100%;height:auto}
+.notitie{font-style:italic;color:var(--grijs);font-size:.9em;background:var(--b04);
+  padding:.6em 1em;border-radius:6px;margin:1.2em 0}
+
+/* ---- signatuur 1: Robs archiefkaarten ---- */
+figure.rob{margin:1.8em 0;background:var(--archief);border:1px solid #E7DCC2;
+  border-left:4px solid var(--bordeaux);border-radius:3px;
+  box-shadow:2px 3px 0 rgba(128,0,0,.06);padding:.9em 1.2em .6em}
+figure.rob figcaption{font-family:Poppins,sans-serif;font-size:.68rem;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--b80);margin-bottom:.4em}
+figure.rob blockquote{border:0;padding:0;margin:.2em 0;color:var(--inkt)}
+
+/* ---- vraagblokken ---- */
+.vraag{margin:1.6em 0;border:1.5px solid var(--b40);border-radius:8px;
+  padding:.9em 1.1em;background:#fff}
+.vraaglabel{display:block;font-family:Poppins,sans-serif;font-weight:700;
+  font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--bordeaux);margin-bottom:.3em}
+
+/* ---- signatuur 2: kantlijn-opmerkingen ---- */
+main section > *{position:relative;border-radius:3px}
+[data-blok]{cursor:pointer;transition:background .15s}
+[data-blok]:hover{background:var(--b04);box-shadow:-4px 0 0 var(--b40)}
+[data-blok].heeft-opmerking{box-shadow:-4px 0 0 var(--bordeaux)}
+[data-blok]:hover::after{content:"✎ klik om iets op te merken";position:absolute;right:.3em;top:-1.4em;
+  font-family:Poppins,sans-serif;font-size:.62rem;letter-spacing:.06em;color:var(--b80);
+  background:var(--papier);padding:0 .4em;border:1px solid var(--b15);border-radius:4px}
+[data-blok].heeft-opmerking:hover::after{content:"✎ opmerking bewerken"}
+.editor{margin:.4em 0 1.4em;padding:.8em;background:#fff;border:1.5px solid var(--b40);border-radius:8px}
+.editor label{font-family:Poppins,sans-serif;font-size:.72rem;font-weight:600;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--bordeaux);display:block;margin-bottom:.4em}
+.editor textarea{width:100%;min-height:5.5em;font:inherit;font-size:.95em;line-height:1.6;
+  border:1px solid var(--b15);border-radius:6px;padding:.6em;resize:vertical}
+.editor textarea:focus{outline:2px solid var(--b40)}
+.editor .rij{display:flex;gap:.6rem;margin-top:.5em;align-items:center;flex-wrap:wrap}
+.editor button{font-family:Poppins,sans-serif;font-weight:600;font-size:.85rem;border-radius:6px;
+  padding:.45em 1em;cursor:pointer;border:1.5px solid var(--bordeaux)}
+.editor .bewaar{background:var(--bordeaux);color:#fff}
+.editor .weg{background:#fff;color:var(--bordeaux)}
+.editor .status{font-size:.78rem;color:var(--grijs)}
+.opmerking-chip{margin:.3em 0 1.2em;font-size:.9em;background:var(--b04);
+  border-left:3px solid var(--bordeaux);padding:.5em .9em;border-radius:0 6px 6px 0;color:#4a3030}
+.opmerking-chip b{font-family:Poppins,sans-serif;font-size:.72rem;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--bordeaux);display:block}
+
+/* ---- erfgoedgalerij ---- */
+#erfgoed .galerij{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;margin-top:1.5rem}
+.erfgoedkaart{margin:0;background:#fff;padding:.8rem .8rem 1rem;border:1px solid #E7DCC2;
+  box-shadow:3px 5px 14px rgba(42,38,34,.12)}
+.erfgoedkaart:nth-child(odd){transform:rotate(-.7deg)}
+.erfgoedkaart:nth-child(even){transform:rotate(.6deg)}
+.erfgoedkaart img{display:block;width:100%;border:1px solid #eee}
+.erfgoedkaart figcaption{font-size:.82rem;color:var(--grijs);margin-top:.6em;line-height:1.5}
+
+/* ---- verstuurbalk ---- */
+footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
+  border-top:2px solid var(--b15);box-shadow:0 -4px 18px rgba(42,38,34,.08)}
+.balk{max-width:720px;margin:0 auto;padding:.7rem 1.25rem;display:flex;gap:1rem;align-items:center;flex-wrap:wrap}
+.balk .teller{font-size:.9rem;color:var(--grijs);flex:1;min-width:200px}
+.balk .teller b{color:var(--bordeaux);font-family:Poppins,sans-serif}
+.balk button{font-family:Poppins,sans-serif;font-weight:600;border-radius:8px;cursor:pointer;
+  padding:.6em 1.2em;font-size:.9rem;border:1.5px solid var(--bordeaux)}
+#verstuur{background:var(--bordeaux);color:#fff}
+#kopieer{background:#fff;color:var(--bordeaux)}
+.balk button:hover{opacity:.9}
+
+.intro{background:var(--b04);border-radius:10px;padding:1.4rem 1.6rem;margin-bottom:2.5rem}
+.intro h1{font-size:1.5em;margin-top:0}
+.intro p{margin:.5em 0}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}.erfgoedkaart{transform:none!important}}
+@media (max-width:640px){:root{--basis:17.5px}.kop .titel{display:none}}
+</style>
+</head>
+<body>
+<header><div class="kop">
+  <div class="titel">De Franse elektrische installatie</div>
+  <nav><a href="#h0"><span>0</span>Inleiding</a><a href="#h1"><span>1</span>Aansluiting, meter en </a><a href="#h2"><span>2</span>De hoofdschakelaar</a><a href="#h3"><span>3</span>De groepenkast</a><a href="#h4"><span>4</span>De aarding</a><a href="#h5"><span>5</span>De leidingaanleg</a><a href="#h6"><span>6</span>Schakelingen, circuits</a><a href="#h7"><span>7</span>Zwaar verbruik</a><a href="#h8"><span>8</span>Normen, keuring en pap</a><a href="#h9"><span>9</span>Naslag</a><a href="#erfgoed"><span>✦</span>Jouw schema's</a></nav>
+  <div class="letters" aria-label="lettergrootte">
+    <button id="kleiner" title="kleinere letters">A−</button>
+    <button id="groter" title="grotere letters">A+</button>
+  </div>
+</div></header>
+
+<main>
+<div class="intro">
+  <h1>Beste Rob,</h1>
+  <p>Dit is het complete handboek dat wij uit jouw elektra-serie hebben samengesteld — twintig jaar artikelen en forumdraden, langs de nieuwe norm van 2024 gelegd. Alles wat letterlijk van jou is, staat op een <b>gele archiefkaart</b>.</p>
+  <p><b>Zo werkt het:</b> klik op een alinea waar je iets over kwijt wilt — er verschijnt een vak waarin je je opmerking typt. Alles wordt vanzelf op dit apparaat bewaard; je kunt dus rustig stoppen en later verdergaan. Ben je klaar (of tussentijds), druk dan onderaan op <b>„Stuur je opmerkingen naar Anton"</b>.</p>
+  <p>Kom je een blokje <b>„Vraag aan jou"</b> tegen: dat zijn punten waar jouw geheugen of jouw boekenkast verder reikt dan de officiële stukken. En helemaal onderaan hangt een kleine galerij met jullie oorspronkelijke handgetekende schema's.</p>
+  <p>Neem er de tijd voor. — Anton</p>
+</div>
+<section id="h0"><p class="eyebrow">Hoofdstuk 0</p><h1>Inleiding: veilig klussen aan Franse elektra</h1><h2>Snel antwoord</h2>
+<p><strong>Voordat u ook maar één draad aanraakt:</strong></p>
+<table>
+<thead>
+<tr>
+<th>✓</th>
+<th>Actie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>☐</td>
+<td>Schakel de groep uit waaraan u werkt — of zet het hele huis stroomloos met de <em>disjoncteur de branchement</em></td>
+</tr>
+<tr>
+<td>☐</td>
+<td>Hang een bordje op bij de groepenkast: "niet inschakelen, er wordt aan de elektra gewerkt"</td>
+</tr>
+<tr>
+<td>☐</td>
+<td>Controleer met een spanningszoeker of de spanning er écht af is</td>
+</tr>
+<tr>
+<td>☐</td>
+<td>Draag schoenen met rubberzolen; doe uw polshorloge met metalen bandje af</td>
+</tr>
+<tr>
+<td>☐</td>
+<td>Laat nooit blanke koperdraden "voor volgende week" uit de muur hangen</td>
+</tr>
+<tr>
+<td>☐</td>
+<td>Stop op tijd — de meeste ongelukken gebeuren bij "nog éven dit afmaken"</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Mag ik zelf aan mijn elektrische installatie werken?</strong></p>
+<table>
+<thead>
+<tr>
+<th>Land</th>
+<th>Mag het?</th>
+<th>Maar…</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Frankrijk</strong></td>
+<td>Ja, volledig — ook complete nieuwbouw</td>
+<td>Bij een nieuwe aansluiting of herinschakeling is een goedkeurende attestation van de <strong>Consuel</strong> vereist vóór er stroom komt [GEVERIFIEERD: consuel.com, 04-07-2026]</td>
+</tr>
+<tr>
+<td><strong>Nederland</strong></td>
+<td>Ja, geen wettelijk installateursmonopolie voor de eigen woning</td>
+<td>NEN 1010 geldt via het Besluit bouwwerken leefomgeving; geen verplichte keuring, wél verzekerings- en aansprakelijkheidsrisico [formele Bbl-artikelverwijzing: NIET GEVERIFIEERD]</td>
+</tr>
+<tr>
+<td><strong>België</strong></td>
+<td>Ja, zelf aanleggen toegestaan</td>
+<td>Na nieuwe aanleg of belangrijke wijziging is <strong>keuring door een erkend controleorganisme verplicht</strong> (AREI Boek 1) [GEVERIFIEERD: AREI/FOD Economie, 04-07-2026]</td>
+</tr>
+</tbody>
+</table>
+<h2>Robs kern</h2>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>De Franse elektrische installatie is iets waar je als Nederlander even aan moet wennen. De moderne groepenkasten zien er soms wat intimiderend uit: veel meer groepen dan we gewend zijn, en modules waarvan je het bestaan nooit vermoed zou hebben, met Franse benamingen die je niet meteen terugvindt in het woordenboek. Of je staat oog in oog met een groepenkast uit de jaren vijftig: een houten plank met daarop kleine zekeringhoudertjes, waarvan je even denkt dat het een achtergebleven stuk kinderspeelgoed is, totdat je ziet dat er echte stroomdraden aan vast zitten. En je een vaag vermoeden krijgt hoe de rest van de leidingen daar in de loop der jaren – onnavolgbaar voor de nieuwkomer – aan is vastgeknoopt. En je daarna duidelijk wordt waar vroeger die bordjes <em>sèche-cheveux interdit</em> in de wat eenvoudiger hotels voor dienden. Niet om de global warming tegen te gaan, maar om local warming te voorkomen.</p>
+</blockquote></figure>
+<p>Robs veiligheidsritueel, integraal — dit is het fundament onder elk volgend hoofdstuk:</p>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>Sluit bij alle werkzaamheden aan de elektrische installatie in ieder geval de stroom af van de groep waarmee je bezig gaat, of zet het hele huis stroomloos met de <em>disjoncteur de branchement</em>. Zeker wanneer je in de groepenkast werkzaamheden gaat verrichten. En hang even een bordje of papier op bij de groepenkast, dat er iemand met de elektra bezig is. Zo voorkom je dat iemand denkt: hé, geen stroom op dit stopkontakt, even die groep inschakelen. En iemand anders in het huis onder spanning komt te staan. Schoenen met rubber zolen zijn ook aan te bevelen; het dragen van een polshorloge met een metalen schakelbandje daarentegen minder slim wanneer je gewapend met een meetinstrument ergens in huis de aanwezige spanning of stroom wilt gaan controleren. En laat in een bestaande installatie waar de elektriciteit al is aangesloten geen blanke stukken koperdraad los ergens uit de muur hangen, onder het motto: volgende week ga ik wel verder. Of je denkt: dit kan ook wel met de stroom er op, is alleen maar een kleinigheid. Deed ik ook een keer, iets jonger nog, lette even niet op, en mijn kniptang maakte kortsluiting. Flits, klap. Op één van de snijvlakken ontbrak toen een stukje metaal. Verdampt, weggesprongen. En het was zo'n mooie tang, toen nog 'Made in Western-Germany'. Had ook in mijn oog terecht kunnen komen, ik had ook van de ladder af kunnen vallen. Niet doen dus. En omdat de meeste ongelukken gebeuren wanneer je vermoeid raakt (nog éven dit afmaken): stop op tijd. Morgen is er weer een dag.</p>
+</blockquote></figure>
+<h2>Verdieping</h2>
+<h3>De cijfers: waarom dit dossier bestaat</h3>
+<p>Rob opende zijn serie destijds met een brandcijfer uit 2012. Dat cijfer circuleert nog steeds op internet, maar is verouderd; de actuele stand is zo mogelijk nog overtuigender. Het Observatoire National de la Sécurité Électrique (ONSE, in 1995 opgericht door Promotelec en Consuel) hanteert nu de volgende kerncijfers [GEVERIFIEERD: onse.fr + Promotelec-baromètre 2024/2025, 04-07-2026]:</p>
+<ul>
+<li><strong>83% van de Franse woninginstallaties ouder dan vijftien jaar vertoont minstens één anomalie</strong> (baromètre 2024, op basis van 400.000 diagnostics; in 2025: 82,6%; in gemeenschappelijke delen van appartementsgebouwen zelfs 90%).</li>
+<li>20 tot 35% van de woningbranden heeft een elektrische oorsprong; verzekeraars verwerken ±156.000 brandschadedeclaraties per jaar.</li>
+<li>Per jaar belanden ±3.000 mensen op de spoedeisende hulp door elektrisering — <strong>de helft daarvan kinderen onder de vijftien</strong> — en vallen er 30 tot 40 elektrocutiedoden.</li>
+</ul>
+<p>De top-anomalieën uit de diagnostics lezen als de inhoudsopgave van dit dossier: defecte of ontbrekende aarding (64% — hoofdstuk 4), verouderd materieel (46%), risico op direct contact met spanningvoerende delen (41%), ontbrekende potentiaalvereffening in de badkamer (22%) en geschonden badkamerzones (18% — hoofdstuk 6).</p>
+<p>Robs pointe uit 2012 blijft daarbij onverkort van kracht: er is geen enkele reden om "al te nostalgisch tegen o zo authentieke Franse bedrading of antieke schakelaars aan te blijven kijken. Zo snel mogelijk vervangen door iets nieuws, voor uw eigen veiligheid." </p>
+<h3>Mag ik dit zelf? Frankrijk is liberaler dan u denkt — maar niet vrijblijvend</h3>
+<p>In het Verenigd Koninkrijk, Zwitserland en Zweden is werken aan de huisinstallatie voorbehouden aan geregistreerde elektriciens. Frankrijk is op dit punt, in Robs woorden, "gelukkig eens wat liberaler": u mag als particulier de complete installatie zelf aanleggen. De Consuel voorziet daar uitdrukkelijk in — de <em>auteur van de werken</em> vraagt zelf de attestation aan en tekent ervoor; particuliere zelfbouwers krijgen vrijwel altijd een controlebezoek, bekende professionals steekproefsgewijs [GEVERIFIEERD: consuel.com, 04-07-2026]. Hoofdstuk 8 behandelt de hele procedure.</p>
+<p>Maar "liberaal" betekent niet "zonder gevolgen". Twee mechanismen zorgen ervoor dat knoeiwerk vroeg of laat aan het licht komt:</p>
+<ol>
+<li><strong>Het diagnostic électrique.</strong> Bij verkoop én verhuur van een woning met een installatie ouder dan vijftien jaar is een veiligheidsdiagnostic verplicht (geldig 3 jaar bij verkoop, 6 jaar bij verhuur). Elke gerapporteerde anomalie is een onderhandelingsargument voor de koper; bij verhuur kan een ernstige anomalie de verhuurbaarheid blokkeren [GEVERIFIEERD: service-public.gouv.fr F18692, 04-07-2026]. Hoofdstuk 8 gaat hier dieper op in.</li>
+<li><strong>De verzekering.</strong> Bij brand met een aantoonbaar non-conforme installatie als oorzaak kan de verzekeraar de uitkering ter discussie stellen — zie het kader hieronder.</li>
+</ol>
+<p>Op fora duikt met enige regelmaat het tegenovergestelde geluid op: <em>"Vanaf de meter mag je er zelf een bende van maken. Geen controle. Dus doe je voordeel."</em> (forumdeelnemer, nederlanders.fr). Dat is precies de misvatting die dit dossier wil ontkrachten: er is wel degelijk controle — alleen komt die niet vandaag, maar bij de verkoop, de verhuur of de schadeclaim.</p>
+<h3>De Hollandse reflex</h3>
+<p>Door het hele dossier loopt één rode draad die we hier meteen benoemen: de aanname van veel Nederlanders (en Vlamingen) dat de eigen spullen, normen en gewoonten beter zijn dan de Franse. Soms klopt dat (kwaliteit is merkgebonden, niet landgebonden — een Wago-klem is in beide landen een Wago-klem), maar als installatieprincipe pakt het verkeerd uit: Nederlandse randaarde-contactdozen, meegenomen fornuisaansluitingen of Britse doorstroomverwarmers zijn in Frankrijk non-conform, en non-conformiteit komt hard aan op het moment dat het diagnostic électrique of de schade-expert langskomt. Per hoofdstuk laat het NL–BE–FR-blok zien wáár de systemen werkelijk verschillen — feitelijk, zonder NL-bashen en zonder FR-verheerlijking.</p>
+<p>Ter relativering: Nederland kende exact dezelfde saneringsslag, alleen een generatie eerder. Een lezer op het IF-forum herkende alles: <em>"zo ongeveer ging het mij ook toen in 1977 in mijn net gekochte oude huis de elektra werd afgekeurd."</em> (forumdeelnemer, IF-forum, 2014)</p>
+<h2>NL–BE–FR</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Nederland</th>
+<th>België</th>
+<th>Frankrijk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Norm</td>
+<td>NEN 1010</td>
+<td>AREI/RGIE (volledig herzien per 01-06-2020, drie boeken)</td>
+<td>NF C 15-100 (sinds 2024 een serie van 21 delen — zie hoofdstuk 8)</td>
+</tr>
+<tr>
+<td>Zelf aanleggen</td>
+<td>Toegestaan</td>
+<td>Toegestaan</td>
+<td>Toegestaan</td>
+</tr>
+<tr>
+<td>Verplichte keuring particulier</td>
+<td>Nee</td>
+<td><strong>Ja</strong> — erkend controleorganisme na nieuwe aanleg of belangrijke wijziging</td>
+<td>Alleen Consuel-attestation bij nieuwe aansluiting/herinschakeling</td>
+</tr>
+<tr>
+<td>Keuring bij verkoop</td>
+<td>Nee (wel APK-achtige initiatieven, vrijwillig)</td>
+<td>Keuringsverslag verplicht bij verkoop</td>
+<td>Diagnostic électrique verplicht bij installatie &gt; 15 jaar</td>
+</tr>
+</tbody>
+</table>
+<p>[GEVERIFIEERD: V14/V8/V9-bronnen, 04-07-2026; NL-Bbl-artikelverwijzing en BE-keuringsdetails bij verkoop: NIET GEVERIFIEERD — aanvullen vóór publicatie]</p>
+<h2>Uit de praktijk</h2>
+<blockquote>
+<p><strong>De verzekeringswaarschuwing.</strong> Op het forum van nederlanders.fr vatte een deelnemer het Franse uitgangspunt kernachtig samen: <em>"Nul n'est censé ignorer la loi (…) een verzekeringsmaatschappij is in haar recht om jou helemaal niets uit te betalen als er brand zou komen."</em> — forumdeelnemer, nederlanders.fr. De juridische finesses verschillen per polis en per geval, maar de kern staat: wie zelf klust, klust op eigen verantwoordelijkheid — en die verantwoordelijkheid is verzekeringstechnisch geen dode letter.</p>
+<p><strong>1977.</strong> <em>"Zo ongeveer ging het mij ook toen in 1977 in mijn net gekochte oude huis de elektra werd afgekeurd."</em> — forumdeelnemer, IF-forum, 2014. De Franse saneringsslag die u in uw <em>maison de campagne</em> aantreft, is dezelfde die Nederland in de jaren zeventig doormaakte. Geen reden voor dedain — wel voor gereedschap.</p>
+</blockquote>
+<h2>Tijdgevoelig — geverifieerd 04-07-2026</h2>
+<ul>
+<li>Veiligheidscijfers: ONSE/Promotelec-baromètre 2024 (83% anomalie) en 2025 (82,6%). Bij de jaarlijkse onderhoudsbeurt van dit dossier het nieuwste baromètre-jaar overnemen van onse.fr.</li>
+<li>Robs oorspronkelijke openingscijfer (250.000 woningbranden, 80.000 met elektra-oorzaak, anno 2012) is vervangen door de actuele ONSE-systematiek en dient niet meer geciteerd te worden.</li>
+</ul>
+<div class="notitie">Hier komt online een rekenhulp voor abonnees — niets om na te kijken.</div></section><section id="h1"><p class="eyebrow">Hoofdstuk 1</p><h1>Aansluiting, meter en contract</h1><h2>Snel antwoord</h2>
+<table>
+<thead>
+<tr>
+<th>Uw situatie</th>
+<th>Waar moet u zijn</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>De stroom valt steeds uit zodra er twee grote apparaten tegelijk aanstaan</td>
+<td>Puissance souscrite te laag óf scheve fasebalans bij driefase — zie hieronder</td>
+</tr>
+<tr>
+<td>U heeft een oude driefase-aansluiting met klein vermogen</td>
+<td>Overweeg ombouw naar monophasé — zie de afweging tri/mono</td>
+</tr>
+<tr>
+<td>U wilt weten wat voor aansluiting u heeft</td>
+<td>Kijk op de meter of de <em>disjoncteur de branchement</em>: "230 V" = monophasé, "3 × 230" = triphasé; de leveranciersfactuur vermeldt de puissance souscrite in kVA</td>
+</tr>
+<tr>
+<td>U betaalt naar uw gevoel te veel</td>
+<td>Controleer tariefoptie (Base / Heures Creuses / Tempo) én de kVA-trap van uw abonnement</td>
+</tr>
+<tr>
+<td>Nieuwbouw of heraansluiting</td>
+<td>Eerst Consuel-attestation (hoofdstuk 8), dan pas sluit Enedis aan</td>
+</tr>
+</tbody>
+</table>
+<p><strong>De drie kernbegrippen van dit hoofdstuk:</strong>
+- <strong>Puissance souscrite</strong> — het maximale vermogen (in kVA) dat uw abonnement toestaat; erboven schakelt alles uit.
+- <strong>Monophasé / triphasé</strong> — één fase van 230 V, of drie fasen met 400 V ertussen.
+- <strong>Linky</strong> — de slimme meter die inmiddels de standaard is en de bewaking van uw puissance souscrite elektronisch (en streng) uitvoert.</p>
+<h2>Robs kern</h2>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>De energieproducent, meestal dus de EDF, en de energietransporteur ENEDIS, leveren tegenwoordig voor de kleinere vermogens bij particulieren het liefst een enkelfasige 230 Volt (<em>monophasé</em>) aansluiting. Dat zijn twee draden: <em>une phase et un neutre</em>. In het verleden werd op het platteland gezien de grote afstanden vaak een driefase (<em>triphasé</em>) aansluiting geleverd. Drie fasedraden en één neutrale draad. Op elk van die fasedraden staat 230 Volt ten opzichte van de neutrale draad en tussen die fasedraden staat een levensgevaarlijke spanning van 400 Volt. Het ontwerpen van zo'n driefase-installatie vergt een zorgvuldige berekening van de belasting die je op elk van die fasedraden aansluit. Wordt slechts één daarvan te zwaar belast, dan treedt de stroombeveiliging van de hoofdschakelaar (<em>disjoncteur de branchement</em>) in werking en zit het hele huis zonder stroom.</p>
+</blockquote></figure>
+<blockquote>
+<p>Tot en met deze <em>disjoncteur de branchement</em> (DB) is het <em>côté fournisseur</em> of <em>domaine publique</em>. Dus handen af voor de <em>bricoleur</em> of de door hem ingehuurde <em>électricien</em>. Daar mag alleen de netbeheerder wat doen, en dus de bekende loodjes (nu van plastic) om dat duidelijk te maken. Maar vanaf de uitgang van de hoofdschakelaar is alles <em>côté client, domaine privé d'utilisateur</em>. Daar begint de verantwoordelijkheid van de eigenaar en zijn de NF C 15-100-regels van toepassing.</p>
+</blockquote>
+<p>En de kernuitleg waarom een kleine driefase-aansluiting zo lastig is, in Robs eigen woorden van later datum:</p>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>Het lastige met die kleine triphasé-aansluitingen is dat de disjoncteur de branchement (of tegenwoordig LINKY) de boel zonder stroom zet wanneer er maar op één fase de grens van 15 ampère wordt overschreden. Bij een monophasé-aansluiting van dezelfde puissance souscrite van 9 kVA kom je pas in de gevarenzone boven 45 ampère totaal. Kortom: meer headroom, meer speelruimte.</p>
+<p>— Rob van der Meulen, forum nederlanders.fr, 11-11-2021</p>
+</blockquote></figure>
+<!-- SVG-INLINE: h1-mono-vs-tri.svg -->
+<!-- SVG-INLINE: h1-aansluiting-type1-type2.svg -->
+
+<h2>Verdieping</h2>
+<h3>Waar zit wat: type 1, type 2 en de tussenvorm</h3>
+<p>Robs plaatsbepaling blijft de betrouwbaarste gids in het veld : staat het huis <strong>minder dan 30 meter</strong> van de erfgrens, dan komt de netbeheerder rechtstreeks binnen (<em>branchement type 1</em>) en hangen zekering, meter en hoofdschakelaar binnenshuis — op een houten montagebord (<em>le panneau de contrôle</em>) of, sinds medio jaren negentig, in de kunststof <em>gaine technique de logement</em> (GTL). Bij <strong>meer dan 30 meter</strong> staan meter en hoofdschakelaar buiten aan de weg in een kastje (<em>type 2</em>) en loopt de toevoer in principe ondergronds naar het huis. Daarnaast bestaat de tussenvorm van vóór eind jaren tachtig: zekeringen en meter bij het hek, de <em>disjoncteur de branchement</em> pas binnen bij de groepenkast. De groepenkast zelf heet <em>tableau électrique</em>, <em>tableau de répartition</em> of <em>tableau de distribution</em> — drie namen voor hetzelfde ding.</p>
+<h3>Linky is het uitgangspunt</h3>
+<p>Robs oorspronkelijke hoofdstuk heette "Linky komt eraan". Dat station zijn we gepasseerd: <strong>Linky is de operationele standaard</strong> van het Franse net. De actuele heures-creuses-hervorming (zie het tijdgevoelige blok) wordt door Enedis volledig op afstand doorgevoerd, inclusief het meeschakelen van de <em>contacteur jour/nuit</em> voor de boiler; een wissel van tariefoptie is gratis mét Linky tegenover 56,72 € zonder [GEVERIFIEERD: Enedis/service-public.gouv.fr, 04-07-2026]. De stand van de uitrol: <strong>circa 95% van de huishoudens, 37,6 miljoen meters</strong> (Enedis, persbericht feb 2026). Wie de meter blijft weigeren betaalt sinds 01-08-2025 (TURPE 7) een vaste beheerbijdrage van <strong>6,48 € HT per twee maanden</strong>, plus <strong>4,14 € HT</strong> extra per twee maanden wanneer langer dan een jaar geen meterstand is doorgegeven; alleen bij technische onmogelijkheid vervallen deze kosten. Wettelijke basis van de uitrolplicht: art. L341-4 Code de l'énergie [GEVERIFIEERD: Enedis + CRE-deliberatie 2025-78, 04-07-2026].</p>
+<p>Wat er voor de klusser verandert, beschreef Rob al scherp toen de meter nog nieuw was: de oude thermisch-magnetische <em>disjoncteur de branchement</em> verdroeg een overbelasting van tientallen procenten soms een uur lang en haalde onverstoorbaar de schouders op over de aanlooppiek van een wasmachine of waterkoker. De elektronica van Linky reageert veel sneller en bewaakt de puissance souscrite "met overgave" . Wie na plaatsing van een Linky merkt dat het huis er vaker uitklapt dan voorheen, is dus niet gek — de marge van de oude techniek is weg. De handbediende hoofdschakelaar én de 500 mA-aardlekfunctie van de DB blijven overigens gewoon bestaan (hoofdstuk 2).</p>
+<h3>Puissance souscrite: het abonnement bepaalt uw plafond</h3>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>Elektriciteitsaansluitingen in Frankrijk kennen altijd een maximaal af te nemen vermogen dat wordt bepaald door het abonnement, de zogenaamde puissance souscrite. Als u meer vermogen afneemt dan slaat de hoofdschakelaar uit en zit het gehele huishouden zonder stroom. Niet fijn, zeker niet als de hoofdschakelaar ergens ver weg buiten in een kastje zit.</p>
+<p>— Rob van der Meulen, IF-forum, 2013</p>
+</blockquote></figure>
+<p>Dit is hét structuurverschil met Nederland en België: in Frankrijk koopt u met uw abonnement een vermogensplafond, in trappen (kVA). De abonnementsreeks monophasé loopt 3–6–9–12 kVA; triphasé begint bij 9 kVA en loopt door tot 36 kVA (gangbaar 9-12-18-24-30-36).</p>
+<p>Twee beleidsfeiten die forumkennis van vóór 2025 achterhalen, beide inmiddels hard geverifieerd:</p>
+<ol>
+<li><strong>Boven 12 kVA bestaat er voor nieuwe aansluitingen geen monophasé.</strong> Enedis' eigen aansluitbarema is er expliciet over: "la puissance maximum de la BT monophasé est de 12 kVA" — wie meer vraagt, krijgt een raccordement van 36 kVA triphasé aangeboden. Robs melding uit 2020 klopte dus. Oudere woningen met een historische mono-aansluiting van 13–18 kVA behouden die (aanvragen om zo'n bestaande zware mono-aansluiting te wijzigen worden zelfs "automatisch geweigerd" tenzij aan voorwaarden voldaan), maar nieuw krijgt u het niet meer [GEVERIFIEERD: Enedis barème raccordement + référentiel, 04-07-2026].</li>
+<li><strong>De Base-optie van het gereguleerde Tarif Bleu is in afbouw.</strong> Sinds 01-02-2025 kunnen nieuwe klanten met 9 kVA of meer bij het Tarif Bleu geen Base meer kiezen (alleen HP/HC of Tempo); per 01-02-2026 is de hele band 9–36 kVA "mis en extinction" — EDF's eigen formulering — en bestaande Base-klanten met 18 kVA of meer worden uiterlijk 01-02-2027 automatisch omgezet naar HP/HC. Let op de nuance die veel berichtgeving mist: dit raakt uitsluitend het gereguleerde tarief; <strong>marktaanbiedingen (ook van EDF zelf) bieden Base nog voor alle vermogens</strong> [GEVERIFIEERD: EDF particulier.edf.fr + CRE-deliberatie 2026-06 + Que Choisir, 04-07-2026]. Voor de lezer met warmtepomp- of laadpuntplannen (9-12 kVA) betekent dit: bij het Tarif Bleu wordt HP/HC de facto verplicht — reden te meer om de hervormde daluren (hierboven) serieus te nemen.</li>
+</ol>
+<p>Een fabeltje kan wél meteen de wereld uit, met Rob : een driefase-aansluiting is niet duurder dan een enkelfasige. Voor de vaste lasten telt uitsluitend de totale puissance souscrite in kVA.</p>
+<h3>Tri of mono? De afweging</h3>
+<p>Voor wie een oude, kleine triphasé-aansluiting heeft (op het platteland eerder regel dan uitzondering), is de kernvraag: ombouwen naar monophasé of niet. De elementen:</p>
+<ul>
+<li><strong>Headroom.</strong> Zie Robs citaat hierboven: 9 kVA mono geeft één ruime emmer van 45 A; 9 kVA tri geeft drie emmertjes van 15 A die elk afzonderlijk kunnen overlopen. <em>"Een beetje wasmachine plus droger op één fase is al snel te veel (…) anders loopt men continu tegen de grens aan, en zit het hele huis weer in het donker."</em> — Rob van der Meulen, IF-forum. </li>
+<li><strong>Echte driefase-apparaten.</strong> Alleen wie een driefasen-werktuig heeft (grote zaagtafel, sommige warmtepompen) heeft triphasé werkelijk nodig — en juist de warmtepomp-afweging is anno 2026 aan het kantelen; zie hoofdstuk 7.</li>
+<li><strong>Netcapaciteit.</strong> Enedis hoeft een ombouwverzoek niet te honoreren: monophasé vergt dikkere aanvoer, en op dun bekabelde plattelandsnetten kan de spanningsval dan buiten de toegestane band lopen — Enedis dimensioneert de huisaansluiting zelf al op maximaal 1% spanningsval, en het bovenliggende net moet mee kunnen.</li>
+<li><strong>Kosten — en het cruciale onderscheid.</strong> Een wijziging van de <em>puissance souscrite</em> binnen uw bestaande aansluiting is administratief: op afstand via Linky, ±4,28 € (tariefoptie wisselen is met Linky zelfs gratis). Een wijziging van het <em>raccordement</em> zelf — mono ↔ tri, of boven het fysieke plafond uit — is een fysieke ingreep van Enedis op offerte (Catalogue des Prestations, prestatie F180 bij verzwaring): van een bescheiden ingreep in de meterkast tot een nieuwe kabel vanaf het net bij een type 2-aansluiting, op kosten van de eigenaar [GEVERIFIEERD: Enedis référentiel + barème, 04-07-2026].</li>
+</ul>
+<h3>Tariefopties: Base, Heures Creuses, Tempo</h3>
+<p>De klassieke keuze is <strong>Base</strong> (één tarief) of <strong>Heures Pleines/Heures Creuses</strong> (acht daluren per etmaal tegen lager tarief, oorspronkelijk bedoeld om de naoorlogse elektrische boilers de nacht in te sturen). De oude vuistregel dat HP/HC pas loont vanaf 50–60% verbruik in de daluren stamt van vóór de grote hervorming die nu loopt — reken dus niets meer met oude drempels; zie het tijdgevoelige blok. <strong>Tempo</strong> kent goedkope blauwe, gemiddelde witte en zeer dure rode dagen, met Robs onovertroffen doelgroepomschrijving in het kader hieronder.</p>
+<p>De boileraansturing bij HP/HC loopt via de <em>contacteur jour/nuit</em> — het PULSADIS-signaal over het net dat, in Robs woorden, "toch al decennia" de boiler op afstand in- en uitschakelt, en dat met Linky zijn moderne opvolger heeft gekregen. De techniek daarvan staat in hoofdstuk 6.</p>
+<p>Wie tot slot wil weten hoe groen de gekozen "groene" leverancier werkelijk is: Rob relativeerde het mechanisme van de <em>garanties d'origine</em> al eens droogjes met de natuurkundige nuchterheid <em>"dans le réseau, les électrons vont au plus proche"</em> (nederlanders.fr, mei 2024). De actuele Franse productiemix: </p>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(RTE-cijfers dateren indien deze passage bij publicatie gehandhaafd blijft)</em></div>
+<p>.</p>
+<h2>NL–BE–FR</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Nederland</th>
+<th>België</th>
+<th>Frankrijk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vermogensbegrenzing</td>
+<td>Fysieke aansluitwaarde (bijv. 1×35 A of 3×25 A); geen abonnementsplafond dat het huis uitschakelt</td>
+<td>Fysieke aansluitwaarde; geen kVA-abonnementstrappen zoals in FR</td>
+<td><strong>Puissance souscrite per abonnement</strong>: te veel vragen = alles uit</td>
+</tr>
+<tr>
+<td>Wie bewaakt het plafond</td>
+<td>Hoofdzekering (smelt/valt pas bij echte overbelasting)</td>
+<td>Hoofdzekering/automaat</td>
+<td><strong>Linky</strong>, elektronisch en vrijwel zonder marge</td>
+</tr>
+<tr>
+<td>Meter</td>
+<td>Slimme meter uitgerold; geen afschakelfunctie op contractvermogen</td>
+<td>Digitale meter (uitrol gewestelijk)</td>
+<td>Linky, eigendom Enedis, schakelt zelf af én weer in</td>
+</tr>
+<tr>
+<td>Dag/nachtstroom</td>
+<td>Vrij tarief per leverancier</td>
+<td>Dag/nacht via meter</td>
+<td>HP/HC-vensters worden per aansluitpunt door <strong>Enedis</strong> toegewezen — u kiest ze niet zelf</td>
+</tr>
+</tbody>
+</table>
+<p>NL/BE-details in deze tabel zijn beschrijvend bedoeld; de FR-kolom is geverifieerd (V10/V11). Voor NL/BE-aansluitwaarden en meteruitrol geldt: </p>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(alleen als context gebruiken)</em></div>
+<p>. Voor de Nederlander is de kernboodschap: neem uw NL-intuïtie ("3×25 A is normaal, de hoofdzekering is geduldig") niet mee naar Frankrijk — hier bepaalt het abonnement het plafond, en de bewaking is elektronisch en onverbiddelijk.</p>
+<h2>Uit de praktijk</h2>
+<blockquote>
+<p><strong>Parallelgeschakelde draden.</strong> Een lezer meldde dat Enedis bij hem, in plaats van een nieuwe kabel over 500 meter te leggen, bestaande draden parallel had geschakeld. Rob: <em>"dat deed de EDF vóór de afsplitsing naar ERDF/ENEDIS ook regelmatig. Maar naderhand in het rode boekje van hoe het liever niet moet: mocht één draad het begeven, dan loopt het volle vermogen door één fasedraad — oververhitting."</em> — Rob van der Meulen, forum nederlanders.fr, 2021.</p>
+<p><strong>Bouwstroom en de wisseling van leverancier.</strong> <em>"Ik heb nooit zonder stroom gezeten. Bouwstroom via EDF, na de Consuel-keuring kwam ERDF de teller en hoofdschakelaar plaatsen (…) omdat ik voor een andere (groene) leverancier koos was het wachten op de meteropnemer."</em> — Anton Noë, IF-forum, topic "Consuel-keuring van elektra", 2013.</p>
+<p><strong>Tempo-wijsheid.</strong> <em>"Voor de bezitters van een tweede huis die overwinteren op Nova Zembla en vanaf het voorjaar in hun verwarmde Franse zwembad willen duiken is het Tempo-tarief ideaal — alle zeer dure rode dagen vallen immers in het koude jaargetijde."</em> — Rob van der Meulen, forum nederlanders.fr.</p>
+</blockquote>
+<h2>Tijdgevoelig — geverifieerd 04-07-2026</h2>
+<p><strong>De grootste heures-creuses-hervorming sinds de invoering.</strong> [GEVERIFIEERD: Enedis (2 officiële pagina's), service-public.gouv.fr A18476, CRE-deliberatie 08-01-2026 via convergente bronnen — 04-07-2026]</p>
+<ul>
+<li>Vanaf <strong>1 november 2025</strong> verschuift Enedis stapsgewijs de daluren van 14,5 miljoen HP/HC-klanten (11 miljoen worden feitelijk geraakt; 3,5 miljoen zaten al goed). Fase 1 (nov 2025 – jun 2026): 1,7 miljoen klanten; fase 2 (dec 2026 – okt 2027): 9,3 miljoen, mét seizoensdifferentiatie; professionals sluiten in 2027 af.</li>
+<li>Nieuwe systematiek: nog steeds 8 daluren per dag, maar <strong>minimaal 5 aaneengesloten 's nachts (23h–7h)</strong> en <strong>maximaal 3 overdag (11h–17h)</strong>; in de zomer (1/4–31/10) mét middagvenster (zonnestroom), in de winter vooral 's nachts. De oude vensters 7h–11h en 17h–23h verdwijnen. Enedis wijst de vensters per aansluitpunt toe — er valt niets te kiezen; de leverancier informeert minimaal één maand vooraf. Linky en de contacteur jour/nuit schakelen automatisch mee.</li>
+<li>CRE-deliberatie 08-01-2026: het wintervenster 11h–14h is voor nieuwe klanten weer toegestaan. <strong>Tempo</strong> blijft ongewijzigd (22h–6h landelijk).</li>
+<li>Consequentie: elke oude rentabiliteitsvuistregel voor HP/HC (waaronder de 50–60%-drempel die jaren op de fora circuleerde) moet opnieuw worden doorgerekend met de eigen nieuwe vensters. </li>
+</ul>
+<div class="notitie">Hier komt online een rekenhulp voor abonnees — niets om na te kijken.</div>
+
+<ul>
+<li>Tariefoptie-wissel: gratis met Linky, 56,72 € zonder.</li>
+<li>Base-optie Tarif Bleu: dicht voor nieuwe klanten ≥ 9 kVA sinds 01-02-2025, hele band 9–36 kVA in extinction per 01-02-2026; marktaanbiedingen bieden Base nog wél. Mono &gt; 12 kVA: bestaat niet meer voor nieuwe aansluitingen.</li>
+</ul></section><section id="h2"><p class="eyebrow">Hoofdstuk 2</p><h1>De hoofdschakelaar</h1><h2>Snel antwoord</h2>
+<table>
+<thead>
+<tr>
+<th>Vraag</th>
+<th>Antwoord</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hoe zet ik in nood álles uit?</td>
+<td>Met de <em>disjoncteur de branchement</em> (DB): de grote schakelaar bij de meter, binnenshuis</td>
+</tr>
+<tr>
+<td>Wat doet dat ding nog meer?</td>
+<td>Stroombegrenzing op uw puissance souscrite én (meestal) een 500 mA-aardlekfunctie</td>
+</tr>
+<tr>
+<td>Beschermt hij personen?</td>
+<td><strong>Nee.</strong> 500 mA is te grof voor persoonsbescherming; daarvoor dienen de 30 mA-aardlekschakelaars in de groepenkast (hoofdstuk 3)</td>
+</tr>
+<tr>
+<td>Hoe zwaar staat hij afgesteld?</td>
+<td>Kijk in het venstertje: 15/30/45/60/75/90 A — corresponderend met 3 t/m 18 kVA</td>
+</tr>
+<tr>
+<td>Mag ik eraan sleutelen?</td>
+<td>Aan de verzegelde (netbeheerders)kant: nee. De DB is de grens tussen <em>domaine public</em> en <em>domaine privé</em> (hoofdstuk 1)</td>
+</tr>
+</tbody>
+</table>
+<h2>Robs kern</h2>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>De Franse hoofdschakelaar verschilt van de Nederlandse: dat is alleen maar een mechanische schakelaar. De Franse <em>disjoncteur de branchement</em> vervult minimaal twee functies: aan/uitschakelen en tevens stroombegrenzing. Omdat het uitschakelen in noodgevallen snel moet kunnen gebeuren (<em>coupure d'urgence</em>) behoort een dergelijke <em>disjoncteur</em> dus altijd binnenshuis aanwezig te zijn.</p>
+</blockquote></figure>
+<blockquote>
+<p>Tegenwoordig is dat meestal een hoofd/aardlekschakelaar die bij een foutstroom van 500 milliampère in werking treedt (I∆n = 500 mA). Dat is een extra elektrische veiligheid, maar voor de bescherming van personen volstrekt onvoldoende. De rest van de installatie moet daarom met aardlekschakelaars beveiligd zijn die bij 30 mA de stroom uitschakelen. (…) Om uw technisch Frans met nog een mooi wat abstracter woord uit te breiden: zo'n hoofdschakelaar wordt ook wel <em>Appareil Général de Commande et de Protection</em> (AGCP) genoemd.</p>
+</blockquote>
+<!-- SVG-INLINE: h2-disjoncteur-functies.svg -->
+
+<h2>Verdieping</h2>
+<h3>De drie functies op een rij</h3>
+<ol>
+<li><strong>Schakelen.</strong> De DB is de noodstop van het huis: één handbeweging en alles is spanningsloos. Gebruik hem ook zo — bij elke ingreep in de groepenkast (hoofdstuk 0). Dat de DB voor die noodfunctie binnenshuis (of in elk geval direct bereikbaar) hoort te zitten, is de klassieke regel die Rob citeerde; de exacte formulering in de actuele normserie is niet opnieuw gecontroleerd </li>
+</ol>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(actuele bereikbaarheids­eis nalopen bij Consuel/Promotelec vóór publicatie)</em></div>
+<p>.
+2. <strong>Stroombegrenzing.</strong> De DB is door de netbeheerder afgeregeld op uw puissance souscrite. In het uitleesvenstertje staat de afregeling in ampère: 15, 30, 45, 60, 75 of 90 A — corresponderend met 3, 6, 9, 12, 15 en 18 kVA (monophasé). Let op: dit beschrijft het geïnstalleerde materieelpark; welke trappen voor <em>nieuwe</em> contracten nog bestaan is een contractkwestie (hoofdstuk 1).
+3. <strong>Aardlekbeveiliging 500 mA.</strong> Een brandbeveiliging voor de installatie als geheel — géén persoonsbescherming. De persoonsbescherming (30 mA) zit een verdieping lager, in de groepenkast, en is daar verplicht voor alle circuits [GEVERIFIEERD: V2-bronnen, 04-07-2026].</p>
+<h3>Het materieel herkennen</h3>
+<p>Robs determinatiegids voor wat u aantreft blijft goud voor de tweedehands-huizenkoper : monophasé-types dragen het opschrift <em>"Nb de pôles: 2, pôle protégé: 1"</em>; driefase-types <em>"Pôles: 4 / Protégés: 3"</em>. De oudere driefase-modellen (vóór 1996) hebben drie ronde "patrijspoortjes" — het totaal aan ampères is driemaal de patrijspoortwaarde; nieuwere modellen één venster. De rechthoekige kastjes (o.a. Merlin Gerin) hebben rode en zwarte aan/uit-knoppen plus een witte <em>bouton de test</em> voor de aardlekfunctie; de kleinere lichtgrijze (o.a. Baco) een draaischakelaar met lichtblauw testknopje. Druk die testknop af en toe eens in — dat is waar hij voor zit.</p>
+<h3>De tolerante oude techniek versus Linky</h3>
+<p>De thermisch-magnetische DB is een goedmoedig apparaat: langdurige overbelasting van dertig procent of meer wordt enige tijd verdragen (tot het thermische mechanisme ingrijpt), kortsluiting wordt binnen een seconde afgeschakeld, en over de inschakelpiek van een wasmachine doet hij niet moeilijk. Sinds de stroombegrenzing feitelijk door de Linky-elektronica wordt uitgevoerd, is die marge verdwenen (hoofdstuk 1). De DB zelf blijft ook naast een Linky gewoon aanwezig en behoudt schakel- en aardlekfunctie [GEVERIFIEERD: V10, 04-07-2026].</p>
+<h3>Van hoofdschakelaar naar groepenkast</h3>
+<p>Voor de verbinding DB → tableau gelden dimensioneringsregels: hoe langer de afstand en hoe groter het vermogen, des te dikker de geleiders, om de spanningsval binnen de perken te houden. De klassieke Promotelec-tabellen die Rob aanhaalde geven per lengte en vermogen de vereiste doorsnede. De actuele tabelwaarden voor de 2024-normserie zijn nog niet gecontroleerd </p>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(tabel actualiseren vóór publicatie; zie ook hoofdstuk 5 voor spanningsval binnen de installatie)</em></div>
+<p>.</p>
+<div class="notitie">Hier komt online een rekenhulp voor abonnees — niets om na te kijken.</div>
+
+<h2>NL–BE–FR</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Nederland</th>
+<th>België</th>
+<th>Frankrijk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hoofdschakelaar</td>
+<td>Mechanische schakelaar (of alleen hoofdzekering) zonder begrenzingsfunctie</td>
+<td>Hoofdautomaat/differentieel 300 mA aan het begin van de installatie (AREI)</td>
+<td><strong>DB = schakelaar + begrenzer + 500 mA-aardlek in één</strong>, afgeregeld op het abonnement</td>
+</tr>
+<tr>
+<td>Persoonsbescherming</td>
+<td>30 mA-aardlekschakelaars in de groepenkast</td>
+<td>30 mA voor natte ruimten e.a. (AREI)</td>
+<td>30 mA-ID's verplicht voor <strong>alle</strong> circuits (hoofdstuk 3)</td>
+</tr>
+<tr>
+<td>Eigendom/zegels</td>
+<td>Netbeheerder tot en met meter</td>
+<td>Netbeheerder tot en met meter</td>
+<td>Netbeheerder tot en met DB — verzegeld</td>
+</tr>
+</tbody>
+</table>
+<p>BE-details (300 mA-hoofddifferentieel, 30 mA-toepassingen): beschrijvend; exacte AREI-artikelen </p>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(aanvullen vóór publicatie)</em></div>
+<p>. FR-kolom: V2/V10.</p>
+<h2>Uit de praktijk</h2>
+<blockquote>
+<p><strong>De patrijspoortjes.</strong> Wie een oude driefase-DB met drie venstertjes aantreft, leest daar direct de fasebalans-erfenis van het huis af: driemaal een klein getal. Reken even mee: 3 × 10 A bij 230 V is nominaal 6,9 kVA — maar zoals hoofdstuk 1 liet zien, heeft u daar per fase maar 10 A van. De waterkoker naast de opwarmende wasmachine is dan al te veel. Dit ene venstertje verklaart negen van de tien "onverklaarbare" stroomuitvallen in oude plattelandshuizen. <em>(Redactionele toelichting op Robs determinatiegids.)</em></p>
+</blockquote>
+<h2>Tijdgevoelig — geverifieerd 04-07-2026</h2>
+<ul>
+<li>Geen tariefgebonden feiten in dit hoofdstuk. De verwijzing naar de Promotelec-spanningsvaltabellen en de bereikbaarheidseis van de DB staan open op de verificatielijst (zie reviewpakket) en worden vóór publicatie gedateerd.</li>
+</ul></section><section id="h3"><p class="eyebrow">Hoofdstuk 3</p><h1>De groepenkast</h1><h2>Snel antwoord</h2>
+<p><strong>De actuele basisregels voor het tableau (2024-normserie):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Regel</th>
+<th>Stand [GEVERIFIEERD: V2-bronnen, 04-07-2026]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aardlekbeveiliging</td>
+<td><strong>Alle</strong> circuits achter een aardlekschakelaar (ID/DDR) van ≤ 30 mA</td>
+</tr>
+<tr>
+<td>Minimum aantal ID's</td>
+<td><strong>2</strong> per woning; verlichting- en stopcontactcircuits verdeeld over minstens 2 ID's (valt er één uit, dan zit u niet volledig in het donker)</td>
+</tr>
+<tr>
+<td>Maximum per ID</td>
+<td><strong>8 circuits</strong>, ongeacht kaliber</td>
+</tr>
+<tr>
+<td>Typen</td>
+<td>Minimaal 1 × <strong>type A</strong> (kookplaat, wasmachine, EV-laadpunt mono); nieuw sinds 2024: <strong>type F</strong> verplicht vóór circuits met éénfasige frequentieregelaar (warmtepomp, airco, zwembadpomp); driefase-varianten daarvan: <strong>type B</strong></td>
+</tr>
+<tr>
+<td>Vlamboogbeveiliging (AFDD)</td>
+<td><strong>Aanbevolen</strong>, niet verplicht — verwar dit niet met de wél verplichte type F</td>
+</tr>
+<tr>
+<td>Reserveruimte</td>
+<td>20% vrije plaats, minimaal 6 modules</td>
+</tr>
+<tr>
+<td>Zekeringen</td>
+<td>Niet meer toegestaan bij nieuwbouw/renovatie — alleen automaten (<em>disjoncteurs</em>), dubbelpolig</td>
+</tr>
+<tr>
+<td>Licht en stopcontacten</td>
+<td>Altijd gescheiden circuits — nooit samen op één automaat</td>
+</tr>
+</tbody>
+</table>
+<h2>Robs kern</h2>
+<p>Robs beroemdste litteken, onverkort geldig voor iedereen die een oude installatie op de schop neemt:</p>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>Bij het op de schop nemen van een oude elektrische installatie loop je al snel op tegen het gegeven dat de neutrale draden overal met elkaar verbonden zijn. Te beginnen in de groepenkast en daarna verderop in de bedrading. En voor een goede werking van aardlekschakelaars is het essentieel dat zij geen 'zicht' hebben op bedrading en groepen die achter een andere ID zijn aangesloten. Vaak uren zoek- en ontvlechtwerk.</p>
+</blockquote></figure>
+<p>De historische gelaagdheid die u in het veld aantreft, van snuifdoos tot automaat:</p>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>In de oudste groepenkasten die je tegen zou kunnen komen – een houten plank met 'kinderspeelgoed' erop – zitten zekeringen die bestaan uit een miniatuur porseleinen houder waar aan de onderkant een stukje weerstandsdraad is vastgeschroefd (<em>coupe circuit à tabatière</em>). (…) Ooit was het de goedkoopste manier om een groepenkast in te richten, met zekeringen. Voor een nog oudere generatie al te duur, die was gewend met weerstanddraad <em>un plomb sauté</em> zelf te repareren.</p>
+</blockquote></figure>
+<p>En het Franse aansluit-eigenaardigheidje dat elke Nederlandse klusser minstens één keer verrast:</p>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>Op de Franse <em>disjoncteurs</em> wordt de <em>phase</em> (rood) op het rechter aansluitpunt bevestigd, en de <em>neutre</em> (blauw) aan de linkerkant, waar dan ook keurig een N staat. In Nederland is dat precies omgekeerd. En waar we in Nederland vrolijk op één <em>disjoncteur</em> zowel lichtpunten als stopcontacten aansluiten, is dit in Frankrijk nadrukkelijk verboden.</p>
+</blockquote></figure>
+<!-- SVG-INLINE: h3-groepenkast-opbouw.svg -->
+
+<h2>Verdieping</h2>
+<h3>Hoe de stroom door de kast loopt</h3>
+<p>Vanaf de <em>disjoncteur de branchement</em> komen de dikke aanvoerdraden binnen op twee aansluitstrippen (<em>borniers</em>): rood voor de fase, blauw voor de nul. Daarvandaan worden de aardlekschakelaars (<em>interrupteurs différentiels</em>, ID) gevoed, en achter elke ID hangen de automaten (<em>disjoncteurs divisionnaires</em>) die elk één circuit beveiligen. De ID bewaakt het verschil tussen heen- en teruggaande stroom: lekt er ≥ 30 mA weg — bijvoorbeeld via een mens — dan schakelt hij af. Rob merkte fijntjes op dat zo'n ID daarvoor geen aardaansluiting nodig heeft, en dat de maandelijkse druk op de testknop "wel eens een goede investering in uw eigen veiligheid zou kunnen zijn" .</p>
+<p>De mengvorm bestaat ook: de <em>disjoncteur différentiel</em> (aardlekautomaat), nuttig voor één kritieke verbruiker — vrieskist, alarm — die niet mee uitgeschakeld mag worden als elders een ID klapt. Storingsongevoelige uitvoeringen dragen toevoegingen als Hpi/Hi/Si.</p>
+<h3>Van oppervlakteregels naar circuitregels</h3>
+<p>Tot Amendement 5 bepaalde het woonoppervlak het aantal ID's (2/3/4 stuks). Die systematiek is definitief vervangen door circuit-gebaseerde regels, ongewijzigd voortgezet in de 2024-serie: <strong>maximaal 8 circuits per ID, minimaal 2 ID's, verlichting en stopcontacten over minstens twee ID's verdeeld</strong> [GEVERIFIEERD: V2, 04-07-2026]. Robs observatie dat het 40 A-type daardoor "langzamerhand wordt verdrongen door de 63 A-variant" klopt met de actuele kaliberregel: het ID-kaliber moet ofwel ≥ het kaliber van de disjoncteur de branchement zijn (amont-regel), ofwel ≥ 1× de som van de beveiligingen voor verwarming, warmwater en EV-laadpunt plus 0,5× de som van de overige (aval-regel). Let op: voor woningen met zonnepanelen of thuisbatterij is de amont-regel in de 2024-serie aangepast (NF C 15-100-10, tabel 10-1G) — het exacte detail is nog niet nagelezen </p>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(opzoeken vóór publicatie)</em></div>
+<p>.</p>
+<h3>Typen: AC, A, F en B — en het AFDD-onderscheid</h3>
+<!-- SVG-INLINE: h3-id-typen.svg -->
+
+<ul>
+<li><strong>Type AC</strong> (standaard) volstaat voor gewone circuits, maar Robs advies uit 2016 — voor die paar euro meer meteen overal type A — is alleen maar actueler geworden.</li>
+<li><strong>Type A</strong> is verplicht voor minstens één ID, waarachter kookplaat en wasmachine (en een éénfasig EV-laadpunt) hangen [GEVERIFIEERD: V2].</li>
+<li><strong>Type F</strong> is de echte nieuwkomer van de 2024-serie: <strong>verplicht</strong> aan het hoofd van circuits met een éénfasige frequentieregelaar — warmtepomp, airco, zwembadpomp. In driefase-uitvoering: <strong>type B</strong> [GEVERIFIEERD: V2/V1].</li>
+<li><strong>AFDD/DPDA</strong> (vlamboogbeveiliging, <em>protecteur d'arc</em>): in de 2024-serie <strong>aanbevolen</strong>, niet verplicht. Wie in de bouwmarkt "nieuwe verplichte module" hoort, controleert dus eerst óf het over type F gaat (verplicht) of over AFDD (aanbeveling) [GEVERIFIEERD: V2.6].</li>
+</ul>
+<h3>De parafoudre hoort hier thuis</h3>
+<p>De overspanningsbeveiliging (<em>parafoudre</em>) is in dit dossier verhuisd van "speciale schakelingen" naar de groepenkast, want daar woont hij. Voor <strong>woningen</strong> zijn de regels in de 2024-serie ongewijzigd gebleven [GEVERIFIEERD: Promotelec e.a., V6, 04-07-2026]:</p>
+<ul>
+<li><strong>Verplicht</strong> bij (a) een paratonnerre (bliksemafleider) op het gebouw — heel Frankrijk; (b) zone AQ2 (&gt; 25 onweersdagen per jaar — grofweg de zuidelijke helft plus overzee) mét geheel of gedeeltelijk bovengrondse aanvoer; (c) AQ2 met ondergrondse aanvoer als er veiligheidskritische apparatuur staat (medisch, alarm).</li>
+<li><strong>Aanbevolen</strong> onder meer binnen 50 m van een gebouw met paratonnerre.</li>
+<li>Robs praktijkregel is door de fabrikantendocumentatie bevestigd: houd de bekabeling van de parafoudre naar aarde <strong>korter dan 50 cm</strong> [GEVERIFIEERD: V6.3]. Er bestaan auto-protégé-uitvoeringen en typen die een eigen disjoncteur nodig hebben — het onderscheid staat op het apparaat, precies zoals Rob het beschreef.</li>
+<li>De aangescherpte regels die sinds 2024 rondzingen (Nsg-index, 10 m-regel, quasi-verplichting) gelden voor <strong>niet-woongebouwen</strong> en zijn voor dit dossier alleen een voetnoot [GEVERIFIEERD: V6.2].</li>
+</ul>
+<p>Relevant voor de doelgroep van dit dossier: <em>la France profonde</em> combineert als vanouds AQ2-departementen met bovengrondse aanvoer — grote kans dus dat de parafoudre bij u gewoon verplicht is. Robs generatieschets blijft daarbij staan : <em>"De oudere generatie op het platteland trekt uit voorzorg nog wel eens de stekkers van de tv uit het stopcontact, maar de jongere generatie zou met hun kudde elektronica daar een halve dagtaak aan hebben."</em></p>
+<h3>GTL en ETEL: de gereserveerde strook</h3>
+<p>Bij nieuwbouw en totaalrenovatie is de <em>gaine technique de logement</em> (GTL) verplicht, sinds Amendement 5 gedacht vanuit de gereserveerde ruimte <strong>ETEL</strong> (<em>Espace Technique Électrique du Logement</em>, 600 × 250 mm) waarbinnen de GTL zijn materiële vorm krijgt; de vloer-tot-plafond-eis is versoepeld als aanvoer en vertrekken aan dezelfde zijde zitten. Omdat normdeel 10 (woningen) in de 2024-serie formeel ongewijzigd is gebleven [GEVERIFIEERD: AFNOR/Gioan, V1-aanvulling], blijft Robs A5-beschrijving hier de geldende systematiek; de exacte maatvoering en detailbepalingen zijn niet individueel herverifieerd </p>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(steekproef op deel 10-tekst vóór publicatie)</em></div>
+<p>. Praktische vuistregels van Rob die gewoon blijven staan: bedienhoogte van schakelaars tussen 1,00 en 1,80 m; verboden plekken voor het tableau (buiten, badkamer, boven aanrecht/fornuis/verwarming, toilet, trapzijkant); minimale inbouwdiepte 12–15 cm als u stekkers in modulaire contactdozen wilt kunnen steken; en de verplichte, leesbare <em>repérage</em> — het schema per groep in de kast.</p>
+<h3>Tweede groepenkast en het verboden model</h3>
+<p>Voor een uitbreiding of bijgebouw is het Franse antwoord <em>un tableau divisionnaire</em>. Sinds Amendement 3 (2010) geldt: de tweede kast is een <strong>circuit spécialisé</strong>, gevoed vanuit het hoofdtableau via een eigen disjoncteur, met in de tweede kast een eigen ID; bij twee of meer ID's dáár ook een <em>interrupteur sectionneur</em> — "om alles met één beweging uit te kunnen zetten" . Het oude model met een <em>répartiteur</em> direct achter de DB en meerdere gelijkwaardige kasten is verboden; u komt het in oude installaties nog volop tegen. Deze regels volgen deel 10-continuïteit [GEVERIFIEERD via V1-continuïteit; detailbepalingen NIET individueel GEVERIFIEERD].</p>
+<h3>Nederlands materiaal in een Franse kast</h3>
+<p>Rob zei het al in 2016, en het diagnostic électrique van hoofdstuk 8 maakt het alleen maar actueler : gebruik geen groepenkastmateriaal dat niet conform NF C 15-100 is, "omdat het in Nederland of België zo lekker goedkoop was bij bouwmarkt x, y of z". De Consuel keurt het af, het diagnostic zet het bij verkoop zwart op wit, en — Robs dubbele pointe — het is nog onzin ook: A-merk-automaten (Hager, Schneider/Merlin Gerin, Legrand) zijn in de Franse bouwmarkt aanzienlijk goedkoper dan in de Nederlandse. "Dubbel verkeerde zuinigheid dus." De C-karakteristiek van de Franse standaardautomaat (Nederland: B) is daarbij nog een technische reden om lokaal te kopen: de beveiligingscurves zijn op de Franse praktijk afgestemd.</p>
+<h2>NL–BE–FR</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Nederland</th>
+<th>België</th>
+<th>Frankrijk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Modules per rij</td>
+<td>12</td>
+<td>(fabrikantafhankelijk)</td>
+<td><strong>13</strong> (of 18) — kast 25 cm breed i.p.v. 22</td>
+</tr>
+<tr>
+<td>Fase/nul op de automaat</td>
+<td>Fase links</td>
+<td>—</td>
+<td><strong>Fase rechts</strong>, nul links (N)</td>
+</tr>
+<tr>
+<td>Licht + stopcontacten op één groep</td>
+<td>Gebruikelijk</td>
+<td>Toegestaan binnen circuitregels</td>
+<td><strong>Verboden</strong> — altijd gescheiden</td>
+</tr>
+<tr>
+<td>Automaat-karakteristiek</td>
+<td>B</td>
+<td>B/C</td>
+<td><strong>C</strong> (D voor zware motoren)</td>
+</tr>
+<tr>
+<td>Max. circuits per aardlekschakelaar</td>
+<td>4 (NEN 1010)</td>
+<td>AREI-regels per differentieel</td>
+<td><strong>8</strong></td>
+</tr>
+<tr>
+<td>Type AC</td>
+<td>Sinds 2000 niet meer in nieuwe installaties</td>
+<td>—</td>
+<td>Nog toegestaan, maar type A/F is de richting</td>
+</tr>
+</tbody>
+</table>
+<p>NL-regels (4 groepen, AC-verbod 2000) op basis van Robs artikel; actuele NEN 1010-stand </p>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(nalopen vóór publicatie)</em></div>
+<p>. BE-kolom aanvullen bij V14-afronding. FR-kolom: V2.</p>
+<h2>Uit de praktijk</h2>
+<blockquote>
+<p><strong>De perfectionisten-tip.</strong> <em>"Haal met de striptang twee keer zoveel isolatie van het draadeinde af, en buig die ruim twee centimeter koper vervolgens in een kleine U-vorm met combinatie- of puntbektang. De aandrukkracht in de aansluiting wordt nu gelijkmatiger verdeeld, en de overgangsweerstand gehalveerd."</em> En over het aandraaien: <em>"Sommige merken hebben mijn voorkeur: die kun je genadeloos aandraaien, en geven geen krimp. Andere doen al moeilijk wanneer je ze maar even iets te vast aandraait."</em> — Rob van der Meulen, artikel De groepenkast.</p>
+<p><strong>De kabelinvoer en de gedoogpraktijk.</strong> Een klusser verlegde op eigen initiatief de kabelinvoer van zijn GTL nadat <em>"de elektricien zei dat het wellicht niet zou worden afgekeurd"</em> — en meldde er trots bij: <em>"mijn aarde is nu 50 Ohm."</em> — forumdeelnemer, IF-forum, topic bouwstroom, 2013. Norm versus gedoogpraktijk in één anekdote: de elektricien gokte, de klusser repareerde. Doe als de klusser.</p>
+</blockquote>
+<h2>Tijdgevoelig — geverifieerd 04-07-2026</h2>
+<ul>
+<li>Type F-verplichting en AFDD-aanbeveling: stand 2024-normserie, systematisch toegepast sinds september 2025 [V1/V2]. Bij de jaarlijkse onderhoudsbeurt controleren of AFDD alsnog verplicht is gesteld.</li>
+<li>Tabel 10-1G (ID-kaliber bij zonnepanelen/batterij) en de deel 10-detailmaten (ETEL/GTL): openstaand verificatiepunt, zie reviewpakket.</li>
+</ul>
+<div class="notitie">Hier komt online een rekenhulp voor abonnees — niets om na te kijken.</div></section><section id="h4"><p class="eyebrow">Hoofdstuk 4</p><h1>De aarding</h1><h2>Snel antwoord</h2>
+<table>
+<thead>
+<tr>
+<th>Regel</th>
+<th>Waarde [GEVERIFIEERD: V3-bronnen, dubbel onafhankelijk, 04-07-2026]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maximale aardingsweerstand</td>
+<td><strong>&lt; 100 Ω</strong> (wettelijk maximum) — advies <strong>&lt; 50 Ω</strong>, en met parafoudre zo laag mogelijk, richting <strong>&lt; 10 Ω</strong></td>
+</tr>
+<tr>
+<td>Continuïteit beschermingsleidingen</td>
+<td><strong>≤ 2 Ω</strong> (Robs klassieke regel, zie precisering hieronder)</td>
+</tr>
+<tr>
+<td>Beste aardelektrode</td>
+<td>Ringleiding in de fundering (<em>boucle à fond de fouille</em>); anders geul of aardpen(nen)</td>
+</tr>
+<tr>
+<td>Verboden als aardelektrode</td>
+<td>Waterleidingen en putten (wel aan de vereffening koppelen)</td>
+</tr>
+<tr>
+<td>Kleuren</td>
+<td>Aarde <strong>uitsluitend</strong> groen-geel; nul (licht)blauw</td>
+</tr>
+<tr>
+<td>Badkamer</td>
+<td>Aanvullende potentiaalvereffening (LES) verplicht, minimaal 2,5 mm² koper</td>
+</tr>
+<tr>
+<td>Verbinding naar hoofdaardklem</td>
+<td>Minimaal 6 mm²</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Waarom dit hoofdstuk er het meest toe doet:</strong> in de Franse verkoopdiagnostics is een defecte of ontbrekende aarding met 64% dé nummer één-anomalie [GEVERIFIEERD: ONSE/Promotelec-baromètre, V12].</p>
+<h2>Robs kern</h2>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>Een goede aarde-aansluiting is net zoals het gebruik van aardlekschakelaars van groot belang voor de veiligheid. Wanneer er ergens iets goed fout gaat, moet de hoofdschakelaar in staat zijn de elektrische stroom helemaal uit te schakelen. En dat lukt alleen maar wanneer er een deugdelijke aarde-aansluiting is. En die wordt niet vanuit het stroomnet aangeleverd, <strong>daar bent u zelf voor verantwoordelijk.</strong></p>
+</blockquote></figure>
+<blockquote>
+<p>Er zijn in principe drie oplossingen: een rond het huis (<em>prise de terre par boucle</em>) ingegraven koperen kabel (25 mm² of dikker), een in een lange en diepe geul ingegraven kabel (<em>prise de terre par conducteur enfoui dans une tranchée</em>) en ten slotte de aardpen (<em>piquet</em>) die een paar meter of meer de grond in wordt geslagen. (…) Om de bovenkant van zo'n <em>piquet</em> moet volgens de regels der kunst dan een putje gemetseld worden, met een deksel daarop. Dat geheel heet dan een <em>regard de visite</em>. Op die <em>piquet</em> is een stevige klem bevestigd, en daarop is de aardedraad vastgeschroefd, en dat moet je naderhand nog kunnen controleren. Zit alles nog goed vast, is het niet geoxideerd. Anders heb je geen goede aardleiding meer.</p>
+</blockquote>
+<p>En waarom het Franse stopcontact die ene pen heeft:</p>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>Zoals men inmiddels ervaren zal hebben ziet het Franse geaarde stopcontact er iets anders uit dan het Nederlandse type: de aarde-aansluiting is hier één uitstekend pennetje, geen klemmetjes aan de zijkant. Omdat overal in Europa andere types gebruikt worden is hier geen Europese norm voor.</p>
+</blockquote></figure>
+<!-- SVG-INLINE: h4-aarding-opbouw.svg -->
+
+<h2>Verdieping</h2>
+<h3>Van elektrode tot groepenkast</h3>
+<p>De keten is altijd dezelfde: aardelektrode → dikke aardleiding het huis in (25 mm² ongeïsoleerd of 16 mm² geïsoleerd koper) → <strong>barrette de mesure</strong> (het losneembare meetpunt) → <em>répartiteur de terre</em> in de groepenkast, waar alle groen-gele aders samenkomen. Vanaf de barrette vertrekt ook de hoofdvereffening (<em>liaison équipotentielle principale</em>) naar de waterleiding, cv en andere metalen hoofdstructuren; de verbinding naar de hoofdaardklem is minimaal 6 mm² [GEVERIFIEERD: V3.4].</p>
+<p>Bij de keuze van de elektrode geldt: de funderingsring (<em>boucle à fond de fouille</em>) is verkieslijk boven een enkele aardpen; en waterleidingen of putten als aardelektrode gebruiken is <strong>verboden</strong> — wel moeten ze aan de vereffening gekoppeld worden [GEVERIFIEERD: V3.3]. Rob wees er al op dat de bodemweerstand met de seizoenen fluctueert: wie in een natte winter nipt onder de 100 Ω zit, kan bij de Consuel-meting in een droge zomer tien à twintig procent hoger uitkomen. Mik dus ruim onder het maximum — de adviesband loopt van &lt; 50 Ω naar &lt; 10 Ω zodra er een parafoudre in het spel is [GEVERIFIEERD: V3.1]. Robs forumwaarde "50 Ω bij parafoudre" valt binnen die band.</p>
+<p>Meten is werk voor een echte aardingsmeter (driepuntsmeting met eigen wisselspanningsgenerator) — met een gewone multimeter valt hier niets zinnigs te meten. Robs prijsobservatie dat dit "professionele speelgoed" inmiddels voor onder de 200 euro te krijgen is, maakt het voor de serieuze klusser een verantwoorde aanschaf.</p>
+<h3>De 2-Ohm-regel — met precisering</h3>
+<p>Robs vuistregel luidde: <em>"van willekeurig welk stopcontact mag de weerstand naar de centrale aardingsstrip niet meer dan twee Ohm bedragen"</em> . De regel is bevestigd, met één belangrijke precisering [GEVERIFIEERD: V3.2]: de <strong>≤ 2 Ω geldt voor de continuïteit van beschermingsleidingen en equipotentiaalverbindingen</strong> (een ohmmeter-meting van de groen-gele keten), inclusief de vrijstellingsregel — douchebak, badkuip of metalen kozijnen hoeven niet apart te worden aangesloten als hun continuïteit al ≤ 2 Ω is (of hun isolatie ≥ 500 kΩ). De Consuel-controleur heeft er, in Robs woorden, "een handig apparaatje voor dat tevreden piept wanneer alles in orde is". Zorgvuldig monteren met kwaliteitsmateriaal, en het komt goed.</p>
+<h3>De badkamer: LES</h3>
+<p>De <em>liaison équipotentielle supplémentaire</em> (LES) verbindt in de badkamer alles wat van metaal is: leidingen, metalen afvoer, badkuip, vloerwapening, kozijnen — met de bekende uitzonderingen (ventilatieroostertje, handdoekhaakje). Verplicht, minimaal 2,5 mm² koper (in gaine; 4 mm² bij opbouw zonder gaine), en er zijn drie toegestane uitvoeringen; sinds Amendement 5 mag de interconnectie ook bij het tableau plaatsvinden [GEVERIFIEERD: V3.4/V4]. De twee klassieke modellen die Rob beschreef — serieschakeling langs de elementen, of sterschakeling naar één verzameldoos (die ook aan de buitenkant van een badkamermuur mag zitten) — staan in het schema hieronder. En zijn materiaalkritiek verdient conservering : veel Franse elektriciens klemmen de aardedraad met een gewone ringklem op de waterleiding, "terwijl er toch veel betere speciale klemmen voor in de handel zijn."</p>
+<!-- SVG-INLINE: h4-les-badkamer.svg -->
+
+<p>Let op de dubbele boekhouding met hoofdstuk 6: de LES is de áárdkant van de badkamer; de zone-indeling (welk toestel waar mag) staat daar.</p>
+<h3>Stopcontacten, verlichting en de DCL</h3>
+<p>Alle stopcontacten moeten geaard zijn (2P+T) en zijn sinds 2004 voorzien van kinderveilige <em>obturateurs</em>; de spreidklem-bevestiging is sindsdien verboden — schroefbevestiging op de inbouwdoos [beschrijving Rob; individuele data NIET GEVERIFIEERD, systematiek bevestigd via V5]. Naar elk lichtpunt gaat een aardedraad mee, en het losse kroonsteentje uit het plafond is in nieuwbouw vervangen door de <strong>DCL</strong>-aansluitdoos (<em>Dispositif de Connexion pour Luminaire</em>) [GEVERIFIEERD: V5.2 — DCL verplicht, plafonddoos 25 kg].</p>
+<h2>NL–BE–FR</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Nederland</th>
+<th>België</th>
+<th>Frankrijk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stekkersysteem</td>
+<td>Randaarde (klemmen opzij, CEE 7/3)</td>
+<td><strong>Penaarde</strong> (CEE 7/5)</td>
+<td><strong>Penaarde</strong> (CEE 7/5)</td>
+</tr>
+<tr>
+<td>Aarde-kleur</td>
+<td>Groen-geel (modern)</td>
+<td>Groen-geel — het enige AREI-dwingende kleurvoorschrift</td>
+<td>Groen-geel, exclusief</td>
+</tr>
+<tr>
+<td>Vereffening badkamer</td>
+<td>Decennialang: aparte vereffeningsdraad naar de meterkast</td>
+<td>Vereffening verplicht (AREI)</td>
+<td>LES lokaal doorverbonden; <strong>géén aparte draad naar het tableau nodig</strong></td>
+</tr>
+<tr>
+<td>Wie levert de aarde</td>
+<td>Vaak via het net (TN-achtig) of eigen elektrode, per netbeheerder</td>
+<td>Eigen elektrode (aardlus in fundering gebruikelijk)</td>
+<td><strong>Altijd eigen elektrode</strong> — u bent er zelf verantwoordelijk voor</td>
+</tr>
+</tbody>
+</table>
+<p>FR-kolom en BE-kleurregel: [GEVERIFIEERD: V3/V13]. NL/BE-stelseldetails: beschrijvend, </p>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(bij V13/V14-afronding aanscherpen)</em></div>
+<p>. De kernwaarschuwing voor de Nederlander: penaarde en randaarde zijn <strong>fysiek incompatibel</strong> — zie het kader hieronder — en een meegenomen NL-stekkerdoos zet de aardpen letterlijk buitenspel.</p>
+<h2>Uit de praktijk</h2>
+<blockquote>
+<p><strong>Het overtuig-citaat.</strong> <em>"Mocht u ooit een iets oudere Franse elektricien ervan moeten overtuigen dat de normen zijn veranderd, dan zou u hem of haar deze tekst kunnen laten lezen: 'Il n'est pas nécessaire d'envoyer depuis cette boîte de dérivation un conducteur de protection supplémentaire vers le tableau électrique, la liaison équipotentielle étant assurée par les conducteurs de protection des circuits électriques.'"</em> — Rob van der Meulen, artikel De aarding. Bewaar deze zin; hij heeft al menig discussie op een Frans erf beslecht.</p>
+<p><strong>De heggenschaar.</strong> <em>"Wie z'n Nederlandse randaarde-verlengsnoer uitleent aan zijn Franse buurman: diens elektrische heggenschaar met Franse stekker past niet — in dat geval zul je hem ook je eigen Nederlandse heggenschaar erbij moeten leveren."</em> — Rob van der Meulen, IF-forum, 14-12-2014. Het hele penaarde/randaarde-probleem in één beeld.</p>
+</blockquote>
+<h2>Tijdgevoelig — geverifieerd 04-07-2026</h2>
+<ul>
+<li>De aardingswaarden (100/50/10 Ω-band, 2 Ω-continuïteit) zijn normwaarden uit deel 10-continuïteit en niet tariefgebonden; jaarlijkse controle volstaat.</li>
+<li>Openstaand: geen. De aardingsregels zijn het stevigst geverifieerde deel van dit dossier (dubbele onafhankelijke verificatie, zes bronnen).</li>
+</ul></section><section id="h5"><p class="eyebrow">Hoofdstuk 5</p><h1>De leidingaanleg</h1><h2>Snel antwoord</h2>
+<p>De vraag waarmee dit hoofdstuk al vijftien jaar op elk forum begint: <em>mogen er twee circuits door één buis?</em> <strong>Ja</strong> — anders dan in de oude Nederlandse praktijk mogen in Frankrijk verschillende circuits dezelfde <em>gaine</em> of inbouwdoos delen, mits u de circuits netjes uit elkaar houdt en de vulregel van de buis respecteert (zie verdieping). Wat níet mag: verlichting en stopcontacten op één circuit (hoofdstuk 3).</p>
+<p><strong>De tabel die levens redt — draadkleuren in drie landen</strong> [GEVERIFIEERD: V13, 04-07-2026; FR-historisch: NIET GEVERIFIEERD]:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Fase</th>
+<th>Nul</th>
+<th>Aarde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Modern (NL = BE = FR, geharmoniseerd)</strong></td>
+<td>bruin</td>
+<td>blauw</td>
+<td>groen-geel (exclusief)</td>
+</tr>
+<tr>
+<td><strong>Nederland oud (&lt; ±1970)</strong></td>
+<td><strong>groen</strong> (of zwart)</td>
+<td><strong>rood</strong></td>
+<td>grijs/blank</td>
+</tr>
+<tr>
+<td><strong>België oud</strong></td>
+<td>vrije kleur (alleen groen-geel is dwingend voorgeschreven als aarde)</td>
+<td>blauw waar een nul bestaat</td>
+<td>groen-geel</td>
+</tr>
+<tr>
+<td><strong>Frankrijk oud</strong></td>
+<td>veelal rood of zwart</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(zie de omringende tekst)</em></div>
+<p>| blauw | groen-geel |</p>
+<p>⚠️ <strong>De dodelijke valkuil</strong>: in een oud Nederlands huis — of in een Frans huis waar ooit een Nederlander heeft geklust met meegenomen draad — is <strong>groen de fase</strong>. Dezelfde kleur die nu (met gele streep) wereldwijd "veilig, aarde" betekent. Meet dus áltijd, vertrouw nooit op kleur alleen. De kleurwissel werd destijds mede ingegeven door rood-groen-kleurenblindheid.</p>
+<h2>Robs kern</h2>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>Wat Frankrijk betreft, speciaal in de wat oudere huizen, komt ook daar het kruipdoor/sluipdoor-systeem van bekabeling die via lasdozen wordt doorverbonden, veel voor. Die vierkante lasdozen zijn vaak behoorlijk wat groter dan de bekende lichtgele types uit de polder. Ze luisteren naar de naam: <em>boîte de dérivation</em>. (…) En wanneer je gaat afbreken en er is de mogelijkheid om loze of niet gebruikte ruimtes op zolder te gebruiken (<em>comble non aménageable</em>), dan is er een keurige Franse variant op de centraaldoos, een wat grotere uitvoering: de <em>boîte de combles</em>.</p>
+</blockquote></figure>
+<p>Over de Franse ribbelbuis en het draadtrekken:</p>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>Omdat het trekken van draden behoorlijk wat meer weerstand oplevert in dit soort ribbelbuis, vooral wanneer er nog wat bochtjes genomen moeten worden, is het verstandig van te voren de draden erin aan te brengen, en dan pas in de uitgehakte gleuf te bevestigen. (…) Niets is frustrerender dan wanneer je iets wat je zo mooi had dichtgemetseld of afgewerkt, weer moet openbreken omdat je de draden er met geen mogelijkheid meer doorheen gesjord krijgt. (…) Wat ook helpt, is gewoon een iets grotere buis nemen: neem de 20 mm-variant waar je volgens de normen ook nog net met de 16 mm-diameter uit de voeten had gekund.</p>
+</blockquote></figure>
+<p>En over het Franse kroonsteen-erfgoed:</p>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>Voor het doorverbinden van draden in de las- of doorvoerdozen werd en wordt in Frankrijk kwistig gebruik gemaakt van kroonsteentjes (<em>dominos</em>). (…) Tegenwoordig heeft (eindelijk) ook de moderne lasklem (<em>connecteur sans vis</em>) zijn entree gemaakt in Frankrijk. (…) Resteert nog de Franse elektriciens ervan te overtuigen dat ze eindelijk eens afstand moeten doen van dit stukje <em>patrimoine</em> en iets van de oosterburen moeten kopen, allerlei soorten connectors van de firma WAGO. Gelukkig is er voor de jongste generatie klemmen al een Franse naam: <em>mini borne à levier universelle</em>. Dat helpt ze misschien over de streep te trekken.</p>
+</blockquote></figure>
+<!-- SVG-INLINE: h5-gaine-en-kleuren.svg -->
+
+<h2>Verdieping</h2>
+<h3>Buizen: IRL, ICA en ICTA</h3>
+<p>Het Nederlandse gladde gele buigbuisje bestaat in Frankrijk feitelijk niet. Het assortiment: <strong>IRL 3321</strong> (glad, grijs, niet buigbaar — schuren en bedrijfsruimtes), <strong>ICA 3321</strong> (geribbeld, flexibel — regulier inbouwwerk in een frees- of hakgleuf) en <strong>ICTA 3422</strong> (geribbeld, zwaarder — mag ook ín beton worden gestort). De vulregel: een buis mag voor <strong>een derde</strong> met draad gevuld zijn; alleen bij korte rechte doorvoeringen en bij vooraf bedrade buizen mag het voller [beschrijving Rob; exacte actuele tabelwaarden NIET GEVERIFIEERD — nalopen vóór publicatie]. Voorbedrade ribbelbuis is kant-en-klaar te koop; wie extra schakeldraden (<em>fils de navette</em>) nodig heeft, trekt zelf — met A-merk-draad, want van budgetdraad is de isolatie stroever, en dat scheelt meters trekbereik.</p>
+<h3>Inbouw: de regel die elke "mooie oplossing" afkeurt</h3>
+<p>Het normcitaat dat Rob paraat had voor iedereen die kabels strak wil wegwerken:</p>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p><em>"Les couvercles des boîtes de connexion et d'encastrement doivent toujours rester accessibles. (…) Les câbles ou conducteurs isolés encastrés ou noyés directement sont interdits."</em> — Rob van der Meulen, IF-forum, topic aanleg elektrische installatie </p>
+</blockquote></figure>
+<p>Oftewel: deksels van las- en inbouwdozen moeten altijd toegankelijk blijven, en kaal ingemetselde of ingestorte kabels zonder buis zijn verboden. Visueel fraai wegstuken is dus geen optie [A5-normcitaat via bronartikel; deel 10 formeel ongewijzigd (V1); individuele hertoets vóór publicatie].</p>
+<h3>Spanningsval: 3% en 5%</h3>
+<p>Vanaf het <em>point de livraison</em> (PDL — meter plus hoofdschakelaar) tot het verste verbruikspunt geldt een maximale spanningsval van <strong>3% voor verlichting</strong> en <strong>5% voor overige toepassingen</strong>; bij een type 2-aansluiting (meter aan de weg) kan het aanvoertraject al 2% opsouperen, en bij een niet-naastgelegen (<em>non-accolé</em>) DB halveren de maximale tabellengtes [A5-normtekst via bronartikel; deel 10 ongewijzigd (V1); hertoets vóór publicatie]. Robs waarschuwing bij de dimensionering van de aanvoer blijft goud waard : niet uw puissance souscrite maar de <strong>maximale instelwaarde van uw disjoncteur de branchement</strong> (<em>courant assigné</em>) is maatgevend — wie een DB van 30/45/60 A heeft, dimensioneert op 60 A. "U zult de eerste niet zijn die al gelegde bekabeling mag opgraven."</p>
+<div class="notitie">Hier komt online een rekenhulp voor abonnees — niets om na te kijken.</div>
+
+<h3>Draadsecties en circuits</h3>
+<p>De praktijkstandaard [GEVERIFIEERD: V5.2]: verlichting op 1,5 mm² achter een automaat van 10 A (maximaal 8 lichtpunten per circuit); stopcontacten op 1,5 mm²/16 A (maximaal 8 contactdozen) of 2,5 mm²/20 A (maximaal 12). De normtabel staat hogere beveiligingswaarden toe, maar de lagere praktijkwaarden houden uw ID-rekensom (hoofdstuk 3) betaalbaar — Robs advies, nog steeds correct.</p>
+<p><strong>De oude <em>décompte</em>-telregel is definitief verleden tijd.</strong> Tot Amendement 4 telde een meervoudige contactdoos soepeler ("drievoudig telt voor twee"), waarmee je het aantal stopcontacten kon verdubbelen. Sinds Amendement 5 geldt onverkort <strong>één socle = één socle</strong> — een dubbel blok telt als 2, een driedubbel als 3 [GEVERIFIEERD: V5.1, dubbel; oogst-item 30 gemarkeerd VEROUDERD]. Robs oude teltip staat hier dus uitsluitend als historische voetnoot, mét deze correctie; wie hem nog ergens op internet tegenkomt, weet nu beter. De aantallen per vertrek staan in hoofdstuk 6.</p>
+<h3>Lasdozen, dominos en Wago's</h3>
+<p>Robs domino-les voor wie tóch kroonstenen gebruikt in een lasdoos: steek de blanke draadeinden sámen over de volle lengte door, zodat beide schroefjes klemmen — niet van weerszijden elk met één schroefje. Maar de moderne hefboomklem is in alle opzichten de betere keus, en sinds de bouwmarkten ze voeren is er geen excuus meer. In de Franse volksmond heten lasklemmen inmiddels zelf "Wago's" — kwaliteit is merkgebonden, niet landgebonden (zie kader).</p>
+<h3>Inbouwdozen en maatvoering</h3>
+<p>De standaardmaten: rond 60 mm (enkel), 70 × 70 mm koppelbaar (<em>carré associable</em>), en 85 × 85 mm voor het zware werk (o.a. <em>sortie de câble</em> voor fornuis of radiator — de aansluitregels daarvoor staan in hoofdstuk 6). Robs gewaarschuwd-mens-waarschuwing geldt onverminderd : de maatvoering is <strong>niet</strong> volledig gestandaardiseerd — fabrikanten hanteren per productfamilie eigen hart-op-hart-afstanden, soms zelfs verschillend voor horizontale en verticale montage. Kies eerst uw schakelmateriaal, koop dán de bijbehorende dozen. En in holle bouwstenen (<em>briques creuses</em>, <em>parpaing creux</em>): geen sleuvenfrees of breekhamer — "dat loopt verkeerd af."</p>
+<h3>Opbouw mag weer gezien worden</h3>
+<p>De opbouwsystemen (<em>pose en applique</em>) maken een come-back: kabelgoten en installatieplinten (<em>plinthes électriques</em>) compleet met schakelmateriaal in de huisstijlen van de fabrikanten. Voor sterk- en zwakstroom in één plint gelden scheidingsregels — de fabrikantendocumentatie legt het per systeem uit. Communicatiebekabeling (ethernet, coax) mag níet met beugeltjes langs de plint: ook die hoort in <em>gaine</em> (minimaal 20 mm, praktisch 25 mm) of installatieplint [beschrijving Rob; actuele communicatienorm zie hoofdstuk 8].</p>
+<h2>NL–BE–FR</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Nederland</th>
+<th>België</th>
+<th>Frankrijk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Draadkleuren</td>
+<td>Zie de tabel bovenaan — <strong>de</strong> valkuil van dit hoofdstuk</td>
+<td>idem</td>
+<td>idem</td>
+</tr>
+<tr>
+<td>Meerdere circuits in één buis/doos</td>
+<td>Van oudsher niet gebruikelijk</td>
+<td>Toegestaan binnen AREI-regels</td>
+<td><strong>Toegestaan</strong> — wel circuits uit elkaar houden</td>
+</tr>
+<tr>
+<td>Standaardbuis</td>
+<td>Glad, buigbaar (met veer)</td>
+<td>Vergelijkbaar NL</td>
+<td><strong>Ribbelbuis</strong> ICA/ICTA; glad = IRL, niet buigbaar</td>
+</tr>
+<tr>
+<td>Kroonsteen in lasdoos</td>
+<td>Not done</td>
+<td>Vergelijkbaar NL</td>
+<td>Historisch de norm (<em>dominos</em>), nu op zijn retour</td>
+</tr>
+<tr>
+<td>Verbindingen</td>
+<td>Lasklemmen</td>
+<td>Lasklemmen/kroonsteen</td>
+<td>Wago's rukken op; <em>mini borne à levier universelle</em></td>
+</tr>
+</tbody>
+</table>
+<h2>Uit de praktijk</h2>
+<blockquote>
+<p><strong>De combi-schakelaar.</strong> <em>"Een combi-schakelaar met stopcontact bestaat uit twee dingen die elektrisch gescheiden moeten zijn. Dus 5 draden, 3×2,5 voor het stopcontact en minimaal 2×1,5 voor de schakelaar."</em> — Rob van der Meulen, IF-forum. Wie hier één voedingsdraadje "handig" deelt, verbindt een licht- en een stopcontactcircuit — en dat is precies wat niet mag.</p>
+<p><strong>De Wago-nuance.</strong> <em>"NL-gekochte Wago-lasklemmen prima; met dubieuze no-name klemmen uit de brico zou ik oppassen."</em> — forumdeelnemer, IF-forum, 2013. Kwaliteit is merkgebonden, niet landgebonden: hét antwoord op de Hollandse reflex in de lasdoos.</p>
+<p><strong>Draad kant-en-klaar in de buis.</strong> Wie opziet tegen het trekken: voorbedrade ICTA is per rol te koop, in de gangbare secties. De meerprijs verdient zichzelf terug op de eerste bocht van 90 graden. <em>(Redactionele samenvatting van Robs buis-paragraaf.)</em></p>
+</blockquote>
+<h2>Tijdgevoelig — geverifieerd 04-07-2026</h2>
+<ul>
+<li>Draadkleur-harmonisatie NL/BE/FR en de oud-NL-valkuil: V13, geverifieerd. <strong>Nog open</strong>: de Franse historische kleurpraktijk (rood/zwart als fase) en de landvergelijkende draaddiktentabel — beide op de verificatielijst voor publicatie.</li>
+<li>Kabel-brandklassen (Euroclasses/CPR) zijn sinds de 2024-serie in de norm verankerd [GEVERIFIEERD: V1-aanvulling]; praktisch advies blijft Robs regel: geen budgetdraad, let op branddoorslag bij doorvoeringen.</li>
+</ul></section><section id="h6"><p class="eyebrow">Hoofdstuk 6</p><h1>Schakelingen, circuits en eisen per kamer</h1><h2>Snel antwoord</h2>
+<p><strong>Minimum-uitrusting per vertrek</strong> [GEVERIFIEERD: V5, dubbel geverifieerd o.a. via normtekst 10.1.3.3, 04-07-2026]:</p>
+<table>
+<thead>
+<tr>
+<th>Vertrek</th>
+<th>Stopcontacten</th>
+<th>Bijzonderheden</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Woonkamer (séjour)</td>
+<td>1 per 4 m², <strong>minimaal 5</strong>; boven 28 m²: minimaal 7, verder in overleg</td>
+<td>Open keuken: 8 m² forfaitair aftrekken</td>
+</tr>
+<tr>
+<td>Slaapkamer</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>Keuken ≥ 4 m²</td>
+<td><strong>6</strong> niet-gespecialiseerde op één eigen circuit 2,5 mm²/20 A, waarvan 4 boven het werkblad (8–25 cm)</td>
+<td>&lt; 4 m²: 3; verboden boven spoelbak en kookplaat; hotte-contactdoos ≥ 1,80 m</td>
+</tr>
+<tr>
+<td>Elk vertrek/gang &gt; 4 m²</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>Overal</td>
+<td>1 naast elk RJ45-/tv-punt én 1 naast de lichtschakelaar bij de entree</td>
+<td>Hoogte as ≤ 1,30 m (advies &gt; 0,40 m); obturateurs t/m 32 A; klauwbevestiging verboden</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Verplichte eigen circuits (circuits spécialisés), minimaal 4</strong> [GEVERIFIEERD: V5.4]: kookplaat (32 A / 6 mm²) + minstens drie × 20 A / 2,5 mm² (oven, vaatwasser, wasmachine — die laatste achter type A). Elk een eigen circuit indien aanwezig: droger, boiler, verwarming (per 4.500 W), warmtepomp/airco, VMC, <strong>gemotoriseerde rolluiken (nieuw in de 2024-serie)</strong> en het EV-laadpunt; koelkast/vriezer aanbevolen.</p>
+<p><strong>Verlichting</strong> [GEVERIFIEERD: V5.2]: minimaal 2 circuits (studio: 1), maximaal 8 lichtpunten per circuit (een <em>prise commandée</em> telt mee), DCL-aansluitdozen verplicht (plafonddoos geschikt voor 25 kg).</p>
+<h2>Robs kern</h2>
+<p>De Sinterklaas-anekdote, integraal geconserveerd — normgeschiedenis zoals alleen Rob die kon opschrijven:</p>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>In december 2002 mocht de Franse installatiebranche in een persbericht van Schneider vernemen dat Sinterklaas dit land niet had overgeslagen in zijn cyclische drang tot vrijgevigheid. De op 5 december gepubliceerde nieuwe versie van de NF C 15-100-normen <em>"voit disparaître la limitation du nombre de convecteurs sur un même départ"</em>. Toen kwam een einde aan de regel: iedere <em>convecteur</em> zijn eigen <em>circuit</em> en <em>fusible/disjoncteur</em>. Inhoud van de surprise: <em>nombre d'appareils limité par la somme des puissances</em>.</p>
+</blockquote></figure>
+<p>En het auditief spoorzoeken:</p>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>Deze <em>télérupteur</em> – in de groepenkast of in een doorvoerdoos ondergebracht – schakelt dan de lamp in of uit. Kenmerkend voor de mechanische (dus relais) uitvoeringen is de stevige klik die uit de groepenkast klinkt of ergens uit de muur waar hij is ingebouwd. Handig als je eens in kaart wilt brengen waar wat zit van de elektrische installatie: auditief spoorzoeken.</p>
+</blockquote></figure>
+<h2>Verdieping</h2>
+<h3>De klassieke schakelingen</h3>
+<p>De wisselschakeling heet hier <em>va-et-vient</em>; wie een lichtpunt vanaf drie of meer plekken wil bedienen, stapt over op drukknoppen (<em>boutons poussoir</em>) met een <strong>télérupteur</strong> — eenvoudiger aan te leggen, eindeloos uitbreidbaar, en er bestaat een <em>silencieux</em>-uitvoering voor wie de karakteristieke klik te huiselijk vindt. Verder in het woordenboekje van dit hoofdstuk: <em>minuterie</em> (trappenhuis-tijdschakelaar), <em>interrupteur horaire</em> (programmeerbare klok), <em>variateur/gradateur</em> (dimmer), <em>sonnerie</em> (deurbel — verplicht op veilige laagspanning via een <em>transformateur de sonnerie</em>) en de <em>prises de courant modulaires</em> in de groepenkast, verplicht onderdeel van de GTL, netjes uit zicht voor modem of router.</p>
+<h3>De boiler en de contacteur jour/nuit</h3>
+<p>De elektrische boiler (<em>chauffe-eau</em>) hangt klassiek aan het dag/nachttarief, met drie modules in de kast: de <strong>contacteur jour/nuit</strong>, een disjoncteur van 2 A in de stuurdraad (<em>fil pilote</em>) en de eigen groepsbeveiliging van het boilercircuit. Het schuifje kent drie standen: 0 (uit), auto (volgt het netsignaal) en 1 (permanent aan, ook in de dure uren). Robs bestelwaarschuwing is decennia later nog steeds actueel : er bestaan contactors die bij het netsignaal <strong>inschakelen</strong> (<em>à fermeture</em>, F) en die juist <strong>uitschakelen</strong> (<em>à ouverture</em>, O) — één letter verschil in de typeaanduiding, en bij de verkeerde profiteert u exact níet van uw nachttarief. Voor de chauffe-eau: tweemaal maakcontact, <strong>F/F</strong>.</p>
+<p>Het afstandssignaal zelf (het PULSADIS-protocol over het net) en zijn moderne opvolging door Linky staan in hoofdstuk 1 — inclusief de hervorming die de daluren verlegt. De boiler schakelt gewoon mee; er hoeft niets omgebouwd te worden.</p>
+<p><strong>Aansluiten:</strong> een boiler hoort níet op een stopcontact. Vast aansluiten via een <em>sortie de câble</em> — dezelfde regel geldt voor vaste elektrische radiatoren: "de aanvoerbedrading mag niet rechtstreeks uit de muur of vanachter de gipsplaat tevoorschijn komen"  [aansluitwijze beschreven door Rob; deel 10-continuïteit, individuele hertoets vóór publicatie].</p>
+<h3>De délesteur: geld verdienen met een module</h3>
+<p>Wie elektrisch verwarmt, kent het dilemma: alles tegelijk aan betekent door het plafond van de puissance souscrite. De <strong>délesteur</strong> meet continu de totale stroom en schakelt bij naderend plafond tijdelijk niet-prioritaire grootverbruikers uit — en straks weer in. Robs rekensom blijft staan: het apparaat kost al snel 200 euro, maar bespaart jaar in jaar uit een zwaarder abonnement. In het warmtepomp/EV-tijdperk is dit principe actueler dan ooit; de moderne varianten daarvan (energy management bij laadpunten) staan in hoofdstuk 7.</p>
+<h3>Convecteurs</h3>
+<p>Sinds Sinterklaas 2002 (zie Robs kern) hoeven convectoren niet meer elk een eigen circuit: het aantal per circuit wordt begrensd door de <strong>som van de vermogens</strong> — bij verwarming geldt bovendien de circuits-spécialisés-regel van één circuit per 4.500 W [GEVERIFIEERD: V5.4]. Aansluiting altijd via sortie de câble, nooit met een stekker in een stopcontact.</p>
+<h3>De badkamer: volumes 0, 1, 2 — en niets meer</h3>
+<!-- SVG-INLINE: h6-badkamerzones.svg -->
+
+<p>De zone-indeling is in de 2024-serie <strong>ongewijzigd</strong> bevestigd (Promotelec expliciet; volume 3 was al sinds Amendement 5 vervallen) [GEVERIFIEERD: V4, dubbel, 04-07-2026]:</p>
+<ul>
+<li><strong>Volume 0</strong> (in bad of douchebak): uitsluitend TBTS-laagspanning, IPX7.</li>
+<li><strong>Volume 1</strong> (boven bad/douche): IPX5; alleen toestellen die daar uitdrukkelijk mogen.</li>
+<li><strong>Volume 2</strong> (60 cm rondom): IPX4; scheerstopcontact met TBTS-trafo toegestaan; verlichting alleen als DCL met IPX4.</li>
+<li><strong>Hors volume</strong>: vrij; <strong>stopcontacten horen uitsluitend hier</strong>.</li>
+<li><strong>Volume caché</strong> (onder bad/douchebak): geen apparatuur (IP44-uitzondering achter 30 mA).</li>
+<li>Bedieningshoogtes 0,90–1,30 m; alle badkamercircuits achter 30 mA-ID én aangesloten op de LES (hoofdstuk 4).</li>
+</ul>
+<p>De praktische consequentie die Rob al benoemde en die voor de NL/UK-klusser telt: een hangende doorstroomverwarmer boven de douche — in Engeland doodnormaal — "is in Frankrijk verboden omdat in Volume 1 alleen TBTS is toegestaan" . Zie het kader.</p>
+<h3>DCL en de uitzonderingen</h3>
+<p>De DCL-aansluitdoos (hoofdstuk 4) is verplicht, maar sinds Amendement 5 met werkbare uitzonderingen, door Rob via Legrand samengevat: als er geen doos in de ondergrond kán (betonvloer, staalplaat), bij opbouwvoeding (applique onder een <em>moulure</em>), als het armatuur een eigen aansluitdoos heeft (inbouwspot), of als het bevestigingsvlak kleiner is dan een DCL-doos [A5-regeling via bronartikel; deel 10-continuïteit, hertoets vóór publicatie].</p>
+<!-- SVG-INLINE: h6-circuits-specialises.svg -->
+
+<h2>NL–BE–FR</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Nederland</th>
+<th>België</th>
+<th>Frankrijk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Badkamerzones</td>
+<td>NEN 1010-zones 0/1/2 (vergelijkbare systematiek)</td>
+<td>AREI-volumes (vergelijkbaar)</td>
+<td>Volumes 0/1/2 + volume caché; <strong>stopcontacten alleen hors volume</strong></td>
+</tr>
+<tr>
+<td>Voorgeschreven aantal stopcontacten per kamer</td>
+<td>Nee — vrijheid (bouwbesluit-minimum beperkt)</td>
+<td>Nee</td>
+<td><strong>Ja, per vertrek genormeerd</strong> — zie tabel bovenaan</td>
+</tr>
+<tr>
+<td>Doorstroomverwarmer bij de douche</td>
+<td>Ongebruikelijk</td>
+<td>Ongebruikelijk</td>
+<td><strong>Verboden in volume 1</strong> (alleen TBTS)</td>
+</tr>
+<tr>
+<td>Boiler op stopcontact</td>
+<td>Komt voor</td>
+<td>Komt voor</td>
+<td><strong>Niet toegestaan</strong> — sortie de câble</td>
+</tr>
+<tr>
+<td>Deurbel</td>
+<td>8–24 V trafo gebruikelijk</td>
+<td>idem</td>
+<td>Verplicht laagspanning, <em>transformateur de sonnerie</em></td>
+</tr>
+</tbody>
+</table>
+<p>NL/BE-cellen beschrijvend </p>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(aanscherpen bij V13/V14-afronding)</em></div>
+<p>; FR-kolom V4/V5.</p>
+<h2>Uit de praktijk</h2>
+<blockquote>
+<p><strong>De Sauter in de cave.</strong> <em>"Wij hadden een 200-liter Sauter in een cave staan. Altijd heet water. Waarom werd me pas duidelijk toen ik hem verwijderd had: de maximaalthermostaat stond op 80 graden…"</em> — Rob van der Meulen, IF-forum, topic warmwatervoorziening, 2018. Moraal: wie zijn boiler nooit heeft nagekeken, verwarmt mogelijk al jaren het halve departement.</p>
+<p><strong>De Britse douche.</strong> <em>"Het stroomverbruik is van oudsher al stevig (…) 85 jaar later is er aan bepaalde natuurkundige wetten weinig veranderd."</em> — Rob van der Meulen, IF-forum, 2018, over elektrische doorstroomverwarmers (UK-"showers"): in Frankrijk passen ze niet in de volumesystematiek van de badkamer, en de benodigde draaddiktes (4 à 6 mm²) verrassen menig klusser. Wie er een meeneemt uit het VK of Nederland, koopt een afkeuringsgrond.</p>
+</blockquote>
+<h2>Tijdgevoelig — geverifieerd 04-07-2026</h2>
+<ul>
+<li>Badkamervolumes: 2024-serie bevestigt de bestaande indeling; <strong>de lijst van op de LES aan te sluiten elementen is wél aangepast</strong> — exact detail nog opzoeken vóór publicatie [V4.1, restpunt].</li>
+<li>Gemotoriseerde rolluiken: eigen circuit is een 2024-vernieuwing [V5.4] — relevant bij elke renovatie met domotica-ambities.</li>
+<li>Zwembadvolumes: ongewijzigd, met uitbreiding naar natuurwater [V4.1]; zwembaden zelf vallen buiten dit dossier.</li>
+</ul></section><section id="h7"><p class="eyebrow">Hoofdstuk 7</p><h1>Zwaar verbruik: warmtepomp, EV en boiler</h1><p><em>Nieuw hoofdstuk (2026). De vorige generatie van deze serie stamt uit een tijd waarin de zwaarste verbruiker in huis de kookplaat was. Wie vandaag een warmtepomp, een elektrische auto én een (thermodynamische) boiler aan dezelfde aansluiting hangt, stelt in feite drie oude forumvragen tegelijk — dit hoofdstuk beantwoordt ze in samenhang.</em></p>
+<h2>Snel antwoord</h2>
+<table>
+<thead>
+<tr>
+<th>U wilt…</th>
+<th>Dan geldt…</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Een warmtepomp</td>
+<td>Eigen circuit [V5.4]; bij éénfasige frequentieregelaar: <strong>type F-aardlekschakelaar</strong> verplicht, driefase: type B [V2/V1]; vermogen bepaalt of uw kVA-trap volstaat</td>
+</tr>
+<tr>
+<td>Een laadpunt &gt; 3,7 kW</td>
+<td><strong>Uitsluitend installatie door een IRVE-gekwalificeerde installateur</strong> (décret 2017-26) [V7]</td>
+</tr>
+<tr>
+<td>Een prise renforcée (≤ 3,7 kW)</td>
+<td>Mag zonder IRVE-kwalificatie in de privéwoning — maar ook dan: eigen circuit + 30 mA type A; zonder IRVE-factuur geen TVA 5,5% en risico op verzekeringsweigering [V7]</td>
+</tr>
+<tr>
+<td>Alles tegelijk kunnen gebruiken</td>
+<td>Reken uw puissance souscrite na — en overweeg délestage/energy management vóór u een zwaarder abonnement neemt</td>
+</tr>
+<tr>
+<td>Weten of tri of mono verstandig is</td>
+<td>Zie de beslisregels hieronder; de warmtepomp-uitzondering kan de oude "bouw maar om naar mono"-wijsheid omkeren</td>
+</tr>
+</tbody>
+</table>
+<!-- SVG-INLINE: h7-ev-beslisboom.svg -->
+
+<h2>Robs kern</h2>
+<p>Het skelet van dit hoofdstuk is een forumgesprek uit 2020 dat verrassend compleet was — de vraag, het antwoord en het tegengeluid:</p>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p><em>"Met de komst van elektrische auto's kun je eigenlijk niet om een driefasenaansluiting heen, tenzij je zeer lange laadtijden voor lief neemt; VW ID3: 36 uur monophasé, ruim 7 uur tri."</em> — Peter Jan, forum nederlanders.fr, 2020</p>
+</blockquote></figure>
+<blockquote>
+<p><em>"Dan mag je wel een stevige puissance souscrite nemen, anders blijft er bij laden in Mode 3 niet veel over voor het huishouden — tenzij je 's nachts laadt."</em> — Rob van der Meulen, zelfde discussie</p>
+<p><em>"3×30 A in plaats van 1×90 A laadt niks sneller, maar je aansluiting is duur en fasebalans is lastig — zeker als het alleen voor de auto is."</em> — Jako, zelfde discussie</p>
+</blockquote>
+<p>Drie zinnen, drie waarheden — en samen de kern van elke moderne verzwaringsafweging. Alle getallen uit dat gesprek stammen uit 2020 en zijn hieronder alleen overgenomen waar de verificatie ze dekt.</p>
+<h2>Verdieping</h2>
+<h3>De vraag achter de vraag: is de installatie er klaar voor?</h3>
+<p>Promotelec-directeur Delettre formuleerde precies de brug tussen Robs erfgoed en dit hoofdstuk: is de bestaande installatie klaar voor warmtepomp, laadpunt en zonnepanelen? [V12.3] Voor een installatie van vóór 2015 is het antwoord vrijwel altijd: niet zonder aanpassingen — minstens een extra circuit spécialisé, vaak een type F-ID, soms een zwaarder ID-kaliber (de aval-regel uit hoofdstuk 3 telt verwarming, warmwater én laadpunt volledig mee), en regelmatig een nieuwe kVA-afweging.</p>
+<h3>De warmtepomp</h3>
+<p>De Nederlandse instapverwachting botst hier frontaal met de Franse realiteit — zie het kader ("wij hebben 3×35 A…"). De regels [GEVERIFIEERD: V2/V5.4]:</p>
+<ul>
+<li>Eigen circuit (per 4.500 W verwarmingsvermogen een eigen circuit).</li>
+<li>Moderne warmtepompen hebben vrijwel altijd een frequentieregelaar (invertertechniek): dan is <strong>type F</strong> (mono) of <strong>type B</strong> (tri) aan het hoofd van het circuit verplicht sinds de 2024-serie. Dit is de meest gemiste nieuwe regel bij zelfinstallatie.</li>
+<li>De oude Promotelec-wijsheid "kleine oude triphasé? Bouw om naar mono" (Rob citeerde haar jarenlang) verdient anno 2026 een kanttekening: een grote driefasen-warmtepomp kan juist een reden zijn om tri te <strong>behouden</strong>. De afweging is individueel geworden; de rekenkern staat in de puissance-check hieronder.</li>
+<li>De F-gaz-/koudemiddelkant en de warmteverliesberekening vallen buiten dit dossier; daarvoor is er het EnergiePortaal.</li>
+</ul>
+<h3>Het laadpunt: de wet is hier streng, en dat is geen papieren regel</h3>
+<p>[GEVERIFIEERD: décret 2017-26 + Qualifelec/AFNOR-bronnen, V7, 04-07-2026]</p>
+<ul>
+<li><strong>Boven 3,7 kW is installeren voorbehouden aan een IRVE-gekwalificeerde installateur</strong> (kwalificatie Qualifelec/AFNOR, niveaus 1–3). De uitzondering voor de niet-publiek toegankelijke privéwoning geldt alleen t/m 3,7 kW.</li>
+<li>Ook de bescheiden <strong>prise renforcée</strong> vergt een eigen circuit met 30 mA type A-beveiliging. En wie zonder IRVE-factuur werkt, verspeelt de TVA 5,5% én geeft de verzekeraar bij schade een aanknopingspunt — de verzekeringslijn uit hoofdstuk 0 op zijn scherpst.</li>
+<li>Normbasis is het eigen normdeel <strong>NF C 15-100-7-722</strong> [V1]: circuit spécialisé verplicht; differentieel mono <strong>type A of F</strong>, driefase <strong>type B</strong>; obturateurs blijven vereist bij normaal laden; nieuwe rekenregels voor kabelsecties in verband met harmonischen. Kabeldiktes die op fora circuleren (10 mm² en dergelijke) zijn installateursdimensionering per situatie, geen normgetal.</li>
+<li>Collectieve woongebouwen met afgesloten parkeergelegenheid: minimaal één EV-laadvoorziening verplicht [V5.7].</li>
+<li>Monophasé boven 12 kVA bestaat voor nieuwe aansluitingen niet meer (Enedis-plafond; historische 13–18 kVA-monoaansluitingen blijven gedoogd) — een zwaar laadpunt bovenop een vol 12 kVA-monohuis betekent dus in de praktijk: slim laden/délestage, óf de stap naar triphasé [GEVERIFIEERD: Enedis barème raccordement, 04-07-2026; zie hoofdstuk 1].</li>
+</ul>
+<h3>De boiler in het nieuwe geheel</h3>
+<p>De klassieke chauffe-eau schakelt gewoon mee met de (hervormde) daluren — hoofdstukken 1 en 6. Nieuw is de <strong>thermodynamische boiler</strong> (warmtepompboiler): zuiniger, maar mét frequentieregelaar, dus ook hier de type F-vraag stellen. De praktijkles van het forum (kader hieronder): de combinatie warmtepomp + thermodynamische boiler + inductie maakte 9 kVA krap en 12 kVA comfortabel — precies het soort som dat u vooraf wilt maken, niet achteraf.</p>
+<h3>Slim verdelen vóór verzwaren</h3>
+<p>De délesteur uit hoofdstuk 6 heeft moderne nazaten: laadpunten met dynamisch load management die de laadstroom terugregelen als het huis piekt. De volgorde van de afweging is altijd: (1) meten wat u werkelijk piekt, (2) slim spreiden (daluren, délestage), (3) pas dan kVA-verzwaring of ombouw naar tri — want die laatste twee kosten élk jaar geld, de eerste twee vooral eenmalig verstand.</p>
+<div class="notitie">Hier komt online een rekenhulp voor abonnees — niets om na te kijken.</div>
+
+<h3>V2G en de thuisbatterij: Robs nuchterheid als kompas</h3>
+<p>Robs V2G-verhaal begon in het donderdagavondcafé van dit huis:</p>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>Gisteravond werd ik gastvrij ontvangen in het donderdagavondcafé van dit forum met Anton Noë als kastelein achter de audiovisuele tap. Toen de bel voor de laatste ronde klonk kwam er nog een technische vraag over tafel: hoe zit 't eigenlijk met het gebruiken van je elektrische auto als thuisbatterij?</p>
+<p>— Rob van der Meulen, forum nederlanders.fr, mei 2024</p>
+</blockquote></figure>
+<p>Zijn analyse destijds: elke accu heeft een eindig aantal laad-/ontlaadcycli (een les die hij van zijn vader meekreeg), thermische belasting telt, en de kernvraag is <em>"hoeveel is het je waard om versneld af te schrijven op je elektrische auto?"</em> De eerste commerciële V2G-uitrol (Renault/Mobilize) is inmiddels een feit, maar de actuele stand van de Franse V2G-markt is voor dit dossier nog niet geverifieerd </p>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(dateren vóór publicatie)</em></div>
+<p>.</p>
+<p>Over de thuisbatterij bleef Rob even nuchter (november 2024): opgeslagen stroom die u niet zelf verbruikt, moet uiteindelijk toch "op de een of andere manier z'n weg over het overbelaste stroomnet weten te vinden", en bij de bijbehorende papierwinkel is de Consuel "soms gaarne bereid bij de panneaux photovoltaïques iets af te keuren wegens het ontbreken van een stickertje" . Zijn alternatieve denkrichting uit 2018 verdient conservering: stroom opslaan kan óók als warm water in de boiler, of door de auto overdag op eigen zonnestroom te laden. Voor de hele opwek-kant: zie het Zonnepanelendossier.</p>
+<h2>NL–BE–FR</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Nederland</th>
+<th>België</th>
+<th>Frankrijk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wie mag een laadpunt &gt; 3,7 kW plaatsen</td>
+<td>Geen wettelijk installateursmonopolie</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(zie de omringende tekst)</em></div>
+<p>| Keuringsplicht na installatie (AREI) [V14] | <strong>Alleen IRVE-gekwalificeerd installateur</strong> [V7] |
+| Fiscale prikkel laadpunt | — | — | TVA 5,5% — uitsluitend via IRVE-installateur; crédit d'impôt gestopt (zie tijdgevoelig blok) |
+| Zware aansluiting thuis | 3×25 A gangbaar | 3-fasen gangbaar | kVA-trappen; tri boven ±12 kVA [reeksen NIET GEVERIFIEERD] |
+| Salderen/terugleveren | Salderingsregeling (aflopend) </p>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(zie de omringende tekst)</em></div>
+<p>| Gewestelijk | Zie Zonnepanelendossier |</p>
+<h2>Uit de praktijk</h2>
+<blockquote>
+<p><strong>De Nederlandse verwachting.</strong> <em>"Wij hebben hier 3×35 A vanwege warmtepomp en elektrische auto — in Frankrijk 3×10 A in buitengebied?"</em> — forumdeelnemer, nederlanders.fr, december 2021. Ja, dat kan de startsituatie zijn. Het antwoord is niet mopperen maar rekenen: wat piekt er werkelijk, wat kan slimmer, en pas daarna: wat moet er verzwaard.</p>
+<p><strong>Van 9 naar 12 kVA.</strong> Een huishouden met warmtepomp, thermodynamische boiler en inductiekookplaat: op 9 kVA regelmatig in het donker, na de overstap naar 12 kVA <em>"nooit meer problemen."</em> — forumdeelnemer, nederlanders.fr, februari 2024. Let wel: mét Robs selectiviteitsles erbij — de hoofdbeveiliging moet ruimer zijn dan wat er stroomafwaarts hangt, anders klapt het huis eruit terwijl de groep het nog prima vond.</p>
+<p><strong>Het tegengeluid.</strong> Jako's regel (zie Robs kern) blijft de beste eerste vraag bij elke tri-ambitie: laadt driefase bij úw auto en úw lader werkelijk sneller — of koopt u vooral een duurdere aansluiting en een fasebalans-puzzel?</p>
+</blockquote>
+<h2>Tijdgevoelig — geverifieerd 04-07-2026</h2>
+<ul>
+<li><strong>Het crédit d'impôt voor laadpunten (500 €) is per 31-12-2025 gestopt en niet verlengd in 2026</strong> (de belastingaangifte van 2026 dekt alleen 2025-betalingen). Resteren: <strong>TVA 5,5%</strong> (alleen via IRVE-installateur) en de <strong>prime Advenir</strong> voor copropriétés [GEVERIFIEERD: V7.3].</li>
+<li>De heures-creuses-hervorming (hoofdstuk 1) raakt direct aan nachtladen: nieuwe vensters = nieuwe laadplanning; herbereken vóór u een tariefkeuze vastlegt.</li>
+<li>Onduleur-certificaten bij batterij/PV-koppeling: sinds 01-01-2026 ook NF EN 50549-10:2023 vereist (≤ 36 kVA) — raakvlak met hoofdstuk 8 en het Zonnepanelendossier [GEVERIFIEERD: V8.4].</li>
+<li>Openstaand: actuele kVA-reeksen en ombouwkosten tri↔mono (Enedis Catalogue des Prestations), V2G-marktstand </li>
+</ul>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(zie de omringende tekst)</em></div>
+<p>.</p></section><section id="h8"><p class="eyebrow">Hoofdstuk 8</p><h1>Normen, keuring en papierwerk</h1><h2>Snel antwoord</h2>
+<table>
+<thead>
+<tr>
+<th>Vraag</th>
+<th>Antwoord [GEVERIFIEERD: V1/V8/V9, 04-07-2026]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Welke norm geldt in 2026?</td>
+<td>De <strong>NF C 15-100-serie van 2024</strong> (21 delen) — systematisch toegepast sinds september 2025; voor woningen is deel 10 inhoudelijk de vertrouwde A5-tekst</td>
+</tr>
+<tr>
+<td>Geldt de nieuwe norm ook voor mijn bestaande installatie?</td>
+<td><strong>Nee</strong> — normen zijn niet retroactief; ze gelden voor nieuwe installaties, renovaties en gewijzigde delen</td>
+</tr>
+<tr>
+<td>Mag ik zelf aanleggen?</td>
+<td>Ja — maar bij nieuwe aansluiting of herinschakeling eerst een <strong>Consuel-attestation</strong></td>
+</tr>
+<tr>
+<td>Wat kost de Consuel?</td>
+<td>Geel formulier (woning, elektronisch): <strong>144,67 €</strong>; contre-visite 232,13 € — barème bij arrêté, landelijk uniform</td>
+</tr>
+<tr>
+<td>Verkoop of verhuur?</td>
+<td>Installatie &gt; 15 jaar: verplicht <strong>diagnostic électrique</strong> (3 jaar geldig bij verkoop, 6 bij verhuur); een Consuel-attestation jonger dan 6 jaar vervangt het</td>
+</tr>
+<tr>
+<td>Moet ik anomalieën herstellen?</td>
+<td>Wettelijk niet — maar elke anomalie is een prijsdrukker, en bij verhuur kan een ernstige anomalie blokkeren</td>
+</tr>
+</tbody>
+</table>
+<h2>Robs kern</h2>
+<p>Robs eigen verantwoording uit 2016 — de zin die dit hele dossier legitimeert:</p>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>In 2008 verscheen op deze website een eerste elektra-inleiding (…) In dat hoofdstuk kwam langzamerhand een beetje de mot te zitten. Zeker na Amendement 5, per 27 november 2015 van kracht. (…) Conclusie: de herschreven inleiding is niet meer dan een voorlopig eindresultaat. Dit soort technische regels vernieuwt zich voortdurend.</p>
+<p>— Rob van der Meulen, IF-forum, topic "de nieuwe regels", 19-07-2016</p>
+</blockquote></figure>
+<p>En zijn laatste normbericht, december 2024, toen de grote herziening er lag:</p>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>Op vijf december 2002, voor een Nederlander een makkelijke datum om te onthouden, werd een stevig vernieuwde versie gepubliceerd. Opgevolgd door kleine veranderingen (…) Na twintig jaar is daar stevig de schop in gegaan. <strong>De structuur is gewijzigd</strong> (…) strakker thematisch geredigeerde hoofdstukken. Hetgeen toekomstige revisies zal vergemakkelijken.</p>
+<p>— Rob van der Meulen, forum nederlanders.fr, december 2024</p>
+</blockquote></figure>
+<h2>Verdieping</h2>
+<h3>De norm anno 2026: één serie, 21 delen</h3>
+<p>In augustus 2024 publiceerde AFNOR de NF C 15-100 opnieuw — geen zesde amendement, maar een <strong>volledige herschrijving</strong>: het monolithische document van 2002 (plus amendementen A1–A5 en interpretatiefiches) is vervangen door een serie van <strong>21 zelfstandige normdelen</strong>, waaronder deel 1 (algemene eisen), 7-701 (badkamers), 7-722 (laadinfrastructuur), 8-1 (energie-efficiëntie), deel 10 (woningen) en deel 11 (communicatienetwerken). Sinds een overgangsjaar geldt de serie <strong>systematisch sinds september 2025</strong>. Welke normversie voor úw project geldt, bepaalt de peildatum: datum indiening bouwvergunning, anders déclaration préalable, anders ondertekening aannemingsovereenkomst. [GEVERIFIEERD: AFNOR (ankerbron, bijgewerkt 04-06-2026), Consuel, Hager, Schneider, Socotec — V1, 04-07-2026]</p>
+<p>Het goede nieuws voor iedereen die met Robs serie is opgegroeid, rechtstreeks van normcommissielid Bernard Gioan (FFIE, commissie U15): <em>"Le titre 10 de 2016, qui concerne les habitations, reste inchangé"</em> — <strong>het woningdeel is formeel ongewijzigd</strong> gebleven. De vernieuwing zit in deel 1 (o.a. type F, AFDD, euroclasses voor kabels), 7-722 (EV), 8-1 en 11 [GEVERIFIEERD: V1-aanvulling].</p>
+<h3>Norm versus verplichtstelling — de nuance die bijna niemand kent</h3>
+<p>Formeel-juridisch is de 2024-serie nog <strong>niet</strong> in de regelgeving verankerd: de "norme rendue obligatoire" in de zin van het arrêté van 3 augustus 2016 is nog altijd de 2002-versie met amendementen — die daarom gratis raadpleegbaar blijft. Praktisch (Consuel-keuring, aannemers, fabrikanten) ís de 2024-serie sinds september 2025 de werkstandaard [GEVERIFIEERD: AFNOR zelf, juni 2026 — V1.4]. Voor de klusser betekent dit: bouw naar de 2024-serie (daar keurt de Consuel op — vanaf april 2026 staat NF C 15-100:2024 zelfs standaard aangevinkt in Mon Espace Consuel), en weet dat de oude tekst gratis online staat als u een bestaande installatie wilt begrijpen.</p>
+<p>Rob zou de ironie gewaardeerd hebben: zijn oude klacht over de Nederlandse "NEN-politie" die de normtekst achter copyright bewaakt  geldt in Frankrijk nog altijd maar half — de verplichte versie is er gratis, alleen de nieuwste moet u kopen.</p>
+<h3>De Consuel: procedure, tarieven, zelfaanleg</h3>
+<p>[GEVERIFIEERD: consuel.com (barème bij arrêté 04-08-2015, +0,64% per 02-09-2025) + zes secundaire bronnen — V8, 04-07-2026]</p>
+<ul>
+<li><strong>Vier attestaties</strong>: geel (woningen, incl. laadpunt in de woonsfeer), groen (niet-domestiek), blauw (stroomproductie zonder opslag), violet (met opslag). Woning mét zonnepanelen = twee formulieren (geel + blauw/violet).</li>
+<li><strong>Tarieven</strong> (particulier, metropool, elektronisch): geel <strong>144,67 €</strong> (papier 146,15 €), groen 76,37 €, blauw 201,17 €, violet 230,32 €; <strong>contre-visite 232,13 €</strong>. Landelijk uniform; bij publicatie de actuele barème op consuel.com aflezen.</li>
+<li><strong>Zelfaanleg is voorzien en toegestaan</strong>: de auteur van de werken — bij zelfbouw dus uzelf — vraagt aan en tekent. Particulieren krijgen vrijwel altijd een controlebezoek; gerenommeerde professionals steekproefsgewijs. Vraag ruim op tijd aan (±20 dagen); een blanco formulier is 12 maanden geldig. Sinds décret 2024-1122 gaat de gevisieerde attestatie automatisch naar Enedis. <strong>Zonder visa geen inbedrijfstelling.</strong></li>
+<li>Bij zonnepanelen/batterij hoort een omvormer-certificaat (NF EN 50549-1/-2, sinds 01-01-2026 ook -10:2023 voor ≤ 36 kVA).</li>
+</ul>
+<p>De historische duiding bij Robs "waarom zo streng"-lijn: de Consuel werd opgericht in 1964 en per decreet van 14-12-1972 verplicht gesteld — na de brand in dancing "5-7" in Saint-Laurent-du-Pont (146 doden) [GEVERIFIEERD: V8.5]. De Franse keuringsstrengheid is, letterlijk, uit as geboren.</p>
+<p>En de studietip blijft: <em>"Ik heb ook al in de NF C 15-100 zitten bladeren, het is wel even studeren."</em> — forumdeelnemer, IF-forum, Consuel-topic, 2013.</p>
+<!-- SVG-INLINE: h8-consuel-flow.svg -->
+
+<h3>Het diagnostic électrique: de keuring die u wél krijgt</h3>
+<p>[GEVERIFIEERD: service-public.gouv.fr F18692 + convergente bronnen — V9, 04-07-2026]</p>
+<p>Robs oude samenvatting ("alleen een voorlichtende functie") behoeft anno 2026 aanscherping — de regels zijn sinds 2012 gegroeid:</p>
+<ol>
+<li><strong>Verplicht bij verkoop én verhuur</strong> van een woning met installatie ouder dan 15 jaar (verkoop sinds 2009, verhuur sinds 2017/2018), als onderdeel van het Dossier de Diagnostic Technique, vóór compromis of bail. Uitvoering door een gecertificeerde (Cofrac-geaccrediteerde), verzekerde diagnostiqueur.</li>
+<li><strong>Geldigheid</strong>: 3 jaar (verkoop), 6 jaar (verhuur). <strong>Een Consuel-attestation jonger dan 6 jaar vervangt het diagnostic</strong> — wie net gerenoveerd en gekeurd heeft, hoeft niet opnieuw.</li>
+<li><strong>Karakter</strong>: een veiligheidsonderzoek (aarding, differentieelbeveiliging, verouderd materieel, badkamerregels) — géén conformiteitstoets aan de actuele norm. "Niet conform de nieuwste norm" is dus geen afkeurgrond; gevaarlijke anomalieën zijn wél prijsvormend.</li>
+<li><strong>Consequenties</strong>: herstel is niet verplicht, maar zonder (eerlijk) diagnostic geen vrijwaring van verborgen gebreken — de koper kan via de rechter ontbinding of prijsvermindering eisen; elke anomalie is een onderhandelingswapen; bij verhuur kan een ernstige anomalie de verhuurbaarheid (logement décent) blokkeren, met aansprakelijkheid bij schade voor de eigenaar.</li>
+</ol>
+<p>Dit is het sluitstuk van de rode draad uit hoofdstuk 0: wie vandaag non-conform klust, betaalt bij verkoop, verhuur of schade. De lekenredenering van het forum uit 2014 — "geen diagnostic, dan ook geen aansprakelijkheidsprobleem, want te goeder trouw gekocht" — klopt dus hooguit voor de kóper, nooit voor de verbouwer.</p>
+<h3>Het verplichte communicatienetwerk</h3>
+<p>De verplichting van een bedraad communicatienetwerk (eigen <em>boîte</em> in de GTL) heeft alle vereenvoudigingsoperaties overleefd en is in de 2024-serie zelfs een eigen normdeel (11): minimaal 2 RJ45 naast elkaar in de séjour, uit te breiden naar het aantal kamers (met wachtkabel-alternatief), krachtens het arrêté van 3 augustus 2016 [GEVERIFIEERD: V5.6]. Robs praktische Gigabit-tip uit de oude serie (leg meteen 25 mm-gaine, trek twee kabels) blijft daarbij gewoon goed advies .</p>
+<h2>NL–BE–FR</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Nederland</th>
+<th>België</th>
+<th>Frankrijk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Keuring nieuwe zelfaanleg</td>
+<td>Geen</td>
+<td><strong>Verplicht</strong> (erkend organisme, AREI Boek 1)</td>
+<td><strong>Consuel-visa</strong> vóór aansluiting</td>
+</tr>
+<tr>
+<td>Periodieke/verkoopkeuring</td>
+<td>Geen verplichte</td>
+<td>Keuringsverslag bij verkoop</td>
+<td><strong>Diagnostic électrique</strong> bij &gt; 15 jaar</td>
+</tr>
+<tr>
+<td>Normtekst vrij raadpleegbaar</td>
+<td>Nee (NEN 1010 achter betaalmuur)</td>
+<td>AREI gratis (FOD Economie)</td>
+<td>Verplichte versie gratis; 2024-serie betaald</td>
+</tr>
+<tr>
+<td>Norm herzien</td>
+<td>doorlopend</td>
+<td>Volledig herzien per 01-06-2020 (3 boeken)</td>
+<td>Volledig herzien 2024 (21 delen)</td>
+</tr>
+</tbody>
+</table>
+<p>[V14/V1/V13-bronnen; NL-Bbl-verwijzing nog open]</p>
+<h2>Uit de praktijk</h2>
+<blockquote>
+<p><strong>Willem uit de Cantal.</strong> Een oud-leraar elektrotechniek nam een leerling mee en legde alles zelf aan: <em>"Toen EDF de meterkast zag zeiden ze: dit keuren we gelijk goed. Toen vervingen ze nog de bovenleiding voor een zwaardere, voor niet veel geld. Als je het netjes regelt is er veel mogelijk."</em> — forumdeelnemer, nederlanders.fr, topic "Elektra EDF vragen", 2016.</p>
+<p><strong>De afkeur-waarschuwing.</strong> <em>"Je hebt al meer dan genoeg kans op afkeur vanwege zaken die je écht niet had kunnen voorzien. Een herkeuring is duur, en als er wegens geknoei werd afgekeurd ben je bij een volgende keuring helemáál aan de beurt."</em> — Jos, IF-forum, 2014.</p>
+<p><strong>Hoe zeldzaam is de controle bij professionals?</strong> Een elektricien die in veertig jaar zeven Consuel-keuringen meemaakte; en een afkeuring op een detail — een opliggend stopcontact met ronde buisaansluiting die niet <em>aux normes</em> was, geïntegreerde baguette vereist. — Bram van Zanten, forum nederlanders.fr, reacties december 2024. (Precies het beeld dat de officiële regel schetst: de particulier wordt vrijwel altijd bezocht, de bekende pro steekproefsgewijs — en de controleur kijkt óók naar details.)</p>
+</blockquote>
+<h2>Tijdgevoelig — geverifieerd 04-07-2026</h2>
+<ul>
+<li><strong>Consuel-tarieven</strong>: barème per 02-09-2025 (+0,64%): geel 144,67 € / contre-visite 232,13 €. Bij publicatie en bij elke jaarlijkse onderhoudsbeurt exact aflezen van consuel.com.</li>
+<li><strong>Normstatus</strong>: 2024-serie systematisch sinds september 2025; regelgevende verankering (opvolger arrêté 03-08-2016) nog niet gebeurd — dit blok jaarlijks controleren, want zodra de verankering er komt, vervalt de gratis-raadpleegbaarheid-van-de-oude-versie-redenering.</li>
+<li>Vanaf april 2026 staat NF C 15-100:2024 standaard aangevinkt in Mon Espace Consuel.</li>
+</ul></section><section id="h9"><p class="eyebrow">Hoofdstuk 9</p><h1>Naslag: woordenlijst en bronnen</h1><h2>Snel antwoord</h2>
+<ul>
+<li><strong>Woordenlijst nodig?</strong> De volledige NL⇄FR-klus- en bouwwoordenlijst van Infofrankrijk (1000+ termen, mede gebaseerd op het werk van Christian von Klösterlein en Rob van der Meulen) staat op de eigen pagina — dit hoofdstuk geeft alleen de elektra-kernlaag. <!-- LINK: /woordenlijst-klussen-bouwen-nl-⇄-fr/ --></li>
+<li><strong>Eén boek kopen?</strong> Gallauziaux &amp; Fedullo, <em>L'installation électrique</em> — "mag bij geen enkele électricien du dimanche ontbreken" (Rob).</li>
+<li><strong>Eén website onthouden?</strong> promotelec.com → <em>Essentiels de l'installation électrique</em> — Robs favoriete voorlichtingsbron, nog steeds actueel.</li>
+</ul>
+<h2>Elektra-kernwoordenlijst</h2>
+<table>
+<thead>
+<tr>
+<th>Frans</th>
+<th>Nederlands</th>
+<th>Valkuil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tableau électrique / de répartition</td>
+<td>groepenkast</td>
+<td>drie Franse namen, één ding</td>
+</tr>
+<tr>
+<td>GTL (gaine technique de logement)</td>
+<td>"meterkast" — de complete techniekstrook</td>
+<td>ETEL = de gereserveerde ruimte eromheen</td>
+</tr>
+<tr>
+<td>disjoncteur de branchement (DB/AGCP)</td>
+<td>hoofdschakelaar mét begrenzer</td>
+<td>≠ NL-hoofdschakelaar (die begrenst niet)</td>
+</tr>
+<tr>
+<td>interrupteur différentiel (ID/DDR)</td>
+<td>aardlekschakelaar 30 mA</td>
+<td>type AC/A/<strong>F</strong>/B — zie hoofdstuk 3</td>
+</tr>
+<tr>
+<td>disjoncteur (divisionnaire)</td>
+<td>installatieautomaat</td>
+<td>fase rechts aansluiten!</td>
+</tr>
+<tr>
+<td>disjoncteur différentiel</td>
+<td>aardlekautomaat ("alamat")</td>
+<td>≠ interrupteur différentiel</td>
+</tr>
+<tr>
+<td>coupe-circuit</td>
+<td>zekeringhouder</td>
+<td>verboden in nieuwbouw</td>
+</tr>
+<tr>
+<td>circuit spécialisé</td>
+<td>eigen groep voor één zware verbruiker</td>
+<td>minimaal 4 verplicht</td>
+</tr>
+<tr>
+<td>prise 2P+T</td>
+<td>geaard stopcontact (penaarde)</td>
+<td>past niet op NL-randaarde</td>
+</tr>
+<tr>
+<td>obturateurs</td>
+<td>kinderveilige afsluiters in de contactdoos</td>
+<td>verplicht, ook bij 32 A</td>
+</tr>
+<tr>
+<td>socle</td>
+<td>contactdoos-eenheid (telregel: 1 = 1)</td>
+<td>dubbel blok telt als 2</td>
+</tr>
+<tr>
+<td>DCL</td>
+<td>verlichtingsaansluitdoos</td>
+<td>kroonsteen-uit-het-plafond is passé</td>
+</tr>
+<tr>
+<td>domino</td>
+<td>kroonsteen</td>
+<td>gebruik liever een Wago</td>
+</tr>
+<tr>
+<td>gaine / conduit (ICA, ICTA, IRL)</td>
+<td>elektrabuis</td>
+<td>gaine ≠ <strong>goulotte</strong> (kabelgoot)</td>
+</tr>
+<tr>
+<td>fil / câble</td>
+<td>draad / kabel</td>
+<td>fil hoort ín een gaine</td>
+</tr>
+<tr>
+<td>fil pilote</td>
+<td>stuurdraad (boiler/verwarming)</td>
+<td>2 A-automaat erin</td>
+</tr>
+<tr>
+<td>sortie de câble</td>
+<td>vaste-aansluitdoos</td>
+<td>boiler/radiator nóóit op een stekker</td>
+</tr>
+<tr>
+<td>boîte de dérivation</td>
+<td>lasdoos</td>
+<td>deksel moet bereikbaar blijven</td>
+</tr>
+<tr>
+<td>boîte d'encastrement</td>
+<td>inbouwdoos</td>
+<td>maatvoering merkgebonden</td>
+</tr>
+<tr>
+<td>va-et-vient</td>
+<td>wissel-/hotelschakeling</td>
+<td></td>
+</tr>
+<tr>
+<td>télérupteur</td>
+<td>impulsrelais</td>
+<td>de "klik" in de kast</td>
+</tr>
+<tr>
+<td>contacteur jour/nuit</td>
+<td>boilerrelais dag/nacht</td>
+<td>bestel type <strong>F/F</strong></td>
+</tr>
+<tr>
+<td>délesteur</td>
+<td>afschakelautomaat bij piek</td>
+<td>bespaart een kVA-trap</td>
+</tr>
+<tr>
+<td>parafoudre</td>
+<td>overspanningsbeveiliging</td>
+<td>≠ <strong>paratonnerre</strong> (bliksemafleider)</td>
+</tr>
+<tr>
+<td>prise de terre / piquet / boucle</td>
+<td>aardelektrode / -pen / -lus</td>
+<td>barrette de mesure = meetpunt</td>
+</tr>
+<tr>
+<td>LES / liaison équipotentielle</td>
+<td>(aanvullende) potentiaalvereffening</td>
+<td>badkamerplicht</td>
+</tr>
+<tr>
+<td>puissance souscrite</td>
+<td>gecontracteerd vermogen (kVA)</td>
+<td>het abonnement is uw plafond</td>
+</tr>
+<tr>
+<td>heures creuses / pleines (HC/HP)</td>
+<td>dal-/normaaluren</td>
+<td>vensters wijst Enedis toe</td>
+</tr>
+<tr>
+<td>branchement provisoire / coffret de chantier</td>
+<td>bouwaansluiting / bouwkast</td>
+<td>tijdelijk — strenger gehandhaafd</td>
+</tr>
+<tr>
+<td>attestation de conformité (Consuel)</td>
+<td>keuringsattest</td>
+<td>zonder visa geen stroom</td>
+</tr>
+<tr>
+<td>diagnostic électrique (DEO)</td>
+<td>verkoop-/verhuurkeuring</td>
+<td>&gt; 15 jaar, 3/6 jaar geldig</td>
+</tr>
+</tbody>
+</table>
+<div class="notitie">Hier komt online een rekenhulp voor abonnees — niets om na te kijken.</div>
+
+<h2>Boeken</h2>
+<ul>
+<li><strong>Thierry Gallauziaux &amp; David Fedullo — <em>L'installation électrique</em></strong> (Eyrolles). Robs oordeel staat : "mag eigenlijk bij geen enkele <em>électricien du dimanche ou semi-professionnel</em> ontbreken op de boekenplank." De 5e druk (2016) verwerkte Amendement 5; controleer bij aanschaf of er inmiddels een druk op basis van de 2024-serie is </li>
+</ul>
+<div class="vraag" data-vraag="1"><span class="vraaglabel">Vraag aan jou</span>Dit hebben wij nog niet hard uit de officiële stukken kunnen halen — weet jij het antwoord, of waar het staat? <em>(actuele druk nalopen vóór publicatie)</em></div>
+<p>. Van dezelfde auteurs: <em>Le grand livre de l'électricité</em> (dikker) en thematische deeltjes.
+- <strong>AFNOR Éditions — <em>Installation électrique des logements : la NF C15-100 simplement</em></strong> (maart 2026): de natuurlijke opvolger van de door Rob betreurde Promotelec-boekjes, geschreven op de 2024-serie [GEVERIFIEERD: AFNOR-ankerbron, V1-aanvulling].
+- <strong>L'Officiel de l'Électricité</strong> (Promotelec): zeer volledig, meer op de elektricien dan de doe-het-zelver gericht; hoofdstukken los als download te koop. Deel 2: <em>Installations électriques bâtiments d'habitation existants</em> — juist voor de renoveerder interessant.
+- <em>In memoriam</em>: de handzame Promotelec-boekjes <strong>Locaux d'habitation</strong> — "vanaf de zestiger jaren al zeer populair" — eindigden in april 2016 met de 28e editie. Wie er een op een vide-grenier vindt: leuk erfgoed, verouderde norm.</p>
+<h2>Websites</h2>
+<p><strong>Officieel / primair (de verificatiebronnen van dit dossier):</strong>
+- <strong>consuel.com</strong> — attestaties, tarieven, Mon Espace Consuel
+- <strong>enedis.fr</strong> — aansluiting, Linky, Catalogue des Prestations
+- <strong>service-public.fr</strong> — diagnostic, tariefopties, rechten en plichten
+- <strong>legifrance.gouv.fr</strong> — de arrêtés en décrets zelf
+- <strong>afnor.org</strong> — normstatus en de 21-delenlijst van de 2024-serie
+- <strong>onse.fr</strong> — de veiligheidscijfers uit hoofdstuk 0</p>
+<p><strong>Voorlichting en fabrikanten:</strong>
+- <strong>promotelec.com</strong> → <em>Essentiels de l'installation électrique</em> — Robs vaste favoriet, en ook voor dit dossier vaste secundaire bron
+- Hager (<em>Centre de téléchargement</em> — het gratis normoverzicht dat Rob al aanraadde), Legrand (<em>Guide de l'électricité</em>), Schneider — alle drie met actuele normgidsen [drukstand per fabrikant NIET GEVERIFIEERD]</p>
+<p><strong>Community en naslag uit de eigen stal:</strong>
+- De <strong>woordenlijst Klussen &amp; Bouwen NL⇄FR</strong> op Infofrankrijk — de volledige vocabulairelaag
+- Het <strong>Klussen-archiefportaal</strong> van Infofrankrijk: twaalf jaar forumdiscussies, veiliggesteld en doorzoekbaar — de gesprekslaag achter de "Uit de praktijk"-kaders van dit dossier
+- schema-electrique.net, volta-electricite.info, forum-electricite.com — de Franse klassiekers uit Robs lijst die nog live zijn [linkcheck vóór publicatie]</p>
+<h2>Uit de praktijk — het slotkader van dit dossier</h2>
+<figure class="rob"><figcaption>Uit jouw oorspronkelijke tekst</figcaption><blockquote>
+<p>…vergeleken met een driefase-bedrading gehuld in uiterst authentieke katoenen isolatie, geen deugdelijke aarding en geen aardlekschakelaar, valt dit soort zonden nog wel mee… En zelfs wanneer je na een uur over koetjes en kalfjes praten, over la chasse, uiteindelijk voorzichtig de suggestie naar voren brengt dat er wellicht iets verbeterd zou kunnen worden, dan krijg je als dank nog een keer je glas volgeschonken. Maar veel indruk maakt dat allemaal niet op de gemiddelde bewoner van la France profonde. Terwijl het wat veiliger maken van een oude installatie niet meteen de hoofdprijs hoeft te kosten.</p>
+<p>— Rob van der Meulen, IF-forum, topic aanleg elektrische installatie</p>
+</blockquote></figure>
+<p>Dat is waar dit dossier voor bestaat: niet om Frankrijk de les te lezen, maar om de lezer die het glas aanneemt én toch de installatie wil verbeteren, precies te vertellen hoe.</p>
+<h2>Colofon en verantwoording</h2>
+<p><em>Gebaseerd op de oorspronkelijke serie De Franse elektrische installatie van Rob van der Meulen (2008–2017). Geactualiseerd en uitgebreid door de redactie van Infofrankrijk, 2026. Eindredactie: Rob van der Meulen.</em></p>
+<p><strong>Verantwoording.</strong> Rob schreef in 2016 dat zijn herschreven inleiding "niet meer dan een voorlopig eindresultaat" was: "dit soort technische regels vernieuwt zich voortdurend." Dit dossier is de volgende ronde van dat eerlijke voornemen: zijn tekst waar die stand hield, geverifieerde actualisering waar de norm verder trok, en zijn stem overal waar zij onvervangbaar is.</p>
+<p>Eén voorspelling van Rob verdient het hier geciteerd te worden. Toen in 2012 het oude forumarchief dreigde te verdwijnen, schreef hij: <em>"Sta je met een pion op een ouderwets spelletjesbord vlak bij de finish — gecumuleerde kennis, inzichten en meningen — en dan word je eraf gegooid, terug naar af, zonder de mogelijkheid ooit weer aan de startlijn te komen. Of het oude adagium 'Mensch erger je niet' dan nog uitkomst biedt waag ik te betwijfelen."</em> (14-12-2012)  Hij kreeg gelijk: het archief ging meermaals bijna verloren. Dit dossier — met de geconserveerde citaten, de bronvermeldingen en het doorzoekbare archiefportaal ernaast — is het definitieve antwoord op die voorspelling. En zijn dankwoord uit de oorspronkelijke serie geven we onverkort door: aan alle vragenstellers en meedenkers van het forum, en in het bijzonder aan <strong>Christian von Klösterlein</strong>, "voor zijn altijd scherpzinnige commentaar, en vooral voor zijn unieke artikelenreeks in de rubriek Klussen."</p>
+<h2>Tijdgevoelig — geverifieerd 04-07-2026</h2>
+<ul>
+<li>Boekdrukken (Gallauziaux &amp; Fedullo post-2024-serie) en de linkcheck van de website-lijst: openstaand, zie reviewpakket.</li>
+<li>De AFNOR-21-delenlijst met boutique-links (V1-aanvulling) wordt bij publicatie als uitklapbaar bronnenregister opgenomen.</li>
+</ul></section>
+<section id="erfgoed">
+  <p class="eyebrow">Uit het archief</p>
+  <h1>Jullie oorspronkelijke schema's</h1>
+  <p>Acht van de handgetekende originelen waarop de nieuwe tekeningen voortbouwen — veiliggesteld uit het oude beeldarchief. Ook hier geldt: klik op een bijschrift als je er iets over wilt zeggen.</p>
+  <div class="galerij"><figure class="erfgoedkaart"><img loading="lazy" src="erfgoed/picr--de-aarding--21259016ei.jpg" alt="De complete aarding — met barrette de mesure en aardelektrode"><figcaption>De complete aarding — met barrette de mesure en aardelektrode</figcaption></figure><figure class="erfgoedkaart"><img loading="lazy" src="erfgoed/picr--de-aarding--12961968am.jpg" alt="Aarding, detailtekening"><figcaption>Aarding, detailtekening</figcaption></figure><figure class="erfgoedkaart"><img loading="lazy" src="erfgoed/picr--de-groepenkast--9941446xxp.jpg" alt="De groepenkast, indeling"><figcaption>De groepenkast, indeling</figcaption></figure><figure class="erfgoedkaart"><img loading="lazy" src="erfgoed/picr--de-groepenkast--26272979sn.jpg" alt="Groepenkast, uitwerking"><figcaption>Groepenkast, uitwerking</figcaption></figure><figure class="erfgoedkaart"><img loading="lazy" src="erfgoed/picr--de-leidingaanleg--9967284dqw.jpg" alt="De leidingaanleg"><figcaption>De leidingaanleg</figcaption></figure><figure class="erfgoedkaart"><img loading="lazy" src="erfgoed/picr--elektriciteitsaanvoer-en-elekt--26373556it.jpg" alt="Aanvoer en meter"><figcaption>Aanvoer en meter</figcaption></figure><figure class="erfgoedkaart"><img loading="lazy" src="erfgoed/picr--speciale-schakelingen--32080452hb.jpg" alt="Télérupteur — de drukknopschakeling"><figcaption>Télérupteur — de drukknopschakeling</figcaption></figure><figure class="erfgoedkaart"><img loading="lazy" src="erfgoed/picr--speciale-schakelingen--32080537hg.jpg" alt="Speciale schakelingen, vervolg"><figcaption>Speciale schakelingen, vervolg</figcaption></figure></div>
+</section>
+</main>
+
+<footer><div class="balk">
+  <div class="teller" id="teller">Nog geen opmerkingen — klik op een alinea om te beginnen.</div>
+  <button id="kopieer">Kopieer alles</button>
+  <button id="verstuur">Stuur je opmerkingen naar Anton</button>
+</div></footer>
+
+<script>
+(function(){
+  const SLEUTEL='dossier-elektra-rob-v1';
+  const lees=()=>{try{return JSON.parse(localStorage.getItem(SLEUTEL)||'{}')}catch(e){return{}}};
+  const schrijf=d=>localStorage.setItem(SLEUTEL,JSON.stringify(d));
+
+  // lettergrootte
+  const LG='dossier-elektra-lettergrootte';
+  const zetLetters=v=>{document.documentElement.style.setProperty('--basis',v+'px');localStorage.setItem(LG,v)};
+  let lg=parseFloat(localStorage.getItem(LG))||19; zetLetters(lg);
+  document.getElementById('groter').onclick=()=>zetLetters(lg=Math.min(24,lg+1));
+  document.getElementById('kleiner').onclick=()=>zetLetters(lg=Math.max(15,lg-1));
+
+  // blokken nummeren (stabiel: sectie + volgorde)
+  document.querySelectorAll('main section').forEach(sec=>{
+    const h=sec.id;
+    let i=0;
+    sec.querySelectorAll(':scope > p, :scope > ul, :scope > ol, :scope > table, :scope > blockquote, :scope figure.rob, :scope .vraag, :scope .erfgoedkaart, :scope > h2, :scope > h3').forEach(el=>{
+      if(el.classList.contains('eyebrow'))return;
+      el.dataset.blok=h+'-'+(i++);
+    });
+  });
+
+  const data=lees();
+  const hoofdstukVan=el=>{const s=el.closest('section');const kop=s.querySelector('h1');return (s.id==='erfgoed'?'Galerij':'H'+s.id.slice(1))+' — '+(kop?kop.textContent:'')};
+
+  function toonChip(el){
+    const oud=el.parentNode.querySelector('.opmerking-chip[data-voor="'+el.dataset.blok+'"]');
+    if(oud)oud.remove();
+    const d=lees()[el.dataset.blok];
+    el.classList.toggle('heeft-opmerking',!!d);
+    if(!d)return;
+    const chip=document.createElement('div');
+    chip.className='opmerking-chip';chip.dataset.voor=el.dataset.blok;
+    chip.innerHTML='<b>Opmerking van Rob</b>';
+    chip.appendChild(document.createTextNode(d.tekst));
+    el.after(chip);
+    chip.onclick=e=>{e.stopPropagation();openEditor(el)};
+  }
+
+  function openEditor(el){
+    sluitEditors();
+    const d=lees()[el.dataset.blok]||{};
+    const box=document.createElement('div');box.className='editor';
+    box.innerHTML='<label>Jouw opmerking bij dit stuk</label>'+
+      '<textarea placeholder="Typ hier — alles is welkom: correctie, aanvulling, herinnering, twijfel."></textarea>'+
+      '<div class="rij"><button class="bewaar">Opmerking bewaren</button>'+
+      (d.tekst?'<button class="weg">Verwijderen</button>':'')+
+      '<span class="status">wordt automatisch op dit apparaat bewaard</span></div>';
+    box.querySelector('textarea').value=d.tekst||'';
+    el.after(box);
+    const chip=el.parentNode.querySelector('.opmerking-chip[data-voor="'+el.dataset.blok+'"]');
+    if(chip)chip.style.display='none';
+    box.querySelector('textarea').focus();
+    box.onclick=e=>e.stopPropagation();
+    box.querySelector('.bewaar').onclick=()=>{
+      const t=box.querySelector('textarea').value.trim();
+      const all=lees();
+      if(t)all[el.dataset.blok]={tekst:t,hoofdstuk:hoofdstukVan(el),fragment:el.textContent.trim().slice(0,110),tijd:new Date().toISOString()};
+      else delete all[el.dataset.blok];
+      schrijf(all);box.remove();toonChip(el);telMee();
+    };
+    const weg=box.querySelector('.weg');
+    if(weg)weg.onclick=()=>{const all=lees();delete all[el.dataset.blok];schrijf(all);box.remove();toonChip(el);telMee();};
+  }
+  const sluitEditors=()=>document.querySelectorAll('.editor').forEach(e=>{e.remove();document.querySelectorAll('.opmerking-chip').forEach(c=>c.style.display='')});
+
+  document.querySelectorAll('[data-blok]').forEach(el=>{
+    el.addEventListener('click',e=>{
+      if(e.target.closest('a,textarea,button'))return;
+      openEditor(el);e.stopPropagation();
+    });
+    toonChip(el);
+  });
+
+  function telMee(){
+    const n=Object.keys(lees()).length;
+    document.getElementById('teller').innerHTML = n
+      ? 'Je hebt <b>'+n+'</b> opmerking'+(n===1?'':'en')+' gemaakt — druk op de knop om ze naar Anton te sturen.'
+      : 'Nog geen opmerkingen — klik op een alinea om te beginnen.';
+  }
+  telMee();
+
+  function compilatie(){
+    const d=lees();const regels=['Opmerkingen van Rob bij "De Franse elektrische installatie"','Datum: '+new Date().toLocaleString('nl-NL'),''];
+    Object.keys(d).sort().forEach(k=>{
+      const o=d[k];
+      regels.push('['+o.hoofdstuk+']','Bij: "…'+o.fragment+'…"','Rob: '+o.tekst,'');
+    });
+    return regels.join('\n');
+  }
+  document.getElementById('kopieer').onclick=async()=>{
+    await navigator.clipboard.writeText(compilatie());
+    document.getElementById('teller').innerHTML='<b>Gekopieerd.</b> Je kunt het nu ergens plakken.';
+  };
+  document.getElementById('verstuur').onclick=()=>{
+    const tekst=compilatie();
+    if(!Object.keys(lees()).length){alert('Je hebt nog geen opmerkingen gemaakt.');return}
+    if(tekst.length<1600){
+      location.href='mailto:anton@infofrankrijk.com?subject='+encodeURIComponent('Opmerkingen dossier elektriciteit')+'&body='+encodeURIComponent(tekst);
+    }else{
+      const blob=new Blob([tekst],{type:'text/plain;charset=utf-8'});
+      const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+      a.download='opmerkingen-rob.txt';a.click();
+      location.href='mailto:anton@infofrankrijk.com?subject='+encodeURIComponent('Opmerkingen dossier elektriciteit')+'&body='+encodeURIComponent('Beste Anton, mijn opmerkingen staan in het bijgevoegde bestand (opmerkingen-rob.txt, zojuist gedownload). Groet, Rob');
+      alert('Je opmerkingen zijn opgeslagen als bestand "opmerkingen-rob.txt" (in je Downloads-map). Er opent nu een e-mail — voeg dat bestand als bijlage toe.');
+    }
+  };
+  document.body.addEventListener('click',e=>{if(!e.target.closest('.editor,[data-blok]'))sluitEditors()});
+})();
+</script>
+</body>
+</html>
