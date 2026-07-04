@@ -119,3 +119,18 @@ Vijf door Anton aangedragen Rob-blogs geoogst via zoekindex, plus omliggende top
 
 ## Vaste verificatiebron (op aanwijzing Anton)
 Rob was "altijd zeer gecharmeerd" van **promotelec.com/theme/essentiels-installation-electrique/** → opnemen als vaste secundair-officiële verificatie- en verwijsbron naast Consuel/Enedis/Légifrance, en als leesverwijzing in H9. (Kanttekening blijft: Promotelec is een voorlichtingsvereniging, geen normuitgever — voor harde normteksten AFNOR/Légifrance aanhouden.)
+
+---
+
+# Aanvulling 3 — de forumdump is boven water (04-07-2026)
+
+Anton leverde de WordPress-export `wonenenleveninfrankrijk.WordPress.2025-10-09 (4)-antwoorden.xml` (Google Drive, 76 MB): **17.958 bbPress-reacties uit 842 topics**, waaronder 867 reacties van Rob van der Meulen. Daarmee is Bron B alsnog volledig geoogst; de zoekindex-fragmenten uit Aanvulling 1 zijn nu vervangen door complete threads.
+
+**In `/oogst/forumdump/`:** 14 volledige elektra-/EDF-threads (201 reacties, chronologisch), `rob-elektra-losse-reacties.md` (240 elektra-relevante Rob-reacties uit overige topics, 300 kB) en `_topicindex.md` (alle 842 topics voor latere heroogst).
+
+**Uitgelicht:**
+61. **De thread over het verdwenen oude forum (2014) — colofon-goud.** Rob voorspelde op 14-12-2012 het verlies van het archief: "Sta je met een pion op een ouderwets spelletjesbord vlak bij de finish — gecumuleerde kennis, inzichten en meningen — en dan word je eraf gegooid, terug naar af, zonder de mogelijkheid ooit weer aan de startlijn te komen. Of het oude adagium 'Mensch erger je niet' dan nog uitkomst biedt waag ik te betwijfelen." Anton maakte destijds "niet zo quick, maar wel dirty" één HTML van alle postings. Dit dossier is het definitieve antwoord op die voorspelling — gebruik in colofon/verantwoording.
+62. Volledige threads nu beschikbaar voor de kaders van H1 (Inloggen bij EDF, 57 reacties; bouwstroom stopt), H4 (wel of niet geaard stopcontact), H5 (grondkabel elektra trekken, compleet), H8 (CONSUEL keuring, compleet incl. Antons 2013-relaas).
+63. De 240 losse Rob-reacties zijn de grootste onontgonnen voorraad vakmanschap; doorwerken tijdens het schrijven per hoofdstuk (bestand is per topic/datum geordend).
+
+**Erfgoednotitie:** de export dekt t/m 09-10-2025. Reacties tussen die datum en het offline gaan van het forum ontbreken mogelijk; het XML-origineel blijft in Antons Drive (map-ID 1IkvelJJUKRyy5RWU1UM1GhozUwjRrfi9) en de suffix "(4)" doet vermoeden dat er zusterbestanden zijn (topics, posts, pagina's) — die zijn voor dit dossier niet nodig maar wel voor volledig erfgoedbeheer.
