@@ -106,6 +106,17 @@ Legrand-pro (2024-serie): **verplicht** in woningen in risicodepartementen (**zo
 
 ---
 
+## V5 — Circuits spécialisés, stopcontact-telregels en minima per vertrek · [GEVERIFIEERD: schema-electrique.net (norm-editie aug 2024, 3 pagina's), Legrand, Schneider, IZI by EDF, kasq, 123elec — convergent, 04-07-2026]
+1. **Telregel: per socle** — elk stopcontactvlak telt voor één, ook in dubbele of driedubbele dozen. De oude, soepelere multi-socle-telling is **per Amendement 5 afgeschaft en in de 2024-serie zo gebleven**. ⚠️ **Robs forumtip (oogst-item 30: "drievoudig telt voor twee, neem twee dubbele die elk voor één tellen") is daarmee VEROUDERD** — in het dossier alleen als historische anekdote, met correctie.
+2. **Circuits prises**: max. **8 socles op 1,5 mm²/16 A** of **12 op 2,5 mm²/20 A**. Verlichting: min. 2 circuits per woning (1 bij studio), max. 8 lichtpunten per circuit (prise commandée telt mee), 1,5 mm²/16 A, DCL-aansluiting (plafonddoos 25 kg).
+3. **Keuken**: eigen circuit 2,5 mm²/20 A met **6 niet-gespecialiseerde prises (3 bij < 4 m²), waarvan 4 boven het werkblad op 8–25 cm**; verboden boven évier en kookplaat; hotte-prise als enige daarboven, ≥ 1,80 m, gemarkeerd "hotte"; extra prises boven de 6 mogen op een gewoon circuit.
+4. **Circuits spécialisés (minimum-uitrusting)**: kookplaat/cuisinière **32 A op 6 mm²** + gespecialiseerde circuits 16/20 A op 2,5 mm² voor oven, vaatwasser, wasmachine e.d.; droger, chauffe-eau, verwarming, klimaat en EV-laadpunt elk een eigen circuit zodra aanwezig; koelkast/vriezer eigen circuit aanbevolen, niet verplicht. Bronvariatie in de minimumtelling ("32 A + 2" vs. "32 A + 3" bij niet-gemeubileerde oplevering; studio's mogen reduceren) → exacte formulering in H6 conform Consuel-weergave van deel 10, met de variant benoemd.
+5. **Minima per vertrek** (deel 10, ongewijzigd t.o.v. A5 volgens kasq): séjour 1 per 4 m² met min. 5 en plafond 7 (> 28 m²); open keuken: 8 m² forfaitair van séjour-oppervlak af; slaapkamer 3; elk vertrek/gang > 4 m²: 1; prise naast de lichtschakelaar bij de entree; hoogtes: as ≤ 1,30 m (advies > 0,40 m), min. 5 cm (16 A) / 12 cm (32 A); obturateurs verplicht t/m 32 A; klauwbevestiging verboden.
+6. **RJ45/communicatie**: verplichte uitrusting o.g.v. arrêté 03-08-2016 — 2 accolées in het séjour, extra naar gelang aantal kamers (met wachtkabel-alternatief). Bevestigt Robs "bedraad netwerk verplicht"-lijn (oogst-item 44); details in H8/H5.
+7. Bijvangst H7: collectieve woongebouwen met afgesloten parkeren: minimaal één EV-laadvoorziening verplicht (2,5 mm²/20 A met passende differentieelbeveiliging).
+
+---
+
 ## Openstaande verificatiepunten (volgorde van uitvoering)
 - V6-rest: parafoudre 10m-afstandsregel + Robs detailregels (aarddraad <=50 cm) bij Consuel/Promotelec
 - V10 Linky: uitrolstatus, functies, weigeraars-regeling
