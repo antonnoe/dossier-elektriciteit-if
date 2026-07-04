@@ -1633,12 +1633,12 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
     const tekst=compilatie();
     if(!Object.keys(lees()).length){alert('Je hebt nog geen opmerkingen gemaakt.');return}
     if(tekst.length<1600){
-      location.href='mailto:anton@infofrankrijk.com?subject='+encodeURIComponent('Opmerkingen dossier elektriciteit')+'&body='+encodeURIComponent(tekst);
+      location.href='mailto:antonnoe@yahoo.com?subject='+encodeURIComponent('Opmerkingen dossier elektriciteit')+'&body='+encodeURIComponent(tekst);
     }else{
       const blob=new Blob([tekst],{type:'text/plain;charset=utf-8'});
       const a=document.createElement('a');a.href=URL.createObjectURL(blob);
       a.download='opmerkingen-rob.txt';a.click();
-      location.href='mailto:anton@infofrankrijk.com?subject='+encodeURIComponent('Opmerkingen dossier elektriciteit')+'&body='+encodeURIComponent('Beste Anton, mijn opmerkingen staan in het bijgevoegde bestand (opmerkingen-rob.txt, zojuist gedownload). Groet, Rob');
+      location.href='mailto:antonnoe@yahoo.com?subject='+encodeURIComponent('Opmerkingen dossier elektriciteit')+'&body='+encodeURIComponent('Beste Anton, mijn opmerkingen staan in het bijgevoegde bestand (opmerkingen-rob.txt, zojuist gedownload). Groet, Rob');
       alert('Je opmerkingen zijn opgeslagen als bestand "opmerkingen-rob.txt" (in je Downloads-map). Er opent nu een e-mail — voeg dat bestand als bijlage toe.');
     }
   };
