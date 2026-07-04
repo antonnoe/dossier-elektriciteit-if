@@ -112,13 +112,27 @@ Gestart 04-07-2026. Protocol: elke harde claim krijgt status `[GEVERIFIEERD: bro
 - **NL**: geen wettelijk installateursmonopolie voor de eigen woning; NEN 1010 geldt via het Bouwbesluit/Bbl; geen verplichte particuliere keuring (wel verzekerings- en aansprakelijkheidsrisico). [Formele bronverwijzing Bbl-artikel nog toevoegen vóór publicatie.]
 - FR-deel: gedekt in V8.
 
+
+## V6 — Parafoudre · [AFGEROND & GEVERIFIEERD: Promotelec (gezaghebbend 2024-overzicht), IZI by EDF, Schneider, Legrand-gids, mon-club-elec — 04-07-2026]
+De eerdere brononenigheid (10 m / 30 m / 50 m) is opgelost — het waren regels uit verschillende domeinen:
+1. **Voor wóningen (NF C 15-100-10) zijn de parafoudre-regels ONGEWIJZIGD t.o.v. 2002** (Promotelec expliciet; ook de Nk-kaart ongewijzigd). Dus voor het dossier gelden de klassieke regels: **verplicht** bij (a) paratonnerre op het gebouw (heel Frankrijk), (b) zone AQ2 (Nk > 25 onweersdagen/jaar — grofweg de zuidelijke helft + overzees) mét geheel/deels bovengrondse aanvoer, (c) AQ2 + ondergrondse aanvoer indien veiligheidskritische apparatuur (medisch, alarmen). **Aanbevolen** o.a. < 50 m van een gebouw met paratonnerre. Relevant voor de doelgroep: la France profonde = veel bovengrondse aanvoer in AQ2-departementen.
+2. De vernieuwingen (Nk → Nsg-index, quasi-verplichting, 10 m-regel parafoudre-tot-materieel, paratonnerre-afstand 50 → 30 m) gelden voor **niet-woongebouwen** (deel 1) — in H3 alleen als voetnoot.
+3. **Robs 50 cm-regel bevestigd** (Schneider: bekabelingsafstand parafoudre ≤ 50 cm) + typologie type 1/2/3 en auto-protégé vs. externe beveiliging zoals Rob beschreef.
+
+## V10 — Linky · [DEELS — kernfeiten via V8/V9/V11-bronnen; uitrolcijfer bij schrijven H1 dateren]
+Vast staat: Linky is de operationele standaard (heures-creuses-hervorming wordt volledig op afstand doorgevoerd, incl. contact sec voor de boiler; tariefoptie-wissel gratis mét Linky vs. 56,72 € zonder; Consuel-visa vereist vóór inschakeling ook bij Linky). Robs hoofdstuk "Linky komt eraan" wordt herschreven naar "Linky is het uitgangspunt". Restpunt: actueel uitrolpercentage + regeling niet-communicerende meters (relevékosten) dateren bij het schrijven van H1.
+
+## V12 — Brand- en veiligheidscijfers (H0) · [GEVERIFIEERD: ONSE (onse.fr) + Promotelec-baromètre 2024/2025 + convergente doorvertalingen — 04-07-2026]
+1. **Robs oude openingscijfer (250.000 branden / 80.000 elektrisch) NIET meer gebruiken.** ONSE hanteert nu: **20–35% van de woningbranden heeft een elektrische oorsprong**; ±156.000 brandschadedeclaraties/jaar; 286.000 (2021) à 238.000 (2022) declaraties dommages électriques; ±3.000 SEH-bezoeken door elektrisering/jaar (de helft kinderen < 15!); 30–40 elektrocutiedoden/jaar; kosten woningbranden ±3,9–4,3 mld €/jaar.
+2. **Het sterkste openingscijfer voor H0**: **83% van de installaties ouder dan 15 jaar vertoont minstens één anomalie** (baromètre 2024, o.b.v. 400.000 DEO's; 2025: 82,6%; parties communes 90%). Top-anomalieën sluiten naadloos aan op de dossierhoofdstukken: aarding defect 64% (→ H4), verouderd materieel 46%, direct-contactrisico 41%, LES badkamer defect 22% en badkamerzones geschonden 18% (→ H6).
+3. ONSE = opgericht 1995 door Promotelec en Consuel; neutraal; onse.fr als pinbron. Promotelec-citaat Delettre ("is de installatie klaar voor PAC, IRVE, PV?") = letterlijk de brug naar H7.
+
 ---
 
-## Openstaande verificatiepunten
+## Openstaande restpunten (afronden tijdens het schrijven, geen blokkade)
+- V10-rest: Linky-uitrolpercentage + niet-communicerende-meterregeling dateren (H1)
 - V6 afronden: afstandsregel 50 m vs 10 m beslechten (Consuel/Promotelec) + Robs 50 cm-aarddraadregel
-- V10 Linky: uitrolstatus, functies, weigeraars-regeling
 - V11-rest: puissance-reeksen mono/tri actueel + kosten ombouw tri↔mono (Enedis Catalogue des Prestations) + Base-afschaffing ≥9 kVA tweede bron
-- V12 Brandcijfer elektra-oorzaak (ONSE/Promotelec) voor H0
 - V13-rest: FR-historische kleuren + draaddiktentabel NL/BE/FR
 - V14-rest: NL-bronverwijzing Bbl; BE-keuringsdetails (termijnen, kosten indicatief)
 
