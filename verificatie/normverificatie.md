@@ -37,8 +37,19 @@ Gestart 04-07-2026. Protocol: elke harde claim krijgt status `[GEVERIFIEERD: bro
 
 ---
 
+## V2 — Aardlek-/ID-regels woningen · [GEVERIFIEERD: Legrand (pro + 2× particulier), 123elec, Cedeo, Samse, IZI by EDF — convergent, 04-07-2026]
+
+1. **Alle circuits** onder DDR ≤ 30 mA aan de oorsprong. **Minimaal 2 interrupteurs différentiels per woning**, verlichting- en stopcontactcircuits verdeeld over **minstens 2 ID's** (continuïteit bij uitval).
+2. **Maximaal 8 circuits per ID**, ongeacht kaliber — bevestigt Robs weergave; de oude oppervlakteregels zijn sinds A5 definitief vervangen door circuit-gebaseerde logica (continuïteit in de 2024-serie).
+3. **Typen**: minimaal 1 **type A** (kookplaat, wasmachine, EV-laadpunt mono); overige circuits type AC of A. **Nieuw en verplicht sinds de 2024-serie: type F** aan het hoofd van circuits met éénfasige frequentieregelaar (warmtepomp, airco, zwembadpomp); zelfde toepassingen in driefase: **type B**. EV-laden: type A of F (mono), type B (tri) — 123elec o.b.v. revisie 2024.
+4. **Kaliber (40/63 A)**: amont-regel (≥ kaliber disjoncteur de branchement) óf aval-regel (≥ 1× som beveiligingen verwarming + warmwater + EV-laadpunt, + 0,5× som overige). Let op: Legrand-pro meldt dat de amont-regel in **NF C 15-100-10, tabel 10-1G** is aangepast voor aanvullende energiebronnen (zonnepanelen/batterij) — detail voor H3 opzoeken in Consuel/fabrikantengids bij het schrijven. Robs praktijkopmerking "tegenwoordig vaak 63 A" is consistent hiermee.
+5. **Reserveruimte**: 20% vrije plaats, minimaal 6 modules (sinds A5; niet weersproken voor 2024-serie).
+6. AFDD/DPDA (vlamboogbeveiliging): in de 2024-serie **aanbevolen**, niet verplicht (Socotec, One-Elec); type F is wél een verplichting — dit onderscheid expliciet zo in H3.
+7. **Verworpen uitschieter**: één bron (One-Elec) noemt "één ID per 5 circuits" — strijdig met alle overige bronnen (8), niet overnemen. Bijvangst voor V6: parafoudre-afstandsregel zou in de 2024-serie zijn aangescherpt van 30 m naar 10 m (One-Elec) — [INDICATIE, apart verifiëren bij Consuel/Promotelec].
+
+---
+
 ## Openstaande verificatiepunten (volgorde van uitvoering)
-- V2 Aardlek-/ID-regels woningen (aantal, type A/AC/F, 8-groepenregel, 63A-praktijk) — NF C 15-100-1 + deel 10 via Consuel/Promotelec/fabrikantengidsen
 - V3 Aarding: 100 Ω-maximum, 2 Ω-stopcontactregel van Rob, LES/badkamer — idem
 - V4 Badkamerzones (7-701, herzien) en TBTS-regels
 - V5 Circuits spécialisés & telregels stopcontacten (deel 10)
