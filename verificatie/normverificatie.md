@@ -139,3 +139,11 @@ Vast staat: Linky is de operationele standaard (heures-creuses-hervorming wordt 
 ## Werkafspraak (n.a.v. dubbelloop 04-07-2026)
 Op 04-07 hebben twee Claude-instanties onafhankelijk aan dit bestand gewerkt (commits fc8d688/eee6e98 om 08:06 en 06260c1/a4120af om 08:41), met dubbele V-blokken als gevolg; per deze commit samengevoegd. De inhoud bleek convergent — feitelijk een onbedoelde dubbelcheck — maar dit mag niet nog eens: **één schrijver per bestand per dagdeel; de claude.ai-sessie doet de verificatie (V-punten), Claude Code raakt /verificatie/ niet aan tot de bouwprompt dat expliciet regelt.**
 
+---
+
+## Audit-afronding 04-07-2026 (claude.ai): V10-rest en V11-rest BESLECHT
+- **V10 Linky compleet**: ±95% van de huishoudens / 37,6 mln meters (Enedis-persbericht feb 2026); weigeraarsregeling sinds 01-08-2025 (TURPE 7, CRE-deliberatie 2025-78): 6,48 € HT/2 mnd vast + 4,14 € HT/2 mnd bij >1 jaar geen index; vrijstelling alleen bij technische onmogelijkheid; grondslag art. L341-4 Code de l'énergie.
+- **V11-rest kVA-reeksen**: mono 3-6-9-12 kVA; **Enedis-plafond mono = 12 kVA voor nieuwe aansluitingen** (barème: >12 kVA → raccordement 36 kVA tri; legacy 13–18 kVA mono gedoogd, wijzigingsaanvragen "automatisch geweigerd" behoudens voorwaarden) — **Robs 2020-claim bevestigd op primaire bron**.
+- **V11-rest Base-optie**: bevestigd én verder gevorderd dan de forumclaim — 01-02-2025 dicht voor nieuwe TRV-klanten 9–15 kVA; **01-02-2026 hele band 9–36 kVA "mis en extinction"** (EDF zelf, particulier.edf.fr + CRE-deliberatie 2026-06); bestaande 18+ kVA-Base-klanten worden per 01-02-2027 (metropool) omgezet naar HP/HC. Nuance: alleen Tarif Bleu; marktaanbiedingen behouden Base.
+- **V11-rest ombouwkosten**: puissance souscrite-wissel = téléoperatie ±4,28 € (optiewissel met Linky gratis, cf. V11); wijziging van het raccordement (mono↔tri, verzwaring) = fysieke prestatie op offerte (Catalogue des Prestations, F180). Geen vaste bedragen citeren.
+Hiermee resteren als restpunten uitsluitend: V13-rest (FR-historische kleuren + draaddiktentabel) en V14-rest (Bbl-verwijzing NL; BE-keuringsdetails) — beide gemarkeerd in de tekst, niet blokkerend voor review wel voor publicatie.

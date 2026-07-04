@@ -8,7 +8,7 @@ bold/italic, HTML-commentaren (blijven staan), SVG-INLINE-markers.
 import re, html
 from pathlib import Path
 
-REPO = Path("/workspace/dossier-elektriciteit-if")
+REPO = Path(str(Path(__file__).resolve().parent.parent))
 HFDST = [f"h{i}.md" for i in range(10)]
 
 CHAPTER_META = {
