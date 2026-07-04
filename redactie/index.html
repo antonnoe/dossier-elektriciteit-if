@@ -98,6 +98,9 @@ main section > *{position:relative;border-radius:3px}
 .opmerking-chip b{font-family:Poppins,sans-serif;font-size:.72rem;letter-spacing:.1em;
   text-transform:uppercase;color:var(--bordeaux);display:block}
 
+figure.schema{margin:2em 0;padding:1em;border:1px solid var(--b15);border-radius:8px;background:#fff}
+figure.schema svg{width:100%;height:auto;display:block}
+figure.schema figcaption{font-size:.82rem;color:var(--grijs);margin-top:.7em;line-height:1.5}
 /* ---- erfgoedgalerij ---- */
 #erfgoed .galerij{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;margin-top:1.5rem}
 .erfgoedkaart{margin:0;background:#fff;padding:.8rem .8rem 1rem;border:1px solid #E7DCC2;
@@ -331,8 +334,88 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
 <p>Het lastige met die kleine triphasé-aansluitingen is dat de disjoncteur de branchement (of tegenwoordig LINKY) de boel zonder stroom zet wanneer er maar op één fase de grens van 15 ampère wordt overschreden. Bij een monophasé-aansluiting van dezelfde puissance souscrite van 9 kVA kom je pas in de gevarenzone boven 45 ampère totaal. Kortom: meer headroom, meer speelruimte.</p>
 <p>— Rob van der Meulen, forum nederlanders.fr, 11-11-2021</p>
 </blockquote></figure>
-<!-- SVG-INLINE: h1-mono-vs-tri.svg -->
-<!-- SVG-INLINE: h1-aansluiting-type1-type2.svg -->
+<figure class="schema"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" role="img" aria-labelledby="t-h1b">
+
+<title id="t-h1b">Dezelfde 9 kVA: één emmer van 45 A (mono) of drie emmertjes van 15 A (tri)</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .balk{fill:rgba(128,0,0,0.12);stroke:#800000;stroke-width:2}
+  .vul{fill:rgba(128,0,0,0.45)}
+  .lijn{stroke:#800000;stroke-width:2}
+</style>
+<text x="20" y="34" class="kop">Monophasé 9 kVA</text>
+<rect x="40" y="60" width="120" height="300" class="balk"/>
+<rect x="40" y="210" width="120" height="150" class="vul"/>
+<text x="46" y="385" class="sub">wasmachine + droger</text>
+<text x="180" y="72">45 A totaal beschikbaar</text>
+<text x="180" y="96" class="sub">alles mag in één "emmer";</text>
+<text x="180" y="116" class="sub">pas boven 45 A schakelt Linky af</text>
+
+<text x="480" y="34" class="kop">Triphasé 9 kVA</text>
+<rect x="500" y="60" width="80" height="300" class="balk"/>
+<rect x="500" y="90" width="80" height="270" class="vul"/>
+<text x="505" y="385" class="sub">fase 1: was + droger ⚡</text>
+<rect x="610" y="60" width="80" height="300" class="balk"/>
+<rect x="610" y="330" width="80" height="30" class="vul"/>
+<text x="622" y="385" class="sub">fase 2</text>
+<rect x="720" y="60" width="80" height="300" class="balk"/>
+<rect x="720" y="345" width="80" height="15" class="vul"/>
+<text x="732" y="385" class="sub">fase 3</text>
+<text x="500" y="425" class="sub">3 × 15 A: overschrijdt één fase de 15 A, dan zit het héle huis zonder stroom.</text>
+<text x="20" y="425" class="sub">"Meer headroom, meer speelruimte."</text>
+<text x="20" y="445" class="sub">— Rob van der Meulen, 2021</text>
+</svg>
+<figcaption>Schema: mono vs tri</figcaption></figure>
+<figure class="schema"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t-h1a">
+
+<title id="t-h1a">Aansluiting type 1 en type 2: waar staan meter en hoofdschakelaar</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .doos{fill:rgba(128,0,0,0.05);stroke:#800000;stroke-width:2}
+  .lijn{stroke:#800000;stroke-width:2.5;fill:none}
+  .stippel{stroke:#800000;stroke-width:1.5;stroke-dasharray:6 5;fill:none}
+  .label{font-size:14px}
+</style>
+<text x="20" y="32" class="kop">Type 1 — huis &lt; 30 m van de erfgrens</text>
+<line x1="20" y1="70" x2="20" y2="200" class="stippel"/>
+<text x="8" y="220" class="sub">erfgrens</text>
+<line x1="0" y1="130" x2="150" y2="130" class="lijn"/>
+<text x="30" y="120" class="sub">net (Enedis)</text>
+<rect x="150" y="100" width="120" height="60" class="doos"/>
+<text x="162" y="126" class="label">coffret</text>
+<text x="162" y="146" class="label">coupe-circuit</text>
+<line x1="270" y1="130" x2="420" y2="130" class="lijn"/>
+<rect x="420" y="70" width="240" height="120" class="doos"/>
+<text x="435" y="95" class="label" style="fill:#800000;font-weight:600">binnenshuis (panneau/GTL)</text>
+<text x="435" y="120" class="label">meter (Linky)</text>
+<text x="435" y="143" class="label">disjoncteur de branchement</text>
+<text x="435" y="166" class="label">= grens Enedis / eigenaar</text>
+<line x1="660" y1="130" x2="760" y2="130" class="lijn"/>
+<rect x="760" y="100" width="120" height="60" class="doos"/>
+<text x="775" y="126" class="label">tableau</text>
+<text x="775" y="146" class="label">électrique</text>
+
+<text x="20" y="292" class="kop">Type 2 — huis &gt; 30 m van de erfgrens</text>
+<line x1="20" y1="330" x2="20" y2="460" class="stippel"/>
+<text x="8" y="480" class="sub">erfgrens</text>
+<line x1="0" y1="390" x2="120" y2="390" class="lijn"/>
+<text x="26" y="380" class="sub">net (Enedis)</text>
+<rect x="120" y="335" width="230" height="110" class="doos"/>
+<text x="135" y="360" class="label" style="fill:#800000;font-weight:600">buiten aan de weg</text>
+<text x="135" y="385" class="label">coffret + meter (Linky)</text>
+<text x="135" y="408" class="label">+ disjoncteur de branchement</text>
+<line x1="350" y1="390" x2="620" y2="390" class="lijn" stroke-dasharray="2 6"/>
+<text x="400" y="378" class="sub">ondergronds, &gt; 30 m — spanningsval telt mee (H5)</text>
+<rect x="620" y="360" width="120" height="60" class="doos"/>
+<text x="635" y="386" class="label">tableau</text>
+<text x="635" y="406" class="label">électrique</text>
+<text x="20" y="505" class="sub">Tussenvorm (tot ±1989): zekeringen + meter bij het hek, DB binnen bij de groepenkast.</text>
+</svg>
+<figcaption>Naar het oorspronkelijke schema van Rob van der Meulen (2008–2017), geactualiseerd naar NF C 15-100 (2024).</figcaption></figure>
 
 <h2>Verdieping</h2>
 <h3>Waar zit wat: type 1, type 2 en de tussenvorm</h3>
@@ -463,7 +546,41 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
 <blockquote>
 <p>Tegenwoordig is dat meestal een hoofd/aardlekschakelaar die bij een foutstroom van 500 milliampère in werking treedt (I∆n = 500 mA). Dat is een extra elektrische veiligheid, maar voor de bescherming van personen volstrekt onvoldoende. De rest van de installatie moet daarom met aardlekschakelaars beveiligd zijn die bij 30 mA de stroom uitschakelen. (…) Om uw technisch Frans met nog een mooi wat abstracter woord uit te breiden: zo'n hoofdschakelaar wordt ook wel <em>Appareil Général de Commande et de Protection</em> (AGCP) genoemd.</p>
 </blockquote>
-<!-- SVG-INLINE: h2-disjoncteur-functies.svg -->
+<figure class="schema"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="t-h2">
+
+<title id="t-h2">De disjoncteur de branchement: drie functies in één kast</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .doos{fill:rgba(128,0,0,0.05);stroke:#800000;stroke-width:2}
+  .accent{fill:rgba(128,0,0,0.12);stroke:#800000;stroke-width:2}
+  .lijn{stroke:#800000;stroke-width:2.5;fill:none}
+</style>
+<text x="20" y="34" class="kop">Disjoncteur de branchement (AGCP)</text>
+<line x1="0" y1="210" x2="130" y2="210" class="lijn"/>
+<text x="15" y="198" class="sub">van meter/net</text>
+<rect x="130" y="80" width="300" height="260" class="accent"/>
+<rect x="160" y="110" width="240" height="56" class="doos"/>
+<text x="175" y="133">1 · Schakelaar</text>
+<text x="175" y="153" class="sub">noodstop van het huis (coupure d'urgence)</text>
+<rect x="160" y="182" width="240" height="56" class="doos"/>
+<text x="175" y="205">2 · Stroombegrenzer</text>
+<text x="175" y="225" class="sub">afgeregeld op de puissance souscrite</text>
+<rect x="160" y="254" width="240" height="56" class="doos"/>
+<text x="175" y="277">3 · Aardlek 500 mA</text>
+<text x="175" y="297" class="sub">brandbeveiliging — géén persoonsbescherming</text>
+<line x1="430" y1="210" x2="560" y2="210" class="lijn"/>
+<text x="448" y="198" class="sub">naar tableau</text>
+<rect x="560" y="150" width="320" height="120" class="doos"/>
+<text x="578" y="180" style="fill:#800000;font-weight:600">Persoonsbescherming = 30 mA</text>
+<text x="578" y="206">zit in de groepenkast (hoofdstuk 3):</text>
+<text x="578" y="228" class="sub">alle circuits achter interrupteurs</text>
+<text x="578" y="248" class="sub">différentiels van ≤ 30 mA</text>
+<text x="20" y="385" class="sub">Venstertje op de DB: 15 / 30 / 45 / 60 / 75 / 90 A ↔ 3 / 6 / 9 / 12 / 15 / 18 kVA (monophasé).</text>
+<text x="20" y="405" class="sub">Tot en met de DB: domaine public (verzegeld). Erná: uw verantwoordelijkheid, NF C 15-100.</text>
+</svg>
+<figcaption>Naar het oorspronkelijke schema van Rob van der Meulen (2008–2017), geactualiseerd naar NF C 15-100 (2024).</figcaption></figure>
 
 <h2>Verdieping</h2>
 <h3>De drie functies op een rij</h3>
@@ -582,7 +699,64 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
 <figure class="rob"><figcaption>Brontekst 2008–2017 — letterlijk overgenomen</figcaption><blockquote>
 <p>Op de Franse <em>disjoncteurs</em> wordt de <em>phase</em> (rood) op het rechter aansluitpunt bevestigd, en de <em>neutre</em> (blauw) aan de linkerkant, waar dan ook keurig een N staat. In Nederland is dat precies omgekeerd. En waar we in Nederland vrolijk op één <em>disjoncteur</em> zowel lichtpunten als stopcontacten aansluiten, is dit in Frankrijk nadrukkelijk verboden.</p>
 </blockquote></figure>
-<!-- SVG-INLINE: h3-groepenkast-opbouw.svg -->
+<figure class="schema"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="t-h3a">
+
+<title id="t-h3a">Opbouw van de Franse groepenkast volgens de 2024-normserie</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .doos{fill:rgba(128,0,0,0.05);stroke:#800000;stroke-width:2}
+  .id{fill:rgba(128,0,0,0.14);stroke:#800000;stroke-width:2}
+  .lijn{stroke:#800000;stroke-width:2;fill:none}
+</style>
+<text x="20" y="34" class="kop">Van DB naar circuits</text>
+<rect x="20" y="60" width="200" height="54" class="doos"/>
+<text x="34" y="83">disjoncteur de</text>
+<text x="34" y="103">branchement (H2)</text>
+<line x1="220" y1="87" x2="300" y2="87" class="lijn"/>
+<rect x="300" y="60" width="250" height="54" class="doos"/>
+<text x="314" y="83">borniers: fase (rood)</text>
+<text x="314" y="103">en nul (blauw)</text>
+<line x1="425" y1="114" x2="425" y2="160" class="lijn"/>
+<line x1="180" y1="160" x2="700" y2="160" class="lijn"/>
+<line x1="180" y1="160" x2="180" y2="190" class="lijn"/>
+<line x1="700" y1="160" x2="700" y2="190" class="lijn"/>
+<rect x="60" y="190" width="240" height="60" class="id"/>
+<text x="76" y="215">ID 1 · 30 mA · type A</text>
+<text x="76" y="236" class="sub">min. 2 ID's per woning</text>
+<rect x="580" y="190" width="240" height="60" class="id"/>
+<text x="596" y="215">ID 2 · 30 mA · type AC/A</text>
+<text x="596" y="236" class="sub">(+ type F bij warmtepomp/airco)</text>
+<line x1="180" y1="250" x2="180" y2="290" class="lijn"/>
+<line x1="700" y1="250" x2="700" y2="290" class="lijn"/>
+<line x1="80" y1="290" x2="280" y2="290" class="lijn"/>
+<line x1="600" y1="290" x2="800" y2="290" class="lijn"/>
+<g>
+<line x1="80" y1="290" x2="80" y2="310" class="lijn"/>
+<line x1="180" y1="290" x2="180" y2="310" class="lijn"/>
+<line x1="280" y1="290" x2="280" y2="310" class="lijn"/>
+<rect x="45" y="310" width="70" height="44" class="doos"/><text x="55" y="337" class="sub">licht 1</text>
+<rect x="145" y="310" width="70" height="44" class="doos"/><text x="152" y="337" class="sub">prises 1</text>
+<rect x="245" y="310" width="70" height="44" class="doos"/><text x="250" y="337" class="sub">kookplaat</text>
+</g>
+<g>
+<line x1="600" y1="290" x2="600" y2="310" class="lijn"/>
+<line x1="700" y1="290" x2="700" y2="310" class="lijn"/>
+<line x1="800" y1="290" x2="800" y2="310" class="lijn"/>
+<rect x="565" y="310" width="70" height="44" class="doos"/><text x="575" y="337" class="sub">licht 2</text>
+<rect x="665" y="310" width="70" height="44" class="doos"/><text x="672" y="337" class="sub">prises 2</text>
+<rect x="765" y="310" width="70" height="44" class="doos"/><text x="775" y="337" class="sub">boiler</text>
+</g>
+<text x="330" y="330" class="sub">max. 8 circuits per ID —</text>
+<text x="330" y="350" class="sub">ongeacht kaliber (40/63 A)</text>
+<text x="20" y="410" style="fill:#800000;font-weight:600">De vier vaste regels</text>
+<text x="20" y="438">• Alle circuits achter ≤ 30 mA  • Licht en stopcontacten: gescheiden circuits, verdeeld over ≥ 2 ID's</text>
+<text x="20" y="464">• Max. 8 circuits per ID  • 20% reserveruimte, minimaal 6 vrije modules</text>
+<text x="20" y="500" class="sub">Fase rechts, nul links op de Franse automaat — precies andersom dan in Nederland.</text>
+<text x="20" y="524" class="sub">Zekeringen zijn in nieuwbouw/renovatie niet meer toegestaan: alleen dubbelpolige disjoncteurs.</text>
+</svg>
+<figcaption>Naar het oorspronkelijke schema van Rob van der Meulen (2008–2017), geactualiseerd naar NF C 15-100 (2024).</figcaption></figure>
 
 <h2>Verdieping</h2>
 <h3>Hoe de stroom door de kast loopt</h3>
@@ -593,7 +767,40 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
 <div class="vraag" data-vraag="1"><span class="vraaglabel">Open punt</span>Nog niet hard te maken uit de officiële stukken. Aanvulling of bronverwijzing welkom. <em>(opzoeken vóór publicatie)</em></div>
 <p>.</p>
 <h3>Typen: AC, A, F en B — en het AFDD-onderscheid</h3>
-<!-- SVG-INLINE: h3-id-typen.svg -->
+<figure class="schema"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="t-h3b">
+
+<title id="t-h3b">Welk type aardlekschakelaar voor welk circuit (2024-serie)</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .doos{fill:rgba(128,0,0,0.05);stroke:#800000;stroke-width:2}
+  .plicht{fill:rgba(128,0,0,0.16);stroke:#800000;stroke-width:2.5}
+  .lijn{stroke:#800000;stroke-width:2;fill:none}
+</style>
+<text x="20" y="34" class="kop">Kies het type op wat erachter hangt</text>
+<rect x="20" y="70" width="410" height="80" class="doos"/>
+<text x="36" y="98" style="font-weight:600">Type AC — basis</text>
+<text x="36" y="122" class="sub">gewone licht- en stopcontactcircuits</text>
+<text x="36" y="140" class="sub">(advies Rob 2016, nog actueel: neem meteen type A)</text>
+<rect x="470" y="70" width="410" height="80" class="plicht"/>
+<text x="486" y="98" style="font-weight:600">Type A — minimaal 1 verplicht</text>
+<text x="486" y="122" class="sub">kookplaat · wasmachine · EV-laadpunt (monophasé)</text>
+<rect x="20" y="180" width="410" height="96" class="plicht"/>
+<text x="36" y="208" style="font-weight:600">Type F — verplicht (nieuw 2024)</text>
+<text x="36" y="232" class="sub">circuits met éénfasige frequentieregelaar:</text>
+<text x="36" y="252" class="sub">warmtepomp · airco · zwembadpomp · (EV: A óf F)</text>
+<rect x="470" y="180" width="410" height="96" class="plicht"/>
+<text x="486" y="208" style="font-weight:600">Type B — verplicht bij driefase</text>
+<text x="486" y="232" class="sub">dezelfde toepassingen in triphasé,</text>
+<text x="486" y="252" class="sub">incl. driefase-EV-laadpunt</text>
+<rect x="20" y="310" width="860" height="70" class="doos"/>
+<text x="36" y="338" style="font-weight:600">AFDD / protecteur d'arc (vlamboogbeveiliging)</text>
+<text x="36" y="362" class="sub">in de 2024-serie AANBEVOLEN, niet verplicht — laat u in de bouwmarkt niet het omgekeerde vertellen</text>
+<text x="20" y="420" class="sub">Kaliber: ≥ kaliber DB (amont) óf ≥ 1× som verwarming/warmwater/EV + 0,5× overige (aval).</text>
+<text x="20" y="444" class="sub">In de praktijk verdringt 63 A het oude 40 A-type. Bij zonnepanelen/batterij: zie tabel 10-1G (restpunt).</text>
+</svg>
+<figcaption>Schema: id typen</figcaption></figure>
 
 <ul>
 <li><strong>Type AC</strong> (standaard) volstaat voor gewone circuits, maar Robs advies uit 2016 — voor die paar euro meer meteen overal type A — is alleen maar actueler geworden.</li>
@@ -731,7 +938,51 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
 <figure class="rob"><figcaption>Brontekst 2008–2017 — letterlijk overgenomen</figcaption><blockquote>
 <p>Zoals men inmiddels ervaren zal hebben ziet het Franse geaarde stopcontact er iets anders uit dan het Nederlandse type: de aarde-aansluiting is hier één uitstekend pennetje, geen klemmetjes aan de zijkant. Omdat overal in Europa andere types gebruikt worden is hier geen Europese norm voor.</p>
 </blockquote></figure>
-<!-- SVG-INLINE: h4-aarding-opbouw.svg -->
+<figure class="schema"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="t-h4a">
+
+<title id="t-h4a">De aardingsketen: van elektrode tot groepenkast</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .doos{fill:rgba(128,0,0,0.05);stroke:#800000;stroke-width:2}
+  .lijn{stroke:#800000;stroke-width:2.5;fill:none}
+  .grond{stroke:#800000;stroke-width:1.5;stroke-dasharray:4 4}
+</style>
+<text x="20" y="34" class="kop">De keten (altijd dezelfde)</text>
+<line x1="20" y1="440" x2="880" y2="440" class="grond"/>
+<text x="800" y="462" class="sub">maaiveld</text>
+<rect x="30" y="460" width="250" height="60" class="doos"/>
+<text x="44" y="486">1 · aardelektrode</text>
+<text x="44" y="506" class="sub">boucle &gt; geul &gt; piquet(s)</text>
+<line x1="155" y1="460" x2="155" y2="330" class="lijn"/>
+<text x="165" y="400" class="sub">25 mm² blank /</text>
+<text x="165" y="418" class="sub">16 mm² geïsoleerd</text>
+<rect x="60" y="270" width="200" height="60" class="doos"/>
+<text x="74" y="296">2 · barrette de mesure</text>
+<text x="74" y="316" class="sub">losneembaar meetpunt</text>
+<line x1="260" y1="300" x2="380" y2="300" class="lijn"/>
+<rect x="380" y="270" width="230" height="60" class="doos"/>
+<text x="394" y="296">3 · répartiteur de terre</text>
+<text x="394" y="316" class="sub">in de groepenkast</text>
+<line x1="610" y1="300" x2="700" y2="300" class="lijn"/>
+<rect x="700" y="240" width="180" height="120" class="doos"/>
+<text x="714" y="268">4 · groen-gele</text>
+<text x="714" y="290">aders naar álle</text>
+<text x="714" y="312">circuits en</text>
+<text x="714" y="334">lichtpunten</text>
+<line x1="160" y1="270" x2="160" y2="160" class="lijn"/>
+<rect x="60" y="100" width="300" height="60" class="doos"/>
+<text x="74" y="126">LEP — hoofdvereffening (≥ 6 mm²)</text>
+<text x="74" y="146" class="sub">waterleiding · cv · metalen structuren</text>
+<rect x="470" y="60" width="410" height="130" class="doos"/>
+<text x="486" y="90" style="fill:#800000;font-weight:600">De weerstandsband (V3)</text>
+<text x="486" y="118">&lt; 100 Ω — wettelijk maximum</text>
+<text x="486" y="142">&lt; 50 Ω — advies (seizoensmarge!)</text>
+<text x="486" y="166">&lt; 10 Ω — streefwaarde bij parafoudre</text>
+<text x="20" y="60" class="sub">Verboden als elektrode: waterleiding of put (wel aan de vereffening koppelen).</text>
+</svg>
+<figcaption>Naar het oorspronkelijke schema van Rob van der Meulen (2008–2017), geactualiseerd naar NF C 15-100 (2024).</figcaption></figure>
 
 <h2>Verdieping</h2>
 <h3>Van elektrode tot groepenkast</h3>
@@ -742,7 +993,51 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
 <p>Robs vuistregel luidde: <em>"van willekeurig welk stopcontact mag de weerstand naar de centrale aardingsstrip niet meer dan twee Ohm bedragen"</em> . De regel is bevestigd, met één belangrijke precisering [GEVERIFIEERD: V3.2]: de <strong>≤ 2 Ω geldt voor de continuïteit van beschermingsleidingen en equipotentiaalverbindingen</strong> (een ohmmeter-meting van de groen-gele keten), inclusief de vrijstellingsregel — douchebak, badkuip of metalen kozijnen hoeven niet apart te worden aangesloten als hun continuïteit al ≤ 2 Ω is (of hun isolatie ≥ 500 kΩ). De Consuel-controleur heeft er, in Robs woorden, "een handig apparaatje voor dat tevreden piept wanneer alles in orde is". Zorgvuldig monteren met kwaliteitsmateriaal, en het komt goed.</p>
 <h3>De badkamer: LES</h3>
 <p>De <em>liaison équipotentielle supplémentaire</em> (LES) verbindt in de badkamer alles wat van metaal is: leidingen, metalen afvoer, badkuip, vloerwapening, kozijnen — met de bekende uitzonderingen (ventilatieroostertje, handdoekhaakje). Verplicht, minimaal 2,5 mm² koper (in gaine; 4 mm² bij opbouw zonder gaine), en er zijn drie toegestane uitvoeringen; sinds Amendement 5 mag de interconnectie ook bij het tableau plaatsvinden [GEVERIFIEERD: V3.4/V4]. De twee klassieke modellen die Rob beschreef — serieschakeling langs de elementen, of sterschakeling naar één verzameldoos (die ook aan de buitenkant van een badkamermuur mag zitten) — staan in het schema hieronder. En zijn materiaalkritiek verdient conservering : veel Franse elektriciens klemmen de aardedraad met een gewone ringklem op de waterleiding, "terwijl er toch veel betere speciale klemmen voor in de handel zijn."</p>
-<!-- SVG-INLINE: h4-les-badkamer.svg -->
+<figure class="schema"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="t-h4b">
+
+<title id="t-h4b">De LES in de badkamer: serieschakeling of sterschakeling</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .doos{fill:rgba(128,0,0,0.05);stroke:#800000;stroke-width:2}
+  .el{fill:rgba(128,0,0,0.10);stroke:#800000;stroke-width:1.5}
+  .lijn{stroke:#800000;stroke-width:2.5;fill:none}
+</style>
+<text x="20" y="34" class="kop">Model 1 — in serie</text>
+<rect x="30" y="70" width="130" height="46" class="el"/><text x="44" y="98" class="sub">waterleiding</text>
+<rect x="30" y="140" width="130" height="46" class="el"/><text x="44" y="168" class="sub">metalen bad</text>
+<rect x="30" y="210" width="130" height="46" class="el"/><text x="44" y="238" class="sub">cv-leiding</text>
+<rect x="30" y="280" width="130" height="46" class="el"/><text x="44" y="308" class="sub">vloerwapening</text>
+<line x1="95" y1="116" x2="95" y2="140" class="lijn"/>
+<line x1="95" y1="186" x2="95" y2="210" class="lijn"/>
+<line x1="95" y1="256" x2="95" y2="280" class="lijn"/>
+<line x1="95" y1="326" x2="95" y2="370" class="lijn"/>
+<line x1="95" y1="370" x2="330" y2="370" class="lijn"/>
+
+<text x="480" y="34" class="kop">Model 2 — in ster (boîte de connexion)</text>
+<circle cx="650" cy="200" r="48" class="doos"/>
+<text x="618" y="196" class="sub">boîte de</text>
+<text x="612" y="216" class="sub">connexion</text>
+<rect x="480" y="70" width="120" height="42" class="el"/><text x="492" y="97" class="sub">waterleiding</text>
+<rect x="740" y="70" width="120" height="42" class="el"/><text x="752" y="97" class="sub">metalen bad</text>
+<rect x="480" y="290" width="120" height="42" class="el"/><text x="492" y="317" class="sub">cv-leiding</text>
+<rect x="740" y="290" width="120" height="42" class="el"/><text x="748" y="317" class="sub">vloerwapening</text>
+<line x1="600" y1="100" x2="622" y2="165" class="lijn"/>
+<line x1="740" y1="100" x2="682" y2="165" class="lijn"/>
+<line x1="600" y1="300" x2="622" y2="238" class="lijn"/>
+<line x1="740" y1="300" x2="682" y2="238" class="lijn"/>
+<line x1="650" y1="248" x2="650" y2="370" class="lijn"/>
+<line x1="650" y1="370" x2="480" y2="370" class="lijn"/>
+<text x="340" y="360" class="sub">≥ 2,5 mm² (in gaine)</text>
+<text x="340" y="380" class="sub">of 4 mm² opbouw</text>
+<rect x="330" y="395" width="240" height="56" class="doos"/>
+<text x="346" y="418">naar aardcircuit badkamer /</text>
+<text x="346" y="438">répartiteur de terre (H4)</text>
+<text x="20" y="480" class="sub">Géén aparte draad naar het tableau nodig — de vereffening loopt via de beschermingsleidingen.</text>
+<text x="20" y="498" class="sub">Vrijstelling: element met continuïteit ≤ 2 Ω (of isolatie ≥ 500 kΩ) hoeft niet apart aangesloten.</text>
+</svg>
+<figcaption>Naar het oorspronkelijke schema van Rob van der Meulen (2008–2017), geactualiseerd naar NF C 15-100 (2024).</figcaption></figure>
 
 <p>Let op de dubbele boekhouding met hoofdstuk 6: de LES is de áárdkant van de badkamer; de zone-indeling (welk toestel waar mag) staat daar.</p>
 <h3>Stopcontacten, verlichting en de DCL</h3>
@@ -850,7 +1145,37 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
 <figure class="rob"><figcaption>Brontekst 2008–2017 — letterlijk overgenomen</figcaption><blockquote>
 <p>Voor het doorverbinden van draden in de las- of doorvoerdozen werd en wordt in Frankrijk kwistig gebruik gemaakt van kroonsteentjes (<em>dominos</em>). (…) Tegenwoordig heeft (eindelijk) ook de moderne lasklem (<em>connecteur sans vis</em>) zijn entree gemaakt in Frankrijk. (…) Resteert nog de Franse elektriciens ervan te overtuigen dat ze eindelijk eens afstand moeten doen van dit stukje <em>patrimoine</em> en iets van de oosterburen moeten kopen, allerlei soorten connectors van de firma WAGO. Gelukkig is er voor de jongste generatie klemmen al een Franse naam: <em>mini borne à levier universelle</em>. Dat helpt ze misschien over de streep te trekken.</p>
 </blockquote></figure>
-<!-- SVG-INLINE: h5-gaine-en-kleuren.svg -->
+<figure class="schema"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" role="img" aria-labelledby="t-h5">
+
+<title id="t-h5">Draadkleuren in drie landen en de vulregel van de buis</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .lijn{stroke:#800000;stroke-width:2;fill:none}
+  .waarschuw{fill:rgba(128,0,0,0.10);stroke:#800000;stroke-width:2.5}
+</style>
+<text x="20" y="34" class="kop">Modern (NL = BE = FR)</text>
+<line x1="30" y1="70" x2="280" y2="70" stroke="#7a4a1e" stroke-width="10"/><text x="300" y="76">fase — bruin</text>
+<line x1="30" y1="110" x2="280" y2="110" stroke="#1e4a7a" stroke-width="10"/><text x="300" y="116">nul — blauw</text>
+<line x1="30" y1="150" x2="280" y2="150" stroke="#3a7a1e" stroke-width="10" stroke-dasharray="18 10"/><text x="300" y="156">aarde — groen-geel (exclusief)</text>
+<text x="20" y="212" class="kop">Nederland oud (&lt; ±1970)</text>
+<line x1="30" y1="248" x2="280" y2="248" stroke="#3a7a1e" stroke-width="10"/><text x="300" y="254" style="font-weight:600">fase — GROEN ⚠</text>
+<line x1="30" y1="288" x2="280" y2="288" stroke="#a03030" stroke-width="10"/><text x="300" y="294">nul — rood</text>
+<line x1="30" y1="328" x2="280" y2="328" stroke="#888888" stroke-width="10"/><text x="300" y="334">aarde — grijs/blank · schakeldraad zwart</text>
+<rect x="530" y="220" width="350 " height="130" class="waarschuw"/>
+<text x="548" y="250" style="fill:#800000;font-weight:600">De dodelijke valkuil</text>
+<text x="548" y="278" class="sub">oud-NL groen = fase, terwijl groen(-geel)</text>
+<text x="548" y="298" class="sub">nu wereldwijd aarde betekent.</text>
+<text x="548" y="326" class="sub">Meet altijd — vertrouw nooit op kleur.</text>
+<text x="20" y="400" class="kop">De vulregel van de gaine</text>
+<circle cx="105" cy="470" r="52" class="lijn"/>
+<path d="M 105 470 L 105 418 A 52 52 0 0 1 150 496 Z" fill="rgba(128,0,0,0.25)" stroke="#800000" stroke-width="1.5"/>
+<text x="185" y="452">maximaal ⅓ gevuld met draad</text>
+<text x="185" y="476" class="sub">(soepeler bij korte doorvoeren en voorbedrade buis)</text>
+<text x="185" y="500" class="sub">Robs tip: neem één maat groter — 20 mm waar 16 mm net kon.</text>
+</svg>
+<figcaption>Naar het oorspronkelijke schema van Rob van der Meulen (2008–2017), geactualiseerd naar NF C 15-100 (2024). Kleuren in dit schema zijn functioneel weergegeven.</figcaption></figure>
 
 <h2>Verdieping</h2>
 <h3>Buizen: IRL, ICA en ICTA</h3>
@@ -988,7 +1313,38 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
 <h3>Convecteurs</h3>
 <p>Sinds Sinterklaas 2002 (zie Robs kern) hoeven convectoren niet meer elk een eigen circuit: het aantal per circuit wordt begrensd door de <strong>som van de vermogens</strong> — bij verwarming geldt bovendien de circuits-spécialisés-regel van één circuit per 4.500 W [GEVERIFIEERD: V5.4]. Aansluiting altijd via sortie de câble, nooit met een stekker in een stopcontact.</p>
 <h3>De badkamer: volumes 0, 1, 2 — en niets meer</h3>
-<!-- SVG-INLINE: h6-badkamerzones.svg -->
+<figure class="schema"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t-h6a">
+
+<title id="t-h6a">Badkamerzones: volume 0, 1, 2 en hors volume</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .v0{fill:rgba(128,0,0,0.30);stroke:#800000;stroke-width:2}
+  .v1{fill:rgba(128,0,0,0.18);stroke:#800000;stroke-width:2}
+  .v2{fill:rgba(128,0,0,0.08);stroke:#800000;stroke-width:2}
+  .hv{fill:none;stroke:#800000;stroke-width:2;stroke-dasharray:6 5}
+</style>
+<text x="20" y="34" class="kop">Doorsnede bij een badkuip</text>
+<rect x="40" y="70" width="820" height="330" class="hv"/>
+<text x="700" y="96" class="sub">hors volume — vrij;</text>
+<text x="700" y="116" class="sub">stopcontacten alléén hier</text>
+<rect x="60" y="140" width="420" height="260" class="v2"/>
+<text x="330" y="168">volume 2 · IPX4</text>
+<text x="330" y="190" class="sub">60 cm rondom volume 1;</text>
+<text x="330" y="210" class="sub">scheerstopcontact (TBTS) mag;</text>
+<text x="330" y="230" class="sub">verlichting: DCL met IPX4</text>
+<rect x="60" y="140" width="240" height="260" class="v1"/>
+<text x="80" y="168">volume 1 · IPX5</text>
+<text x="80" y="190" class="sub">boven bad/douche</text>
+<rect x="60" y="330" width="240" height="70" class="v0"/>
+<text x="80" y="358" style="fill:#fff;font-weight:600">volume 0 · IPX7</text>
+<text x="80" y="380" style="fill:#fff" class="sub">alleen TBTS-laagspanning</text>
+<text x="20" y="440" class="sub">Volume caché (onder bad/douchebak): geen apparatuur (IP44-uitzondering achter 30 mA).</text>
+<text x="20" y="464" class="sub">Volume 3 bestaat sinds Amendement 5 niet meer. Bedieningshoogtes: 0,90–1,30 m.</text>
+<text x="20" y="488" class="sub">Alle badkamercircuits: achter 30 mA-ID én aangesloten op de LES (hoofdstuk 4).</text>
+</svg>
+<figcaption>Naar het oorspronkelijke schema van Rob van der Meulen (2008–2017), geactualiseerd naar NF C 15-100 (2024). Maten indicatief.</figcaption></figure>
 
 <p>De zone-indeling is in de 2024-serie <strong>ongewijzigd</strong> bevestigd (Promotelec expliciet; volume 3 was al sinds Amendement 5 vervallen) [GEVERIFIEERD: V4, dubbel, 04-07-2026]:</p>
 <ul>
@@ -1002,7 +1358,42 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
 <p>De praktische consequentie die Rob al benoemde en die voor de NL/UK-klusser telt: een hangende doorstroomverwarmer boven de douche — in Engeland doodnormaal — "is in Frankrijk verboden omdat in Volume 1 alleen TBTS is toegestaan" . Zie het kader.</p>
 <h3>DCL en de uitzonderingen</h3>
 <p>De DCL-aansluitdoos (hoofdstuk 4) is verplicht, maar sinds Amendement 5 met werkbare uitzonderingen, door Rob via Legrand samengevat: als er geen doos in de ondergrond kán (betonvloer, staalplaat), bij opbouwvoeding (applique onder een <em>moulure</em>), als het armatuur een eigen aansluitdoos heeft (inbouwspot), of als het bevestigingsvlak kleiner is dan een DCL-doos [A5-regeling via bronartikel; deel 10-continuïteit, hertoets vóór publicatie].</p>
-<!-- SVG-INLINE: h6-circuits-specialises.svg -->
+<figure class="schema"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="t-h6b">
+
+<title id="t-h6b">De circuits spécialisés: wat verplicht een eigen groep heeft</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .plicht{fill:rgba(128,0,0,0.16);stroke:#800000;stroke-width:2.5}
+  .indien{fill:rgba(128,0,0,0.06);stroke:#800000;stroke-width:2}
+</style>
+<text x="20" y="34" class="kop">Altijd verplicht — minimaal 4</text>
+<rect x="20" y="60" width="200" height="70" class="plicht"/>
+<text x="34" y="88">kookplaat</text><text x="34" y="112" class="sub">32 A · 6 mm²</text>
+<rect x="240" y="60" width="200" height="70" class="plicht"/>
+<text x="254" y="88">oven</text><text x="254" y="112" class="sub">20 A · 2,5 mm²</text>
+<rect x="460" y="60" width="200" height="70" class="plicht"/>
+<text x="474" y="88">vaatwasser</text><text x="474" y="112" class="sub">20 A · 2,5 mm²</text>
+<rect x="680" y="60" width="200" height="70" class="plicht"/>
+<text x="694" y="88">wasmachine</text><text x="694" y="112" class="sub">20 A · 2,5 mm² · type A</text>
+<text x="20" y="180" class="kop">Eigen circuit zodra aanwezig</text>
+<rect x="20" y="206" width="200" height="56" class="indien"/><text x="34" y="240">droger</text>
+<rect x="240" y="206" width="200" height="56" class="indien"/><text x="254" y="240">chauffe-eau (boiler)</text>
+<rect x="460" y="206" width="200" height="56" class="indien"/><text x="474" y="230">verwarming</text><text x="474" y="252" class="sub">per 4.500 W een circuit</text>
+<rect x="680" y="206" width="200" height="56" class="indien"/><text x="694" y="230">warmtepomp/airco</text><text x="694" y="252" class="sub">+ type F (H3/H7)</text>
+<rect x="20" y="282" width="200" height="56" class="indien"/><text x="34" y="316">VMC (ventilatie)</text>
+<rect x="240" y="282" width="200" height="56" class="indien"/><text x="254" y="306">rolluiken (motor)</text><text x="254" y="328" class="sub">nieuw in de 2024-serie</text>
+<rect x="460" y="282" width="200" height="56" class="indien"/><text x="474" y="306">EV-laadpunt</text><text x="474" y="328" class="sub">7-722 · IRVE (H7)</text>
+<rect x="680" y="282" width="200" height="56" class="indien"/><text x="694" y="306">koelkast/vriezer</text><text x="694" y="328" class="sub">aanbevolen</text>
+<text x="20" y="386" class="kop">En de keuken (≥ 4 m²)</text>
+<rect x="20" y="412" width="640" height="64" class="plicht"/>
+<text x="34" y="440">6 niet-gespecialiseerde stopcontacten op één eigen circuit 2,5 mm² · 20 A</text>
+<text x="34" y="464" class="sub">waarvan 4 boven het werkblad (8–25 cm); verboden boven spoelbak en kookplaat; hotte ≥ 1,80 m</text>
+<text x="20" y="516" class="sub">Tweede groepenkast (tableau divisionnaire) is óók een circuit spécialisé — zie hoofdstuk 3.</text>
+<text x="20" y="540" class="sub">Studio-uitzondering: 3 circuits spécialisés.</text>
+</svg>
+<figcaption>Schema: circuits specialises</figcaption></figure>
 
 <h2>NL–BE–FR</h2>
 <table>
@@ -1092,7 +1483,47 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
 </tr>
 </tbody>
 </table>
-<!-- SVG-INLINE: h7-ev-beslisboom.svg -->
+<figure class="schema"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="t-h7">
+
+<title id="t-h7">Thuis laden: wie mag wat installeren</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .vraag{fill:rgba(128,0,0,0.16);stroke:#800000;stroke-width:2.5}
+  .doos{fill:rgba(128,0,0,0.05);stroke:#800000;stroke-width:2}
+  .lijn{stroke:#800000;stroke-width:2.5;fill:none}
+</style>
+<text x="20" y="34" class="kop">Beslisboom laadpunt (woning, niet publiek toegankelijk)</text>
+<rect x="280" y="60" width="340" height="60" class="vraag"/>
+<text x="300" y="86">Laadvermogen &gt; 3,7 kW?</text>
+<text x="300" y="108" class="sub">(vrijwel elke wallbox: ja)</text>
+<line x1="450" y1="120" x2="200" y2="180" class="lijn"/>
+<text x="255" y="160" style="font-weight:600">nee (≤ 3,7 kW)</text>
+<line x1="450" y1="120" x2="700" y2="180" class="lijn"/>
+<text x="600" y="160" style="font-weight:600">ja</text>
+<rect x="40" y="180" width="360" height="150" class="doos"/>
+<text x="56" y="208" style="font-weight:600">Prise renforcée — zelf toegestaan</text>
+<text x="56" y="234" class="sub">• tóch eigen circuit + 30 mA type A</text>
+<text x="56" y="256" class="sub">• obturateurs blijven vereist</text>
+<text x="56" y="278" class="sub">• zonder IRVE-factuur: geen TVA 5,5%</text>
+<text x="56" y="300" class="sub">  en risico op verzekeringsweigering</text>
+<rect x="520" y="180" width="360" height="150" class="vraag"/>
+<text x="536" y="208" style="font-weight:600">IRVE-installateur verplicht</text>
+<text x="536" y="234" class="sub">• décret 2017-26 · Qualifelec/AFNOR niv. 1–3</text>
+<text x="536" y="256" class="sub">• geeft recht op TVA 5,5%</text>
+<text x="536" y="278" class="sub">• copropriété met parkeren: minimaal</text>
+<text x="536" y="300" class="sub">  één laadvoorziening verplicht</text>
+<rect x="180" y="380" width="540" height="90" class="doos"/>
+<text x="200" y="410" style="font-weight:600">Beveiliging volgens NF C 15-100-7-722</text>
+<text x="200" y="436">monophasé: differentieel type A of F · triphasé: type B</text>
+<text x="200" y="460" class="sub">altijd een circuit spécialisé; kabelsectie = installateursberekening (harmonischen)</text>
+<line x1="220" y1="330" x2="330" y2="380" class="lijn"/>
+<line x1="700" y1="330" x2="570" y2="380" class="lijn"/>
+<text x="20" y="510" class="sub">Subsidiestand 04-07-2026: crédit d'impôt (500 €) gestopt per 31-12-2025; resteren TVA 5,5%</text>
+<text x="20" y="532" class="sub">(alleen via IRVE) en prime Advenir (copropriétés). Zie het tijdgevoelige blok van hoofdstuk 7.</text>
+</svg>
+<figcaption>Schema: ev beslisboom</figcaption></figure>
 
 <h2>Robs kern</h2>
 <p>Het skelet van dit hoofdstuk is een forumgesprek uit 2020 dat verrassend compleet was — de vraag, het antwoord en het tegengeluid:</p>
@@ -1243,7 +1674,51 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
 </ul>
 <p>De historische duiding bij Robs "waarom zo streng"-lijn: de Consuel werd opgericht in 1964 en per decreet van 14-12-1972 verplicht gesteld — na de brand in dancing "5-7" in Saint-Laurent-du-Pont (146 doden) [GEVERIFIEERD: V8.5]. De Franse keuringsstrengheid is, letterlijk, uit as geboren.</p>
 <p>En de studietip blijft: <em>"Ik heb ook al in de NF C 15-100 zitten bladeren, het is wel even studeren."</em> — forumdeelnemer, IF-forum, Consuel-topic, 2013.</p>
-<!-- SVG-INLINE: h8-consuel-flow.svg -->
+<figure class="schema"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="t-h8">
+
+<title id="t-h8">Van zelfaanleg tot stroom: de Consuel-route</title>
+<style>
+  text{font-family:Poppins,sans-serif;fill:#333333;font-size:15px}
+  .kop{fill:#800000;font-size:18px;font-weight:600}
+  .sub{font-size:13px;fill:#666666}
+  .stap{fill:rgba(128,0,0,0.08);stroke:#800000;stroke-width:2}
+  .accent{fill:rgba(128,0,0,0.18);stroke:#800000;stroke-width:2.5}
+  .lijn{stroke:#800000;stroke-width:2.5;fill:none;marker-end:url(#pijl)}
+</style>
+<defs><marker id="pijl" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#800000"/></marker></defs>
+<text x="20" y="34" class="kop">De route (attestation geel — woning)</text>
+<rect x="20" y="70" width="255" height="80" class="stap"/>
+<text x="36" y="98">1 · Aanleg — zelf mag</text>
+<text x="36" y="122" class="sub">u bent "auteur van de werken"</text>
+<line x1="275" y1="110" x2="320" y2="110" class="lijn"/>
+<rect x="322" y="70" width="255" height="80" class="stap"/>
+<text x="338" y="98">2 · Aanvraag attestation</text>
+<text x="338" y="122" class="sub">±20 dagen vooraf · Mon Espace</text>
+<text x="338" y="142" class="sub">Consuel · 12 mnd geldig</text>
+<line x1="577" y1="110" x2="622" y2="110" class="lijn"/>
+<rect x="624" y="70" width="255" height="80" class="stap"/>
+<text x="640" y="98">3 · Controlebezoek</text>
+<text x="640" y="122" class="sub">particulier: vrijwel altijd</text>
+<text x="640" y="142" class="sub">bekende pro: steekproef</text>
+<line x1="751" y1="150" x2="751" y2="200" class="lijn"/>
+<rect x="496" y="202" width="384" height="80" class="accent"/>
+<text x="512" y="230">4 · Visa — of contre-visite (232,13 €)</text>
+<text x="512" y="254" class="sub">gevisieerde attestatie gaat sinds décret 2024-1122</text>
+<text x="512" y="274" class="sub">automatisch naar Enedis</text>
+<line x1="496" y1="242" x2="430" y2="242" class="lijn"/>
+<rect x="150" y="202" width="278" height="80" class="stap"/>
+<text x="166" y="230">5 · Inbedrijfstelling</text>
+<text x="166" y="254" class="sub">zonder visa géén stroom —</text>
+<text x="166" y="274" class="sub">ook niet met een Linky</text>
+<text x="20" y="330" class="kop">De vier formulieren</text>
+<rect x="20" y="352" width="200" height="64" class="accent"/><text x="34" y="378">GEEL · 144,67 €</text><text x="34" y="400" class="sub">woning (incl. laadpunt)</text>
+<rect x="240" y="352" width="200" height="64" class="stap"/><text x="254" y="378">GROEN · 76,37 €</text><text x="254" y="400" class="sub">niet-domestiek</text>
+<rect x="460" y="352" width="200" height="64" class="stap"/><text x="474" y="378">BLAUW · 201,17 €</text><text x="474" y="400" class="sub">productie zonder opslag</text>
+<rect x="680" y="352" width="200" height="64" class="stap"/><text x="694" y="378">VIOLET · 230,32 €</text><text x="694" y="400" class="sub">productie met opslag</text>
+<text x="20" y="452" class="sub">Tarieven: particulier, metropool, elektronisch — barème per 02-09-2025; woning + zonnepanelen = twee formulieren.</text>
+<text x="20" y="476" class="sub">Vanaf april 2026 staat NF C 15-100:2024 standaard aangevinkt in Mon Espace Consuel.</text>
+</svg>
+<figcaption>Schema: consuel flow</figcaption></figure>
 
 <h3>Het diagnostic électrique: de keuring die u wél krijgt</h3>
 <p>[GEVERIFIEERD: service-public.gouv.fr F18692 + convergente bronnen — V9, 04-07-2026]</p>
@@ -1551,7 +2026,7 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
   document.querySelectorAll('main section').forEach(sec=>{
     const h=sec.id;
     let i=0;
-    sec.querySelectorAll(':scope > p, :scope > ul, :scope > ol, :scope > table, :scope > blockquote, :scope figure.rob, :scope .vraag, :scope .erfgoedkaart, :scope > h2, :scope > h3').forEach(el=>{
+    sec.querySelectorAll(':scope > p, :scope > ul, :scope > ol, :scope > table, :scope > blockquote, :scope figure.rob, :scope figure.schema, :scope .vraag, :scope .erfgoedkaart, :scope > h2, :scope > h3').forEach(el=>{
       if(el.classList.contains('eyebrow'))return;
       el.dataset.blok=h+'-'+(i++);
     });
