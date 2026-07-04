@@ -1,4 +1,6 @@
 {
+  "installCommand": "",
+  "buildCommand": "",
   "outputDirectory": "redactie",
   "cleanUrls": true,
   "headers": [
