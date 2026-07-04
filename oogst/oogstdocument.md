@@ -134,3 +134,24 @@ Anton leverde de WordPress-export `wonenenleveninfrankrijk.WordPress.2025-10-09 
 63. De 240 losse Rob-reacties zijn de grootste onontgonnen voorraad vakmanschap; doorwerken tijdens het schrijven per hoofdstuk (bestand is per topic/datum geordend).
 
 **Erfgoednotitie:** de export dekt t/m 09-10-2025. Reacties tussen die datum en het offline gaan van het forum ontbreken mogelijk; het XML-origineel blijft in Antons Drive (map-ID 1IkvelJJUKRyy5RWU1UM1GhozUwjRrfi9) en de suffix "(4)" doet vermoeden dat er zusterbestanden zijn (topics, posts, pagina's) — die zijn voor dit dossier niet nodig maar wel voor volledig erfgoedbeheer.
+
+---
+
+# Aanvulling 4 — Redactiethema "De Hollandse reflex" (04-07-2026, op aanwijzing Anton)
+
+**Het thema.** NL'ers in FR nemen vaak aan dat álles in Nederland beter is — onderdelen, normen, vakmanschap, bouwmarkten. Gevolg (a): meegenomen NL-materiaal in de Franse installatie; gevolg (b): sluimerende non-conformiteit die pas hard aankomt bij **verkoop of verhuur**, wanneer het diagnostic électrique verplicht is (zie verificatie V9: >15 jaar installatie, 3/6 jaar geldig, anomalieën = prijsdrukker en aansprakelijkheidsrisico). Dit wordt een rode draad door het dossier: per hoofdstuk in het NL–BE–FR-blok, plus een eigen kader in H0 en de consequenties in H8.
+
+**Redactielijn**: niet NL-bashen en niet FR-verheerlijken — feitelijk laten zien wáár de systemen verschillen (penaarde vs. randaarde, draadkleurhistorie, normstructuur) en waarom "NL-materiaal is beter" soms klopt (Wago is Wago) maar als installatieprincipe non-conform en bij schade onverzekerd kan uitpakken.
+
+**Geoogste anekdotes (forumdump + eerder materiaal):**
+64. **Robs heggenschaar (14-12-2014)** — hét kader voor penaarde vs. randaarde: "Wie z'n Nederlandse randaarde-verlengsnoer uitleent aan zijn Franse buurman: diens elektrische heggenschaar met Franse stekker past niet — in dat geval zul je hem ook je eigen Nederlandse heggenschaar erbij moeten leveren." Humor die het incompatibiliteitsprobleem in één beeld vangt.
+65. **De afkeur-waarschuwing van Jos (2014)**: "Je hebt al meer dan genoeg kans op afkeur vanwege zaken die je écht niet had kunnen voorzien. Een herkeuring is duur, en als er wegens geknoei werd afgekeurd ben je bij een volgende keuring helemáál aan de beurt." — Consuel-consequentie in klussersproza; H8.
+66. **Diagnostic in de praktijk (2014, topic geaard stopcontact)**: bij recente aankoop is er "veelal een diagnostic électricité voorhanden waarin staat hoe het met de installatie gesteld is (…) zo niet, ook geen aansprakelijkheidsproblemen met de verzekering, want dan heb je te goeder trouw gekocht" — nuttige lekenredenering om in H8 te preciseren met de geverifieerde regels.
+67. **GTL-invoer boven/onder (bouwstroom-topic, 2013)**: klusser verlegde op eigen initiatief de kabelinvoer nadat "de elektricien zei dat het wellicht niet zou worden afgekeurd" — illustratie van norm vs. gedoogpraktijk + "mijn aarde is nu 50 Ohm"; H3/H4.
+68. **De 1977-parallel (Consuel-topic)**: NL-lezer herkent alles — "zo ongeveer ging het mij ook toen in 1977 in mijn net gekochte oude huis de elektra werd afgekeurd." Relativeert de Hollandse reflex: NL kende exact dezelfde saneringsslag, alleen een generatie eerder; H0.
+69. **De Wago-nuance (2013)**: NL-gekochte Wago-lasklemmen ("in FR noemen ze lasklemmen inmiddels ook Wago's") prima; "met dubieuze no-name klemmen uit de brico zou ik oppassen" — kwaliteit is merkgebonden, niet landgebonden; H5.
+70. **Aardpin vs. randaarde als productiedetail (2013)**: zelfs overspanningsbeveiliging heeft "andere modelnummers in Frankrijk dan in Nederland vanwege de aardpin" — het verschil zit dieper dan de stekkerdoos; H1/H5.
+71. **Fosse-parallel (2014)**: "hollander met maison secondaire in de Corrèze, oude fosse afgekeurd, lang dwarsgelegen over de kosten" — hetzelfde patroon (keuring bij verkoop dwingt tot investering) speelt bij elke installatiekeuring; verwijskader naar het fosse-dossier.
+72. Reeds geoogst en bij dit thema in te zetten: NL-fornuis meenemen + universeel aansluitschema (item 56-context), driefase-in-katoen/France profonde (46), doorstroomverwarmer NL/UK-gewoonte in FR verboden in Volume 1 (35), "vanaf de meter mag je er zelf een bende van maken"-misvatting (5).
+
+**WAARSCHUWING BRONVERMELDING FORUMDUMP** (correctie op Aanvulling 3): het veld dc:creator in de WXR-export is onbetrouwbaar — 14.455 van de 17.958 reacties staan op naam "Anton Noe", terwijl de ondertekening in de tekst (Steven, Jos, Peter Brand, Eric Gerth, Barbara…) vaak iemand anders aanwijst; vermoedelijk zijn oude-forumberichten onder het importaccount gezet. **Attributie in het dossier altijd baseren op de ondertekening ín de tekst, nooit op het auteursveld.** De 867 reacties op naam van Rob lijken wél authentiek (stijl klopt), maar ook daar: ondertekening prevaleert.

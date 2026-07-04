@@ -26,6 +26,17 @@ Gestart 04-07-2026. Protocol: elke harde claim krijgt status `[GEVERIFIEERD: bro
 
 ---
 
+## V9 — Diagnostic électrique bij verkoop/verhuur · [GEVERIFIEERD: service-public.gouv.fr F18692 (primair) + Qualitel, Engie, Empruntis convergent — 04-07-2026]
+
+1. **Verplicht** bij verkoop én verhuur van een woning waarvan de elektrische installatie **ouder is dan 15 jaar** (incl. dependances met vaste installatie). Verkoop sinds 2009, verhuur sinds 2017/2018. Onderdeel van het Dossier de Diagnostic Technique (DDT), vóór compromis/bail.
+2. **Geldigheid: 3 jaar bij verkoop, 6 jaar bij verhuur.** Een **Consuel-attestation jonger dan 6 jaar vervangt het diagnostic** — direct relevant voor wie recent renoveerde.
+3. **Karakter**: veiligheidsonderzoek (aarding, differentieelbeveiliging, verouderd materieel, badkamerregels), **géén conformiteitstoets aan de actuele NF C 15-100**. Cruciale nuance voor het dossier: "niet conform de nieuwste norm" is op zich geen afkeurgrond; gevaarlijke anomalieën zijn dat wel voor de prijsvorming.
+4. **Consequenties**: herstel is niet wettelijk verplicht, maar (a) zonder diagnostic of bij misleidende informatie geen vrijwaring van verborgen gebreken — koper kan via de rechter ontbinding of prijsvermindering eisen, notaris kan aansprakelijk zijn; (b) elke gerapporteerde anomalie is een onderhandelingsargument voor de koper; (c) bij verhuur kan een ernstige anomalie de verhuurbaarheid (logement décent) blokkeren en ligt aansprakelijkheid bij schade bij de eigenaar.
+5. Wettelijke basis: Code de la construction et de l'habitation art. L134-6/L134-7 (service-public); uitvoering arrêté 28-09-2017; diagnostiqueur moet gecertificeerd (Cofrac-geaccrediteerd) en verzekerd zijn.
+6. Bijvangst V12: het brandcijfer "250.000 woningbranden / 80.000 elektra-oorzaak" uit Robs intro circuleert nog steeds in secundaire bronnen (Empruntis via Figaro Santé), plus ONSE-cijfers (7 mln woningen met gevaarlijke installatie; 68% van >15 jaar met minstens één anomalie). → primaire ONSE-bron nog raadplegen vóór publicatie (V12 blijft open).
+
+---
+
 ## Openstaande verificatiepunten (volgorde van uitvoering)
 - V2 Aardlek-/ID-regels woningen (aantal, type A/AC/F, 8-groepenregel, 63A-praktijk) — NF C 15-100-1 + deel 10 via Consuel/Promotelec/fabrikantengidsen
 - V3 Aarding: 100 Ω-maximum, 2 Ω-stopcontactregel van Rob, LES/badkamer — idem
@@ -34,7 +45,6 @@ Gestart 04-07-2026. Protocol: elke harde claim krijgt status `[GEVERIFIEERD: bro
 - V6 Parafoudre-verplichting (AQ-criteria, herziene regels)
 - V7 Borne de recharge: 7-722, IRVE-kwalificatieplicht (décret 2017-26), Enedis-aansluitregels, actuele subsidie (crédit d'impôt/programme Advenir)
 - V8 Consuel: attestation-soorten en actuele tarieven; zelfaanleg-bevestiging
-- V9 Diagnostic électrique (DEO): actuele verplichting bij verkoop/verhuur
 - V10 Linky: uitrolstatus, functies, weigeraars-regeling
 - V11 Puissance souscrite-reeksen mono/tri, tariefopties (Base/HP-HC/Tempo) + heures-creuses-herziening CRE, kosten ombouw tri↔mono (Enedis Catalogue des Prestations)
 - V12 Brandcijfer elektra-oorzaak (ONSE/Promotelec) voor H0
