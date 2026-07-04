@@ -94,15 +94,33 @@ Gestart 04-07-2026. Protocol: elke harde claim krijgt status `[GEVERIFIEERD: bro
 4. Blauw/violet-dossier: onduleur-certificaat NF EN 50549-1/-2, sinds 01-01-2026 ook -10:2023 (≤ 36 kVA) — raakvlak H7/H8.
 5. Kadermateriaal H8: Consuel opgericht 1964, verplicht per decreet 14-12-1972 na de brand in dancing "5-7" (146 doden) — historische duiding bij Robs "waarom zo streng"-lijn.
 
+
+## V11 — Tariefopties & de heures-creuses-hervorming · [GEVERIFIEERD: Enedis (2 officiële pagina's), service-public.gouv.fr A18476, EDF, CRE-deliberatie 08-01-2026 via convergente bronnen — 04-07-2026]
+1. **De grootste HP/HC-hervorming sinds de invoering** (CRE/TURPE 7, maart 2025): vanaf **01-11-2025** verschuift Enedis de daluren van 14,5 mln HP/HC-klanten (11 mln geraakt; 3,5 mln al conform). **Fase 1** nov 2025–jun 2026: 1,7 mln klanten met bestaande dag+nacht-plages; **fase 2** dec 2026–okt 2027: 9,3 mln + seizoensdifferentiatie; professionals sluiten 2027 af.
+2. Nieuwe systematiek: nog steeds 8 daluren/dag, maar **minimaal 5 aaneengesloten 's nachts (23h–7h)** + **maximaal 3 overdag (11h–17h)**; zomer (1/4–31/10) mét middagvenster, winter vooral nachts. Oude vensters 7h–11h en 17h–23h verdwijnen. Enedis wijst de plages toe per aansluitpunt (geen keuze); leverancier informeert ≥ 1 maand vooraf; Linky en de contacteur jour/nuit (contact sec) schakelen automatisch mee — Robs PULSADIS-kader (oogst 54) krijgt hier zijn actuele vervolg.
+3. **Tempo blijft ongewijzigd** (22h–6h landelijk). CRE-deliberatie 08-01-2026: wintervenster 11h–14h weer toegestaan voor nieuwe klanten. [TWEEDE BRON ZOEKEN vóór publicatie]: de melding dat de **Base-optie per 01-02-2025 is afgeschaft voor ≥ 9 kVA** (één bron) — indien waar, groot punt voor H1/H7.
+4. Voor H1/H7: de oude vuistregel "50–60% verbruik in HC nodig" (oogst 53) moet ná deze hervorming opnieuw doorgerekend worden — geen oude drempels citeren zonder herberekening; de hervorming zelf wordt een tijdgevoelig blok met verificatiedatum.
+
+## V13 — Draadkleuren NL/BE/FR · [GEVERIFIEERD (NL+BE+geharmoniseerd): NEN 1010-bronnen (3×), AREI-bronnen (elektricien.vlaanderen, BouwInfo, Wikipedia/FOD-verwijzing) — 04-07-2026; FR-historisch nog open]
+1. **Modern identiek in alle drie de landen** (IEC/HD-harmonisatie, NL sinds 2001 in NEN 1010; BE via AREI/NBN EN 60446): fase bruin, nul blauw, aarde groen-geel (exclusief!). De vergelijkingstabel draait dus om de **historische lagen** die de klusser in oude huizen aantreft.
+2. **NL-oud (< ±1970)**: fase **groen** (of zwart), nul **rood**, aarde grijs/blank, schakeldraad zwart — de dodelijke valkuil: oud-NL groen = fase, terwijl groen(-geel) nu aarde is. Mede gewijzigd vanwege rood-groen-kleurenblindheid. Dit wordt hét waarschuwingskader in H5.
+3. **BE/AREI**: alleen groen-geel (aarde) is dwingend; blauw voor nul is vaste praktijk en verplicht waar een echte nul bestaat; fasekleur vrij. Belgische eigenaardigheid voor het blok: oudere 3×230V-netten zonder nul — twee fasen het huis in, "nul" bestaat daar niet. AREI volledig herzien per **01-06-2020** (3 boeken, FOD Economie) — ankerbron voor alle BE-claims.
+4. **FR-historisch**: nog niet met onafhankelijke bron vastgesteld → [OPEN]; bij het schrijven van H5 toetsen (schema-electrique/Promotelec) en Robs eigen kleurenbeschrijving uit de-leidingaanleg daartegen leggen.
+
+## V14 (deelresultaat) — Zelf aanleggen NL/BE
+- **BE**: zelf aanleggen toegestaan, maar na nieuwe aanleg of belangrijke wijziging is **keuring door een erkend controleorganisme verplicht** (AREI Boek 1; gelijkvormigheidscontrole). Dit is het scherpste contrast met NL én met FR (waar Consuel alleen bij nieuwe aansluiting/herinschakeling speelt) — kernregel voor het "mag ik dit zelf?"-blok in H0.
+- **NL**: geen wettelijk installateursmonopolie voor de eigen woning; NEN 1010 geldt via het Bouwbesluit/Bbl; geen verplichte particuliere keuring (wel verzekerings- en aansprakelijkheidsrisico). [Formele bronverwijzing Bbl-artikel nog toevoegen vóór publicatie.]
+- FR-deel: gedekt in V8.
+
 ---
 
 ## Openstaande verificatiepunten
 - V6 afronden: afstandsregel 50 m vs 10 m beslechten (Consuel/Promotelec) + Robs 50 cm-aarddraadregel
 - V10 Linky: uitrolstatus, functies, weigeraars-regeling
-- V11 Puissance souscrite-reeksen mono/tri, tariefopties (Base/HP-HC/Tempo) + heures-creuses-herziening CRE, kosten ombouw tri↔mono (Enedis Catalogue des Prestations)
+- V11-rest: puissance-reeksen mono/tri actueel + kosten ombouw tri↔mono (Enedis Catalogue des Prestations) + Base-afschaffing ≥9 kVA tweede bron
 - V12 Brandcijfer elektra-oorzaak (ONSE/Promotelec) voor H0
-- V13 Draadkleuren en -diktes NL (NEN 1010) / BE (AREI 2020) / FR — voor het vergelijkingsblok
-- V14 "Mag ik zelf aanleggen" NL/BE/FR juridisch (FR-deel gedekt door V8)
+- V13-rest: FR-historische kleuren + draaddiktentabel NL/BE/FR
+- V14-rest: NL-bronverwijzing Bbl; BE-keuringsdetails (termijnen, kosten indicatief)
 
 ## Werkafspraak (n.a.v. dubbelloop 04-07-2026)
 Op 04-07 hebben twee Claude-instanties onafhankelijk aan dit bestand gewerkt (commits fc8d688/eee6e98 om 08:06 en 06260c1/a4120af om 08:41), met dubbele V-blokken als gevolg; per deze commit samengevoegd. De inhoud bleek convergent — feitelijk een onbedoelde dubbelcheck — maar dit mag niet nog eens: **één schrijver per bestand per dagdeel; de claude.ai-sessie doet de verificatie (V-punten), Claude Code raakt /verificatie/ niet aan tot de bouwprompt dat expliciet regelt.**
