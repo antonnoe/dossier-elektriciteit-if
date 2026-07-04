@@ -49,78 +49,53 @@ Gestart 04-07-2026. Protocol: elke harde claim krijgt status `[GEVERIFIEERD: bro
 
 ---
 
-## V3 — Aarding · [GEVERIFIEERD: Schema-Electrique (2024-conform), Socotec, Legrand-gids 2024, Assurly, Materiels-Electriques — 04-07-2026]
-1. Aardingsweerstand: **< 100 Ω** wettelijk maximum; hoe lager hoe beter; **bij parafoudre geadviseerd < 50 Ω** (sommige bronnen < 10 Ω). Robs waarden kloppen nog, incl. zijn forumopmerking "50 Ohm norm voor parafoudre".
-2. **Robs 2-Ohm-regel geverifieerd, met precisering**: de <= 2 Ω geldt voor de **continuiteit van beschermingsleidingen en equipotentiaalverbindingen** (meting met ohmmeter na aanleg) — in het dossier zo formuleren, niet als "stopcontact naar aardstrip" sec.
-3. Boucle a fond de fouille > piquet (kwaliteit); waterleidingen/putten als aardelektrode **verboden** (wel aansluiten op de hoofdequipotentiaal). Kleuren: beschermingsleiding altijd groen-geel, nul altijd (licht)blauw, fase vrij behalve blauw/groengeel — basis voor de NL/BE/FR-kleurentabel (V13).
+## V3 — Aarding · [DUBBEL ONAFHANKELIJK GEVERIFIEERD (twee sessies, 04-07-2026): schema-electrique.net (2024-editie, 2×), Socotec, Legrand, Assurly, materiels-electriques, egpp]
+1. Aardingsweerstand: **< 100 Ω wettelijk maximum**, zo laag mogelijk; advies **< 50 Ω**, bij parafoudre strenger — bronnen adviseren tot **< 10 Ω**. Robs forumwaarde "50 Ω bij parafoudre" valt binnen de adviesband; in H4 de band 50→10 benoemen.
+2. **Robs 2-Ohm-regel bevestigd, met precisering**: ≤ 2 Ω geldt voor de continuïteit van beschermingsleidingen en equipotentiaalverbindingen (ohmmeter-meting), incl. de vrijstellingsregel (douchebak/badkuip/kozijnen niet aansluiten bij continuïteit ≤ 2 Ω of isolatie ≥ 500 kΩ). Niet formuleren als "stopcontact naar aardstrip" sec.
+3. Boucle à fond de fouille verkieslijk boven enkele aardpen; waterleidingen/putten als aardelektrode verboden (wel aan LEP koppelen). Beschermingsleiding altijd groen-geel; nul (licht)blauw; functionele aarde in andere kleur — basis voor V13-kleurentabel.
+4. LES/LEL: verplicht in bad-/doucheruimten; min. 2,5 mm² koper; sinds A5 interconnectie bij het tableau toegestaan; drie toegestane uitvoeringen; verbinding naar hoofdaardklem min. 6 mm².
 
-## V4 — Badkamer (7-701) · [GEVERIFIEERD: Promotelec (gezaghebbend overzicht 2024-serie), Legrand pro, Socotec — 04-07-2026]
-1. **Promotelec expliciet: de volumeregels (0/1/2) zijn in de 2024-serie ONGEWIJZIGD**; ook zwembadvolumes ongewijzigd (wel uitbreiding naar natuurwater). De lijst te verbinden elementen van de LES is aangepast — detail opzoeken bij het schrijven van H6.
-2. Vast: alle badkamercircuits onder 30 mA-ID; LES verplicht; volume cache onder bad/douchebak (geen apparatuur, IP44-uitzondering); stopcontacten alleen hors volume (uitzondering scheerstopcontact TBTS in volume 2); verlichting volume 2 = DCL IPX4. Robs badkamermateriaal blijft daarmee grotendeels geldig.
+## V4 — Badkamerzones (7-701) · [DUBBEL GEVERIFIEERD: Promotelec, Legrand (pro + particulier), Socotec, schema-electrique, Espace Aubade — 04-07-2026]
+1. **Promotelec expliciet: de volumeregels (0/1/2 + hors volume) zijn in de 2024-serie ongewijzigd** (volume 3 al sinds A5 vervallen); zwembadvolumes ongewijzigd, wel uitbreiding naar natuurwater. **De lijst te verbinden LES-elementen is aangepast** — exact detail opzoeken bij het schrijven van H6.
+2. Volume caché onder bad/douchebak: geen apparatuur (IP44-uitzondering achter 30 mA). IP-ladder: volume 0 alleen TBTS IPX7; volume 1 IPX5; volume 2 IPX4 (scheerstopcontact TBTS toegestaan); hors volume vrij. Verlichting volume 2: DCL met IPX4. Stopcontacten alleen hors volume. Bedieningshoogtes 0,90–1,30 m.
+3. Alle badkamercircuits achter 30 mA-ID + LES. Robs badkamermateriaal blijft grotendeels geldig; UK-doorstroomverwarmers passen niet in de volumesystematiek (H6-kader).
 
-## V5 — Circuits, stopcontacten, telregels · [GEVERIFIEERD: normtekst 10.1.3.3 (geciteerd via forumbron) + Schneider, Legrand, IZI by EDF, kasq, Promotelec convergent — 04-07-2026]
-1. **Telregel: socle par socle** — een dubbel blok telt als 2, een driedubbel als 3. De oude soepelere telregel is **sinds A5 geschrapt en in 2024 niet teruggekeerd**. => **Oogst-item 30 (Robs "drievoudig telt voor twee") is VEROUDERD — niet overnemen**, hooguit als historische voetnoot.
-2. Per circuit: max. **8 prises** op 1,5 mm2/16 A of **12 prises** op 2,5 mm2/20 A. Verlichting: min. 2 circuits per woning (uitz. studio), max. 8 lichtpunten per circuit, prises commandees tellen als lichtpunt, DCL verplicht.
-3. Keuken >= 4 m2: **6 niet-gespecialiseerde prises op een eigen circuit 2,5 mm2/20 A** (max. 6 op dat circuit; extra prises via ander circuit), waarvan 4 boven het werkblad (8-25 cm); < 4 m2: 3. Verboden boven spoelbak/kookplaat; hotte-prise >= 1,80 m.
-4. **Minimaal 4 circuits specialises** per woning: 1x kookplaat 32 A/6 mm2 + >= 3x 20 A/2,5 mm2 (oven, vaatwasser, wasmachine ...); studio-uitzondering 3. Wasmachinecircuit onder type A. Verdere specialises indien aanwezig: chauffe-eau, verwarming (per 4.500 W), warmtepomp/airco, VMC, rolluiken (2024: eigen circuit verplicht bij gemotoriseerde volets), EV-laadpunt.
-5. Minima per kamer: sejour 1 per 4 m2 (min. 5, >28 m2: 7, open keuken -8 m2 forfait); slaapkamer 3; overal >= 4 m2 minstens 1; prise naast elk RJ45/tv-punt; hoogtes: as <= 1,30 m, 16 A >= 5 cm, 32 A >= 12 cm. Obturateurs verplicht t/m 32 A; **klauwbevestiging verboden** (alleen schroef).
+## V5 — Circuits, stopcontacten, telregels · [DUBBEL GEVERIFIEERD: normtekst 10.1.3.3 (via forumcitaat), schema-electrique (3 p.), Legrand, Schneider, IZI by EDF, kasq, 123elec, Promotelec — 04-07-2026]
+1. **Telregel per socle** (dubbel blok = 2, driedubbel = 3); de soepelere oude telling is per A5 geschrapt en niet teruggekeerd. ⚠️ **Oogst-item 30 (Robs teltip) definitief VEROUDERD** — alleen als historische voetnoot met correctie.
+2. Circuits prises: max. 8 socles op 1,5 mm²/16 A of 12 op 2,5 mm²/20 A. Verlichting: min. 2 circuits (studio 1), max. 8 punten/circuit (prise commandée telt mee), DCL verplicht (plafonddoos 25 kg).
+3. Keuken ≥ 4 m²: 6 niet-gespecialiseerde prises op eigen circuit 2,5 mm²/20 A (max. 6 op dat circuit; extra via ander circuit), 4 boven werkblad op 8–25 cm; < 4 m²: 3. Verboden boven évier/kookplaat; hotte-prise ≥ 1,80 m, gemarkeerd.
+4. **Minimaal 4 circuits spécialisés**: kookplaat 32 A/6 mm² + ≥ 3× 20 A/2,5 mm² (oven, vaatwasser, wasmachine — wasmachine onder type A); studio-uitzondering 3 (bronvariant "32 A + 2" genoteerd). Indien aanwezig elk eigen circuit: droger, chauffe-eau, verwarming (per 4.500 W), warmtepomp/airco, VMC, **gemotoriseerde rolluiken (2024: eigen circuit)**, EV-laadpunt; koelkast/vriezer aanbevolen.
+5. Minima per vertrek (deel 10 ≈ A5): séjour 1 per 4 m², min. 5, plafond 7 (> 28 m²), open keuken −8 m² forfait; slaapkamer 3; elk vertrek/gang > 4 m²: 1; prise naast RJ45/tv-punt én naast de lichtschakelaar bij de entree; hoogtes as ≤ 1,30 m (advies > 0,40 m), 16 A ≥ 5 cm, 32 A ≥ 12 cm; obturateurs t/m 32 A; klauwbevestiging verboden.
+6. RJ45/communicatie: verplichte uitrusting (arrêté 03-08-2016): 2 accolées in séjour + uitbreiding naar aantal kamers (wachtkabel-alternatief) — bevestigt oogst-item 44.
+7. Bijvangst H7: collectief woongebouw met afgesloten parkeren → minimaal één EV-laadvoorziening verplicht (2,5 mm²/20 A + passende differentieel).
 
 ## V6 — Parafoudre · [DEELS GEVERIFIEERD: Legrand pro/gids 2024 — 04-07-2026]
-1. Verplicht in **AQ2-gebieden** (> 25 onweersdagen/jaar, departementenlijst) conform NF C 15-100-1/-10; **aanbevolen** bij woningen < 50 m van een gebouw met paratonnerre met gevoelige apparatuur.
-2. [INDICATIE — nader verifieren bij Consuel/Promotelec]: aanscherping afstandsregel 30 m -> 10 m in de 2024-serie (een bron). Robs detailregels (aarddraad parafoudre max. 50 cm, auto-protege vs. eigen disjoncteur) apart toetsen bij H3.
+1. **Verplicht in AQ2-gebieden** (> 25 onweersdagen/jaar, departementenlijst) conform NF C 15-100-1/-10; **aanbevolen** < 50 m van gebouw met paratonnerre met gevoelige apparatuur.
+2. [OPEN] Afstandsregel: één bron meldt aanscherping 30 m → 10 m in de 2024-serie; strijdig met Legrands 50 m-formulering → beslechten bij Consuel/Promotelec. Robs detailregels (parafoudre-aarddraad max. 50 cm; auto-protégé vs. eigen disjoncteur) apart toetsen bij H3. Aarde-advies < 10 Ω: zie V3.
 
-## V7 — EV-laadpunt / IRVE · [GEVERIFIEERD: decret 2017-26 (letterlijke uitzonderingsbepaling via IZI by EDF), Engie, Qualit'EnR, Ulys, meerdere IRVE-bronnen — 04-07-2026]
-1. **Installatie > 3,7 kW: uitsluitend door IRVE-gekwalificeerde installateur** (decret n. 2017-26, kwalificatie via Qualifelec/AFNOR; niveaus 1 <= 22 kW basis, 2 <= 22 kW communicerend, 3 > 22 kW DC). Uitzondering: <= 3,7 kW in privewoning niet publiek toegankelijk — maar zelfs voor een prise renforcee geldt: eigen circuit, 30 mA type A, en zonder IRVE-factuur geen TVA 5,5% en risico op verzekeringsweigering.
-2. Normbasis: **NF C 15-100-7-722** (vervangt UTE C 15-722 + fiches); eigen circuit verplicht; differentieel mono: **type A of F**; **tri: type B**.
-3. **Subsidies actueel: het credit d'impot (EUR 500) is per 31-12-2025 gestopt en in 2026 niet verlengd** — declaratie in 2026 alleen nog voor in 2025 betaalde installaties. Resteert: **TVA 5,5%** (alleen met IRVE-installateur) en **prime Advenir** voor coproprietes. Dit wordt een tijdgevoelig blok in H7 met verificatiedatum.
-4. Praktijkkabels (10 mm2 e.d.) zijn installateursdimensionering, geen normclaim — in H7 als indicatief labelen.
+## V7 — EV-laadpunt / IRVE · [GEVERIFIEERD: décret 2017-26 (uitzonderingsbepaling), Engie, Qualit'EnR, Ulys, meerdere IRVE-bronnen — 04-07-2026]
+1. **Installatie > 3,7 kW uitsluitend door IRVE-gekwalificeerde installateur** (décret n° 2017-26; kwalificatie Qualifelec/AFNOR, niveaus 1–3). Uitzondering ≤ 3,7 kW in niet-publiek toegankelijke privéwoning — maar ook een prise renforcée vergt eigen circuit + 30 mA type A, en zonder IRVE-factuur geen TVA 5,5% en risico op verzekeringsweigering.
+2. Normbasis **NF C 15-100-7-722** (vervangt UTE C 15-722): eigen circuit; differentieel mono type A of F; **tri: type B**.
+3. **Subsidies: het crédit d'impôt (500 €) is per 31-12-2025 gestopt, niet verlengd in 2026** (declaratie 2026 alleen voor 2025-betalingen). Resteert: TVA 5,5% (alleen via IRVE-installateur) en prime Advenir (copropriétés). → tijdgevoelig blok in H7 met verificatiedatum.
+4. Kabeldoorsnedes uit de praktijk (10 mm² e.d.) zijn installateursdimensionering, geen normclaim — indicatief labelen.
 
-## V8 — Consuel: attestaties en tarieven · [GEVERIFIEERD: consuel.com (bareme arrete 4-8-2015, +0,64% per 2-9-2025) + vijf convergente secundaire bronnen — 04-07-2026]
-1. Vier attestaties: **geel** (woningen, incl. IRVE in habitat), groen (niet-huishoudelijk/gemeenschappelijke delen), blauw (productie zonder opslag), violet (productie met opslag). Zonnepanelen op een nieuw huis = geel + blauw/violet (twee formulieren, twee visites).
-2. Particulierentarieven metropool, elektronisch (stand jan 2026): **geel +- 144,67 EUR TTC**, groen +- 76 EUR, blauw +- 200 EUR, violet +- 229-230 EUR (bronnen wijken enkele euro's af — bij publicatie exact aflezen van consuel.com). **Contre-visite +- 232 EUR.** Formulier 1 jaar geldig; indienen +- 20 dagen voor gewenste mise en service; particulieren krijgen vrijwel altijd een controlebezoek, bekende professionals meestal niet.
-3. Proces 2026: sinds decret 2024-1122 gaat de gevisieerde attestatie automatisch naar Enedis; vanaf april 2026 staat de norm **NF C 15-100:2024 standaard aangevinkt** in Mon Espace Consuel. Zonder visa geen inbedrijfstelling van de meter.
-4. Kader-materiaal H8: Consuel opgericht 1964, verplicht gesteld per decreet 14-12-1972 na de brand in dancing "5-7" (146 doden) — historische duiding die Robs "waarom die strenge Fransen"-lijn onderbouwt.
-
----
-
-## V3 — Aarding · [GEVERIFIEERD: Legrand-pro, schema-electrique.net (2×, norm-editie aug 2024), materiels-electriques, egpp — convergent, 04-07-2026]
-1. **Aardingsweerstand: < 100 Ω wettelijk maximum**, zo laag mogelijk; advies < 50 Ω en **< 10 Ω bij parafoudre**. (Nuance t.o.v. Robs forumopmerking "50 Ohm is de norm voor parafoudre" — de convergente hedendaagse waarde is 10 Ω-advies; in H4 de actuele waarden aanhouden.)
-2. **Robs 2 Ω-regel bevestigd**: continuïteit van beschermingsleidingen en equipotentiaalverbindingen, gemeten met ohmmeter, ≤ 2 Ω. Ook de vrijstellingsregel (douchebak/badkuip/kozijnen niet aansluiten als continuïteit ≤ 2 Ω of isolatie ≥ 500 kΩ) staat in de norm.
-3. Boucle à fond de fouille verdient de voorkeur boven een enkele aardpen; waterleidingen/putten als aardelektrode verboden (wel aan de LEP koppelen). Beschermingsleiding altijd groen-geel; functionele aarde in een ándere kleur.
-4. LES/LEL: verplicht in bad-/doucheruimten; min. 2,5 mm² koper; sinds A5 mag de interconnectie in woningen bij het tableau; drie toegestane uitvoeringen (direct vanaf tableau van punt naar punt, via toegewijde lasdoos in/naast het lokaal, of gemengd); verbinding naar hoofdaardklem min. 6 mm².
-
-## V4 — Badkamerzones · [GEVERIFIEERD: Legrand (pro + particulier 2026), schema-electrique, Espace Aubade — 04-07-2026]
-1. **Volumes 0, 1, 2 + hors volume** (het oude volume 3 is sinds A5 vervallen) plus het **volume caché** onder bad/douchebak (geen apparatuur; alleen IP44 achter 30 mA toegestaan).
-2. IP-eisen: volume 0 alleen TBTS-verlichting IPX7; volume 1 IPX5; volume 2 IPX4; hors volume vrij. Verlichtingspunt volume 2: DCL met obturator IPX4 of afdekkend IPX4-armatuur. Bedieningshoogtes 0,90–1,30 m (toegankelijkheid).
-3. Alle badkamercircuits achter 30 mA-ID + LES (zie V3). De 7-701 is in de 2024-serie een eigen normdeel — bij het schrijven van H6 de Consuel/Promotelec-weergave van dat deel als eindcheck gebruiken (Socotec meldde "actualisatie natte ruimten" als 2024-wijziging; welke details precies wijzigden nog vaststellen).
-4. Robs doorstroomverwarmer-punt bevestigd in de systematiek: volume 0/1 kent zeer strikte apparaatbeperkingen; UK-stijl douche-doorstromers passen daar niet in (H6-kader).
-
-## V8 — Consuel: soorten, tarieven, zelfaanleg · [GEVERIFIEERD: consuel.com (tariefpagina, barème per arrêté 04-08-2015, +0,64% per 02-09-2025) + vijf convergente secundaire bronnen — 04-07-2026]
-1. **Vier attestations**: geel (woningen, CERFA 12506*03), groen (niet-domestiek/gemeenschappelijke delen, 12507*03), blauw (productie zonder opslag, 15523*01), violet (productie mét opslag, 15524*01). Woning + zonnepanelen = geel én blauw.
-2. **Particulierentarieven (elektronisch, metropool, sinds 02-09-2025)**: geel **144,67 €** (papier 146,15), groen 76,37, blauw 201,17, violet 230,32; **contre-visite bij afkeuring 232,13 €**. Tarieven bij arrêté vastgelegd, landelijk uniform. Verworpen als verouderd: EDF-pagina "~125 €".
-3. **Zelfaanleg is toegestaan en voorzien**: de auteur van de werken (particulier bij auto-construction) vraagt zelf aan en tekent voor conformiteit; particulieren krijgen vrijwel altijd een controlebezoek (pro's steekproefsgewijs — bevestigt Robs weergave én Antons 2013-ervaring). Aanvraag ±20 dagen vóór gewenste inschakeling; blanco formulier 12 maanden geldig; sinds decreet 2024-1122 gaat de gevisieerde attestation automatisch naar Enedis; zonder visa geen inbedrijfstelling van de meter.
-4. Blauw/violet: dossier met onduleur-certificaat NF EN 50549-1/-2, sinds 01-01-2026 ook -10:2023 voor ≤ 36 kVA — detail voor het zonnepanelen-raakvlak in H7/H8.
-
-## V6 (deelresultaat) — Parafoudre
-Legrand-pro (2024-serie): **verplicht** in woningen in risicodepartementen (**zone AQ2**, > 25 onweersdagen/jaar); **aanbevolen** bij woningen < 50 m van een gebouw met paratonnerre met gevoelige apparatuur. Eerdere One-Elec-melding "aanbevolen vanaf 10 m i.p.v. 30 m" spoort daar niet mee (50 m vs 10 m) → V6 blijft open tot Consuel/Promotelec-check; wel al zeker: aarde < 10 Ω-advies en korte aansluitleiding (Robs 50 cm-regel apart toetsen).
+## V8 — Consuel: attestaties, tarieven, zelfaanleg · [DUBBEL GEVERIFIEERD: consuel.com (barème arrêté 04-08-2015, +0,64% per 02-09-2025) + zes secundaire bronnen — 04-07-2026]
+1. Vier attestaties: **geel** 12506*03 (woningen, incl. IRVE in habitat), **groen** 12507*03 (niet-domestiek/gemeenschappelijk), **blauw** 15523*01 (productie zonder opslag), **violet** 15524*01 (met opslag). Woning + zonnepanelen = geel + blauw/violet (twee formulieren).
+2. Particulierentarieven metropool, elektronisch (per 02-09-2025): **geel 144,67 €** (papier 146,15), groen 76,37, blauw 201,17, violet 230,32; **contre-visite 232,13 €**. Barème bij arrêté, landelijk uniform; bij publicatie exact aflezen van consuel.com. Verworpen als verouderd: EDF-pagina "~125 €".
+3. **Zelfaanleg toegestaan en voorzien**: auteur van de werken (particulier bij auto-construction) vraagt aan en tekent; particulieren krijgen vrijwel altijd controlebezoek, bekende pro's steekproefsgewijs. Aanvraag ±20 dagen vooraf; blanco formulier 12 maanden geldig; sinds décret 2024-1122 gaat de gevisieerde attestatie automatisch naar Enedis; vanaf april 2026 staat NF C 15-100:2024 standaard aangevinkt in Mon Espace Consuel. Zonder visa geen inbedrijfstelling.
+4. Blauw/violet-dossier: onduleur-certificaat NF EN 50549-1/-2, sinds 01-01-2026 ook -10:2023 (≤ 36 kVA) — raakvlak H7/H8.
+5. Kadermateriaal H8: Consuel opgericht 1964, verplicht per decreet 14-12-1972 na de brand in dancing "5-7" (146 doden) — historische duiding bij Robs "waarom zo streng"-lijn.
 
 ---
 
-## V5 — Circuits spécialisés, stopcontact-telregels en minima per vertrek · [GEVERIFIEERD: schema-electrique.net (norm-editie aug 2024, 3 pagina's), Legrand, Schneider, IZI by EDF, kasq, 123elec — convergent, 04-07-2026]
-1. **Telregel: per socle** — elk stopcontactvlak telt voor één, ook in dubbele of driedubbele dozen. De oude, soepelere multi-socle-telling is **per Amendement 5 afgeschaft en in de 2024-serie zo gebleven**. ⚠️ **Robs forumtip (oogst-item 30: "drievoudig telt voor twee, neem twee dubbele die elk voor één tellen") is daarmee VEROUDERD** — in het dossier alleen als historische anekdote, met correctie.
-2. **Circuits prises**: max. **8 socles op 1,5 mm²/16 A** of **12 op 2,5 mm²/20 A**. Verlichting: min. 2 circuits per woning (1 bij studio), max. 8 lichtpunten per circuit (prise commandée telt mee), 1,5 mm²/16 A, DCL-aansluiting (plafonddoos 25 kg).
-3. **Keuken**: eigen circuit 2,5 mm²/20 A met **6 niet-gespecialiseerde prises (3 bij < 4 m²), waarvan 4 boven het werkblad op 8–25 cm**; verboden boven évier en kookplaat; hotte-prise als enige daarboven, ≥ 1,80 m, gemarkeerd "hotte"; extra prises boven de 6 mogen op een gewoon circuit.
-4. **Circuits spécialisés (minimum-uitrusting)**: kookplaat/cuisinière **32 A op 6 mm²** + gespecialiseerde circuits 16/20 A op 2,5 mm² voor oven, vaatwasser, wasmachine e.d.; droger, chauffe-eau, verwarming, klimaat en EV-laadpunt elk een eigen circuit zodra aanwezig; koelkast/vriezer eigen circuit aanbevolen, niet verplicht. Bronvariatie in de minimumtelling ("32 A + 2" vs. "32 A + 3" bij niet-gemeubileerde oplevering; studio's mogen reduceren) → exacte formulering in H6 conform Consuel-weergave van deel 10, met de variant benoemd.
-5. **Minima per vertrek** (deel 10, ongewijzigd t.o.v. A5 volgens kasq): séjour 1 per 4 m² met min. 5 en plafond 7 (> 28 m²); open keuken: 8 m² forfaitair van séjour-oppervlak af; slaapkamer 3; elk vertrek/gang > 4 m²: 1; prise naast de lichtschakelaar bij de entree; hoogtes: as ≤ 1,30 m (advies > 0,40 m), min. 5 cm (16 A) / 12 cm (32 A); obturateurs verplicht t/m 32 A; klauwbevestiging verboden.
-6. **RJ45/communicatie**: verplichte uitrusting o.g.v. arrêté 03-08-2016 — 2 accolées in het séjour, extra naar gelang aantal kamers (met wachtkabel-alternatief). Bevestigt Robs "bedraad netwerk verplicht"-lijn (oogst-item 44); details in H8/H5.
-7. Bijvangst H7: collectieve woongebouwen met afgesloten parkeren: minimaal één EV-laadvoorziening verplicht (2,5 mm²/20 A met passende differentieelbeveiliging).
-
----
-
-## Openstaande verificatiepunten (volgorde van uitvoering)
-- V6-rest: parafoudre 10m-afstandsregel + Robs detailregels (aarddraad <=50 cm) bij Consuel/Promotelec
+## Openstaande verificatiepunten
+- V6 afronden: afstandsregel 50 m vs 10 m beslechten (Consuel/Promotelec) + Robs 50 cm-aarddraadregel
 - V10 Linky: uitrolstatus, functies, weigeraars-regeling
 - V11 Puissance souscrite-reeksen mono/tri, tariefopties (Base/HP-HC/Tempo) + heures-creuses-herziening CRE, kosten ombouw tri↔mono (Enedis Catalogue des Prestations)
 - V12 Brandcijfer elektra-oorzaak (ONSE/Promotelec) voor H0
 - V13 Draadkleuren en -diktes NL (NEN 1010) / BE (AREI 2020) / FR — voor het vergelijkingsblok
-- V14 "Mag ik zelf aanleggen" NL/BE/FR juridisch
+- V14 "Mag ik zelf aanleggen" NL/BE/FR juridisch (FR-deel gedekt door V8)
+
+## Werkafspraak (n.a.v. dubbelloop 04-07-2026)
+Op 04-07 hebben twee Claude-instanties onafhankelijk aan dit bestand gewerkt (commits fc8d688/eee6e98 om 08:06 en 06260c1/a4120af om 08:41), met dubbele V-blokken als gevolg; per deze commit samengevoegd. De inhoud bleek convergent — feitelijk een onbedoelde dubbelcheck — maar dit mag niet nog eens: **één schrijver per bestand per dagdeel; de claude.ai-sessie doet de verificatie (V-punten), Claude Code raakt /verificatie/ niet aan tot de bouwprompt dat expliciet regelt.**
+
