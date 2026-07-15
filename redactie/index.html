@@ -2038,7 +2038,7 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
 <script>
 (function(){
   // Centrale opslag (optioneel): vul beide waarden en elke bewaarde opmerking gaat ook naar Supabase.
-  const SUPABASE={url:'', anonKey:'', tabel:'redactie_opmerkingen', dossier:'elektriciteit'};
+  const SUPABASE={url:'https://qhilltwegdwygejwoykt.supabase.co', anonKey:'sb_publishable_QU1KVv9YkvW3EY-xM1ff9g_Y0puM06i', tabel:'redactie_opmerkingen', dossier:'elektriciteit'};
   async function syncSupabase(blok,o){
     if(!SUPABASE.url||!SUPABASE.anonKey)return false;
     try{const r=await fetch(SUPABASE.url+'/rest/v1/'+SUPABASE.tabel,{method:'POST',
