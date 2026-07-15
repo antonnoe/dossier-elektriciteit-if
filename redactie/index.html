@@ -125,6 +125,23 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
 #kopieer{background:#fff;color:var(--bordeaux)}
 .balk button:hover{opacity:.9}
 
+#paneel{position:fixed;inset:0;z-index:60;background:rgba(42,38,34,.45);display:none}
+#paneel.open{display:block}
+#paneel .binnen{position:absolute;right:0;top:0;bottom:0;width:min(480px,92vw);background:var(--papier);
+  box-shadow:-8px 0 24px rgba(0,0,0,.18);padding:1.2rem 1.4rem;overflow-y:auto}
+#paneel h2{margin-top:.2em;font-size:1.15em}
+#paneel .hfd{font-family:Poppins,sans-serif;font-weight:600;font-size:.78rem;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--b80);margin:1.4em 0 .5em}
+#paneel .item{border:1px solid var(--b15);border-left:3px solid var(--bordeaux);border-radius:0 6px 6px 0;
+  padding:.55em .8em;margin:.5em 0;cursor:pointer;background:#fff}
+#paneel .item:hover{background:var(--b04)}
+#paneel .item .frag{font-size:.78rem;color:var(--grijs);display:block;margin-bottom:.2em}
+#paneel .sluit{float:right;border:1.5px solid var(--b15);background:#fff;color:var(--bordeaux);
+  border-radius:6px;font-family:Poppins,sans-serif;font-weight:700;cursor:pointer;padding:.3em .7em}
+#paneel .leeg{color:var(--grijs);font-size:.9em}
+.flits{animation:flits 1.6s ease}
+@keyframes flits{0%,60%{background:var(--b08);box-shadow:-4px 0 0 var(--bordeaux)}100%{background:transparent}}
+@media (prefers-reduced-motion: reduce){.flits{animation:none;background:var(--b08)}}
 .intro{background:var(--b04);border-radius:10px;padding:1.4rem 1.6rem;margin-bottom:2.5rem}
 .intro h1{font-size:1.5em;margin-top:0}
 .intro p{margin:.5em 0}
@@ -2008,9 +2025,15 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
 
 <footer><div class="balk">
   <div class="teller" id="teller">Nog geen opmerkingen.</div>
+  <button id="overzicht">Overzicht</button>
   <button id="kopieer">Kopieer alles</button>
   <button id="verstuur">Opmerkingen versturen</button>
 </div></footer>
+<div id="paneel" role="dialog" aria-label="Overzicht van opmerkingen"><div class="binnen">
+  <button class="sluit" id="paneelsluit">Sluiten</button>
+  <h2>Gemaakte opmerkingen</h2>
+  <div id="paneelinhoud"></div>
+</div></div>
 
 <script>
 (function(){
@@ -2142,6 +2165,34 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
       alert('De opmerkingen zijn opgeslagen als "redactieopmerkingen.txt" (map Downloads). Er opent een e-mail; het bestand als bijlage toevoegen.');
     }
   };
+  const paneel=document.getElementById('paneel');
+  function toonPaneel(){
+    const d=lees();const inh=document.getElementById('paneelinhoud');inh.innerHTML='';
+    const ks=Object.keys(d);
+    if(!ks.length){inh.innerHTML='<p class="leeg">Nog geen opmerkingen. Klik op een alinea in de tekst om er een te plaatsen.</p>';}
+    else{
+      ks.sort((a,b)=>{const[na,ia]=a.split('-');const[nb,ib]=b.split('-');return na===nb?(+ia)-(+ib):na.localeCompare(nb)});
+      let vorig='';
+      ks.forEach(k=>{
+        const o=d[k];
+        if(o.hoofdstuk!==vorig){vorig=o.hoofdstuk;const h=document.createElement('div');h.className='hfd';h.textContent=o.hoofdstuk;inh.appendChild(h)}
+        const it=document.createElement('div');it.className='item';
+        const frag=document.createElement('span');frag.className='frag';frag.textContent='\u201E\u2026'+(o.fragment||'')+'\u2026\u201D';
+        it.appendChild(frag);it.appendChild(document.createTextNode(o.tekst));
+        it.onclick=()=>{
+          paneel.classList.remove('open');
+          const doel=document.querySelector('[data-blok="'+k+'"]');
+          if(doel){doel.scrollIntoView({behavior:'smooth',block:'center'});
+            doel.classList.remove('flits');void doel.offsetWidth;doel.classList.add('flits');}
+        };
+        inh.appendChild(it);
+      });
+    }
+    paneel.classList.add('open');
+  }
+  document.getElementById('overzicht').onclick=toonPaneel;
+  document.getElementById('paneelsluit').onclick=()=>paneel.classList.remove('open');
+  paneel.addEventListener('click',e=>{if(e.target===paneel)paneel.classList.remove('open')});
   document.body.addEventListener('click',e=>{if(!e.target.closest('.editor,[data-blok]'))sluitEditors()});
 })();
 </script>
