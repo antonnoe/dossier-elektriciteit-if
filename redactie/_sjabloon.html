@@ -170,12 +170,23 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
   // Centrale opslag (optioneel): vul beide waarden en elke bewaarde opmerking gaat ook naar Supabase.
   const SUPABASE={url:'', anonKey:'', tabel:'redactie_opmerkingen', dossier:'elektriciteit'};
   async function syncSupabase(blok,o){
-    if(!SUPABASE.url||!SUPABASE.anonKey)return;
-    try{await fetch(SUPABASE.url+'/rest/v1/'+SUPABASE.tabel,{method:'POST',
+    if(!SUPABASE.url||!SUPABASE.anonKey)return false;
+    try{const r=await fetch(SUPABASE.url+'/rest/v1/'+SUPABASE.tabel,{method:'POST',
       headers:{'Content-Type':'application/json','apikey':SUPABASE.anonKey,'Authorization':'Bearer '+SUPABASE.anonKey,'Prefer':'return=minimal'},
       body:JSON.stringify({dossier:SUPABASE.dossier,blok:blok,hoofdstuk:o?o.hoofdstuk:null,fragment:o?o.fragment:null,opmerking:o?o.tekst:'[verwijderd]'})});
-    }catch(e){/* offline of niet geconfigureerd: lokaal blijft leidend */}
+      return r.ok;
+    }catch(e){return false}
   }
+  // inhaal-sync: alles wat lokaal staat en nog niet centraal is, bij laden uploaden
+  (async function(){
+    if(!SUPABASE.url||!SUPABASE.anonKey)return;
+    const d=lees();let gewijzigd=false;
+    for(const k of Object.keys(d)){
+      if(d[k].gesynct)continue;
+      if(await syncSupabase(k,d[k])){d[k].gesynct=true;gewijzigd=true}
+    }
+    if(gewijzigd)schrijf(d);
+  })();
   const SLEUTEL='dossier-elektra-rob-v1';
   const lees=()=>{try{return JSON.parse(localStorage.getItem(SLEUTEL)||'{}')}catch(e){return{}}};
   const schrijf=d=>localStorage.setItem(SLEUTEL,JSON.stringify(d));
@@ -234,7 +245,9 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
       const all=lees();
       if(t)all[el.dataset.blok]={tekst:t,hoofdstuk:hoofdstukVan(el),fragment:el.textContent.trim().slice(0,110),tijd:new Date().toISOString()};
       else delete all[el.dataset.blok];
-      schrijf(all);box.remove();toonChip(el);telMee();syncSupabase(el.dataset.blok, t?all[el.dataset.blok]:null);
+      schrijf(all);box.remove();toonChip(el);telMee();
+      if(t)syncSupabase(el.dataset.blok, all[el.dataset.blok]).then(ok=>{if(ok){const d=lees();if(d[el.dataset.blok]){d[el.dataset.blok].gesynct=true;schrijf(d)}}});
+      else syncSupabase(el.dataset.blok, null);
     };
     const weg=box.querySelector('.weg');
     if(weg)weg.onclick=()=>{const all=lees();delete all[el.dataset.blok];schrijf(all);box.remove();toonChip(el);telMee();};
