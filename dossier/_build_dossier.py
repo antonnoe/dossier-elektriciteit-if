@@ -71,6 +71,17 @@ def md_to_html(md: str, chap: str) -> str:
                 out.append(f"<!-- ONTBREKENDE SVG: {m.group(1)} -->")
             i += 1; continue
 
+        # HTML-fragment inline marker (los blok uit /blokken/, verbatim doorgegeven)
+        m = re.match(r"<!--\s*HTML-INLINE:\s*(\S+)\s*-->", stripped)
+        if m:
+            flush_bq(); close_lists(); close_table()
+            frag = REPO / "blokken" / m.group(1)
+            if frag.exists():
+                out.append(frag.read_text())
+            else:
+                out.append(f"<!-- ONTBREKEND BLOK: {m.group(1)} -->")
+            i += 1; continue
+
         # anker-commentaar overslaan (id zit al op de section)
         if re.match(r"<!--\s*anker:", stripped):
             i += 1; continue

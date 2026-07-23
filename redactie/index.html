@@ -443,6 +443,95 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
 <h3>Linky is het uitgangspunt</h3>
 <p>Het oorspronkelijke hoofdstuk heette "Linky komt eraan". Dat station zijn we gepasseerd: <strong>Linky is de operationele standaard</strong> van het Franse net. De actuele heures-creuses-hervorming (zie het tijdgevoelige blok) wordt door Enedis volledig op afstand doorgevoerd, inclusief het meeschakelen van de <em>contacteur jour/nuit</em> voor de boiler; een wissel van tariefoptie is gratis mét Linky tegenover 56,72 € zonder [GEVERIFIEERD: Enedis/service-public.gouv.fr, 04-07-2026]. De stand van de uitrol: <strong>circa 95% van de huishoudens, 37,6 miljoen meters</strong> (Enedis, persbericht feb 2026). Wie de meter blijft weigeren betaalt sinds 01-08-2025 (TURPE 7) een vaste beheerbijdrage van <strong>6,48 € HT per twee maanden</strong>, plus <strong>4,14 € HT</strong> extra per twee maanden wanneer langer dan een jaar geen meterstand is doorgegeven; alleen bij technische onmogelijkheid vervallen deze kosten. Wettelijke basis van de uitrolplicht: art. L341-4 Code de l'énergie [GEVERIFIEERD: Enedis + CRE-deliberatie 2025-78, 04-07-2026].</p>
 <p>Wat er voor de klusser verandert, werd al scherp beschreven toen de meter nog nieuw was: de oude thermisch-magnetische <em>disjoncteur de branchement</em> verdroeg een overbelasting van tientallen procenten soms een uur lang en haalde onverstoorbaar de schouders op over de aanlooppiek van een wasmachine of waterkoker. De elektronica van Linky reageert veel sneller en bewaakt de puissance souscrite "met overgave" . Wie na plaatsing van een Linky merkt dat het huis er vaker uitklapt dan voorheen, is dus niet gek — de marge van de oude techniek is weg. De handbediende hoofdschakelaar én de 500 mA-aardlekfunctie van de DB blijven overigens gewoon bestaan (hoofdstuk 2).</p>
+<!-- BLOK: metergeneraties — nieuw materiaal (geen ROB-brontekst). Self-contained fragment: eigen scoped <style>, alle selectors onder .if-dossier-wrapper, prefix mg-. Wordt inline verwerkt in dossier/dossier-elektriciteit.html én redactie/index.html via de HTML-INLINE-marker. -->
+<div class="if-dossier-wrapper">
+<style>
+.if-dossier-wrapper .mg-blok{font-family:Mulish,sans-serif;line-height:1.8em;color:#2a2622;margin:2.2em 0;}
+.if-dossier-wrapper .mg-blok h3.mg-titel{font-family:Poppins,sans-serif;color:#800000;font-size:1.35em;line-height:1.3em;margin:0 0 .5em;padding-top:.4em;border-top:3px solid rgba(128,0,0,0.80);}
+.if-dossier-wrapper .mg-intro{font-family:Mulish,sans-serif;line-height:1.8em;margin:0 0 1.2em;}
+.if-dossier-wrapper .mg-meters{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1em;margin:1.4em 0;}
+.if-dossier-wrapper .mg-meter{border:1px solid rgba(128,0,0,0.20);border-radius:8px;padding:1em;background:rgba(128,0,0,0.03);}
+.if-dossier-wrapper .mg-meter .mg-nummer{font-family:Poppins,sans-serif;display:inline-grid;place-items:center;width:1.9em;height:1.9em;border-radius:50%;background:#800000;color:#ffffff !important;font-weight:700;margin-bottom:.5em;}
+.if-dossier-wrapper .mg-meter h4{font-family:Poppins,sans-serif;color:#5a0000;font-size:1.02em;margin:.2em 0 .3em;}
+.if-dossier-wrapper .mg-meter .mg-tech{font-family:Poppins,sans-serif;font-size:.72em;letter-spacing:.08em;text-transform:uppercase;color:rgba(128,0,0,0.80);display:block;margin-bottom:.5em;}
+.if-dossier-wrapper .mg-meter p{margin:0;font-size:.92em;line-height:1.55em;}
+.if-dossier-wrapper .mg-meter.mg-actueel{background:#800000;color:#ffffff !important;border-color:#800000;}
+.if-dossier-wrapper .mg-meter.mg-actueel h4,.if-dossier-wrapper .mg-meter.mg-actueel .mg-tech,.if-dossier-wrapper .mg-meter.mg-actueel p{color:#ffffff !important;}
+.if-dossier-wrapper .mg-meter.mg-actueel .mg-nummer{border:2px solid #ffffff;color:#ffffff !important;}
+.if-dossier-wrapper .mg-beeld{margin:1.6em 0;}
+.if-dossier-wrapper .mg-beeld img{max-width:100%;height:auto;display:block;border:1px solid rgba(128,0,0,0.15);border-radius:6px;}
+.if-dossier-wrapper .mg-beeld figcaption{font-size:.85em;color:#6b635c;margin-top:.6em;line-height:1.5em;}
+.if-dossier-wrapper .mg-feiten{margin:1.4em 0;padding:1em 1.3em;background:rgba(128,0,0,0.04);border-left:4px solid rgba(128,0,0,0.80);border-radius:0 6px 6px 0;}
+.if-dossier-wrapper .mg-feiten h4{font-family:Poppins,sans-serif;color:#5a0000;font-size:1.02em;margin:0 0 .5em;}
+.if-dossier-wrapper .mg-feiten ul{margin:0 0 0 1.2em;padding:0;}
+.if-dossier-wrapper .mg-feiten li{margin:.35em 0;line-height:1.6em;}
+.if-dossier-wrapper .mg-openpunten{margin:1.6em 0;padding:.9em 1.2em;border:1.5px solid rgba(128,0,0,0.40);border-radius:8px;background:#ffffff;}
+.if-dossier-wrapper .mg-openpunten .vraaglabel{display:block;font-family:Poppins,sans-serif;font-weight:700;font-size:.75em;letter-spacing:.12em;text-transform:uppercase;color:#800000;margin-bottom:.4em;}
+.if-dossier-wrapper .mg-openpunten ul{margin:.3em 0 0 1.2em;padding:0;}
+.if-dossier-wrapper .mg-openpunten li{margin:.35em 0;line-height:1.6em;}
+.if-dossier-wrapper .mg-peildatum{font-size:.82em;color:#6b635c;font-style:italic;margin:1em 0 0;}
+</style>
+<div class="mg-blok">
+<h3 class="mg-titel">Van draaischijf naar chip: wat er in uw Franse meterkast hangt</h3>
+
+<p class="mg-intro">In een Franse meterkast kunnen vier heel verschillende toestellen hangen, die samen ruim honderd jaar meettechniek beslaan. Ze verschillen niet alleen in uiterlijk, maar in de manier waaróp ze meten — vier meters, drie meettechnieken. Wie weet welke van de vier bij hem hangt, begrijpt meteen waarom de ene meter geduldig is en de andere onverbiddelijk.</p>
+
+<div class="mg-meters">
+  <div class="mg-meter">
+    <span class="mg-nummer">1</span>
+    <span class="mg-tech">Inductie</span>
+    <h4>De draaischijf</h4>
+    <p>De klassieke elektromechanische meter (compteur à disque, type Ferraris): een aluminium schijf die sneller draait naarmate u meer verbruikt, met een telwerk erachter. Geen elektronica, geen communicatie — de meteropnemer kwam langs.</p>
+  </div>
+  <div class="mg-meter">
+    <span class="mg-nummer">2</span>
+    <span class="mg-tech">Statisch-elektronisch</span>
+    <h4>De elektronische meter</h4>
+    <p>De eerste digitale generatie (compteur électronique): meet statisch, zonder bewegende delen, en toont het verbruik op een display. Nog altijd zonder communicatie op afstand — de stand werd afgelezen of doorgegeven.</p>
+  </div>
+  <div class="mg-meter mg-actueel">
+    <span class="mg-nummer">3</span>
+    <span class="mg-tech">Communicerend (CPL)</span>
+    <h4>Linky G1</h4>
+    <p>De eerste communicerende generatie: meet statisch én stuurt de standen over het stroomnet naar Enedis via CPL (courant porteur en ligne). Hiermee vervalt de meteropnemer en gaan tariefwissels en het bewaken van de puissance souscrite op afstand.</p>
+  </div>
+  <div class="mg-meter mg-actueel">
+    <span class="mg-nummer">4</span>
+    <span class="mg-tech">Communicerend (CPL)</span>
+    <h4>Linky G3</h4>
+    <p>De huidige communicerende generatie: dezelfde statische meting, maar met een robuustere CPL-verbinding over een breder frequentiebereik. Dit is de meter die vandaag standaard wordt geplaatst.</p>
+  </div>
+</div>
+
+<figure class="mg-beeld">
+  <img src="oogst/beeldarchief/4-generaties-elektriciteitsmeters.png" alt="Vier generaties Franse elektriciteitsmeters naast elkaar: de elektromechanische draaischijf, de elektronische meter, de Linky G1 en de Linky G3.">
+  <figcaption>Vier generaties, drie meettechnieken — van de Ferraris-draaischijf via de elektronische meter tot de communicerende Linky (G1 en G3).</figcaption>
+</figure>
+
+<div class="mg-feiten">
+  <h4>Cijfers en juridische lijn</h4>
+  <ul>
+    <li><strong>Uitrol:</strong> circa 95% van de huishoudens is aangesloten; dat komt neer op 37,6 miljoen meters.</li>
+    <li><strong>Weigeraars sinds 1 augustus 2025 (TURPE 7):</strong> een vaste beheerbijdrage van € 6,48 excl. btw per twee maanden, plus € 4,14 excl. btw per twee maanden wanneer langer dan een jaar geen meterstand is doorgegeven (grondslag: CRE-beraadslaging 2025-78).</li>
+    <li><strong>Juridische lijn van de uitrolplicht:</strong> Europese richtlijn 2009/72/EG van 13 juli 2009, in Frankrijk uitgewerkt in het decreet van 31 augustus 2010 en verankerd in de wet van 17 augustus 2015 (artikel 7).</li>
+    <li><strong>Techniek van de CPL-communicatie:</strong> Linky G3 werkt in de band 35,9–90,6 kHz; Linky G1 op 63,3 en 74 kHz. De aansluitklemmen van de meter zijn geschikt tot 90 A.</li>
+  </ul>
+</div>
+
+<div class="mg-openpunten vraag">
+  <span class="vraaglabel">Open punt</span>
+  De volgende gegevens rond de proef- en invoeringsfase — en de discussie over gezondheid, brand en privacy — zijn nog niet uit de officiële stukken hard te maken en staan hier als openstaande claim; aanvulling of bronverwijzing welkom.
+  <ul>
+    <li>Circa 300.000 proefmeters zijn in de aanloop uitgezet in de regio Lyon en in het departement Indre-et-Loire.</li>
+    <li>Tijdens die proef zouden 8 toestellen gesmolten zijn.</li>
+    <li>Het ANSES-advies van 7 juni 2017 over de blootstelling gaat over de CPL-frequenties hierboven; de precieze conclusie en reikwijdte moeten nog tegen de primaire bron worden gelegd.</li>
+    <li>De vragen over brandveiligheid en over de fijnmazigheid van de verbruiksgegevens (privacy) horen bij dit blok, maar zijn hier bewust niet als vaststaand gepresenteerd.</li>
+  </ul>
+</div>
+
+<p class="mg-peildatum">Feiten gecontroleerd op 23 juli 2026.</p>
+</div>
+</div>
 <h3>Puissance souscrite: het abonnement bepaalt uw plafond</h3>
 <figure class="rob"><figcaption>Rob van der Meulen · brontekst, letterlijk overgenomen</figcaption><blockquote>
 <p>Elektriciteitsaansluitingen in Frankrijk kennen altijd een maximaal af te nemen vermogen dat wordt bepaald door het abonnement, de zogenaamde puissance souscrite. Als u meer vermogen afneemt dan slaat de hoofdschakelaar uit en zit het gehele huishouden zonder stroom. Niet fijn, zeker niet als de hoofdschakelaar ergens ver weg buiten in een kastje zit.</p>
@@ -2072,7 +2161,7 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
   document.querySelectorAll('main section').forEach(sec=>{
     const h=sec.id;
     let i=0;
-    sec.querySelectorAll(':scope > p, :scope > ul, :scope > ol, :scope > table, :scope > blockquote, :scope figure.rob, :scope figure.schema, :scope .vraag, :scope .erfgoedkaart, :scope > h2, :scope > h3').forEach(el=>{
+    sec.querySelectorAll(':scope > p, :scope > ul, :scope > ol, :scope > table, :scope > blockquote, :scope figure.rob, :scope figure.schema, :scope .vraag, :scope .erfgoedkaart, :scope > h2, :scope > h3, :scope .mg-blok > *').forEach(el=>{
       if(el.classList.contains('eyebrow'))return;
       el.dataset.blok=h+'-'+(i++);
     });

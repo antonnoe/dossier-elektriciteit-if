@@ -24,6 +24,13 @@ def svg_figuur(m):
     svg = re.sub(r'(<svg[^>]*?)\s(width|height)="[^"]*"', r'\1', svg, count=4)
     return f'<figure class="schema">{svg}<figcaption>{bijschrift}</figcaption></figure>'
 
+def html_inline(m):
+    naam = m.group(1).strip()
+    pad = H('blokken', naam)
+    if not os.path.exists(pad):
+        return f'<div class="notitie">[blok ontbreekt: {naam}]</div>'
+    return open(pad).read()
+
 def vraagblok(m):
     binnen = re.sub(r'^NIET GEVERIFIEERD[ \u2014:\-]*', '', m.group(1)).strip() or 'zie de omringende tekst'
     binnen = binnen.replace('<', '&lt;')
@@ -44,6 +51,7 @@ def hoofdstuk_html(pad):
     t = re.sub(r'\[(NIET GEVERIFIEERD[^\]]*)\]', vraagblok, t)
     body = markdown.markdown(t, extensions=['tables'])
     body = re.sub(r'<!--\s*SVG-INLINE:\s*([^>]+?)\s*-->', svg_figuur, body)
+    body = re.sub(r'<!--\s*HTML-INLINE:\s*([^>]+?)\s*-->', html_inline, body)
     # gele kaarten: naam hoort in het blok (redactieregel Anton 05-07-2026)
     body = re.sub(
         r'(<!--\s*ROB\s*-->\s*)?<blockquote>(.*?)</blockquote>(\s*<!--\s*/?ROB\s*-->)?',

@@ -225,7 +225,7 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
   document.querySelectorAll('main section').forEach(sec=>{
     const h=sec.id;
     let i=0;
-    sec.querySelectorAll(':scope > p, :scope > ul, :scope > ol, :scope > table, :scope > blockquote, :scope figure.rob, :scope figure.schema, :scope .vraag, :scope .erfgoedkaart, :scope > h2, :scope > h3').forEach(el=>{
+    sec.querySelectorAll(':scope > p, :scope > ul, :scope > ol, :scope > table, :scope > blockquote, :scope figure.rob, :scope figure.schema, :scope .vraag, :scope .erfgoedkaart, :scope > h2, :scope > h3, :scope .mg-blok > *').forEach(el=>{
       if(el.classList.contains('eyebrow'))return;
       el.dataset.blok=h+'-'+(i++);
     });
