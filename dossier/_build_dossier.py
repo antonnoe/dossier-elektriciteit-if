@@ -5,10 +5,12 @@ Eenvoudige, doelgerichte markdown->HTML-conversie (alleen de constructies die
 in de hoofdstukken voorkomen): koppen, tabellen, lijsten, blockquotes,
 bold/italic, HTML-commentaren (blijven staan), SVG-INLINE-markers.
 """
-import re, html
+import re, html, sys
 from pathlib import Path
 
 REPO = Path(str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(REPO))
+import bronnen_render  # gedeelde presentatie van het bronnenregister
 HFDST = [f"h{i}.md" for i in range(10)]
 
 CHAPTER_META = {
@@ -197,11 +199,15 @@ def main():
         body = md_to_html(md, key)
         parts.append(f'<section id="{anchor}">')
         parts.append(body)
+        if key == "h1":
+            # bronnenoverzicht onder aan het hoofdstuk (voorlopig alleen H1)
+            parts.append(bronnen_render.panel_html(redactie=False))
         parts.append(f'<p class="de-top"><a href="#dossier-elektriciteit">&uarr; naar boven</a></p>')
         parts.append("</section>")
 
     parts.append("</div>")
     html_out = "\n".join(parts)
+    html_out = bronnen_render.vervang_markers(html_out)  # {{bron:Bxx}} -> klikbare markers
     dest = REPO / "dossier" / "dossier-elektriciteit.html"
     dest.write_text(html_out)
     # sanity checks

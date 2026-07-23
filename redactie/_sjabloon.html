@@ -232,7 +232,7 @@ footer{position:fixed;bottom:0;left:0;right:0;z-index:50;background:#fff;
   });
 
   const data=lees();
-  const hoofdstukVan=el=>{const s=el.closest('section');const kop=s.querySelector('h1');return (s.id==='erfgoed'?'Galerij':'H'+s.id.slice(1))+' — '+(kop?kop.textContent:'')};
+  const hoofdstukVan=el=>{const s=el.closest('section');const kop=s.querySelector('h1');return (s.id==='erfgoed'?'Galerij':s.id==='bronnen'?'Naslag':'H'+s.id.slice(1))+' — '+(kop?kop.textContent:'')};
 
   function toonChip(el){
     const oud=el.parentNode.querySelector('.opmerking-chip[data-voor="'+el.dataset.blok+'"]');

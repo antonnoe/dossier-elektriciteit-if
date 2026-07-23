@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Bouwt redactie/index.html uit hoofdstukken/*.md + redactie/_sjabloon.html.
 Draaien vanuit de repo-root of vanuit redactie/: python3 redactie/_build.py"""
-import re, glob, os, markdown
+import re, glob, os, sys, markdown
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, REPO)
+import bronnen_render  # gedeelde presentatie van het bronnenregister
 H = lambda *p: os.path.join(REPO, *p)
 
 def svg_figuur(m):
@@ -73,8 +75,13 @@ def main():
     secties = [hoofdstuk_html(f) for f in sorted(glob.glob(H('hoofdstukken', 'h*.md')))]
     inhoud = ''.join(f'<section id="h{nr}"><p class="eyebrow">Hoofdstuk {nr}</p><h1>{titel}</h1>{body}</section>'
                      for nr, titel, body in secties)
+    # bronnenoverzicht boven aan de pagina; regels zijn opmerkbaar via mg-deel-haak
+    register = (f'<section id="bronnen"><p class="eyebrow">Naslag</p><h1>Bronnenregister</h1>'
+                f'{bronnen_render.panel_html(redactie=True)}</section>')
+    inhoud = register + inhoud
     sj = open(H('redactie', '_sjabloon.html')).read()
     uit = sj.replace('{{INHOUD}}', inhoud)
+    uit = bronnen_render.vervang_markers(uit)  # {{bron:Bxx}} -> klikbare markers
     open(H('redactie', 'index.html'), 'w').write(uit)
     print(f'OK: index.html {len(uit)//1024} kB; {uit.count("<svg")} svg; '
           f'{uit.count("figure class=\"rob\"")} gele kaarten; {uit.count("tabelwrap")//2} tabellen gewrapt; '
