@@ -1,0 +1,688 @@
+{
+  "hoofdstuk": "H1 — Aansluiting, meter en contract",
+  "gegenereerd": "2026-07-23",
+  "opmerking_bij_leestaak": "Zuivere inventaris; niets geverifieerd of gewijzigd. in_rob_blok = true betekent dat (minstens) één vindplaats binnen een met <!-- ROB --> gemarkeerde blockquote (gele kaart) valt: regels 23, 26, 31, 55 in hoofdstukken/h1.md. Inline <!-- ROB -->-markeringen in lopende tekst (regels 42, 48, 66, 72) zijn herkomsttags, geen blok; die staan in het context-veld vermeld maar zetten in_rob_blok niet op true, tenzij de claim elders óók in een ROB-blockquote staat. zichtbaar_voor_lezer = true voor alle claims: de volledige H1-tekst, beide tabellen en het inline-blok komen in dossier/dossier-elektriciteit.html terecht (HTML-commentaren zoals ROB-markers en ABONNEE-BLOK blijven onzichtbaar). Het blok komt uit blokken/blok-metergeneraties.html en is expliciet nieuw materiaal (geen ROB).",
+  "claims": [
+    {
+      "id": "H1-C01",
+      "type": "specificatie",
+      "claim": "monophasé = één fase van 230 V; triphasé = drie fasen met 400 V ertussen (230 V per fase t.o.v. nul)",
+      "context": "\"230 V\" = monophasé, \"3 × 230\" = triphasé (r11); \"één fase van 230 V, of drie fasen met 400 V ertussen\" (r17); \"230 Volt ... tussen die fasedraden ... 400 Volt\" (r23, ROB)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 11,
+      "in_rob_blok": true,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 11, "in_rob_blok": false},
+        {"bestand": "hoofdstukken/h1.md", "regel": 17, "in_rob_blok": false},
+        {"bestand": "hoofdstukken/h1.md", "regel": 23, "in_rob_blok": true}
+      ]
+    },
+    {
+      "id": "H1-C02",
+      "type": "specificatie",
+      "claim": "bij triphasé slaat de boel uit zodra op één fase 15 ampère wordt overschreden; bij monophasé van dezelfde 9 kVA pas boven 45 ampère totaal",
+      "context": "\"de grens van 15 ampère ... Bij een monophasé-aansluiting van dezelfde puissance souscrite van 9 kVA kom je pas in de gevarenzone boven 45 ampère totaal\" (r31, ROB); herhaald r72 (bullet, inline ROB)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 31,
+      "in_rob_blok": true,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 31, "in_rob_blok": true},
+        {"bestand": "hoofdstukken/h1.md", "regel": 72, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C03",
+      "type": "normreferentie",
+      "claim": "vanaf de uitgang van de hoofdschakelaar zijn de NF C 15-100-regels van toepassing",
+      "context": "\"Daar begint de verantwoordelijkheid van de eigenaar en zijn de NF C 15-100-regels van toepassing.\" (r26, ROB)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 26,
+      "in_rob_blok": true,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C04",
+      "type": "specificatie",
+      "claim": "minder dan 30 meter van de erfgrens = branchement type 1 (binnenshuis); meer dan 30 meter = type 2 (kastje aan de weg)",
+      "context": "\"staat het huis minder dan 30 meter van de erfgrens ... Bij meer dan 30 meter staan meter en hoofdschakelaar buiten\" (r42; inline <!-- ROB -->-tag in de zin)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 42,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C05",
+      "type": "bedrag",
+      "claim": "een wissel van tariefoptie is gratis mét Linky tegenover 56,72 € zonder",
+      "context": "\"een wissel van tariefoptie is gratis mét Linky tegenover 56,72 € zonder\" (r46); \"Tariefoptie-wissel: gratis met Linky, 56,72 € zonder.\" (r112)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 46,
+      "in_rob_blok": false,
+      "huidige_bron": "[GEVERIFIEERD: Enedis/service-public.gouv.fr, 04-07-2026]",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 46, "in_rob_blok": false},
+        {"bestand": "hoofdstukken/h1.md", "regel": 112, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C06",
+      "type": "percentage",
+      "claim": "circa 95% van de huishoudens (Linky-uitrol)",
+      "context": "\"De stand van de uitrol: circa 95% van de huishoudens, 37,6 miljoen meters\" (r46); \"circa 95% van de huishoudens is aangesloten\" (blok, r69)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 46,
+      "in_rob_blok": false,
+      "huidige_bron": "(Enedis, persbericht feb 2026)",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 46, "in_rob_blok": false},
+        {"bestand": "blokken/blok-metergeneraties.html", "regel": 69, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C07",
+      "type": "aantal",
+      "claim": "37,6 miljoen meters",
+      "context": "\"circa 95% van de huishoudens, 37,6 miljoen meters\" (r46); \"dat komt neer op 37,6 miljoen meters\" (blok, r69)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 46,
+      "in_rob_blok": false,
+      "huidige_bron": "(Enedis, persbericht feb 2026)",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 46, "in_rob_blok": false},
+        {"bestand": "blokken/blok-metergeneraties.html", "regel": 69, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C08",
+      "type": "datum",
+      "claim": "beheerbijdrage voor weigeraars geldt sinds 01-08-2025 (TURPE 7) / \"sinds 1 augustus 2025 (TURPE 7)\"",
+      "context": "\"Wie de meter blijft weigeren betaalt sinds 01-08-2025 (TURPE 7) een vaste beheerbijdrage\" (r46); \"Weigeraars sinds 1 augustus 2025 (TURPE 7)\" (blok, r70)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 46,
+      "in_rob_blok": false,
+      "huidige_bron": "[GEVERIFIEERD: Enedis + CRE-deliberatie 2025-78, 04-07-2026]",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 46, "in_rob_blok": false},
+        {"bestand": "blokken/blok-metergeneraties.html", "regel": 70, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C09",
+      "type": "bedrag",
+      "claim": "vaste beheerbijdrage 6,48 € HT / € 6,48 excl. btw per twee maanden",
+      "context": "\"een vaste beheerbijdrage van 6,48 € HT per twee maanden\" (r46); \"een vaste beheerbijdrage van € 6,48 excl. btw per twee maanden\" (blok, r70)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 46,
+      "in_rob_blok": false,
+      "huidige_bron": "[GEVERIFIEERD: Enedis + CRE-deliberatie 2025-78, 04-07-2026]",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 46, "in_rob_blok": false},
+        {"bestand": "blokken/blok-metergeneraties.html", "regel": 70, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C10",
+      "type": "bedrag",
+      "claim": "plus 4,14 € HT / € 4,14 excl. btw extra per twee maanden wanneer langer dan een jaar geen meterstand is doorgegeven",
+      "context": "\"plus 4,14 € HT extra per twee maanden wanneer langer dan een jaar geen meterstand is doorgegeven\" (r46); idem blok (r70)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 46,
+      "in_rob_blok": false,
+      "huidige_bron": "[GEVERIFIEERD: Enedis + CRE-deliberatie 2025-78, 04-07-2026]",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 46, "in_rob_blok": false},
+        {"bestand": "blokken/blok-metergeneraties.html", "regel": 70, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C11",
+      "type": "wetsartikel",
+      "claim": "wettelijke basis van de uitrolplicht: art. L341-4 Code de l'énergie",
+      "context": "\"Wettelijke basis van de uitrolplicht: art. L341-4 Code de l'énergie\" (r46)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 46,
+      "in_rob_blok": false,
+      "huidige_bron": "[GEVERIFIEERD: Enedis + CRE-deliberatie 2025-78, 04-07-2026]",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C12",
+      "type": "wetsartikel",
+      "claim": "CRE-deliberatie / CRE-beraadslaging 2025-78 (grondslag beheerbijdrage weigeraars)",
+      "context": "\"[GEVERIFIEERD: Enedis + CRE-deliberatie 2025-78, 04-07-2026]\" (r46); \"grondslag: CRE-beraadslaging 2025-78\" (blok, r70)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 46,
+      "in_rob_blok": false,
+      "huidige_bron": "genoemd als bron/grondslag ter plaatse",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 46, "in_rob_blok": false},
+        {"bestand": "blokken/blok-metergeneraties.html", "regel": 70, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C13",
+      "type": "specificatie",
+      "claim": "de 500 mA-aardlekfunctie van de disjoncteur de branchement blijft bestaan",
+      "context": "\"De handbediende hoofdschakelaar én de 500 mA-aardlekfunctie van de DB blijven overigens gewoon bestaan (hoofdstuk 2).\" (r48; inline <!-- ROB -->-tag eerder in de zin op \"met overgave\")",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 48,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C14",
+      "type": "specificatie",
+      "claim": "abonnementsreeks monophasé 3–6–9–12 kVA; triphasé begint bij 9 kVA en loopt tot 36 kVA (gangbaar 9-12-18-24-30-36)",
+      "context": "\"De abonnementsreeks monophasé loopt 3–6–9–12 kVA; triphasé begint bij 9 kVA en loopt door tot 36 kVA (gangbaar 9-12-18-24-30-36).\" (r59)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 59,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C15",
+      "type": "specificatie",
+      "claim": "boven 12 kVA bestaat er voor nieuwe aansluitingen geen monophasé (\"la puissance maximum de la BT monophasé est de 12 kVA\")",
+      "context": "\"Boven 12 kVA bestaat er voor nieuwe aansluitingen geen monophasé.\" (r63); \"Mono > 12 kVA: bestaat niet meer voor nieuwe aansluitingen.\" (r113)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 63,
+      "in_rob_blok": false,
+      "huidige_bron": "[GEVERIFIEERD: Enedis barème raccordement + référentiel, 04-07-2026]",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 63, "in_rob_blok": false},
+        {"bestand": "hoofdstukken/h1.md", "regel": 113, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C16",
+      "type": "specificatie",
+      "claim": "wie meer dan 12 kVA vraagt, krijgt een raccordement van 36 kVA triphasé aangeboden",
+      "context": "\"wie meer vraagt, krijgt een raccordement van 36 kVA triphasé aangeboden\" (r63)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 63,
+      "in_rob_blok": false,
+      "huidige_bron": "[GEVERIFIEERD: Enedis barème raccordement + référentiel, 04-07-2026]",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C17",
+      "type": "specificatie",
+      "claim": "oudere woningen met een historische mono-aansluiting van 13–18 kVA behouden die",
+      "context": "\"Oudere woningen met een historische mono-aansluiting van 13–18 kVA behouden die\" (r63)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 63,
+      "in_rob_blok": false,
+      "huidige_bron": "[GEVERIFIEERD: Enedis barème raccordement + référentiel, 04-07-2026]",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C18",
+      "type": "datum",
+      "claim": "sinds 01-02-2025 kunnen nieuwe klanten met 9 kVA of meer bij het Tarif Bleu geen Base meer kiezen",
+      "context": "\"Sinds 01-02-2025 kunnen nieuwe klanten met 9 kVA of meer bij het Tarif Bleu geen Base meer kiezen\" (r64); \"dicht voor nieuwe klanten ≥ 9 kVA sinds 01-02-2025\" (r113)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 64,
+      "in_rob_blok": false,
+      "huidige_bron": "[GEVERIFIEERD: EDF particulier.edf.fr + CRE-deliberatie 2026-06 + Que Choisir, 04-07-2026]",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 64, "in_rob_blok": false},
+        {"bestand": "hoofdstukken/h1.md", "regel": 113, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C19",
+      "type": "datum",
+      "claim": "per 01-02-2026 is de hele band 9–36 kVA \"mis en extinction\"",
+      "context": "\"per 01-02-2026 is de hele band 9–36 kVA 'mis en extinction'\" (r64); \"hele band 9–36 kVA in extinction per 01-02-2026\" (r113)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 64,
+      "in_rob_blok": false,
+      "huidige_bron": "[GEVERIFIEERD: EDF particulier.edf.fr + CRE-deliberatie 2026-06 + Que Choisir, 04-07-2026]",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 64, "in_rob_blok": false},
+        {"bestand": "hoofdstukken/h1.md", "regel": 113, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C20",
+      "type": "datum",
+      "claim": "bestaande Base-klanten met 18 kVA of meer worden uiterlijk 01-02-2027 automatisch omgezet naar HP/HC",
+      "context": "\"bestaande Base-klanten met 18 kVA of meer worden uiterlijk 01-02-2027 automatisch omgezet naar HP/HC\" (r64)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 64,
+      "in_rob_blok": false,
+      "huidige_bron": "[GEVERIFIEERD: EDF particulier.edf.fr + CRE-deliberatie 2026-06 + Que Choisir, 04-07-2026]",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C21",
+      "type": "wetsartikel",
+      "claim": "CRE-deliberatie 2026-06 (grondslag afbouw Base-optie Tarif Bleu)",
+      "context": "\"[GEVERIFIEERD: EDF particulier.edf.fr + CRE-deliberatie 2026-06 + Que Choisir, 04-07-2026]\" (r64)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 64,
+      "in_rob_blok": false,
+      "huidige_bron": "genoemd als bron ter plaatse",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C22",
+      "type": "instantie-uitspraak",
+      "claim": "Enedis dimensioneert de huisaansluiting zelf al op maximaal 1% spanningsval",
+      "context": "\"Enedis dimensioneert de huisaansluiting zelf al op maximaal 1% spanningsval, en het bovenliggende net moet mee kunnen.\" (r74)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 74,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C23",
+      "type": "bedrag",
+      "claim": "wijziging van de puissance souscrite via Linky op afstand: ±4,28 € (tariefoptie wisselen zelfs gratis)",
+      "context": "\"op afstand via Linky, ±4,28 € (tariefoptie wisselen is met Linky zelfs gratis)\" (r75)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 75,
+      "in_rob_blok": false,
+      "huidige_bron": "[GEVERIFIEERD: Enedis référentiel + barème, 04-07-2026]",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C24",
+      "type": "normreferentie",
+      "claim": "wijziging van het raccordement op offerte: Catalogue des Prestations, prestatie F180 bij verzwaring",
+      "context": "\"een fysieke ingreep van Enedis op offerte (Catalogue des Prestations, prestatie F180 bij verzwaring)\" (r75)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 75,
+      "in_rob_blok": false,
+      "huidige_bron": "[GEVERIFIEERD: Enedis référentiel + barème, 04-07-2026]",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C25",
+      "type": "termijn",
+      "claim": "Heures Creuses = acht daluren per etmaal / 8 daluren per dag tegen lager tarief",
+      "context": "\"acht daluren per etmaal tegen lager tarief\" (r79); \"nog steeds 8 daluren per dag\" (r109)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 79,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 79, "in_rob_blok": false},
+        {"bestand": "hoofdstukken/h1.md", "regel": 109, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C26",
+      "type": "percentage",
+      "claim": "oude vuistregel dat HP/HC pas loont vanaf 50–60% verbruik in de daluren (nu achterhaald)",
+      "context": "\"De oude vuistregel dat HP/HC pas loont vanaf 50–60% verbruik in de daluren\" (r79); \"de 50–60%-drempel die jaren op de fora circuleerde\" (r111)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 79,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 79, "in_rob_blok": false},
+        {"bestand": "hoofdstukken/h1.md", "regel": 111, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C27",
+      "type": "specificatie",
+      "claim": "Nederlandse aansluitwaarde bijv. 1×35 A of 3×25 A (\"3×25 A is normaal\")",
+      "context": "\"Fysieke aansluitwaarde (bijv. 1×35 A of 3×25 A)\" (r89, NL-BE-FR-tabel); \"3×25 A is normaal, de hoofdzekering is geduldig\" (r94)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 89,
+      "in_rob_blok": false,
+      "huidige_bron": "NL/BE-kolom gemarkeerd [NIET GEVERIFIEERD — alleen als context gebruiken] (r94)",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 89, "in_rob_blok": false},
+        {"bestand": "hoofdstukken/h1.md", "regel": 94, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C28",
+      "type": "datum",
+      "claim": "Tijdgevoelig-blok: geverifieerd 04-07-2026 (peildatum tijdgevoelige feiten)",
+      "context": "\"## Tijdgevoelig — geverifieerd 04-07-2026\" (r104)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 104,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C29",
+      "type": "instantie-uitspraak",
+      "claim": "grootste heures-creuses-hervorming sinds de invoering; grondslagen Enedis (2 pagina's), service-public.gouv.fr A18476, CRE-deliberatie 08-01-2026",
+      "context": "\"[GEVERIFIEERD: Enedis (2 officiële pagina's), service-public.gouv.fr A18476, CRE-deliberatie 08-01-2026 via convergente bronnen — 04-07-2026]\" (r106)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 106,
+      "in_rob_blok": false,
+      "huidige_bron": "[GEVERIFIEERD: Enedis (2 officiële pagina's), service-public.gouv.fr A18476, CRE-deliberatie 08-01-2026 via convergente bronnen — 04-07-2026]",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C30",
+      "type": "aantal",
+      "claim": "vanaf 1 november 2025 verschuift Enedis stapsgewijs de daluren van 14,5 miljoen HP/HC-klanten",
+      "context": "\"Vanaf 1 november 2025 verschuift Enedis stapsgewijs de daluren van 14,5 miljoen HP/HC-klanten\" (r108)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 108,
+      "in_rob_blok": false,
+      "huidige_bron": "zie H1-C29 (blok-bron r106)",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C31",
+      "type": "aantal",
+      "claim": "11 miljoen klanten worden feitelijk geraakt; 3,5 miljoen zaten al goed",
+      "context": "\"(11 miljoen worden feitelijk geraakt; 3,5 miljoen zaten al goed)\" (r108)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 108,
+      "in_rob_blok": false,
+      "huidige_bron": "zie H1-C29 (blok-bron r106)",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C32",
+      "type": "aantal",
+      "claim": "fase 1 (nov 2025 – jun 2026): 1,7 miljoen klanten",
+      "context": "\"Fase 1 (nov 2025 – jun 2026): 1,7 miljoen klanten\" (r108)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 108,
+      "in_rob_blok": false,
+      "huidige_bron": "zie H1-C29 (blok-bron r106)",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C33",
+      "type": "aantal",
+      "claim": "fase 2 (dec 2026 – okt 2027): 9,3 miljoen, mét seizoensdifferentiatie; professionals sluiten in 2027 af",
+      "context": "\"fase 2 (dec 2026 – okt 2027): 9,3 miljoen, mét seizoensdifferentiatie; professionals sluiten in 2027 af\" (r108)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 108,
+      "in_rob_blok": false,
+      "huidige_bron": "zie H1-C29 (blok-bron r106)",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C34",
+      "type": "specificatie",
+      "claim": "minimaal 5 aaneengesloten daluren 's nachts (23h–7h)",
+      "context": "\"minimaal 5 aaneengesloten 's nachts (23h–7h)\" (r109)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 109,
+      "in_rob_blok": false,
+      "huidige_bron": "zie H1-C29 (blok-bron r106)",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C35",
+      "type": "specificatie",
+      "claim": "maximaal 3 daluren overdag (11h–17h)",
+      "context": "\"maximaal 3 overdag (11h–17h); in de zomer (1/4–31/10) mét middagvenster\" (r109)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 109,
+      "in_rob_blok": false,
+      "huidige_bron": "zie H1-C29 (blok-bron r106)",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C36",
+      "type": "specificatie",
+      "claim": "de oude daluurvensters 7h–11h en 17h–23h verdwijnen",
+      "context": "\"De oude vensters 7h–11h en 17h–23h verdwijnen.\" (r109)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 109,
+      "in_rob_blok": false,
+      "huidige_bron": "zie H1-C29 (blok-bron r106)",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C37",
+      "type": "termijn",
+      "claim": "zomerperiode 1/4–31/10 (met middagvenster voor zonnestroom)",
+      "context": "\"in de zomer (1/4–31/10) mét middagvenster (zonnestroom), in de winter vooral 's nachts\" (r109)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 109,
+      "in_rob_blok": false,
+      "huidige_bron": "zie H1-C29 (blok-bron r106)",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C38",
+      "type": "termijn",
+      "claim": "de leverancier informeert minimaal één maand vooraf over de nieuwe vensters",
+      "context": "\"de leverancier informeert minimaal één maand vooraf\" (r109)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 109,
+      "in_rob_blok": false,
+      "huidige_bron": "zie H1-C29 (blok-bron r106)",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C39",
+      "type": "specificatie",
+      "claim": "CRE-deliberatie 08-01-2026: het wintervenster 11h–14h is voor nieuwe klanten weer toegestaan",
+      "context": "\"CRE-deliberatie 08-01-2026: het wintervenster 11h–14h is voor nieuwe klanten weer toegestaan.\" (r110); deliberatie ook genoemd in blok-bron r106",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 110,
+      "in_rob_blok": false,
+      "huidige_bron": "CRE-deliberatie 08-01-2026 (zie ook H1-C29)",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "hoofdstukken/h1.md", "regel": 110, "in_rob_blok": false},
+        {"bestand": "hoofdstukken/h1.md", "regel": 106, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C40",
+      "type": "specificatie",
+      "claim": "Tempo blijft ongewijzigd (daluren 22h–6h landelijk)",
+      "context": "\"Tempo blijft ongewijzigd (22h–6h landelijk).\" (r110)",
+      "bestand": "hoofdstukken/h1.md",
+      "regel": 110,
+      "in_rob_blok": false,
+      "huidige_bron": "zie H1-C29 (blok-bron r106)",
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C41",
+      "type": "aantal",
+      "claim": "vier meters, drie meettechnieken (vier generaties elektriciteitsmeters)",
+      "context": "\"vier meters, drie meettechnieken\" (blok-intro r32); \"Vier generaties, drie meettechnieken\" (figcaption r63)",
+      "bestand": "blokken/blok-metergeneraties.html",
+      "regel": 32,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": true,
+      "vindplaatsen": [
+        {"bestand": "blokken/blok-metergeneraties.html", "regel": 32, "in_rob_blok": false},
+        {"bestand": "blokken/blok-metergeneraties.html", "regel": 63, "in_rob_blok": false}
+      ]
+    },
+    {
+      "id": "H1-C42",
+      "type": "wetsartikel",
+      "claim": "Europese richtlijn 2009/72/EG van 13 juli 2009 (juridische lijn uitrolplicht)",
+      "context": "\"Europese richtlijn 2009/72/EG van 13 juli 2009, in Frankrijk uitgewerkt in het decreet ...\" (blok, r71)",
+      "bestand": "blokken/blok-metergeneraties.html",
+      "regel": 71,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C43",
+      "type": "wetsartikel",
+      "claim": "decreet van 31 augustus 2010 (Franse uitwerking uitrolplicht)",
+      "context": "\"in Frankrijk uitgewerkt in het decreet van 31 augustus 2010 en verankerd in de wet van 17 augustus 2015\" (blok, r71)",
+      "bestand": "blokken/blok-metergeneraties.html",
+      "regel": 71,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C44",
+      "type": "wetsartikel",
+      "claim": "wet van 17 augustus 2015 (artikel 7)",
+      "context": "\"verankerd in de wet van 17 augustus 2015 (artikel 7)\" (blok, r71)",
+      "bestand": "blokken/blok-metergeneraties.html",
+      "regel": 71,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C45",
+      "type": "specificatie",
+      "claim": "Linky G3 werkt in de CPL-band 35,9–90,6 kHz",
+      "context": "\"Linky G3 werkt in de band 35,9–90,6 kHz; Linky G1 op 63,3 en 74 kHz.\" (blok, r72)",
+      "bestand": "blokken/blok-metergeneraties.html",
+      "regel": 72,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C46",
+      "type": "specificatie",
+      "claim": "Linky G1 werkt op CPL-frequenties 63,3 en 74 kHz",
+      "context": "\"Linky G3 werkt in de band 35,9–90,6 kHz; Linky G1 op 63,3 en 74 kHz.\" (blok, r72)",
+      "bestand": "blokken/blok-metergeneraties.html",
+      "regel": 72,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C47",
+      "type": "specificatie",
+      "claim": "de aansluitklemmen van de meter zijn geschikt tot 90 A",
+      "context": "\"De aansluitklemmen van de meter zijn geschikt tot 90 A.\" (blok, r72)",
+      "bestand": "blokken/blok-metergeneraties.html",
+      "regel": 72,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C48",
+      "type": "aantal",
+      "claim": "circa 300.000 proefmeters uitgezet in de regio Lyon en het departement Indre-et-Loire",
+      "context": "\"Circa 300.000 proefmeters zijn in de aanloop uitgezet in de regio Lyon en in het departement Indre-et-Loire.\" (blok, open punt, r80)",
+      "bestand": "blokken/blok-metergeneraties.html",
+      "regel": 80,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C49",
+      "type": "aantal",
+      "claim": "tijdens de proef zouden 8 toestellen gesmolten zijn",
+      "context": "\"Tijdens die proef zouden 8 toestellen gesmolten zijn.\" (blok, open punt, r81)",
+      "bestand": "blokken/blok-metergeneraties.html",
+      "regel": 81,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C50",
+      "type": "instantie-uitspraak",
+      "claim": "het ANSES-advies van 7 juni 2017 over de blootstelling gaat over de CPL-frequenties",
+      "context": "\"Het ANSES-advies van 7 juni 2017 over de blootstelling ... de precieze conclusie en reikwijdte moeten nog tegen de primaire bron worden gelegd.\" (blok, open punt, r82)",
+      "bestand": "blokken/blok-metergeneraties.html",
+      "regel": 82,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    },
+    {
+      "id": "H1-C51",
+      "type": "datum",
+      "claim": "Feiten gecontroleerd op 23 juli 2026 (peildatum van het metergeneraties-blok)",
+      "context": "\"Feiten gecontroleerd op 23 juli 2026.\" (blok-peildatum, r87)",
+      "bestand": "blokken/blok-metergeneraties.html",
+      "regel": 87,
+      "in_rob_blok": false,
+      "huidige_bron": null,
+      "zichtbaar_voor_lezer": true,
+      "duplicaat": false
+    }
+  ]
+}
