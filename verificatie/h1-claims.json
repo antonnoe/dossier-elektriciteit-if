@@ -72,7 +72,7 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": false,
       "bron_id": "B20",
-      "actie": "ongewijzigd"
+      "actie": "open_punt"
     },
     {
       "id": "H1-C04",
@@ -390,7 +390,7 @@
         }
       ],
       "bron_id": "B06",
-      "actie": "ongewijzigd"
+      "actie": "open_punt"
     },
     {
       "id": "H1-C19",
