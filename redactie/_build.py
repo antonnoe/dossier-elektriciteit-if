@@ -29,7 +29,12 @@ def html_inline(m):
     pad = H('blokken', naam)
     if not os.path.exists(pad):
         return f'<div class="notitie">[blok ontbreekt: {naam}]</div>'
-    return open(pad).read()
+    frag = open(pad).read()
+    # De redactie-deploy (Vercel, outputDirectory: "redactie") serveert uitsluitend
+    # de map redactie/. Beeld-src die naar oogst/beeldarchief/ wijst is daar onbereikbaar;
+    # herschrijf naar het pad dat vanaf redactie/index.html klopt (redactie/img/).
+    frag = frag.replace('src="oogst/beeldarchief/', 'src="img/')
+    return frag
 
 def vraagblok(m):
     binnen = re.sub(r'^NIET GEVERIFIEERD[ \u2014:\-]*', '', m.group(1)).strip() or 'zie de omringende tekst'
