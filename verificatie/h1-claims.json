@@ -15,10 +15,24 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 11, "in_rob_blok": false},
-        {"bestand": "hoofdstukken/h1.md", "regel": 17, "in_rob_blok": false},
-        {"bestand": "hoofdstukken/h1.md", "regel": 23, "in_rob_blok": true}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 11,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 17,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 23,
+          "in_rob_blok": true
+        }
+      ],
+      "bron_id": null,
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C02",
@@ -32,9 +46,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 31, "in_rob_blok": true},
-        {"bestand": "hoofdstukken/h1.md", "regel": 72, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 31,
+          "in_rob_blok": true
+        },
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 72,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": null,
+      "actie": "open_punt"
     },
     {
       "id": "H1-C03",
@@ -46,7 +70,9 @@
       "in_rob_blok": true,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B20",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C04",
@@ -58,7 +84,9 @@
       "in_rob_blok": false,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B19",
+      "actie": "corrigeren"
     },
     {
       "id": "H1-C05",
@@ -72,9 +100,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 46, "in_rob_blok": false},
-        {"bestand": "hoofdstukken/h1.md", "regel": 112, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 46,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 112,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": null,
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C06",
@@ -88,9 +126,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 46, "in_rob_blok": false},
-        {"bestand": "blokken/blok-metergeneraties.html", "regel": 69, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 46,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "blokken/blok-metergeneraties.html",
+          "regel": 69,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": "B13",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C07",
@@ -104,9 +152,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 46, "in_rob_blok": false},
-        {"bestand": "blokken/blok-metergeneraties.html", "regel": 69, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 46,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "blokken/blok-metergeneraties.html",
+          "regel": 69,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": "B13",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C08",
@@ -120,9 +178,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 46, "in_rob_blok": false},
-        {"bestand": "blokken/blok-metergeneraties.html", "regel": 70, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 46,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "blokken/blok-metergeneraties.html",
+          "regel": 70,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": "B12",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C09",
@@ -136,9 +204,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 46, "in_rob_blok": false},
-        {"bestand": "blokken/blok-metergeneraties.html", "regel": 70, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 46,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "blokken/blok-metergeneraties.html",
+          "regel": 70,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": "B12",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C10",
@@ -152,9 +230,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 46, "in_rob_blok": false},
-        {"bestand": "blokken/blok-metergeneraties.html", "regel": 70, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 46,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "blokken/blok-metergeneraties.html",
+          "regel": 70,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": "B12",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C11",
@@ -166,7 +254,9 @@
       "in_rob_blok": false,
       "huidige_bron": "[GEVERIFIEERD: Enedis + CRE-deliberatie 2025-78, 04-07-2026]",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": null,
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C12",
@@ -180,9 +270,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 46, "in_rob_blok": false},
-        {"bestand": "blokken/blok-metergeneraties.html", "regel": 70, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 46,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "blokken/blok-metergeneraties.html",
+          "regel": 70,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": null,
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C13",
@@ -194,7 +294,9 @@
       "in_rob_blok": false,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B18",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C14",
@@ -206,7 +308,9 @@
       "in_rob_blok": false,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": null,
+      "actie": "herformuleren"
     },
     {
       "id": "H1-C15",
@@ -220,9 +324,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 63, "in_rob_blok": false},
-        {"bestand": "hoofdstukken/h1.md", "regel": 113, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 63,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 113,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": "B17",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C16",
@@ -234,7 +348,9 @@
       "in_rob_blok": false,
       "huidige_bron": "[GEVERIFIEERD: Enedis barème raccordement + référentiel, 04-07-2026]",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B16",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C17",
@@ -246,7 +362,9 @@
       "in_rob_blok": false,
       "huidige_bron": "[GEVERIFIEERD: Enedis barème raccordement + référentiel, 04-07-2026]",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": null,
+      "actie": "open_punt"
     },
     {
       "id": "H1-C18",
@@ -260,9 +378,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 64, "in_rob_blok": false},
-        {"bestand": "hoofdstukken/h1.md", "regel": 113, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 64,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 113,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": "B06",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C19",
@@ -276,9 +404,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 64, "in_rob_blok": false},
-        {"bestand": "hoofdstukken/h1.md", "regel": 113, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 64,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 113,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": "B09",
+      "actie": "corrigeren"
     },
     {
       "id": "H1-C20",
@@ -290,7 +428,9 @@
       "in_rob_blok": false,
       "huidige_bron": "[GEVERIFIEERD: EDF particulier.edf.fr + CRE-deliberatie 2026-06 + Que Choisir, 04-07-2026]",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B09",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C21",
@@ -302,7 +442,9 @@
       "in_rob_blok": false,
       "huidige_bron": "genoemd als bron ter plaatse",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B06",
+      "actie": "open_punt"
     },
     {
       "id": "H1-C22",
@@ -314,7 +456,9 @@
       "in_rob_blok": false,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": null,
+      "actie": "open_punt"
     },
     {
       "id": "H1-C23",
@@ -326,7 +470,9 @@
       "in_rob_blok": false,
       "huidige_bron": "[GEVERIFIEERD: Enedis référentiel + barème, 04-07-2026]",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B15",
+      "actie": "herformuleren"
     },
     {
       "id": "H1-C24",
@@ -338,7 +484,9 @@
       "in_rob_blok": false,
       "huidige_bron": "[GEVERIFIEERD: Enedis référentiel + barème, 04-07-2026]",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": null,
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C25",
@@ -352,9 +500,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 79, "in_rob_blok": false},
-        {"bestand": "hoofdstukken/h1.md", "regel": 109, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 79,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 109,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": "B07",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C26",
@@ -368,9 +526,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 79, "in_rob_blok": false},
-        {"bestand": "hoofdstukken/h1.md", "regel": 111, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 79,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 111,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": null,
+      "actie": "open_punt"
     },
     {
       "id": "H1-C27",
@@ -384,9 +552,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 89, "in_rob_blok": false},
-        {"bestand": "hoofdstukken/h1.md", "regel": 94, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 89,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 94,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": null,
+      "actie": "open_punt"
     },
     {
       "id": "H1-C28",
@@ -398,7 +576,9 @@
       "in_rob_blok": false,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": null,
+      "actie": "herformuleren"
     },
     {
       "id": "H1-C29",
@@ -410,7 +590,9 @@
       "in_rob_blok": false,
       "huidige_bron": "[GEVERIFIEERD: Enedis (2 officiële pagina's), service-public.gouv.fr A18476, CRE-deliberatie 08-01-2026 via convergente bronnen — 04-07-2026]",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B07",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C30",
@@ -422,7 +604,9 @@
       "in_rob_blok": false,
       "huidige_bron": "zie H1-C29 (blok-bron r106)",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B07",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C31",
@@ -434,7 +618,9 @@
       "in_rob_blok": false,
       "huidige_bron": "zie H1-C29 (blok-bron r106)",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B07",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C32",
@@ -446,7 +632,9 @@
       "in_rob_blok": false,
       "huidige_bron": "zie H1-C29 (blok-bron r106)",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B11",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C33",
@@ -458,7 +646,9 @@
       "in_rob_blok": false,
       "huidige_bron": "zie H1-C29 (blok-bron r106)",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B11",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C34",
@@ -470,7 +660,9 @@
       "in_rob_blok": false,
       "huidige_bron": "zie H1-C29 (blok-bron r106)",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B07",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C35",
@@ -482,7 +674,9 @@
       "in_rob_blok": false,
       "huidige_bron": "zie H1-C29 (blok-bron r106)",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B07",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C36",
@@ -494,7 +688,9 @@
       "in_rob_blok": false,
       "huidige_bron": "zie H1-C29 (blok-bron r106)",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B07",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C37",
@@ -506,7 +702,9 @@
       "in_rob_blok": false,
       "huidige_bron": "zie H1-C29 (blok-bron r106)",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B07",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C38",
@@ -518,7 +716,9 @@
       "in_rob_blok": false,
       "huidige_bron": "zie H1-C29 (blok-bron r106)",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B07",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C39",
@@ -532,9 +732,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "hoofdstukken/h1.md", "regel": 110, "in_rob_blok": false},
-        {"bestand": "hoofdstukken/h1.md", "regel": 106, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 110,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "hoofdstukken/h1.md",
+          "regel": 106,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": null,
+      "actie": "open_punt"
     },
     {
       "id": "H1-C40",
@@ -546,7 +756,9 @@
       "in_rob_blok": false,
       "huidige_bron": "zie H1-C29 (blok-bron r106)",
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": null,
+      "actie": "open_punt"
     },
     {
       "id": "H1-C41",
@@ -560,9 +772,19 @@
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
-        {"bestand": "blokken/blok-metergeneraties.html", "regel": 32, "in_rob_blok": false},
-        {"bestand": "blokken/blok-metergeneraties.html", "regel": 63, "in_rob_blok": false}
-      ]
+        {
+          "bestand": "blokken/blok-metergeneraties.html",
+          "regel": 32,
+          "in_rob_blok": false
+        },
+        {
+          "bestand": "blokken/blok-metergeneraties.html",
+          "regel": 63,
+          "in_rob_blok": false
+        }
+      ],
+      "bron_id": null,
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C42",
@@ -574,7 +796,9 @@
       "in_rob_blok": false,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B02",
+      "actie": "herformuleren"
     },
     {
       "id": "H1-C43",
@@ -586,7 +810,9 @@
       "in_rob_blok": false,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B01",
+      "actie": "herformuleren"
     },
     {
       "id": "H1-C44",
@@ -598,7 +824,9 @@
       "in_rob_blok": false,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B03",
+      "actie": "herformuleren"
     },
     {
       "id": "H1-C45",
@@ -610,7 +838,9 @@
       "in_rob_blok": false,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B21",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C46",
@@ -622,7 +852,9 @@
       "in_rob_blok": false,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B21",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C47",
@@ -634,7 +866,9 @@
       "in_rob_blok": false,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": null,
+      "actie": "open_punt"
     },
     {
       "id": "H1-C48",
@@ -646,7 +880,9 @@
       "in_rob_blok": false,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B23",
+      "actie": "herformuleren"
     },
     {
       "id": "H1-C49",
@@ -658,7 +894,9 @@
       "in_rob_blok": false,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": null,
+      "actie": "schrappen"
     },
     {
       "id": "H1-C50",
@@ -670,7 +908,9 @@
       "in_rob_blok": false,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": "B22",
+      "actie": "ongewijzigd"
     },
     {
       "id": "H1-C51",
@@ -682,7 +922,9 @@
       "in_rob_blok": false,
       "huidige_bron": null,
       "zichtbaar_voor_lezer": true,
-      "duplicaat": false
+      "duplicaat": false,
+      "bron_id": null,
+      "actie": "herformuleren"
     }
   ]
 }
