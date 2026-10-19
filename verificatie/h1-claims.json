@@ -91,12 +91,12 @@
     {
       "id": "H1-C05",
       "type": "bedrag",
-      "claim": "een wissel van tariefoptie is gratis mét Linky tegenover 56,72 € zonder",
-      "context": "\"een wissel van tariefoptie is gratis mét Linky tegenover 56,72 € zonder\" (r46); \"Tariefoptie-wissel: gratis met Linky, 56,72 € zonder.\" (r112)",
+      "claim": "een wissel van tariefoptie is gratis mét Linky op afstand; zonder Linky 43,96 €, 65,45 € of 184,84 € incl. btw naar gelang de ingreep (vanaf 01-08-2026)",
+      "context": "\"Tariefoptie-wissel: gratis met Linky op afstand. Zonder Linky ... 43,96 € ... 65,45 € ... 184,84 €\" (h1, r120)",
       "bestand": "hoofdstukken/h1.md",
       "regel": 46,
       "in_rob_blok": false,
-      "huidige_bron": "[GEVERIFIEERD: Enedis/service-public.gouv.fr, 04-07-2026]",
+      "huidige_bron": "[GEVERIFIEERD: Enedis, catalogue des prestations per 01-08-2026, fiche F180 optie 2, Peil 19-10-2026]",
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
@@ -111,7 +111,7 @@
           "in_rob_blok": false
         }
       ],
-      "bron_id": null,
+      "bron_id": "B15",
       "actie": "ongewijzigd"
     },
     {
@@ -195,12 +195,12 @@
     {
       "id": "H1-C09",
       "type": "bedrag",
-      "claim": "vaste beheerbijdrage 6,48 € HT / € 6,48 excl. btw per twee maanden",
-      "context": "\"een vaste beheerbijdrage van 6,48 € HT per twee maanden\" (r46); \"een vaste beheerbijdrage van € 6,48 excl. btw per twee maanden\" (blok, r70)",
+      "claim": "vaste beheerbijdrage 6,68 € HT / € 6,68 excl. btw per twee maanden (vanaf 01-08-2026)",
+      "context": "\"een vaste beheerbijdrage van 6,68 € HT per twee maanden\" (h1, r125); \"een vaste beheerbijdrage van € 6,68 excl. btw per twee maanden\" (blok, r70)",
       "bestand": "hoofdstukken/h1.md",
       "regel": 46,
       "in_rob_blok": false,
-      "huidige_bron": "[GEVERIFIEERD: Enedis + CRE-deliberatie 2025-78, 04-07-2026]",
+      "huidige_bron": "[GEVERIFIEERD: CRE, délibération 2026-105 van 21-05-2026 (TURPE 7), Peil 19-10-2026]",
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
@@ -215,18 +215,18 @@
           "in_rob_blok": false
         }
       ],
-      "bron_id": "B12",
+      "bron_id": "B14",
       "actie": "ongewijzigd"
     },
     {
       "id": "H1-C10",
       "type": "bedrag",
-      "claim": "plus 4,14 € HT / € 4,14 excl. btw extra per twee maanden wanneer langer dan een jaar geen meterstand is doorgegeven",
-      "context": "\"plus 4,14 € HT extra per twee maanden wanneer langer dan een jaar geen meterstand is doorgegeven\" (r46); idem blok (r70)",
+      "claim": "plus 4,27 € HT / € 4,27 excl. btw extra per twee maanden wanneer langer dan een jaar geen meterstand is doorgegeven (vanaf 01-08-2026)",
+      "context": "\"plus 4,27 € HT per twee maanden zodra langer dan een jaar geen meterstand is doorgegeven\" (h1, r125); idem blok (r70)",
       "bestand": "hoofdstukken/h1.md",
       "regel": 46,
       "in_rob_blok": false,
-      "huidige_bron": "[GEVERIFIEERD: Enedis + CRE-deliberatie 2025-78, 04-07-2026]",
+      "huidige_bron": "[GEVERIFIEERD: CRE, délibération 2026-105 van 21-05-2026 (TURPE 7), Peil 19-10-2026]",
       "zichtbaar_voor_lezer": true,
       "duplicaat": true,
       "vindplaatsen": [
@@ -241,7 +241,7 @@
           "in_rob_blok": false
         }
       ],
-      "bron_id": "B12",
+      "bron_id": "B14",
       "actie": "ongewijzigd"
     },
     {
@@ -463,12 +463,12 @@
     {
       "id": "H1-C23",
       "type": "bedrag",
-      "claim": "wijziging van de puissance souscrite via Linky op afstand: ±4,28 € (tariefoptie wisselen zelfs gratis)",
-      "context": "\"op afstand via Linky, ±4,28 € (tariefoptie wisselen is met Linky zelfs gratis)\" (r75)",
+      "claim": "wijziging van de puissance souscrite op afstand via Linky: 4,32 € TTC (3,60 € HT), ter plaatse vanaf 43,96 € TTC (vanaf 01-08-2026)",
+      "context": "\"Administratieve wijziging van de puissance souscrite op afstand via Linky: 4,32 € TTC\" (h1, r126)",
       "bestand": "hoofdstukken/h1.md",
       "regel": 75,
       "in_rob_blok": false,
-      "huidige_bron": "[GEVERIFIEERD: Enedis référentiel + barème, 04-07-2026]",
+      "huidige_bron": "[GEVERIFIEERD: Enedis, catalogue des prestations per 01-08-2026, fiche F180 optie 1, Peil 19-10-2026]",
       "zichtbaar_voor_lezer": true,
       "duplicaat": false,
       "bron_id": "B15",
