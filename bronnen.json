@@ -204,30 +204,30 @@
     {
       "id": "B14",
       "instantie": "CRE",
-      "document": "Deliberation n° 2025-78 (TURPE 7)",
-      "datum": "2025",
+      "document": "Délibération n° 2026-105 van 21 mei 2026 (evolutie TURPE 7 HTA-BT), tabel 'Composante additionnelle pour comptage non communicant au 1er août 2026'; eerder délibération 2025-78",
+      "datum": "2026-05-21",
       "tier": "AAA",
-      "url": null,
+      "url": "https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260521_2026-105_Evolution_TURPE_7_HTA-BT.pdf",
       "status": "van kracht",
-      "status_toelichting": "Grondslag onder B12 en B13. URL nog op te halen. TURPE 7 loopt als kader tot 2028, maar de bedragen erin worden jaarlijks per 1 augustus herzien.",
-      "geldig_tot": "2026-07-31",
+      "status_toelichting": "Bron voor de Linky-beheerbijdrage vanaf 1 augustus 2026: 40,08 euro per jaar excl. btw (circa 6,68 euro per twee maanden) plus 25,62 euro per jaar excl. btw (circa 4,27 euro per twee maanden) bij uitblijven van meterstanden; de bedragen per twee maanden zijn het jaarbedrag gedeeld door zes (Peil p.fr.elec.beheerbijdrage_weigeren_linky, verificatie 19-10-2026). Grondslag onder B12 en B13. TURPE 7 loopt als kader tot 2028, maar de bedragen erin worden jaarlijks per 1 augustus herzien. Geldig_tot is 31 juli 2027 gekozen omdat Peil geen einddatum kent en de volgende herziening per 1 augustus 2027 valt.",
+      "geldig_tot": "2027-07-31",
       "herzieningsritme": "jaarlijks per 1 augustus",
-      "verificatie": "op_te_halen",
-      "gecontroleerd_op": null
+      "verificatie": "zoekresultaat",
+      "gecontroleerd_op": "2026-10-19"
     },
     {
       "id": "B15",
       "instantie": "Enedis",
       "document": "Catalogue des prestations",
-      "datum": "2025-08-01",
+      "datum": "2026-08-01",
       "tier": "AA",
       "url": "https://catalogue-prestations.enedis.fr/",
       "status": "van kracht",
-      "status_toelichting": "Goedgekeurd door de CRE. Versie geldig van 1 augustus 2025 tot en met 31 juli 2026. Gebruik altijd deze landingspagina als verwijzing, nooit de directe PDF-link: die krijgt jaarlijks een nieuwe naam. Bevat de prestatietarieven en de fichenummering (F voor verbruik, P voor productie).",
-      "geldig_tot": "2026-07-31",
+      "status_toelichting": "Goedgekeurd door de CRE. Versie geldig van 1 augustus 2026 tot en met 31 juli 2027 (Peil-verificatie 19-10-2026: fiche F180 optie 1, wijziging puissance souscrite op afstand via Linky 4,32 euro incl. btw; fiche F180 optie 2, tariefoptiewissel zonder Linky 43,96, 65,45 of 184,84 euro incl. btw naar gelang de ingreep; Peil-bron: https://catalogue-prestations.enedis.fr/pdf/Prestations-Enedis.pdf). Geldig_tot is 31 juli 2027 gekozen omdat Peil geen einddatum kent en de volgende herziening per 1 augustus 2027 valt. Gebruik altijd deze landingspagina als verwijzing, nooit de directe PDF-link: die krijgt jaarlijks een nieuwe naam. Bevat de prestatietarieven en de fichenummering (F voor verbruik, P voor productie).",
+      "geldig_tot": "2027-07-31",
       "herzieningsritme": "jaarlijks per 1 augustus",
-      "verificatie": "op_te_halen",
-      "gecontroleerd_op": "2026-07-23"
+      "verificatie": "zoekresultaat",
+      "gecontroleerd_op": "2026-10-19"
     },
     {
       "id": "B16",
